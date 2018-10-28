@@ -50,3 +50,21 @@ Handjet:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Black
     styleMapStyleName: regular # needs to be lowercase
+Handjet Display:
+  shared:
+    openTypeOS2WidthClass: 5
+  Hairline:
+    openTypeOS2WeightClass: 100
+    openTypeOS2Panose: [2, 13, 2, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet Display Hairline
+    styleMapStyleName: regular # needs to be lowercase
+  Double:
+    openTypeOS2WeightClass: 400
+    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet Display Double # keep this one simple
+    styleMapStyleName: regular # needs to be lowercase
+  Heavy:
+    openTypeOS2WeightClass: 900
+    openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet Display Heavy
+    styleMapStyleName: regular # needs to be lowercase

@@ -20,9 +20,9 @@
 
 
 # ---------------------------------------- 
-# preprocess ufo and compile otf
+# preprocess ufo and compile ttf
 -
-    name: Handjet - preprocess ufo
+    name: Handjet - preprocess ufo & make ttf
     from:
         folder: instance_ufo
         family: Handjet
@@ -31,7 +31,7 @@
     to:
         folder: ../fonts/Handjet/
         family: Handjet
-        formats: [otf]
+        formats: [ttf]
         minify: true
     preprocess_ufo:
         - glyphsdb.ufo.sync_names:
@@ -44,26 +44,33 @@
             feature_file: [features/features.fea]
             placeholders_file: meta/fontinfo.yaml
             generate: [kern, mark]
-    make_otf:
-        - .ufo.make_otf
+    make_ttf:
+        - .ufo.make_ttf
         - .post.add_dsig
         - .post.minify_names
-
-
-# ----------------------------------------
-# compile ttf
--  
-    name: Handjet - compile ttf
+-
+    name: Handjet Display - preprocess ufo & make ttf
     from:
         folder: instance_ufo
-        family: Handjet
+        family: Handjet Display
         formats: [ufo]
-        styles: *styles
+        styles: &display_styles [Hairline, Double, Heavy]
     to:
         folder: ../fonts/Handjet/
-        family: Handjet
+        family: Handjet Display
         formats: [ttf]
         minify: true
+    preprocess_ufo:
+        - glyphsdb.ufo.sync_names:
+            strict: true
+        - .ufo.cleanup: 
+            zero_width_combining_marks: true
+        - .ufo.fontinfo:
+            fontinfo_file: meta/fontinfo.yaml
+        - .ufo.add_features:
+            feature_file: [features/features.fea]
+            placeholders_file: meta/fontinfo.yaml
+            generate: [kern, mark]
     make_ttf:
         - .ufo.make_ttf
         - .post.add_dsig
@@ -77,7 +84,7 @@
     from:
         folder: master_ufo
         family: Handjet
-        styles: &masters [Thin, Regular, Black]
+        styles: &masters [Thin, Light, Regular, Black]
         formats: [ufo]
     to:
         folder: ../fonts/HandjetVF/
@@ -122,6 +129,27 @@
     to:
         folder: ../fonts/HandjetWeb/
         family: Handjet Web
+        minify: true
+    make_webfonts:
+        - .copy_fonts:
+            folder: ../fonts/HandjetWeb/
+        - .post.rename_family:
+            family_name: Handjet Web
+        - .post.make_webfonts
+        - .remove_fonts:
+            remove_formats: ttf
+            to_folder: true
+-  
+    name: Handjet Display - compile webfonts
+    from:
+        folder: ../fonts/Handjet/
+        family: Handjet Display
+        formats: [ttf]
+        styles: *display_styles
+        minify: true
+    to:
+        folder: ../fonts/HandjetWeb/
+        family: Handjet Display Web
         minify: true
     make_webfonts:
         - .copy_fonts:
