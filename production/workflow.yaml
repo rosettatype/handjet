@@ -1,0 +1,135 @@
+# ----------------------------------------
+# Handjet
+# ----------------------------------------
+
+
+# ----------------------------------------
+# create ufo instances from glyphs source files
+-   
+    name: Handjet - ufo instances
+    from:
+        folder: ../sources
+        family: Handjet
+        styles: [Uprights]
+        formats: [glyphs]
+    to:
+        folder: .
+        family: Handjet
+    make_ufo:
+        - .glyphs.make_ufo_instances
+
+
+# ---------------------------------------- 
+# preprocess ufo and compile otf
+-
+    name: Handjet - preprocess ufo
+    from:
+        folder: instance_ufo
+        family: Handjet
+        formats: [ufo]
+        styles: &styles [Thin, Extralight, Light, Regular, Medium, Semibold, Bold, Extrabold, Black]
+    to:
+        folder: ../fonts/Handjet/
+        family: Handjet
+        formats: [otf]
+        minify: true
+    preprocess_ufo:
+        - glyphsdb.ufo.sync_names:
+            strict: true
+        - .ufo.cleanup: 
+            zero_width_combining_marks: true
+        - .ufo.fontinfo:
+            fontinfo_file: meta/fontinfo.yaml
+        - .ufo.add_features:
+            feature_file: [features/features.fea]
+            placeholders_file: meta/fontinfo.yaml
+            generate: [kern, mark]
+    make_otf:
+        - .ufo.make_otf
+        - .post.add_dsig
+        - .post.minify_names
+
+
+# ----------------------------------------
+# compile ttf
+-  
+    name: Handjet - compile ttf
+    from:
+        folder: instance_ufo
+        family: Handjet
+        formats: [ufo]
+        styles: *styles
+    to:
+        folder: ../fonts/Handjet/
+        family: Handjet
+        formats: [ttf]
+        minify: true
+    make_ttf:
+        - .ufo.make_ttf
+        - .post.add_dsig
+        - .post.minify_names
+
+
+# ----------------------------------------
+# compile variable fonts
+-   
+    name: Handjet - variable fonts
+    from:
+        folder: master_ufo
+        family: Handjet
+        styles: &masters [Thin, Regular, Black]
+        formats: [ufo]
+    to:
+        folder: ../fonts/HandjetVF/
+        family: Handjet
+    make_variable:
+        - glyphsdb.ufo.sync_names:
+            strict: true
+        - .ufo.cleanup: 
+            zero_width_combining_marks: true
+        - .ufo.fontinfo:
+            fontinfo_file: meta/fontinfo.yaml
+        - .ufo.add_features:
+            feature_file: features/features.fea
+            placeholders_file: meta/fontinfo.yaml
+            generate: [kern, mark]
+-   
+    name: Handjet - variable fonts
+    from:
+        folder: master_ufo
+        family: Handjet
+        styles: [""]
+        formats: [designspace]
+    to:
+        folder: ../fonts/HandjetVF/
+        family: Handjet
+        styles: [VF]
+        formats: [ttf]
+    make_variable:
+        - .ds.make_variable
+
+
+# ----------------------------------------
+# compile webfonts
+-  
+    name: Handjet - compile webfonts
+    from:
+        folder: ../fonts/Handjet/
+        family: Handjet
+        formats: [ttf]
+        styles: *styles
+        minify: true
+    to:
+        folder: ../fonts/HandjetWeb/
+        family: Handjet Web
+        minify: true
+    make_webfonts:
+        - .copy_fonts:
+            folder: ../fonts/HandjetWeb/
+        - .post.rename_family:
+            family_name: Handjet Web
+        - .post.make_webfonts
+        - .remove_fonts:
+            remove_formats: ttf
+            to_folder: true
+      

@@ -1,0 +1,178 @@
+#----------------------------------------------------------------------------
+# Main feature file
+
+# Tables
+include(tables.fea);
+
+
+#----------------------------------------------------------------------------
+# Language systems
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn TRK;
+languagesystem latn TAT;
+languagesystem latn KAZ;
+
+
+#----------------------------------------------------------------------------
+# Classes
+
+
+#----------------------------------------------------------------------------
+# Features
+
+
+#----------------------------------------------------------------------------
+# Access all alternates
+
+feature aalt {
+    feature locl;
+    feature case;
+    feature sups;
+    feature sinf;
+    feature ordn;
+    feature numr;
+    feature dnom;
+    feature frac;
+
+    sub period by ellipsis;
+    sub hyphen from [endash emdash minus];
+} aalt;
+
+
+#----------------------------------------------------------------------------
+# Composition of accented characters
+
+@uppercase = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent];
+
+feature ccmp {
+    lookup ccmp_Other_1 {
+        @combining_top_accents = [acutecomb brevecomb caroncomb circumflexcomb commaaccentturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+        @combining_nontop_accents = [cedillacomb ogonekcomb];
+        sub [i]' @combining_top_accents by [idotless];
+        sub [i]' @combining_nontop_accents @combining_top_accents by [idotless];
+        @markscomb = [gravecomb acutecomb circumflexcomb caroncomb];
+        @markscombCase = [gravecomb.case acutecomb.case circumflexcomb.case caroncomb.case];
+        sub @uppercase @markscomb' by @markscombCase;
+    } ccmp_Other_1;
+
+    lookup ccmp_Other_2 {
+        sub @markscombCase @markscomb' by @markscombCase;
+    } ccmp_Other_2;
+} ccmp;
+
+
+#----------------------------------------------------------------------------
+# Localized forms
+
+feature locl {
+    script latn; # Latin
+        # i -> idotaccent substitution effectively switches off the fi and ffi ligatures
+        language TRK; # Turkish
+            lookup LOCL_TRK {
+                sub i by idotaccent;
+            } LOCL_TRK;
+        language AZE; # Azeri
+            lookup LOCL_TRK;
+        language CRT; # Crimean Tatar
+            lookup LOCL_TRK;
+        language KAZ; # Kazakh
+            lookup LOCL_TRK;
+        language TAT; # Tatar
+            lookup LOCL_TRK;
+
+} locl;
+
+
+
+#----------------------------------------------------------------------------
+# Latin
+#----------------------------------------------------------------------------
+
+
+#----------------------------------------------------------------------------
+# Case-sensitive forms
+
+feature case {
+    sub periodcentered.CAT by periodcentered.CAT.case;
+    sub questiondown by questiondown.case;
+    sub exclamdown by exclamdown.case;
+} case;
+
+
+#----------------------------------------------------------------------------
+# Superiors & inferiors
+
+feature sups {
+    lookup SUPS {
+        sub zero by zerosuperior;
+        sub one by onesuperior;
+        sub two by twosuperior;
+        sub three by threesuperior;
+        sub four by foursuperior;
+        sub five by fivesuperior;
+        sub six by sixsuperior;
+        sub seven by sevensuperior;
+        sub eight by eightsuperior;
+        sub nine by ninesuperior;
+    } SUPS;
+} sups;
+
+feature sinf {
+    lookup SINF {
+        sub zero by zerosuperior;
+        sub one by onesuperior;
+        sub two by twosuperior;
+        sub three by threesuperior;
+        sub four by foursuperior;
+        sub five by fivesuperior;
+        sub six by sixsuperior;
+        sub seven by sevensuperior;
+        sub eight by eightsuperior;
+        sub nine by ninesuperior;
+    } SINF;
+} sinf;
+
+
+#----------------------------------------------------------------------------
+# Ordinals
+
+@ordn_from = [a o];
+@ordn_to = [ordfeminine ordmasculine];
+
+feature ordn {
+    sub [zero one two three four five six seven eight nine] @ordn_from' by @ordn_to;
+    sub @ordn_to @ordn_from' by @ordn_to;
+} ordn;
+
+
+#----------------------------------------------------------------------------
+# Numerators
+
+feature numr {
+    lookup SUPS;
+} numr;
+
+
+#----------------------------------------------------------------------------
+# Denominators
+
+feature dnom {
+    lookup SINF;
+} dnom;
+
+
+#----------------------------------------------------------------------------
+# Fractions
+
+feature frac {
+    sub [slash divisionslash] by fraction;
+    sub one [fraction slash] two by onehalf;
+    sub one [fraction slash] four by onequarter;
+    sub three [fraction slash] four by threequarters;
+} frac;
+
+

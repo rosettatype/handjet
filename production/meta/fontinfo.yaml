@@ -1,0 +1,52 @@
+# ----------------------------------------
+# Handjet font info overrides
+# ----------------------------------------
+
+Handjet:
+  shared:
+    openTypeOS2WidthClass: 5
+  Thin:
+    openTypeOS2WeightClass: 100
+    openTypeOS2Panose: [2, 13, 2, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet Thin
+    styleMapStyleName: regular # needs to be lowercase
+  Extralight:
+    openTypeOS2WeightClass: 200
+    openTypeOS2Panose: [2, 13, 3, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet Extralight
+    styleMapStyleName: regular # needs to be lowercase
+  Light:
+    openTypeOS2WeightClass: 300
+    openTypeOS2Panose: [2, 13, 4, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet Light
+    styleMapStyleName: regular # needs to be lowercase
+  Regular:
+    openTypeOS2WeightClass: 400
+    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet # keep this one simple
+    styleMapStyleName: regular # needs to be lowercase
+  Medium:
+    openTypeOS2WeightClass: 500
+    openTypeOS2Panose: [2, 13, 6, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet Medium
+    styleMapStyleName: regular # needs to be lowercase
+  Semibold:
+    openTypeOS2WeightClass: 600
+    openTypeOS2Panose: [2, 13, 7, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet Semibold
+    styleMapStyleName: regular # needs to be lowercase
+  Bold:
+    openTypeOS2WeightClass: 700
+    openTypeOS2Panose: [2, 13, 8, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet # keep this one simple
+    styleMapStyleName: bold # needs to be lowercase
+  Extrabold:
+    openTypeOS2WeightClass: 800
+    openTypeOS2Panose: [2, 13, 9, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet Extrabold
+    styleMapStyleName: regular # needs to be lowercase
+  Black:
+    openTypeOS2WeightClass: 900
+    openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
+    styleMapFamilyName: Handjet Black
+    styleMapStyleName: regular # needs to be lowercase

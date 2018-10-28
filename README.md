@@ -12,3 +12,7 @@ Planned release: November 2018
 ## Weights & styles
 
 * variable font with many styles depending on the pixel
+
+## TODO
+
+- add LOCL code from Skolar (IJ, periodcentered)
