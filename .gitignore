@@ -1,0 +1,10 @@
+# osx noise
+.DS_Store
+profile
+
+# Fonts
+*.log
+master_*/
+instance_*/
+variable_*/
+fonts/*
