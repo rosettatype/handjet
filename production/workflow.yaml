@@ -84,12 +84,25 @@
     from:
         folder: master_ufo
         family: Handjet
-        styles: &masters [Thin, Light, Regular, Black]
+        styles: &masters [BigCircle, BigDoubleCircle, BigDoubleHeart, BigDoubleLozenge, BigDoubleFlower, BigDoubleSquare, BigHeart,
+                          BigLozenge, BigFlower, BigSquare, SmallCircle, SmallDoubleCircle, SmallDoubleHeart, SmallDoubleLozenge,
+                          SmallDoubleFlower, SmallDoubleSquare, SmallHeart, SmallLozenge, SmallFlower, SmallSquare]
         formats: [ufo]
     to:
         folder: ../fonts/HandjetVF/
         family: Handjet
     make_variable:
+        - glyphsdb.ufo.sync_names:
+            strict: true
+        - .ufo.cleanup: 
+            zero_width_combining_marks: true
+        - .ufo.fontinfo:
+            fontinfo_file: meta/fontinfo.yaml
+        - .ufo.add_features:
+            feature_file: features/features.fea
+            placeholders_file: meta/fontinfo.yaml
+            generate: [kern, mark]
+    make_variable_pre: #!!
         - glyphsdb.ufo.sync_names:
             strict: true
         - .ufo.cleanup: 
