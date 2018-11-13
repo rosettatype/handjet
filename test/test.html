@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+	<meta charset="utf-8">
+	<title>Example HTML</title>
+	<style>
+
+	/************************************************************************************
+	The fonts have been licenced from Rosetta Type Foundry: http://rosettatype.com/
+	Use and distribution is limited by the fonts EULA: http://rosettatype.com/license
+	Please, keep this notice included next to all @font-face rules which use the fonts.
+	*************************************************************************************/
+
+	@font-face {
+		font-family: "Handjet";
+		src: url("Handjet-VF.ttf") format('woff');
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	body {
+		font-family: "Arial", sans-serif;
+		font-size: 14px;
+		background-color: #000;
+		color: #eee;
+		padding: 100px;
+	}
+
+	/* EDIT ZONE */
+
+	.edit {
+		position: absolute;
+		top: 300px;
+		left: 100px;
+		width: 90%;
+
+		display: block;
+		margin: 0;
+		padding: 70px 50px 30px;
+		border: 1px dashed #eee;
+
+		font-family: "Handjet", sans;
+		font-size: 300px;
+		font-weight: 30;
+		font-style: normal;
+		
+		/* OpenType features: kerning, ligatures & contextual alternates */
+		font-kerning: normal; /* CSS3 */
+			-webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+			-moz-font-feature-settings: "kern=1", "liga=1", "calt=1";	/* Firefox 4.0 to 14.0 */
+	     	-moz-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;	/* Firefox 15.0 onwards */
+			font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+		
+		/* Make rendering look consistent across platforms */
+		-webkit-font-smoothing: antialiased !important;
+		-moz-osx-font-smoothing: grayscale;
+
+		transition: 0.3s;
+	}
+	#edit1 {
+		font-variation-settings: "wght" 500, "wdth" 300, "opsz" 100;
+		color: white;
+	}
+
+	#edit2 {
+		font-variation-settings: "wght" 500, "wdth" 300, "opsz" 100;
+		z-index: 10;
+		color: red;
+		display: none;
+		border: none;
+	}
+
+	/*
+	@supports (font-variation-settings: normal) {
+		#edit1 {
+    		font-variation-settings: "wght" 500, "wdth" 300, "opsz" 100;
+		}
+		#edit1:hover {
+    		font-variation-settings: "wght" 100, "wdth" 300, "opsz" 200;
+		}
+	}*/
+
+	/* SLIDER */
+
+	*, *:before, *:after {
+		box-sizing: border-box;
+	}
+
+	.range-slider {
+		font-size: 15px;
+		display: block;
+		float: left;
+		width: 250px;
+		margin: 30px 0 0 0;
+	}
+
+	.range-slider__range {
+		-webkit-appearance: none;
+		width: calc(100% - (73px));
+		height: 2px;
+		border-radius: 1px;
+		background: #e00;
+		outline: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.range-slider__range::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		appearance: none;
+		width: 18px;
+		height: 18px;
+		border-radius: 50%;
+		background: #e00;
+		cursor: pointer;
+		transition: background .15s ease-in-out;
+	}
+
+	.range-slider__range::-moz-range-thumb {
+		width: 20px;
+		height: 20px;
+		border: 0;
+		border-radius: 50%;
+		background: #e00;
+		cursor: pointer;
+		transition: background .15s ease-in-out;
+	}
+
+	::-moz-range-track {
+		background: #e00;
+		border: 0;
+	}
+
+	.white .range-slider__range,
+	.white .range-slider__range::-webkit-slider-thumb {
+		background: #eee;
+	}
+
+	.red .range-slider__range, .red {
+		display: none;
+	}
+
+	input::-moz-focus-inner,
+	input::-moz-focus-outer {
+		border: 0;
+	}
+
+	p {
+		clear: both;
+	}
+
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+  <p class="edit" id="edit1" contenteditable="true">
+    Zkouška?
+  </p>
+  <p class="edit" id="edit2" contenteditable="false">
+    Zkouška?
+  </p>
+  <p>
+  	<div class="range-slider white">
+	  Element size: <input id="change_wght" class="range-slider__range" type="range" value="500" min="100" max="900" step="10">
+	</div>
+  	<div class="range-slider white">
+	  Element shape: <input id="change_wdth" class="range-slider__range" type="range" value="300" min="100" max="500" step="100">
+	</div>
+  	<div class="range-slider white">
+	  Double elements: <input id="change_opsz" class="range-slider__range" type="range" value="100" min="100" max="200" step="100">
+	</div>
+  </p>
+  <p>
+  	<div class="range-slider red">
+	  Element size: <input id="change_wght2" class="range-slider__range" type="range" value="500" min="100" max="900" step="10">
+	</div>
+  	<div class="range-slider red">
+	  Element shape: <input id="change_wdth2" class="range-slider__range" type="range" value="300" min="100" max="500" step="100">
+	</div>
+  	<div class="range-slider red">
+	  Double elements: <br><input id="change_opsz2" class="range-slider__range" type="range" value="100" min="100" max="200" step="100">
+	</div>
+  	<div class="range-slider red">
+	  Horizontal offset: <br> <input id="change_shift2" class="range-slider__range" type="range" value="100" min="0" max="200" step="1">
+	</div>
+  </p>
+  <p>
+  	<input type="checkbox" id="view_layer" style="margin-top: 20px">Turn on the second layer
+  </p>
+</body>
+</html>

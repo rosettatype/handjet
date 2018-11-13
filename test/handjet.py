@@ -130,7 +130,7 @@ def draw_label(sc):
 poster_w, poster_h = 540,540
 imageResolution = 150
 repete = 5
-wght_min, wght_max, step = 10, 136, 5
+wght_min, wght_max, step = 10, 120, 5
 txt = "Handjet!"
 size = 150
 
