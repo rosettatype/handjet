@@ -12,10 +12,10 @@ Handjet:
     openTypeOS2Panose: [2, 13, 2, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Small Heart
     styleMapStyleName: regular # needs to be lowercase
-  SmallShamrock:
+  SmallFlower:
     openTypeOS2WeightClass: 100
     openTypeOS2Panose: [2, 13, 3, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Small Shamrock
+    styleMapFamilyName: Handjet Small Flower
     styleMapStyleName: regular # needs to be lowercase
   SmallCircle:
     openTypeOS2WeightClass: 100
@@ -37,10 +37,10 @@ Handjet:
     openTypeOS2Panose: [2, 13, 2, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Big Heart
     styleMapStyleName: regular # needs to be lowercase
-  BigShamrock:
+  BigFlower:
     openTypeOS2WeightClass: 900
     openTypeOS2Panose: [2, 13, 3, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Big Shamrock
+    styleMapFamilyName: Handjet Big Flower
     styleMapStyleName: regular # needs to be lowercase
   BigCircle:
     openTypeOS2WeightClass: 900
@@ -62,10 +62,10 @@ Handjet:
     openTypeOS2Panose: [2, 13, 2, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Small Double Heart
     styleMapStyleName: regular # needs to be lowercase
-  SmallDoubleShamrock:
+  SmallDoubleFlower:
     openTypeOS2WeightClass: 100
     openTypeOS2Panose: [2, 13, 3, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Small Double Shamrock
+    styleMapFamilyName: Handjet Small Double Flower
     styleMapStyleName: regular # needs to be lowercase
   SmallDoubleCircle:
     openTypeOS2WeightClass: 100
@@ -87,10 +87,10 @@ Handjet:
     openTypeOS2Panose: [2, 13, 2, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Big Double Heart
     styleMapStyleName: regular # needs to be lowercase
-  BigDoubleShamrock:
+  BigDoubleFlower:
     openTypeOS2WeightClass: 900
     openTypeOS2Panose: [2, 13, 3, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Big Double Shamrock
+    styleMapFamilyName: Handjet Big Double Flower
     styleMapStyleName: regular # needs to be lowercase
   BigDoubleCircle:
     openTypeOS2WeightClass: 900
@@ -158,53 +158,53 @@ Handjet Heart:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Heart Black
     styleMapStyleName: regular # needs to be lowercase
-Handjet Shamrock:
+Handjet Flower:
   shared:
     openTypeOS2WidthClass: 5
   Thin:
     openTypeOS2WeightClass: 100
     openTypeOS2Panose: [2, 13, 2, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Shamrock Thin
+    styleMapFamilyName: Handjet Flower Thin
     styleMapStyleName: regular # needs to be lowercase
   Extralight:
     openTypeOS2WeightClass: 200
     openTypeOS2Panose: [2, 13, 3, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Shamrock Extralight
+    styleMapFamilyName: Handjet Flower Extralight
     styleMapStyleName: regular # needs to be lowercase
   Light:
     openTypeOS2WeightClass: 300
     openTypeOS2Panose: [2, 13, 4, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Shamrock Light
+    styleMapFamilyName: Handjet Flower Light
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
     openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Shamrock # keep this one simple
+    styleMapFamilyName: Handjet Flower # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
     openTypeOS2WeightClass: 500
     openTypeOS2Panose: [2, 13, 6, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Shamrock Medium
+    styleMapFamilyName: Handjet Flower Medium
     styleMapStyleName: regular # needs to be lowercase
   Semibold:
     openTypeOS2WeightClass: 600
     openTypeOS2Panose: [2, 13, 7, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Shamrock Semibold
+    styleMapFamilyName: Handjet Flower Semibold
     styleMapStyleName: regular # needs to be lowercase
   Bold:
     openTypeOS2WeightClass: 700
     openTypeOS2Panose: [2, 13, 8, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Shamrock # keep this one simple
+    styleMapFamilyName: Handjet Flower # keep this one simple
     styleMapStyleName: bold # needs to be lowercase
   Extrabold:
     openTypeOS2WeightClass: 800
     openTypeOS2Panose: [2, 13, 9, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Shamrock Extrabold
+    styleMapFamilyName: Handjet Flower Extrabold
     styleMapStyleName: regular # needs to be lowercase
   Black:
     openTypeOS2WeightClass: 900
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Shamrock Black
+    styleMapFamilyName: Handjet Flower Black
     styleMapStyleName: regular # needs to be lowercase
 Handjet Circle:
   shared:
@@ -399,53 +399,53 @@ Handjet Double Heart:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Double Heart Black
     styleMapStyleName: regular # needs to be lowercase
-Handjet Double Shamrock:
+Handjet Double Flower:
   shared:
     openTypeOS2WidthClass: 5
   Thin:
     openTypeOS2WeightClass: 100
     openTypeOS2Panose: [2, 13, 2, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Double Shamrock Thin
+    styleMapFamilyName: Handjet Double Flower Thin
     styleMapStyleName: regular # needs to be lowercase
   Extralight:
     openTypeOS2WeightClass: 200
     openTypeOS2Panose: [2, 13, 3, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Double Shamrock Extralight
+    styleMapFamilyName: Handjet Double Flower Extralight
     styleMapStyleName: regular # needs to be lowercase
   Light:
     openTypeOS2WeightClass: 300
     openTypeOS2Panose: [2, 13, 4, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Double Shamrock Light
+    styleMapFamilyName: Handjet Double Flower Light
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
     openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Double Shamrock # keep this one simple
+    styleMapFamilyName: Handjet Double Flower # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
     openTypeOS2WeightClass: 500
     openTypeOS2Panose: [2, 13, 6, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Double Shamrock Medium
+    styleMapFamilyName: Handjet Double Flower Medium
     styleMapStyleName: regular # needs to be lowercase
   Semibold:
     openTypeOS2WeightClass: 600
     openTypeOS2Panose: [2, 13, 7, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Double Shamrock Semibold
+    styleMapFamilyName: Handjet Double Flower Semibold
     styleMapStyleName: regular # needs to be lowercase
   Bold:
     openTypeOS2WeightClass: 700
     openTypeOS2Panose: [2, 13, 8, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Double Shamrock # keep this one simple
+    styleMapFamilyName: Handjet Double Flower # keep this one simple
     styleMapStyleName: bold # needs to be lowercase
   Extrabold:
     openTypeOS2WeightClass: 800
     openTypeOS2Panose: [2, 13, 9, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Double Shamrock Extrabold
+    styleMapFamilyName: Handjet Double Flower Extrabold
     styleMapStyleName: regular # needs to be lowercase
   Black:
     openTypeOS2WeightClass: 900
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
-    styleMapFamilyName: Handjet Double Shamrock Black
+    styleMapFamilyName: Handjet Double Flower Black
     styleMapStyleName: regular # needs to be lowercase
 Handjet Double Circle:
   shared:

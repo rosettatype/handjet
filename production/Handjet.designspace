@@ -1,0 +1,966 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="30" maximum="120" default="30"/>
+    <axis tag="wdth" name="Width" minimum="100" maximum="500" default="100"/>
+    <axis tag="opsz" name="Optical size" minimum="100" maximum="200" default="100"/>
+  </axes>
+  <sources>
+    <source filename="Handjet-SmallHeart.ufo" name="Handjet Small Heart" familyname="Handjet" stylename="Small Heart">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Handjet-SmallShamrock.ufo" name="Handjet Small Shamrock" familyname="Handjet" stylename="Small Shamrock">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Handjet-SmallCircle.ufo" name="Handjet Small Circle" familyname="Handjet" stylename="Small Circle">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Handjet-SmallLozenge.ufo" name="Handjet Small Lozenge" familyname="Handjet" stylename="Small Lozenge">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Handjet-SmallSquare.ufo" name="Handjet Small Square" familyname="Handjet" stylename="Small Square">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Handjet-BigHeart.ufo" name="Handjet Big Heart" familyname="Handjet" stylename="Big Heart">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Handjet-BigShamrock.ufo" name="Handjet Big Shamrock" familyname="Handjet" stylename="Big Shamrock">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Handjet-BigCircle.ufo" name="Handjet Big Circle" familyname="Handjet" stylename="Big Circle">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Handjet-BigLozenge.ufo" name="Handjet Big Lozenge" familyname="Handjet" stylename="Big Lozenge">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Handjet-BigSquare.ufo" name="Handjet Big Square" familyname="Handjet" stylename="Big Square">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Handjet-SmallDoubleHeart.ufo" name="Handjet Small Double Heart" familyname="Handjet" stylename="Small Double Heart">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="Handjet-SmallDoubleShamrock.ufo" name="Handjet Small Double Shamrock" familyname="Handjet" stylename="Small Double Shamrock">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="Handjet-SmallDoubleCircle.ufo" name="Handjet Small Double Circle" familyname="Handjet" stylename="Small Double Circle">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="Handjet-SmallDoubleLozenge.ufo" name="Handjet Small Double Lozenge" familyname="Handjet" stylename="Small Double Lozenge">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="Handjet-SmallDoubleSquare.ufo" name="Handjet Small Double Square" familyname="Handjet" stylename="Small Double Square">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="Handjet-BigDoubleHeart.ufo" name="Handjet Big Double Heart" familyname="Handjet" stylename="Big Double Heart">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="Handjet-BigDoubleShamrock.ufo" name="Handjet Big Double Shamrock" familyname="Handjet" stylename="Big Double Shamrock">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="Handjet-BigDoubleCircle.ufo" name="Handjet Big Double Circle" familyname="Handjet" stylename="Big Double Circle">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="Handjet-BigDoubleLozenge.ufo" name="Handjet Big Double Lozenge" familyname="Handjet" stylename="Big Double Lozenge">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="Handjet-BigDoubleSquare.ufo" name="Handjet Big Double Square" familyname="Handjet" stylename="Big Double Square">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Handjet Heart Thin" familyname="Handjet Heart" stylename="Thin" filename="../instance_ufo/HandjetHeart-Thin.ufo" stylemapfamilyname="Handjet Heart Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Heart Extralight" familyname="Handjet Heart" stylename="Extralight" filename="../instance_ufo/HandjetHeart-Extralight.ufo" stylemapfamilyname="Handjet Heart Extralight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="40"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Heart Light" familyname="Handjet Heart" stylename="Light" filename="../instance_ufo/HandjetHeart-Light.ufo" stylemapfamilyname="Handjet Heart Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Heart Regular" familyname="Handjet Heart" stylename="Regular" filename="../instance_ufo/HandjetHeart-Regular.ufo" stylemapfamilyname="Handjet Heart" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Heart Medium" familyname="Handjet Heart" stylename="Medium" filename="../instance_ufo/HandjetHeart-Medium.ufo" stylemapfamilyname="Handjet Heart Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Heart Semibold" familyname="Handjet Heart" stylename="Semibold" filename="../instance_ufo/HandjetHeart-Semibold.ufo" stylemapfamilyname="Handjet Heart Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Heart Bold" familyname="Handjet Heart" stylename="Bold" filename="../instance_ufo/HandjetHeart-Bold.ufo" stylemapfamilyname="Handjet Heart" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Heart Extrabold" familyname="Handjet Heart" stylename="Extrabold" filename="../instance_ufo/HandjetHeart-Extrabold.ufo" stylemapfamilyname="Handjet Heart Extrabold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Heart Black" familyname="Handjet Heart" stylename="Black" filename="../instance_ufo/HandjetHeart-Black.ufo" stylemapfamilyname="Handjet Heart Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Shamrock Thin" familyname="Handjet Shamrock" stylename="Thin" filename="../instance_ufo/HandjetShamrock-Thin.ufo" stylemapfamilyname="Handjet Shamrock Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Shamrock Extralight" familyname="Handjet Shamrock" stylename="Extralight" filename="../instance_ufo/HandjetShamrock-Extralight.ufo" stylemapfamilyname="Handjet Shamrock Extralight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="40"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Shamrock Light" familyname="Handjet Shamrock" stylename="Light" filename="../instance_ufo/HandjetShamrock-Light.ufo" stylemapfamilyname="Handjet Shamrock Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Shamrock Regular" familyname="Handjet Shamrock" stylename="Regular" filename="../instance_ufo/HandjetShamrock-Regular.ufo" stylemapfamilyname="Handjet Shamrock" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Shamrock Medium" familyname="Handjet Shamrock" stylename="Medium" filename="../instance_ufo/HandjetShamrock-Medium.ufo" stylemapfamilyname="Handjet Shamrock Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Shamrock Semibold" familyname="Handjet Shamrock" stylename="Semibold" filename="../instance_ufo/HandjetShamrock-Semibold.ufo" stylemapfamilyname="Handjet Shamrock Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Shamrock Bold" familyname="Handjet Shamrock" stylename="Bold" filename="../instance_ufo/HandjetShamrock-Bold.ufo" stylemapfamilyname="Handjet Shamrock" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Shamrock Extrabold" familyname="Handjet Shamrock" stylename="Extrabold" filename="../instance_ufo/HandjetShamrock-Extrabold.ufo" stylemapfamilyname="Handjet Shamrock Extrabold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Shamrock Black" familyname="Handjet Shamrock" stylename="Black" filename="../instance_ufo/HandjetShamrock-Black.ufo" stylemapfamilyname="Handjet Shamrock Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Circle Thin" familyname="Handjet Circle" stylename="Thin" filename="../instance_ufo/HandjetCircle-Thin.ufo" stylemapfamilyname="Handjet Circle Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Circle Extralight" familyname="Handjet Circle" stylename="Extralight" filename="../instance_ufo/HandjetCircle-Extralight.ufo" stylemapfamilyname="Handjet Circle Extralight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="40"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Circle Light" familyname="Handjet Circle" stylename="Light" filename="../instance_ufo/HandjetCircle-Light.ufo" stylemapfamilyname="Handjet Circle Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Circle Regular" familyname="Handjet Circle" stylename="Regular" filename="../instance_ufo/HandjetCircle-Regular.ufo" stylemapfamilyname="Handjet Circle" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Circle Medium" familyname="Handjet Circle" stylename="Medium" filename="../instance_ufo/HandjetCircle-Medium.ufo" stylemapfamilyname="Handjet Circle Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Circle Semibold" familyname="Handjet Circle" stylename="Semibold" filename="../instance_ufo/HandjetCircle-Semibold.ufo" stylemapfamilyname="Handjet Circle Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Circle Bold" familyname="Handjet Circle" stylename="Bold" filename="../instance_ufo/HandjetCircle-Bold.ufo" stylemapfamilyname="Handjet Circle" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Circle Extrabold" familyname="Handjet Circle" stylename="Extrabold" filename="../instance_ufo/HandjetCircle-Extrabold.ufo" stylemapfamilyname="Handjet Circle Extrabold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Circle Black" familyname="Handjet Circle" stylename="Black" filename="../instance_ufo/HandjetCircle-Black.ufo" stylemapfamilyname="Handjet Circle Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Lozenge Thin" familyname="Handjet Lozenge" stylename="Thin" filename="../instance_ufo/HandjetLozenge-Thin.ufo" stylemapfamilyname="Handjet Lozenge Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Lozenge Extralight" familyname="Handjet Lozenge" stylename="Extralight" filename="../instance_ufo/HandjetLozenge-Extralight.ufo" stylemapfamilyname="Handjet Lozenge Extralight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="40"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Lozenge Light" familyname="Handjet Lozenge" stylename="Light" filename="../instance_ufo/HandjetLozenge-Light.ufo" stylemapfamilyname="Handjet Lozenge Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Lozenge Regular" familyname="Handjet Lozenge" stylename="Regular" filename="../instance_ufo/HandjetLozenge-Regular.ufo" stylemapfamilyname="Handjet Lozenge" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Lozenge Medium" familyname="Handjet Lozenge" stylename="Medium" filename="../instance_ufo/HandjetLozenge-Medium.ufo" stylemapfamilyname="Handjet Lozenge Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Lozenge Semibold" familyname="Handjet Lozenge" stylename="Semibold" filename="../instance_ufo/HandjetLozenge-Semibold.ufo" stylemapfamilyname="Handjet Lozenge Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Lozenge Bold" familyname="Handjet Lozenge" stylename="Bold" filename="../instance_ufo/HandjetLozenge-Bold.ufo" stylemapfamilyname="Handjet Lozenge" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Lozenge Extrabold" familyname="Handjet Lozenge" stylename="Extrabold" filename="../instance_ufo/HandjetLozenge-Extrabold.ufo" stylemapfamilyname="Handjet Lozenge Extrabold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Lozenge Black" familyname="Handjet Lozenge" stylename="Black" filename="../instance_ufo/HandjetLozenge-Black.ufo" stylemapfamilyname="Handjet Lozenge Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Square Thin" familyname="Handjet Square" stylename="Thin" filename="../instance_ufo/HandjetSquare-Thin.ufo" stylemapfamilyname="Handjet Square Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Square Extralight" familyname="Handjet Square" stylename="Extralight" filename="../instance_ufo/HandjetSquare-Extralight.ufo" stylemapfamilyname="Handjet Square Extralight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="40"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Square Light" familyname="Handjet Square" stylename="Light" filename="../instance_ufo/HandjetSquare-Light.ufo" stylemapfamilyname="Handjet Square Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Square Regular" familyname="Handjet Square" stylename="Regular" filename="../instance_ufo/HandjetSquare-Regular.ufo" stylemapfamilyname="Handjet Square" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Square Medium" familyname="Handjet Square" stylename="Medium" filename="../instance_ufo/HandjetSquare-Medium.ufo" stylemapfamilyname="Handjet Square Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Square Semibold" familyname="Handjet Square" stylename="Semibold" filename="../instance_ufo/HandjetSquare-Semibold.ufo" stylemapfamilyname="Handjet Square Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Square Bold" familyname="Handjet Square" stylename="Bold" filename="../instance_ufo/HandjetSquare-Bold.ufo" stylemapfamilyname="Handjet Square" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Square Extrabold" familyname="Handjet Square" stylename="Extrabold" filename="../instance_ufo/HandjetSquare-Extrabold.ufo" stylemapfamilyname="Handjet Square Extrabold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Square Black" familyname="Handjet Square" stylename="Black" filename="../instance_ufo/HandjetSquare-Black.ufo" stylemapfamilyname="Handjet Square Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Heart Thin" familyname="Handjet Double Heart" stylename="Thin" filename="../instance_ufo/HandjetDoubleHeart-Thin.ufo" stylemapfamilyname="Handjet Double Heart Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Heart Extralight" familyname="Handjet Double Heart" stylename="Extralight" filename="../instance_ufo/HandjetDoubleHeart-Extralight.ufo" stylemapfamilyname="Handjet Double Heart Extralight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="40"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Heart Light" familyname="Handjet Double Heart" stylename="Light" filename="../instance_ufo/HandjetDoubleHeart-Light.ufo" stylemapfamilyname="Handjet Double Heart Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Heart Regular" familyname="Handjet Double Heart" stylename="Regular" filename="../instance_ufo/HandjetDoubleHeart-Regular.ufo" stylemapfamilyname="Handjet Double Heart" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Heart Medium" familyname="Handjet Double Heart" stylename="Medium" filename="../instance_ufo/HandjetDoubleHeart-Medium.ufo" stylemapfamilyname="Handjet Double Heart Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Heart Semibold" familyname="Handjet Double Heart" stylename="Semibold" filename="../instance_ufo/HandjetDoubleHeart-Semibold.ufo" stylemapfamilyname="Handjet Double Heart Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Heart Bold" familyname="Handjet Double Heart" stylename="Bold" filename="../instance_ufo/HandjetDoubleHeart-Bold.ufo" stylemapfamilyname="Handjet Double Heart" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Heart Extrabold" familyname="Handjet Double Heart" stylename="Extrabold" filename="../instance_ufo/HandjetDoubleHeart-Extrabold.ufo" stylemapfamilyname="Handjet Double Heart Extrabold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Heart Black" familyname="Handjet Double Heart" stylename="Black" filename="../instance_ufo/HandjetDoubleHeart-Black.ufo" stylemapfamilyname="Handjet Double Heart Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Shamrock Thin" familyname="Handjet Double Shamrock" stylename="Thin" filename="../instance_ufo/HandjetDoubleShamrock-Thin.ufo" stylemapfamilyname="Handjet Double Shamrock Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Shamrock Extralight" familyname="Handjet Double Shamrock" stylename="Extralight" filename="../instance_ufo/HandjetDoubleShamrock-Extralight.ufo" stylemapfamilyname="Handjet Double Shamrock Extralight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="40"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Shamrock Light" familyname="Handjet Double Shamrock" stylename="Light" filename="../instance_ufo/HandjetDoubleShamrock-Light.ufo" stylemapfamilyname="Handjet Double Shamrock Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Shamrock Regular" familyname="Handjet Double Shamrock" stylename="Regular" filename="../instance_ufo/HandjetDoubleShamrock-Regular.ufo" stylemapfamilyname="Handjet Double Shamrock" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Shamrock Medium" familyname="Handjet Double Shamrock" stylename="Medium" filename="../instance_ufo/HandjetDoubleShamrock-Medium.ufo" stylemapfamilyname="Handjet Double Shamrock Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Shamrock Semibold" familyname="Handjet Double Shamrock" stylename="Semibold" filename="../instance_ufo/HandjetDoubleShamrock-Semibold.ufo" stylemapfamilyname="Handjet Double Shamrock Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Shamrock Bold" familyname="Handjet Double Shamrock" stylename="Bold" filename="../instance_ufo/HandjetDoubleShamrock-Bold.ufo" stylemapfamilyname="Handjet Double Shamrock" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Shamrock Extrabold" familyname="Handjet Double Shamrock" stylename="Extrabold" filename="../instance_ufo/HandjetDoubleShamrock-Extrabold.ufo" stylemapfamilyname="Handjet Double Shamrock Extrabold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Shamrock Black" familyname="Handjet Double Shamrock" stylename="Black" filename="../instance_ufo/HandjetDoubleShamrock-Black.ufo" stylemapfamilyname="Handjet Double Shamrock Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="200"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Circle Thin" familyname="Handjet Double Circle" stylename="Thin" filename="../instance_ufo/HandjetDoubleCircle-Thin.ufo" stylemapfamilyname="Handjet Double Circle Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Circle Extralight" familyname="Handjet Double Circle" stylename="Extralight" filename="../instance_ufo/HandjetDoubleCircle-Extralight.ufo" stylemapfamilyname="Handjet Double Circle Extralight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="40"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Circle Light" familyname="Handjet Double Circle" stylename="Light" filename="../instance_ufo/HandjetDoubleCircle-Light.ufo" stylemapfamilyname="Handjet Double Circle Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Circle Regular" familyname="Handjet Double Circle" stylename="Regular" filename="../instance_ufo/HandjetDoubleCircle-Regular.ufo" stylemapfamilyname="Handjet Double Circle" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Circle Medium" familyname="Handjet Double Circle" stylename="Medium" filename="../instance_ufo/HandjetDoubleCircle-Medium.ufo" stylemapfamilyname="Handjet Double Circle Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Circle Semibold" familyname="Handjet Double Circle" stylename="Semibold" filename="../instance_ufo/HandjetDoubleCircle-Semibold.ufo" stylemapfamilyname="Handjet Double Circle Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Circle Bold" familyname="Handjet Double Circle" stylename="Bold" filename="../instance_ufo/HandjetDoubleCircle-Bold.ufo" stylemapfamilyname="Handjet Double Circle" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Circle Extrabold" familyname="Handjet Double Circle" stylename="Extrabold" filename="../instance_ufo/HandjetDoubleCircle-Extrabold.ufo" stylemapfamilyname="Handjet Double Circle Extrabold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Circle Black" familyname="Handjet Double Circle" stylename="Black" filename="../instance_ufo/HandjetDoubleCircle-Black.ufo" stylemapfamilyname="Handjet Double Circle Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="300"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Lozenge Thin" familyname="Handjet Double Lozenge" stylename="Thin" filename="../instance_ufo/HandjetDoubleLozenge-Thin.ufo" stylemapfamilyname="Handjet Double Lozenge Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Lozenge Extralight" familyname="Handjet Double Lozenge" stylename="Extralight" filename="../instance_ufo/HandjetDoubleLozenge-Extralight.ufo" stylemapfamilyname="Handjet Double Lozenge Extralight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="40"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Lozenge Light" familyname="Handjet Double Lozenge" stylename="Light" filename="../instance_ufo/HandjetDoubleLozenge-Light.ufo" stylemapfamilyname="Handjet Double Lozenge Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Lozenge Regular" familyname="Handjet Double Lozenge" stylename="Regular" filename="../instance_ufo/HandjetDoubleLozenge-Regular.ufo" stylemapfamilyname="Handjet Double Lozenge" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Lozenge Medium" familyname="Handjet Double Lozenge" stylename="Medium" filename="../instance_ufo/HandjetDoubleLozenge-Medium.ufo" stylemapfamilyname="Handjet Double Lozenge Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Lozenge Semibold" familyname="Handjet Double Lozenge" stylename="Semibold" filename="../instance_ufo/HandjetDoubleLozenge-Semibold.ufo" stylemapfamilyname="Handjet Double Lozenge Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Lozenge Bold" familyname="Handjet Double Lozenge" stylename="Bold" filename="../instance_ufo/HandjetDoubleLozenge-Bold.ufo" stylemapfamilyname="Handjet Double Lozenge" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Lozenge Extrabold" familyname="Handjet Double Lozenge" stylename="Extrabold" filename="../instance_ufo/HandjetDoubleLozenge-Extrabold.ufo" stylemapfamilyname="Handjet Double Lozenge Extrabold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Lozenge Black" familyname="Handjet Double Lozenge" stylename="Black" filename="../instance_ufo/HandjetDoubleLozenge-Black.ufo" stylemapfamilyname="Handjet Double Lozenge Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="400"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Square Thin" familyname="Handjet Double Square" stylename="Thin" filename="../instance_ufo/HandjetDoubleSquare-Thin.ufo" stylemapfamilyname="Handjet Double Square Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Square Extralight" familyname="Handjet Double Square" stylename="Extralight" filename="../instance_ufo/HandjetDoubleSquare-Extralight.ufo" stylemapfamilyname="Handjet Double Square Extralight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="40"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Square Light" familyname="Handjet Double Square" stylename="Light" filename="../instance_ufo/HandjetDoubleSquare-Light.ufo" stylemapfamilyname="Handjet Double Square Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Square Regular" familyname="Handjet Double Square" stylename="Regular" filename="../instance_ufo/HandjetDoubleSquare-Regular.ufo" stylemapfamilyname="Handjet Double Square" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Square Medium" familyname="Handjet Double Square" stylename="Medium" filename="../instance_ufo/HandjetDoubleSquare-Medium.ufo" stylemapfamilyname="Handjet Double Square Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Square Semibold" familyname="Handjet Double Square" stylename="Semibold" filename="../instance_ufo/HandjetDoubleSquare-Semibold.ufo" stylemapfamilyname="Handjet Double Square Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Square Bold" familyname="Handjet Double Square" stylename="Bold" filename="../instance_ufo/HandjetDoubleSquare-Bold.ufo" stylemapfamilyname="Handjet Double Square" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Square Extrabold" familyname="Handjet Double Square" stylename="Extrabold" filename="../instance_ufo/HandjetDoubleSquare-Extrabold.ufo" stylemapfamilyname="Handjet Double Square Extrabold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Handjet Double Square Black" familyname="Handjet Double Square" stylename="Black" filename="../instance_ufo/HandjetDoubleSquare-Black.ufo" stylemapfamilyname="Handjet Double Square Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="120"/>
+        <dimension name="Width" xvalue="500"/>
+        <dimension name="Optical size" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

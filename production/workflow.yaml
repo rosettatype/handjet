@@ -89,20 +89,9 @@
                           SmallDoubleFlower, SmallDoubleSquare, SmallHeart, SmallLozenge, SmallFlower, SmallSquare]
         formats: [ufo]
     to:
-        folder: ../fonts/HandjetVF/
+        folder: ../fonts/Handjet/
         family: Handjet
     make_variable:
-        - glyphsdb.ufo.sync_names:
-            strict: true
-        - .ufo.cleanup: 
-            zero_width_combining_marks: true
-        - .ufo.fontinfo:
-            fontinfo_file: meta/fontinfo.yaml
-        - .ufo.add_features:
-            feature_file: features/features.fea
-            placeholders_file: meta/fontinfo.yaml
-            generate: [kern, mark]
-    make_variable_pre: #!!
         - glyphsdb.ufo.sync_names:
             strict: true
         - .ufo.cleanup: 
@@ -121,7 +110,7 @@
         styles: [""]
         formats: [designspace]
     to:
-        folder: ../fonts/HandjetVF/
+        folder: ../fonts/Handjet/
         family: Handjet
         styles: [VF]
         formats: [ttf]
@@ -153,22 +142,22 @@
             remove_formats: ttf
             to_folder: true
 -  
-    name: Handjet Display - compile webfonts
+    name: Handjet VF - compile webfonts
     from:
         folder: ../fonts/Handjet/
-        family: Handjet Display
+        family: Handjet
         formats: [ttf]
-        styles: *display_styles
+        styles: [VF]
         minify: true
     to:
         folder: ../fonts/HandjetWeb/
-        family: Handjet Display Web
+        family: Handjet Web
         minify: true
-    make_webfonts:
+    make_webfonts_variable:
         - .copy_fonts:
             folder: ../fonts/HandjetWeb/
-        - .post.rename_family:
-            family_name: Handjet Web
+        #- .post.rename_family:
+        #    family_name: Handjet Web
         - .post.make_webfonts
         - .remove_fonts:
             remove_formats: ttf
