@@ -2,60 +2,70 @@
 # Tables
 
 table OS/2 {
-	FSType				4;
-	UnicodeRange		0		# Basic Latin
-						1		# Latin-1 Supplement
-						2		# Latin Extended-A
-						3		# Latin Extended-B
-						6		# Combining Diacritical Marks
-						29		# Latin Extended Additional
-						31		# General Punctuation
-						32		# Superscripts And Subscripts
-						33		# Currency Symbols
-						;
-	CodePageRange		1250	# Latin 2: Eastern Europe
-						1252	# Latin 1
-						1254	# Turkish
-						1257	# Baltic
-						865		# MS-DOS Nordic
-						863		# MS-DOS Canadian French
-						861		# MS-DOS Icelandic
-						860		# MS-DOS Portuguese
-						857		# IBM Turkish
-						852		# Latin 2
-						775		# MS-DOS Baltic
-						850		# WE/Latin 1
-						437		# US
-						;
-	winAscent			1030;
-	winDescent			330;
-	TypoAscender		780;
-	TypoDescender		-280;
-	TypoLineGap			300;
-	XHeight				478;		# differs from weight to weight
-	CapHeight			670;
-	Vendor				" RST";
-	Panose              $openTypeOS2Panose; # replaced from fontinfo.yaml
-	WeightClass			$openTypeOS2WeightClass; # replaced from fontinfo.yaml
-	WidthClass			$openTypeOS2WidthClass; # replaced from fontinfo.yaml
+    FSType              4;
+    UnicodeRange        0       # Basic Latin
+                        1       # Latin-1 Supplement
+                        2       # Latin Extended-A
+                        3       # Latin Extended-B
+                        6       # Combining Diacritical Marks
+                        7       # Greek and Coptic
+                        9       # Cyrillic
+                        29      # Latin Extended Additional
+                        31      # General Punctuation
+                        32      # Superscripts And Subscripts
+                        33      # Currency Symbols
+                        37      # Arrows
+                        ;
+    CodePageRange       1250    # Latin 2: Eastern Europe
+                        1251    # Cyrillic
+                        1252    # Latin 1
+                        1253    # Greek
+                        1254    # Turkish
+                        1257    # Baltic
+                        1258    # Vietnamese
+                        869     # IBM Greek
+                        866     # MS-DOS Russian
+                        865     # MS-DOS Nordic
+                        863     # MS-DOS Canadian French
+                        861     # MS-DOS Icelandic
+                        860     # MS-DOS Portuguese
+                        857     # IBM Turkish
+                        855     # IBM Cyrillic; primarily Russian
+                        852     # Latin 2
+                        775     # MS-DOS Baltic
+                        737     # Greek; former 437 G
+                        850     # WE/Latin 1
+                        437     # US
+                        ;
+      winAscent         900;
+      winDescent        300;
+      TypoAscender      900;
+      TypoDescender     -300;
+      TypoLineGap       0;
+      XHeight           480;
+      CapHeight         660;
+      Vendor            " RST";
+      Panose            $openTypeOS2Panose; # replaced from fontinfo.yaml
+      WeightClass       $openTypeOS2WeightClass; # replaced from fontinfo.yaml
+      WidthClass        5;
 } OS/2;
 
 table hhea {
-	#CaretOffset -50;
-	Ascender 1030;
-	Descender -330;
-	LineGap 0;
+      #CaretOffset -50;
+      Ascender  900;
+      Descender -300;
+      LineGap   0;
 } hhea;
 
 table name {
-	nameid 0 "Copyright (c) 2018 by David Březina. Published by Rosetta. All rights reserved.";
-	nameid 8 "Rosetta Type Foundry";
-	nameid 9 "David Březina";
-	nameid 11 "https://www.rosettatype.com";
-	nameid 12 "https://www.rosettatype.com";
-	nameid 13 "IMPORTANT, please read our license agreement at http://rosettatype.com/licence";
-	nameid 14 "https://rosettatype.com/license";
-	nameid 25 "Handjet";
+      nameid 0 "Copyright (c) 2018 by David Březina. Published by Rosetta. All rights reserved.";
+      nameid 8 "Rosetta Type Foundry";
+      nameid 9 "David Březina";
+      nameid 11 "https://www.rosettatype.com";
+      nameid 12 "https://www.rosettatype.com";
+      nameid 13 "IMPORTANT, please read our license agreement at http://rosettatype.com/licence";
+      nameid 14 "https://rosettatype.com/license";
+      nameid 25 "Handjet";
 } name;
 
 

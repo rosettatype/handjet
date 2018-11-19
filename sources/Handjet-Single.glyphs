@@ -13561,32 +13561,6 @@ width = 300;
 },
 {
 color = 4;
-glyphname = brevetildecomb.case;
-lastChange = "2018-11-19 16:28:17 +0000";
-layers = (
-{
-anchors = (
-{
-name = _top;
-position = "{150, 480}";
-}
-);
-components = (
-{
-name = brevecomb.case;
-},
-{
-name = tildecomb;
-transform = "{1, 0, 0, 1, 0, 150}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 300;
-}
-);
-},
-{
-color = 4;
 glyphname = tildecomb.narrow;
 lastChange = "2018-11-19 16:28:17 +0000";
 layers = (
@@ -13941,7 +13915,7 @@ unicode = 1EB2;
 },
 {
 glyphname = Abrevetilde;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-19 18:35:39 +0000";
 layers = (
 {
 components = (
@@ -13949,8 +13923,13 @@ components = (
 name = A;
 },
 {
-name = brevetildecomb.case;
+name = brevecomb.case;
 transform = "{1, 0, 0, 1, 60, 180}";
+},
+{
+alignment = -1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 60, 330}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";

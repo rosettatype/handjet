@@ -50,7 +50,7 @@ feature aalt {
 
 feature ccmp {
     lookup ccmp_Other_1 {
-        @combining_top_accents = [acutecomb brevecomb caroncomb circumflexcomb commaaccentturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+        @combining_top_accents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
         @combining_nontop_accents = [cedillacomb ogonekcomb];
         sub [i]' @combining_top_accents by [idotless];
         sub [i]' @combining_nontop_accents @combining_top_accents by [idotless];
@@ -69,6 +69,10 @@ feature ccmp {
 # Localized forms
 
 feature locl {
+    sub firsttonechinese by macroncomb;
+    sub secondtonechinese by acutecomb;
+    sub fourthtonechinese by gravecomb;
+
     script latn; # Latin
         # i -> idotaccent substitution effectively switches off the fi and ffi ligatures
         language TRK; # Turkish
@@ -84,22 +88,133 @@ feature locl {
         language TAT; # Tatar
             lookup LOCL_TRK;
 
+        # handling of S and T with commaaccent
+        language ROM; # Romanian
+            lookup LOCL_ROM {
+                sub Scedilla by Scommaaccent;
+                sub scedilla by scommaaccent;
+                sub Tcedilla by Tcommaaccent;
+                sub tcedilla by tcommaaccent;
+            } LOCL_ROM;
+        language MOL; # Moldavian
+            lookup LOCL_ROM;
+
+        # Catalan dot
+        language CAT; # Catalan
+            sub l periodcentered' l by periodcentered.CAT;
+            sub L periodcentered' L by periodcentered.CAT.case;
+
+        # Dutch ij and ij with acute
+        # some overlap with ccmp as ccmp gets removed from Latin-only version
+        language NLD; # Dutch
+            lookup LOCL_DUTCHIJ_DECOMPOSE {
+                sub ij by i j;
+                sub IJ by I J;  
+            } LOCL_DUTCHIJ_DECOMPOSE;
+            lookup LOCL_DUTCHJACUTE {
+                sub i' j acutecomb by iacute;
+                sub I' J acutecomb by Iacute;
+                sub iacute j' acutecomb' by jacute;
+                sub Iacute J' acutecomb' by Jacute;
+                sub iacute j' by jacute;
+                sub Iacute J' by Jacute;
+            } LOCL_DUTCHJACUTE;
+            lookup LOCL_DUTCHIJACUTE_COMPOSE {
+                sub ij acutecomb by iacute_j.NLD;
+                sub IJ acutecomb by Iacute_J.NLD;
+                sub i j acutecomb by iacute_j.NLD;
+                sub I J acutecomb by Iacute_J.NLD;
+            } LOCL_DUTCHIJACUTE_COMPOSE;
+        language VIT;
+            sub circumflexcomb acutecomb by circumflexacutecomb;
+            sub circumflexcomb gravecomb by circumflexgravecomb;
+            sub circumflexcomb hookabovecomb by circumflexhookabovecomb;
+            sub circumflexcomb tildecomb by circumflextildecomb;
+
+    script cyrl;
+        language SRB; # Serbian
+            lookup LOCL_SRB {
+                sub c.be by c.be.SRB;
+            } LOCL_SRB;
+        language MKD; # Moldavian
+            lookup LOCL_SRB;
+        language BGR; # Bulgarian
+            lookup LOCL_BGR {
+                sub c.De by c.De.BGR;
+                sub c.El by c.El.BGR;
+                sub c.ve by c.ve.BGR;
+                sub c.ghe by c.ghe.BGR;
+                sub c.de by c.de.BGR;
+                sub c.zhe by c.zhe.BGR;
+                sub c.ze by c.ze.BGR;
+                sub c.i by c.i.BGR;
+                sub c.ishort by c.ishort.BGR;
+                sub c.igrave by c.igrave.BGR;
+                sub c.ka by c.ka.BGR;
+                sub c.el by c.el.BGR;
+                sub c.pe by c.pe.BGR;
+                sub c.te by c.te.BGR;
+                sub c.tse by c.tse.BGR;
+                sub c.sha by c.sha.BGR;
+                sub c.shcha by c.shcha.BGR;
+                sub c.yu by c.yu.BGR;
+            } LOCL_BGR;
 } locl;
 
 
 
 #----------------------------------------------------------------------------
-# Latin
-#----------------------------------------------------------------------------
-
-
-#----------------------------------------------------------------------------
 # Case-sensitive forms
 
+@BRACKETS = [parenleft parenright bracketleft bracketright braceleft braceright angledbracketleft angledbracketright bar brokenbar];
+
+@hyphens = [hyphen softhyphen hyphentwo nonbreakinghyphen hyphen.case];
+
+@grUppercaseTonos = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos];
+
+@grUppercaseNoTonos = [Alpha Epsilon Eta Iota Omicron Upsilon Omega];
+
 feature case {
-    sub periodcentered.CAT by periodcentered.CAT.case;
     sub questiondown by questiondown.case;
     sub exclamdown by exclamdown.case;
+    sub at by at.case;
+    sub @hyphens by hyphen.case;
+    sub colon by colon.case;
+    sub endash by endash.case;
+    sub emdash by emdash.case;
+    sub guilsinglleft by guilsinglleft.case;
+    sub guilsinglright by guilsinglright.case;
+    sub guillemetleft by guillemetleft.case;
+    sub guillemetright by guillemetright.case;
+    sub circumflexcomb by circumflexcomb.case;
+    sub caroncomb by caroncomb.case;
+    sub brevecomb by brevecomb.case;
+    sub acutecomb by acutecomb.case;
+    sub gravecomb by gravecomb.case;
+    sub circumflextildecomb by circumflextildecomb.case;
+    sub circumflexgravecomb by circumflexgravecomb.case;
+    sub circumflexhookabovecomb by circumflexhookabovecomb.case;
+    sub circumflexacutecomb by circumflexacutecomb.case;
+    sub bulletoperator by bulletoperator.case;
+    sub periodcentered.CAT by periodcentered.CAT.case;
+    sub tonoscomb by tonoscomb.case;
+
+    # Greek
+
+    # a fix for monotonic and polytonic orthography in all-cap setting
+    # add dialytika after letters with tonos, varia, or oxia
+    sub @grUppercaseTonos [Upsilon Iota]' by [Upsilondieresis Iotadieresis];    
+    # remove accents in all-cap setting
+    sub @grUppercaseTonos by @grUppercaseNoTonos;
+
+    # shift some punctuation
+    pos bullet <0 60 0 0>;
+    pos @BRACKETS <0 60 0 0>;
+
+    # German Eszett
+    # to fix apps which do not support the new orthography yet
+
+    sub germandbls by Germandbls;
 } case;
 
 
@@ -169,10 +284,259 @@ feature dnom {
 # Fractions
 
 feature frac {
-    sub [slash divisionslash] by fraction;
-    sub one [fraction slash] two by onehalf;
-    sub one [fraction slash] four by onequarter;
-    sub three [fraction slash] four by threequarters;
+    @numerators = [zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior];
+
+    @denominators = [zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];
+
+    @figures = [zero one two three four five six seven eight nine];
+
+    lookup percent {
+    sub zero [slash fraction divisionslash] zero by percent;
+    sub zero [slash fraction divisionslash] zero zero by perthousand;
+    } percent;
+    lookup FractionBar {
+         ignore sub slash
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash';
+         ignore sub slash'
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash;
+         ignore sub slash
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash';
+         ignore sub slash'
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash;
+         ignore sub slash
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash';
+         ignore sub slash'
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash;
+         ignore sub slash
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash';
+         ignore sub slash'
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash;
+         ignore sub slash
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash';
+         ignore sub slash'
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash;
+         ignore sub slash
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash';
+         ignore sub slash'
+             @figures
+             @figures
+             @figures
+             @figures
+             @figures
+             slash;
+         ignore sub slash
+             @figures
+             @figures
+             @figures
+             @figures
+             slash';
+         ignore sub slash'
+             @figures
+             @figures
+             @figures
+             @figures
+             slash;
+         ignore sub slash
+             @figures
+             @figures
+             @figures
+             slash';
+         ignore sub slash'
+             @figures
+             @figures
+             @figures
+             slash;
+         ignore sub slash
+             @figures
+             @figures
+             slash';
+         ignore sub slash'
+             @figures
+             @figures
+             slash;
+         ignore sub slash
+             @figures
+             slash';
+         ignore sub slash'
+             @figures
+             slash;
+         sub @figures slash' @figures by fraction;
+    } FractionBar;
+
+    lookup Numerator1 {
+         sub @figures'
+         fraction by @numerators;
+    } Numerator1;
+
+    lookup Denominator {
+         sub [fraction @denominators]
+         @figures' by @denominators;
+    } Denominator;
+
+    sub @figures space' @numerators by thinspace;
+
+    # Vulgar fractions
+    sub onesuperior fraction nineinferior by onehalf;
+    sub onesuperior fraction threeinferior by onethird;
+    sub twosuperior fraction threeinferior by twothirds;
+    sub onesuperior fraction fourinferior by onequarter;
+    sub threesuperior fraction fourinferior by threequarters;
+    sub onesuperior fraction fiveinferior by onefifth;
+    sub twosuperior fraction fiveinferior by twofifths;
+    sub threesuperior fraction fiveinferior by threefifths;
+    sub foursuperior fraction fiveinferior by fourfifths;
+    sub onesuperior fraction sixinferior by onesixth;
+    sub fivesuperior fraction sixinferior by fivesixths;
+    sub onesuperior fraction seveninferior by oneseventh;
+    sub twosuperior fraction seveninferior by twosevenths;
+    sub threesuperior fraction seveninferior by threesevenths;
+    sub foursuperior fraction seveninferior by foursevenths;
+    sub fivesuperior fraction seveninferior by fivesevenths;
+    sub sixsuperior fraction seveninferior by sixsevenths;
+    sub onesuperior fraction eightinferior by oneeighth;
+    sub threesuperior fraction eightinferior by threeeighths;
+    sub fivesuperior fraction eightinferior by fiveeighths;
+    sub sevensuperior fraction eightinferior by seveneighths;
+    sub onesuperior fraction nineinferior by oneninth;
+    sub twosuperior fraction nineinferior by twoninths;
+    sub foursuperior fraction nineinferior by fourninths;
+    sub fivesuperior fraction nineinferior by fiveninths;
+    sub sevensuperior fraction nineinferior by sevenninths;
+    sub eightsuperior fraction nineinferior by eightninths;
 } frac;
 
+
+
+#----------------------------------------------------------------------------
+# Ligatures
+
+feature liga {
+    sub idieresis idieresis by idieresis_idieresis;
+} liga;
+
+
+
+#----------------------------------------------------------------------------
+# Discretionary ligatures
+
+feature dlig {
+    lookup ANIMALS {
+        sub colon c a t w h i t e colon by catWhite;
+        sub colon c a t b l a c k colon by catBlack;
+        sub colon c a t colon by catWhite;
+        sub colon d o g w h i t e colon by dogWhite;
+        sub colon d o g b l a c k colon by dogBlack;
+        sub colon d o g colon by dogWhite;
+        sub colon o w l w h i t e colon by owlWhite;
+        sub colon o w l b l a c k colon by owlBlack;
+        sub colon o w l colon by owlWhite;
+
+        sub lozenge [bar slash] by lozenge.pica;
+    } ANIMALS;
+    lookup KASHIDOG {
+        sub [dogWhite.head dogWhite.body] colon' [space underscore] by dogWhite.butt;
+        sub [dogWhite.head dogWhite.body] colon' by dogWhite.body;
+        sub dogWhite' colon by dogWhite.head;
+    } KASHIDOG;
+} dlig;
+
+feature ss01 {
+    lookup ANIMALS;
+    lookup KASHIDOG;
+} ss01;
+
+feature ss02 {
+    # make them long, make them tall, make them fly
+    sub catWhite by catWhite.long;
+    sub catBlack by catBlack.long;
+    sub dogWhite by dogWhite.head dogWhite.body dogWhite.butt;
+    sub dogBlack by dogBlack.head dogBlack.body dogBlack.butt;
+    sub owlWhite by owlWhite.flying;
+    sub owlBlack by owlBlack.flying;
+} ss02;
 

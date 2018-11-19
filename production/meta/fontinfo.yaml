@@ -110,7 +110,7 @@ Handjet:
 
 # instances
 
-Handjet Heart:
+HandjetHeart:
   shared:
     openTypeOS2WidthClass: 5
   Thin:
@@ -158,7 +158,7 @@ Handjet Heart:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Heart Black
     styleMapStyleName: regular # needs to be lowercase
-Handjet Flower:
+andjetFlower:
   shared:
     openTypeOS2WidthClass: 5
   Thin:
@@ -206,7 +206,7 @@ Handjet Flower:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Flower Black
     styleMapStyleName: regular # needs to be lowercase
-Handjet Circle:
+HandjetCircle:
   shared:
     openTypeOS2WidthClass: 5
   Thin:
@@ -254,7 +254,7 @@ Handjet Circle:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Circle Black
     styleMapStyleName: regular # needs to be lowercase
-Handjet Lozenge:
+HandjetLozenge:
   shared:
     openTypeOS2WidthClass: 5
   Thin:
@@ -302,7 +302,7 @@ Handjet Lozenge:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Lozenge Black
     styleMapStyleName: regular # needs to be lowercase
-Handjet Square:
+HandjetSquare:
   shared:
     openTypeOS2WidthClass: 5
   Thin:
@@ -350,8 +350,7 @@ Handjet Square:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Square Black
     styleMapStyleName: regular # needs to be lowercase
-
-Handjet Double Heart:
+HandjetDoubleHeart:
   shared:
     openTypeOS2WidthClass: 5
   Thin:
@@ -399,7 +398,7 @@ Handjet Double Heart:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Double Heart Black
     styleMapStyleName: regular # needs to be lowercase
-Handjet Double Flower:
+HandjetDoubleFlower:
   shared:
     openTypeOS2WidthClass: 5
   Thin:
@@ -447,7 +446,7 @@ Handjet Double Flower:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Double Flower Black
     styleMapStyleName: regular # needs to be lowercase
-Handjet Double Circle:
+HandjetDoubleCircle:
   shared:
     openTypeOS2WidthClass: 5
   Thin:
@@ -495,7 +494,7 @@ Handjet Double Circle:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Double Circle Black
     styleMapStyleName: regular # needs to be lowercase
-Handjet Double Lozenge:
+HandjetDoubleLozenge:
   shared:
     openTypeOS2WidthClass: 5
   Thin:
@@ -543,7 +542,7 @@ Handjet Double Lozenge:
     openTypeOS2Panose: [2, 13, 10, 3, 4, 3, 0, 0, 0, 4]
     styleMapFamilyName: Handjet Double Lozenge Black
     styleMapStyleName: regular # needs to be lowercase
-Handjet Double Square:
+HandjetDoubleSquare:
   shared:
     openTypeOS2WidthClass: 5
   Thin:

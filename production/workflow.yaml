@@ -25,39 +25,12 @@
     name: Handjet - preprocess ufo & make ttf
     from:
         folder: instance_ufo
-        family: Handjet
+        family: HandjetCircle
         formats: [ufo]
         styles: &styles [Thin, Extralight, Light, Regular, Medium, Semibold, Bold, Extrabold, Black]
     to:
         folder: ../fonts/Handjet/
-        family: Handjet
-        formats: [ttf]
-        minify: true
-    preprocess_ufo:
-        - glyphsdb.ufo.sync_names:
-            strict: true
-        - .ufo.cleanup: 
-            zero_width_combining_marks: true
-        - .ufo.fontinfo:
-            fontinfo_file: meta/fontinfo.yaml
-        - .ufo.add_features:
-            feature_file: [features/features.fea]
-            placeholders_file: meta/fontinfo.yaml
-            generate: [kern, mark]
-    make_ttf:
-        - .ufo.make_ttf
-        - .post.add_dsig
-        - .post.minify_names
--
-    name: Handjet Display - preprocess ufo & make ttf
-    from:
-        folder: instance_ufo
-        family: Handjet Display
-        formats: [ufo]
-        styles: &display_styles [Hairline, Double, Heavy]
-    to:
-        folder: ../fonts/Handjet/
-        family: Handjet Display
+        family: HandjetCircle
         formats: [ttf]
         minify: true
     preprocess_ufo:
