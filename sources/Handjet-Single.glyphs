@@ -886,26 +886,25 @@ clubsuitblack,
 diamondsuitblack,
 heavyBlackHeart,
 lozenge.pica,
-catWhite,
-catWhite.long,
-catWhite.body,
-catWhite.tail,
-catWhite.longtail,
-catBlack,
-catBlack.long,
-catBlack.body,
-dogWhite,
-dogWhite.head,
-dogWhite.body,
-dogWhite.butt,
-dogBlack,
-dogBlack.head,
-dogBlack.body,
-dogBlack.butt,
-owlWhite,
-owlWhite.flying,
-owlBlack,
-owlBlack.flying,
+cat,
+cat.body,
+cat.tail,
+cat.talltail,
+cat.tallertail,
+cat.black,
+cat.black.body,
+dog,
+dog.head,
+dog.body,
+dog.butt,
+dog.black,
+dog.black.head,
+dog.black.body,
+dog.black.butt,
+owl,
+owl.flying,
+owl.black,
+owl.black.flying,
 _part,
 _part2
 );
@@ -48575,17 +48574,16 @@ width = 420;
 );
 },
 {
-color = 4;
-glyphname = catWhite;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = cat;
+lastChange = "2018-11-20 09:39:11 +0000";
 layers = (
 {
 components = (
 {
-name = catWhite.body;
+name = cat.body;
 },
 {
-name = catWhite.tail;
+name = cat.tail;
 transform = "{1, 0, 0, 1, 750, 0}";
 }
 );
@@ -48593,31 +48591,12 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 870;
 }
 );
+unicode = 1F408;
 },
 {
 color = 4;
-glyphname = catWhite.long;
-lastChange = "2018-11-19 16:28:18 +0000";
-layers = (
-{
-components = (
-{
-name = catWhite.body;
-},
-{
-name = catWhite.longtail;
-transform = "{1, 0, 0, 1, 750, 0}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 870;
-}
-);
-},
-{
-color = 4;
-glyphname = catWhite.body;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = cat.body;
+lastChange = "2018-11-20 09:33:44 +0000";
 layers = (
 {
 components = (
@@ -48879,8 +48858,8 @@ width = 750;
 },
 {
 color = 4;
-glyphname = catWhite.tail;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = cat.tail;
+lastChange = "2018-11-20 09:33:57 +0000";
 layers = (
 {
 components = (
@@ -48907,8 +48886,8 @@ width = 120;
 },
 {
 color = 4;
-glyphname = catWhite.longtail;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = cat.talltail;
+lastChange = "2018-11-20 09:34:05 +0000";
 layers = (
 {
 components = (
@@ -48955,16 +48934,74 @@ width = 120;
 },
 {
 color = 4;
-glyphname = catBlack;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = cat.tallertail;
+lastChange = "2018-11-20 09:37:23 +0000";
 layers = (
 {
 components = (
 {
-name = catBlack.body;
+alignment = -1;
+name = _part;
+transform = "{1, 0, 0, 1, -120, 720}";
 },
 {
-name = catWhite.tail;
+alignment = -1;
+name = _part;
+transform = "{1, 0, 0, 1, -120, 660}";
+},
+{
+alignment = -1;
+name = _part;
+transform = "{1, 0, 0, 1, -120, 600}";
+},
+{
+alignment = -1;
+name = _part;
+transform = "{1, 0, 0, 1, -120, 540}";
+},
+{
+alignment = -1;
+name = _part;
+transform = "{1, 0, 0, 1, -60, 900}";
+},
+{
+alignment = -1;
+name = _part;
+transform = "{1, 0, 0, 1, 0, 840}";
+},
+{
+alignment = -1;
+name = _part;
+transform = "{1, 0, 0, 1, 0, 780}";
+},
+{
+alignment = -1;
+name = _part;
+transform = "{1, 0, 0, 1, -120, 840}";
+},
+{
+alignment = -1;
+name = _part;
+transform = "{1, 0, 0, 1, -120, 780}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 120;
+}
+);
+},
+{
+color = 4;
+glyphname = cat.black;
+lastChange = "2018-11-20 09:35:53 +0000";
+layers = (
+{
+components = (
+{
+name = cat.black.body;
+},
+{
+name = cat.tail;
 transform = "{1, 0, 0, 1, 750, 0}";
 }
 );
@@ -48975,28 +49012,8 @@ width = 870;
 },
 {
 color = 4;
-glyphname = catBlack.long;
-lastChange = "2018-11-19 16:28:18 +0000";
-layers = (
-{
-components = (
-{
-name = catBlack.body;
-},
-{
-name = catWhite.longtail;
-transform = "{1, 0, 0, 1, 750, 0}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 870;
-}
-);
-},
-{
-color = 4;
-glyphname = catBlack.body;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = cat.black.body;
+lastChange = "2018-11-20 09:35:53 +0000";
 layers = (
 {
 components = (
@@ -49357,16 +49374,16 @@ width = 750;
 );
 },
 {
-glyphname = dogWhite;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = dog;
+lastChange = "2018-11-20 09:34:38 +0000";
 layers = (
 {
 components = (
 {
-name = dogWhite.head;
+name = dog.head;
 },
 {
-name = dogWhite.butt;
+name = dog.butt;
 transform = "{1, 0, 0, 1, 510, 0}";
 }
 );
@@ -49374,11 +49391,12 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 870;
 }
 );
+unicode = 1F415;
 },
 {
 color = 4;
-glyphname = dogWhite.head;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = dog.head;
+lastChange = "2018-11-20 09:34:37 +0000";
 layers = (
 {
 components = (
@@ -49535,8 +49553,8 @@ width = 510;
 },
 {
 color = 4;
-glyphname = dogWhite.body;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = dog.body;
+lastChange = "2018-11-20 09:34:37 +0000";
 layers = (
 {
 components = (
@@ -49578,8 +49596,8 @@ width = 180;
 },
 {
 color = 4;
-glyphname = dogWhite.butt;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = dog.butt;
+lastChange = "2018-11-20 09:34:37 +0000";
 layers = (
 {
 components = (
@@ -49691,16 +49709,16 @@ width = 360;
 },
 {
 color = 4;
-glyphname = dogBlack;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = dog.black;
+lastChange = "2018-11-20 09:35:32 +0000";
 layers = (
 {
 components = (
 {
-name = dogBlack.head;
+name = dog.black.head;
 },
 {
-name = dogBlack.butt;
+name = dog.black.butt;
 transform = "{1, 0, 0, 1, 510, 0}";
 }
 );
@@ -49711,8 +49729,8 @@ width = 870;
 },
 {
 color = 4;
-glyphname = dogBlack.head;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = dog.black.head;
+lastChange = "2018-11-20 09:35:32 +0000";
 layers = (
 {
 components = (
@@ -49934,8 +49952,8 @@ width = 510;
 },
 {
 color = 4;
-glyphname = dogBlack.body;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = dog.black.body;
+lastChange = "2018-11-20 09:35:32 +0000";
 layers = (
 {
 components = (
@@ -50007,8 +50025,8 @@ width = 180;
 },
 {
 color = 4;
-glyphname = dogBlack.butt;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = dog.black.butt;
+lastChange = "2018-11-20 09:35:32 +0000";
 layers = (
 {
 components = (
@@ -50160,8 +50178,8 @@ width = 360;
 },
 {
 color = 4;
-glyphname = owlWhite;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = owl;
+lastChange = "2018-11-20 09:33:02 +0000";
 layers = (
 {
 components = (
@@ -50490,11 +50508,12 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 960;
 }
 );
+unicode = 1F989;
 },
 {
 color = 4;
-glyphname = owlWhite.flying;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = owl.flying;
+lastChange = "2018-11-20 09:33:08 +0000";
 layers = (
 {
 components = (
@@ -50856,8 +50875,8 @@ width = 960;
 },
 {
 color = 4;
-glyphname = owlBlack;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = owl.black;
+lastChange = "2018-11-20 09:34:49 +0000";
 layers = (
 {
 components = (
@@ -51319,8 +51338,8 @@ width = 960;
 },
 {
 color = 4;
-glyphname = owlBlack.flying;
-lastChange = "2018-11-19 16:28:18 +0000";
+glyphname = owl.black.flying;
+lastChange = "2018-11-20 09:33:18 +0000";
 layers = (
 {
 components = (
