@@ -506,22 +506,23 @@ feature liga {
 
 feature dlig {
     lookup ANIMALS {
-        sub colon c a t w h i t e colon by catWhite;
-        sub colon c a t b l a c k colon by catBlack;
-        sub colon c a t colon by catWhite;
-        sub colon d o g w h i t e colon by dogWhite;
-        sub colon d o g b l a c k colon by dogBlack;
-        sub colon d o g colon by dogWhite;
-        sub colon o w l w h i t e colon by owlWhite;
-        sub colon o w l b l a c k colon by owlBlack;
-        sub colon o w l colon by owlWhite;
+        sub colon c a t colon by cat;
+        sub colon c a t b l a c k colon by cat.black;
+        sub colon c a t r i g h t colon by cat.right;
+        sub colon c a t b l a c k r i g h t colon by cat.black.right;
+        sub colon d o g colon by dog;
+        sub colon d o g b l a c k colon by dog.black;
+        sub colon d o g r i g h t colon by dog.right;
+        sub colon d o g b l a c k r i g h t colon by dog.black.right;
+        sub colon o w l colon by owl;
+        sub colon o w l b l a c k colon by owl.black;
 
         sub lozenge [bar slash] by lozenge.pica;
     } ANIMALS;
     lookup KASHIDOG {
-        sub [dogWhite.head dogWhite.body] colon' [space underscore] by dogWhite.butt;
-        sub [dogWhite.head dogWhite.body] colon' by dogWhite.body;
-        sub dogWhite' colon by dogWhite.head;
+        sub dog.body' [space underscore] by dog.butt;
+        sub [dog.head dog.body] colon' by dog.body;
+        sub dog' colon by dog.head;
     } KASHIDOG;
 } dlig;
 
@@ -532,11 +533,9 @@ feature ss01 {
 
 feature ss02 {
     # make them long, make them tall, make them fly
-    sub catWhite by catWhite.long;
-    sub catBlack by catBlack.long;
-    sub dogWhite by dogWhite.head dogWhite.body dogWhite.butt;
-    sub dogBlack by dogBlack.head dogBlack.body dogBlack.butt;
-    sub owlWhite by owlWhite.flying;
-    sub owlBlack by owlBlack.flying;
+    sub dog by dog.head dog.body dog.butt;
+    sub dog.black by dog.black.head dog.black.body dog.black.butt;
+    sub owl by owl.flying;
+    sub owl.black by owl.black.flying;
 } ss02;
 
