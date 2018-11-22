@@ -1,6 +1,8 @@
 #MenuTitle: combine glyph alternates as masters
 # encoding: utf-8
 
+font = Glyphs.currentDocument.font
+
 master_id = font.selectedFontMaster.id
 
 font.disableUpdateInterface()
@@ -18,3 +20,5 @@ for target_name in ["_shape", "_grid"]:
             newlay.layerId = lay_id
             target_glyph.layers[lay_id] = newlay
     target_glyph.endUndo()
+
+font.enableUpdateInterface()
