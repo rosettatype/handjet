@@ -1,5 +1,5 @@
 {
-.appVersion = "1179";
+.appVersion = "1141";
 copyright = "Copyright © 2018 by David Brezina. All rights reserved.";
 customParameters = (
 {
@@ -895,8 +895,12 @@ cat.tail,
 cat.talltail,
 cat.tallertail,
 cat.right,
+cat.tall.right,
+cat.taller.right,
 cat.body.right,
 cat.black.right,
+cat.black.tall.right,
+cat.black.taller.right,
 cat.black.body.right,
 cat.tail.right,
 cat.talltail.right,
@@ -926,10 +930,16 @@ _shape
 );
 }
 );
-date = "2018-11-21 16:01:51 +0000";
+date = "2018-11-22 20:20:48 +0000";
 designer = "David Brezina";
 designerURL = "https://rosettatype.com";
 familyName = Handjet;
+features = (
+{
+code = "lookup ANIMALS {\012    sub colon c a t by cat;\012    sub colon b l a c k c a t by cat.black;\012    sub colon r i g h t c a t t t by cat.taller.right;\012    sub colon r i g h t c a t t by cat.tall.right;\012    sub colon r i g h t c a t by cat.right;\012    sub colon b l a c k r i g h t c a t t t by cat.black.taller.right;\012    sub colon b l a c k r i g h t c a t t by cat.black.tall.right;\012    sub colon b l a c k r i g h t c a t by cat.black.right;\012    \012    sub colon o w l  by owl;\012    sub colon f l y i n g o w l  by owl.flying;\012    sub colon b l a c k o w l by owl.black;\012    sub colon b l a c k f l y i n g o w l by owl.black.flying;\012\012    sub lozenge [bar slash] by lozenge.pica;\012    sub less [bar slash] greater by lozenge.pica;\012} ANIMALS;\012\012lookup CATS_1 {\012	sub [cat cat.black] t' t' by cat.tallertail;\012	sub [cat cat.black] t' by cat.talltail;\012} CATS_1;\012\012lookup CATS_2 {\012	sub cat' [cat.tallertail cat.talltail] by cat.body;\012	sub cat.black' [cat.tallertail cat.talltail] by cat.black.body;\012} CATS_2;\012\012lookup KASHIDOGS_LEFT {\012	sub colon' d' [o dog.body dog.butt] by dog.head;\012	sub [dog.head dog.body] o' g' by dog.butt;\012	sub [dog.head dog.body] o' by dog.body;\012	sub colon' b' l' a' c' k' d' [o dog.body dog.butt] by dog.black.head;\012	sub [dog.black.head dog.black.body] o' g' by dog.black.butt;\012	sub [dog.black.head dog.black.body] o' by dog.black.body;\012} KASHIDOGS_LEFT;\012\012lookup KASHIDOGS_RIGHT {\012	sub colon' r' i' g' h' t' d' [o dog.body dog.head.right] by dog.butt.right;\012	sub [dog.butt.right dog.body] o' g' by dog.head.right;\012	sub [dog.butt.right dog.body] o' by dog.body;\012	\012	sub colon' b' l' a' c' k' r' i' g' h' t' d' [o dog.body dog.head.right] by dog.black.butt.right;\012	sub [dog.black.butt.right dog.black.body] o' g' by dog.black.head.right;\012	sub [dog.black.butt.right dog.black.body] o' by dog.black.body;\012} KASHIDOGS_RIGHT;\012 ";
+name = dlig;
+}
+);
 fontMaster = (
 {
 ascender = 720;
@@ -1307,74 +1317,86 @@ unicode = 000D;
 {
 color = 4;
 glyphname = space;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-22 17:42:08 +0000";
 layers = (
 {
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 180;
 }
 );
+leftKerningGroup = space;
+rightKerningGroup = space;
 unicode = 0020;
 },
 {
 color = 11;
 glyphname = nbspace;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-22 17:42:08 +0000";
 layers = (
 {
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 180;
 }
 );
+leftKerningGroup = space;
 widthMetricsKey = space;
+rightKerningGroup = space;
 unicode = 00A0;
 },
 {
 color = 11;
 glyphname = enspace;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-22 17:42:08 +0000";
 layers = (
 {
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
+leftKerningGroup = space;
+rightKerningGroup = space;
 unicode = 2002;
 },
 {
 color = 11;
 glyphname = emspace;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-22 17:42:08 +0000";
 layers = (
 {
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 660;
 }
 );
+leftKerningGroup = space;
+rightKerningGroup = space;
 unicode = 2003;
 },
 {
 color = 11;
 glyphname = thinspace;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-22 17:42:08 +0000";
 layers = (
 {
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 90;
 }
 );
+leftKerningGroup = space;
+rightKerningGroup = space;
 unicode = 2009;
 },
 {
 color = 11;
 glyphname = thinnbspace;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-22 17:42:08 +0000";
 layers = (
 {
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 90;
 }
 );
+leftKerningGroup = space;
+rightKerningGroup = space;
 unicode = 202F;
 },
 {
@@ -5463,7 +5485,7 @@ unicode = 0066;
 {
 color = 4;
 glyphname = g;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-22 19:17:49 +0000";
 layers = (
 {
 anchors = (
@@ -5600,7 +5622,7 @@ transform = "{1, 0, 0, 1, 120, 60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
+width = 450;
 }
 );
 unicode = 0067;
@@ -9811,7 +9833,7 @@ unicode = 005C;
 {
 color = 4;
 glyphname = slash;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-22 17:47:28 +0000";
 layers = (
 {
 components = (
@@ -18495,7 +18517,7 @@ unicode = 1EB9;
 },
 {
 glyphname = gcircumflex;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 20:20:06 +0000";
 layers = (
 {
 components = (
@@ -18508,14 +18530,14 @@ transform = "{1, 0, 0, 1, 60, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
+width = 450;
 }
 );
 unicode = 011D;
 },
 {
 glyphname = gbreve;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 20:20:06 +0000";
 layers = (
 {
 components = (
@@ -18528,14 +18550,14 @@ transform = "{1, 0, 0, 1, 60, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
+width = 450;
 }
 );
 unicode = 011F;
 },
 {
 glyphname = gdotaccent;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 20:20:06 +0000";
 layers = (
 {
 components = (
@@ -18548,14 +18570,14 @@ transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
+width = 450;
 }
 );
 unicode = 0121;
 },
 {
 glyphname = gcommaaccent;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 20:20:06 +0000";
 layers = (
 {
 components = (
@@ -18568,7 +18590,7 @@ transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
+width = 450;
 }
 );
 unicode = 0123;
@@ -28219,14 +28241,14 @@ unicode = 0413;
 {
 color = 4;
 glyphname = c.De;
-lastChange = "2018-11-21 13:01:20 +0000";
+lastChange = "2018-11-22 17:40:16 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 60}";
+transform = "{1, 0, 0, 1, 60, 60}";
 },
 {
 alignment = -1;
@@ -28236,7 +28258,7 @@ transform = "{1, 0, 0, 1, 60, 120}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 540}";
+transform = "{1, 0, 0, 1, 90, 540}";
 },
 {
 alignment = -1;
@@ -28277,11 +28299,6 @@ transform = "{1, 0, 0, 1, 240, 600}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 180, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 600}";
 },
 {
 alignment = -1;
@@ -28390,7 +28407,7 @@ transform = "{1, 0, 0, 1, 60, 420}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 600}";
+transform = "{1, 0, 0, 1, 120, 600}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -29217,7 +29234,7 @@ unicode = 0422;
 {
 color = 4;
 glyphname = c.U;
-lastChange = "2018-11-21 13:05:55 +0000";
+lastChange = "2018-11-22 17:31:52 +0000";
 layers = (
 {
 anchors = (
@@ -29326,11 +29343,6 @@ transform = "{1, 0, 0, 1, 90, 0}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 180, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -29374,7 +29386,7 @@ unicode = 0425;
 {
 color = 4;
 glyphname = c.Tse;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:24 +0000";
 layers = (
 {
 components = (
@@ -29520,9 +29532,10 @@ transform = "{1, 0, 0, 1, 360, -120}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 480;
+width = 420;
 }
 );
+rightKerningGroup = spikes;
 unicode = 0426;
 },
 {
@@ -29841,7 +29854,7 @@ unicode = 0428;
 {
 color = 4;
 glyphname = c.Shcha;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:13 +0000";
 layers = (
 {
 components = (
@@ -30050,6 +30063,7 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 540;
 }
 );
+rightKerningGroup = spikes;
 unicode = 0429;
 },
 {
@@ -31004,7 +31018,7 @@ unicode = 0403;
 {
 color = 4;
 glyphname = c.GheUkr;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:35:18 +0000";
 layers = (
 {
 components = (
@@ -31082,6 +31096,11 @@ transform = "{1, 0, 0, 1, 60, 540}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 240, 660}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 720}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -32715,7 +32734,7 @@ unicode = 0492;
 {
 color = 4;
 glyphname = c.Zhespike;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:33 +0000";
 layers = (
 {
 components = (
@@ -32742,12 +32761,13 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 690;
 }
 );
+rightKerningGroup = spikes;
 unicode = 0496;
 },
 {
 color = 4;
 glyphname = c.Kaspike;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:33 +0000";
 layers = (
 {
 components = (
@@ -32774,12 +32794,13 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 450;
 }
 );
+rightKerningGroup = spikes;
 unicode = 049A;
 },
 {
 color = 4;
 glyphname = c.Enspike;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:33 +0000";
 layers = (
 {
 components = (
@@ -32806,12 +32827,13 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
+rightKerningGroup = spikes;
 unicode = 04A2;
 },
 {
 color = 4;
 glyphname = c.Haspike;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:33 +0000";
 layers = (
 {
 components = (
@@ -32838,12 +32860,13 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 450;
 }
 );
+rightKerningGroup = spikes;
 unicode = 04B2;
 },
 {
 color = 4;
 glyphname = c.Chespike;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:33 +0000";
 layers = (
 {
 components = (
@@ -32967,6 +32990,7 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 390;
 }
 );
+rightKerningGroup = spikes;
 unicode = 04B6;
 },
 {
@@ -34299,14 +34323,14 @@ unicode = 0433;
 {
 color = 4;
 glyphname = c.de;
-lastChange = "2018-11-21 13:16:39 +0000";
+lastChange = "2018-11-22 17:46:41 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 60}";
+transform = "{1, 0, 0, 1, 60, 60}";
 },
 {
 alignment = -1;
@@ -34335,52 +34359,7 @@ transform = "{1, 0, 0, 1, 60, 300}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 360}";
+transform = "{1, 0, 0, 1, 90, 360}";
 },
 {
 alignment = -1;
@@ -34390,17 +34369,17 @@ transform = "{1, 0, 0, 1, 240, 420}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
+transform = "{1, 0, 0, 1, 180, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
+transform = "{1, 0, 0, 1, 300, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 0}";
+transform = "{1, 0, 0, 1, 300, 120}";
 },
 {
 alignment = -1;
@@ -34410,12 +34389,57 @@ transform = "{1, 0, 0, 1, 300, 0}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, -60}";
+transform = "{1, 0, 0, 1, 300, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, -120}";
+transform = "{1, 0, 0, 1, 300, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, -60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, -120}";
 },
 {
 alignment = -1;
@@ -34430,11 +34454,16 @@ transform = "{1, 0, 0, 1, 0, -120}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
+transform = "{1, 0, 0, 1, 120, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 360;
+width = 420;
 }
 );
 unicode = 0434;
@@ -34458,7 +34487,7 @@ unicode = 0435;
 {
 color = 4;
 glyphname = c.zhe;
-lastChange = "2018-11-21 13:18:57 +0000";
+lastChange = "2018-11-22 17:32:15 +0000";
 layers = (
 {
 anchors = (
@@ -34535,22 +34564,22 @@ transform = "{1, 0, 0, 1, 360, 180}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 420, 420}";
+transform = "{1, 0, 0, 1, 450, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 390, 360}";
+transform = "{1, 0, 0, 1, 420, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 300}";
+transform = "{1, 0, 0, 1, 390, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 330, 240}";
+transform = "{1, 0, 0, 1, 360, 240}";
 },
 {
 alignment = -1;
@@ -34575,22 +34604,32 @@ transform = "{1, 0, 0, 1, 120, 180}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
+transform = "{1, 0, 0, 1, 30, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 360}";
+transform = "{1, 0, 0, 1, 60, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
+transform = "{1, 0, 0, 1, 90, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 240}";
+transform = "{1, 0, 0, 1, 120, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 210}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -34855,7 +34894,7 @@ unicode = 0439;
 {
 color = 4;
 glyphname = c.ka;
-lastChange = "2018-11-21 13:18:41 +0000";
+lastChange = "2018-11-22 17:32:31 +0000";
 layers = (
 {
 anchors = (
@@ -34927,27 +34966,32 @@ transform = "{1, 0, 0, 1, 210, 120}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
+transform = "{1, 0, 0, 1, 270, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 360}";
+transform = "{1, 0, 0, 1, 240, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 300}";
+transform = "{1, 0, 0, 1, 210, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 240}";
+transform = "{1, 0, 0, 1, 180, 240}";
 },
 {
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 180, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 210}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -35748,7 +35792,7 @@ unicode = 0445;
 {
 color = 4;
 glyphname = c.tse;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:24 +0000";
 layers = (
 {
 components = (
@@ -35864,9 +35908,10 @@ transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 480;
+width = 420;
 }
 );
+rightKerningGroup = spikes;
 unicode = 0446;
 },
 {
@@ -36121,7 +36166,7 @@ unicode = 0448;
 {
 color = 4;
 glyphname = c.shcha;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:13 +0000";
 layers = (
 {
 components = (
@@ -36282,9 +36327,10 @@ transform = "{1, 0, 0, 1, 480, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 570;
+width = 540;
 }
 );
+rightKerningGroup = spikes;
 unicode = 0449;
 },
 {
@@ -38329,7 +38375,7 @@ unicode = 0493;
 {
 color = 4;
 glyphname = c.zhespike;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:33 +0000";
 layers = (
 {
 components = (
@@ -38353,15 +38399,16 @@ transform = "{1, 0, 0, 1, 510, -120}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 570;
 }
 );
+rightKerningGroup = spikes;
 unicode = 0497;
 },
 {
 color = 4;
 glyphname = c.kaspike;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:33 +0000";
 layers = (
 {
 components = (
@@ -38388,12 +38435,13 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 390;
 }
 );
+rightKerningGroup = spikes;
 unicode = 049B;
 },
 {
 color = 4;
 glyphname = c.enspike;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:33 +0000";
 layers = (
 {
 components = (
@@ -38420,12 +38468,13 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
+rightKerningGroup = spikes;
 unicode = 04A3;
 },
 {
 color = 4;
 glyphname = c.haspike;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:33 +0000";
 layers = (
 {
 components = (
@@ -38449,15 +38498,16 @@ transform = "{1, 0, 0, 1, 360, -120}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 390;
+width = 420;
 }
 );
+rightKerningGroup = spikes;
 unicode = 04B3;
 },
 {
 color = 4;
 glyphname = c.chespike;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:33 +0000";
 layers = (
 {
 components = (
@@ -38484,6 +38534,7 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
+rightKerningGroup = spikes;
 unicode = 04B7;
 },
 {
@@ -40025,7 +40076,7 @@ width = 660;
 {
 color = 9;
 glyphname = c.tse.BGR;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:24 +0000";
 layers = (
 {
 components = (
@@ -40052,6 +40103,7 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
+rightKerningGroup = spikes;
 },
 {
 color = 9;
@@ -40209,7 +40261,7 @@ width = 660;
 {
 color = 9;
 glyphname = c.shcha.BGR;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:46:13 +0000";
 layers = (
 {
 components = (
@@ -40373,6 +40425,7 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 660;
 }
 );
+rightKerningGroup = spikes;
 },
 {
 color = 9;
@@ -41008,9 +41061,9 @@ width = 300;
 unicode = 0393;
 },
 {
-color = 0;
+color = 4;
 glyphname = Delta;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-22 17:48:12 +0000";
 layers = (
 {
 components = (
@@ -49468,17 +49521,57 @@ width = 120;
 },
 {
 glyphname = cat.right;
-lastChange = "2018-11-21 13:29:27 +0000";
+lastChange = "2018-11-22 20:14:47 +0000";
 layers = (
 {
 components = (
 {
-name = cat.body;
-transform = "{-1, 0, 0, 1, 870, 0}";
+name = cat.body.right;
+transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
 name = cat.tail;
 transform = "{-1, 0, 0, 1, 120, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 870;
+}
+);
+},
+{
+glyphname = cat.tall.right;
+lastChange = "2018-11-22 20:15:50 +0000";
+layers = (
+{
+components = (
+{
+name = cat.talltail.right;
+transform = "{1, 0, 0, 1, 180, 0}";
+},
+{
+name = cat.body.right;
+transform = "{1, 0, 0, 1, 120, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 870;
+}
+);
+},
+{
+glyphname = cat.taller.right;
+lastChange = "2018-11-22 20:15:18 +0000";
+layers = (
+{
+components = (
+{
+name = cat.tallertail.right;
+transform = "{1, 0, 0, 1, 180, 0}";
+},
+{
+name = cat.body.right;
+transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -49752,17 +49845,59 @@ width = 750;
 {
 color = 4;
 glyphname = cat.black.right;
-lastChange = "2018-11-21 13:29:27 +0000";
+lastChange = "2018-11-22 20:17:03 +0000";
 layers = (
 {
 components = (
 {
-name = cat.black.body;
-transform = "{-1, 0, 0, 1, 810, 0}";
+name = cat.black.body.right;
+transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
 name = cat.tail;
-transform = "{-1, 0, 0, 1, 60, 0}";
+transform = "{-1, 0, 0, 1, 120, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 870;
+}
+);
+},
+{
+color = 4;
+glyphname = cat.black.tall.right;
+lastChange = "2018-11-22 20:15:55 +0000";
+layers = (
+{
+components = (
+{
+name = cat.black.body.right;
+transform = "{1, 0, 0, 1, 120, 0}";
+},
+{
+name = cat.talltail.right;
+transform = "{1, 0, 0, 1, 180, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 870;
+}
+);
+},
+{
+color = 4;
+glyphname = cat.black.taller.right;
+lastChange = "2018-11-22 20:15:37 +0000";
+layers = (
+{
+components = (
+{
+name = cat.tallertail.right;
+transform = "{1, 0, 0, 1, 180, 0}";
+},
+{
+name = cat.black.body.right;
+transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -49773,54 +49908,14 @@ width = 870;
 {
 color = 4;
 glyphname = cat.black.body.right;
-lastChange = "2018-11-21 13:54:27 +0000";
+lastChange = "2018-11-22 19:55:23 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 570, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 510, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 570, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 570, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 720}";
+transform = "{1, 0, 0, 1, 630, 540}";
 },
 {
 alignment = -1;
@@ -49830,57 +49925,62 @@ transform = "{1, 0, 0, 1, 450, 660}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 720}";
+transform = "{1, 0, 0, 1, 60, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 480, 180}";
+transform = "{1, 0, 0, 1, 60, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 480, 240}";
+transform = "{1, 0, 0, 1, 570, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 420, 120}";
+transform = "{1, 0, 0, 1, 60, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 120}";
+transform = "{1, 0, 0, 1, 630, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 180}";
+transform = "{1, 0, 0, 1, 630, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 240}";
+transform = "{1, 0, 0, 1, 540, 720}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 300}";
+transform = "{1, 0, 0, 1, 510, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 420, 300}";
+transform = "{1, 0, 0, 1, 420, 720}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
+transform = "{1, 0, 0, 1, 540, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 120}";
+transform = "{1, 0, 0, 1, 540, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 120}";
 },
 {
 alignment = -1;
@@ -49890,62 +49990,12 @@ transform = "{1, 0, 0, 1, 300, 120}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 120}";
+transform = "{1, 0, 0, 1, 60, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 420, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 450, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 300}";
+transform = "{1, 0, 0, 1, 60, 240}";
 },
 {
 alignment = -1;
@@ -49955,32 +50005,32 @@ transform = "{1, 0, 0, 1, 60, 300}";
 {
 alignment = -1;
 name = _grid;
+transform = "{1, 0, 0, 1, 480, 300}";
+},
+{
+alignment = -1;
+name = _grid;
 transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
+transform = "{1, 0, 0, 1, 420, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 0}";
+transform = "{1, 0, 0, 1, 360, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 60}";
+transform = "{1, 0, 0, 1, 240, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 330, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 0}";
+transform = "{1, 0, 0, 1, 480, 60}";
 },
 {
 alignment = -1;
@@ -49995,122 +50045,12 @@ transform = "{1, 0, 0, 1, 120, 0}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
+transform = "{1, 0, 0, 1, 120, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 510, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 630, 510}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 510, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 510, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 510, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 450, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 450, 600}";
+transform = "{1, 0, 0, 1, 390, 600}";
 },
 {
 alignment = -1;
@@ -50125,7 +50065,202 @@ transform = "{1, 0, 0, 1, 390, 480}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 390, 600}";
+transform = "{1, 0, 0, 1, 450, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 660}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 690, 510}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 600}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -50136,24 +50271,24 @@ width = 750;
 {
 color = 4;
 glyphname = cat.tail.right;
-lastChange = "2018-11-21 13:54:27 +0000";
+lastChange = "2018-11-22 19:55:30 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 540}";
+transform = "{1, 0, 0, 1, 120, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, -60, 480}";
+transform = "{1, 0, 0, 1, 60, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, -60, 420}";
+transform = "{1, 0, 0, 1, 60, 420}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -51249,34 +51384,14 @@ width = 180;
 {
 color = 4;
 glyphname = dog.head.right;
-lastChange = "2018-11-21 13:54:27 +0000";
+lastChange = "2018-11-22 19:34:17 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 450, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 450, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 540}";
+transform = "{1, 0, 0, 1, 390, 480}";
 },
 {
 alignment = -1;
@@ -51286,32 +51401,42 @@ transform = "{1, 0, 0, 1, 180, 600}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 600}";
+transform = "{1, 0, 0, 1, 270, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 510}";
+transform = "{1, 0, 0, 1, 390, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 180}";
+transform = "{1, 0, 0, 1, 270, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 240}";
+transform = "{1, 0, 0, 1, 120, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 120}";
+transform = "{1, 0, 0, 1, 240, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 300}";
+transform = "{1, 0, 0, 1, 180, 510}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 240}";
 },
 {
 alignment = -1;
@@ -51321,32 +51446,47 @@ transform = "{1, 0, 0, 1, 120, 120}";
 {
 alignment = -1;
 name = _grid;
+transform = "{1, 0, 0, 1, 120, 300}";
+},
+{
+alignment = -1;
+name = _grid;
 transform = "{1, 0, 0, 1, 60, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 60}";
+transform = "{1, 0, 0, 1, 0, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
+transform = "{1, 0, 0, 1, 120, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 540}";
+transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 480}";
+transform = "{1, 0, 0, 1, 90, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 420}";
+transform = "{1, 0, 0, 1, 90, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 360}";
 },
 {
 alignment = -1;
@@ -51356,22 +51496,22 @@ transform = "{1, 0, 0, 1, 210, 360}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 270, 360}";
+transform = "{1, 0, 0, 1, 30, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 60}";
+transform = "{1, 0, 0, 1, 30, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 0}";
+transform = "{1, 0, 0, 1, 180, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
+transform = "{1, 0, 0, 1, 0, 300}";
 },
 {
 alignment = -1;
@@ -51381,22 +51521,17 @@ transform = "{1, 0, 0, 1, 60, 300}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
+transform = "{1, 0, 0, 1, 330, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 390, 360}";
+transform = "{1, 0, 0, 1, 330, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 390, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 660}";
+transform = "{1, 0, 0, 1, 90, 660}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -51654,34 +51789,14 @@ width = 180;
 {
 color = 4;
 glyphname = dog.black.head.right;
-lastChange = "2018-11-21 13:54:28 +0000";
+lastChange = "2018-11-22 19:34:59 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 450, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 450, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 540}";
+transform = "{1, 0, 0, 1, 390, 480}";
 },
 {
 alignment = -1;
@@ -51691,162 +51806,7 @@ transform = "{1, 0, 0, 1, 180, 600}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 360}";
-},
-{
-alignment = -1;
-name = _grid;
 transform = "{1, 0, 0, 1, 270, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 420}";
 },
 {
 alignment = -1;
@@ -51856,17 +51816,192 @@ transform = "{1, 0, 0, 1, 390, 420}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 330, 480}";
-},
-{
-alignment = -1;
-name = _grid;
 transform = "{1, 0, 0, 1, 270, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 480}";
+transform = "{1, 0, 0, 1, 120, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 0, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 30, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 30, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 0, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 660}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 0, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 0, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 480}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -53656,2145 +53791,6 @@ nodes = (
 width = 60;
 }
 );
-},
-{
-color = 4;
-glyphname = c.U.001;
-lastChange = "2018-11-21 13:07:04 +0000";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{240, 660}";
-}
-);
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 180}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 480;
-}
-);
-},
-{
-color = 4;
-glyphname = c.U.002;
-lastChange = "2018-11-21 13:35:54 +0000";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{240, 660}";
-}
-);
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 480;
-}
-);
-},
-{
-color = 4;
-glyphname = c.U.003;
-lastChange = "2018-11-21 13:35:59 +0000";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{210, 660}";
-}
-);
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
-},
-{
-color = 4;
-glyphname = c.be.001;
-lastChange = "2018-11-21 13:13:32 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
-},
-{
-color = 4;
-glyphname = c.ve.001;
-lastChange = "2018-11-21 13:14:31 +0000";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{210, 480}";
-}
-);
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 0}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
-},
-{
-color = 4;
-glyphname = c.de.001;
-lastChange = "2018-11-21 13:42:28 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, -60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 0}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
-},
-{
-color = 4;
-glyphname = c.zhe.001;
-lastChange = "2018-11-21 13:17:34 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{270, 0}";
-},
-{
-name = top;
-position = "{270, 480}";
-}
-);
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 450, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 450, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 210}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 210}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 540;
-}
-);
-},
-{
-color = 4;
-glyphname = c.ka.001;
-lastChange = "2018-11-21 13:17:34 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{180, 0}";
-},
-{
-name = top;
-position = "{180, 480}";
-}
-);
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 210}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 180}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 360;
-}
-);
-},
-{
-color = 4;
-glyphname = c.be.001.002;
-lastChange = "2018-11-21 13:13:07 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
-},
-{
-color = 4;
-glyphname = c.de.004.002;
-lastChange = "2018-11-21 13:48:18 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, -60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 0}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
-},
-{
-color = 4;
-glyphname = c.be.002;
-lastChange = "2018-11-21 13:14:15 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 660}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
-},
-{
-color = 4;
-glyphname = c.de.003;
-lastChange = "2018-11-21 13:47:39 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, -60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 0}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
-},
-{
-color = 4;
-glyphname = c.de.004;
-lastChange = "2018-11-21 13:47:50 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, -60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 0}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
-},
-{
-color = 4;
-glyphname = c.de.005;
-lastChange = "2018-11-21 13:47:09 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, -60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 420}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
-},
-{
-color = 4;
-glyphname = Delta.001;
-lastChange = "2018-11-14 16:49:43 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 540}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
-leftMetricsKey = A;
-rightMetricsKey = A;
-},
-{
-color = 4;
-glyphname = lambda.001;
-lastChange = "2018-11-19 16:24:26 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 660}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 420;
-}
-);
 }
 );
 gridLength = 30;
@@ -55813,10 +53809,14 @@ kerning = {
 "1979AEBF-ACF3-4293-8280-4EC52756D623" = {
 "@MMK_L_lcaron" = {
 "@MMK_R_l" = 30;
-"@MMK_R_quotes" = 90;
 "@MMK_R_quotes_top" = 60;
 "@MMK_R_tall_punctuation" = 60;
 asterisk = 60;
+"@MMK_R_space" = 60;
+};
+"@MMK_L_spikes" = {
+c.de = 30;
+slash = 60;
 };
 "@MMK_L_superior" = {
 fraction = -150;
@@ -55833,6 +53833,11 @@ a = -30;
 };
 Y = {
 "@MMK_R_o" = -60;
+};
+c.de = {
+};
+c.shcha = {
+c.de = 30;
 };
 fraction = {
 "@MMK_R_inferior" = -270;
