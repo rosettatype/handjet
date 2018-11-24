@@ -1,5 +1,12 @@
 {
 .appVersion = "1179";
+classes = (
+{
+automatic = 1;
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Amacron Abreve Adieresis Aring Aogonek Aringacute Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Ahookabove Adotbelow AE AEacute Cacute Ccircumflex Cdotaccent Ccaron Ccedilla Dcaron Dcroat Eth Egrave Eacute Ecircumflex Emacron Ebreve Edotaccent Edieresis Ecaron Eogonek Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ehookabove Etilde Edotbelow Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Igrave Iacute Icircumflex Itilde Imacron Ibreve Idotaccent Idieresis Iogonek Ihookabove Idotbelow IJ Jacute Jcircumflex Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Nacute Ntilde Ncaron Eng Ncommaaccent Ograve Oacute Ocircumflex Otilde Omacron Obreve Odieresis Ohungarumlaut Oslash Oslashacute Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Odotbelow OE Racute Rcaron Rcommaaccent Sacute Scircumflex Scaron Scommaaccent Scedilla Germandbls Tcaron Tcommaaccent Tcedilla Tbar Ugrave Uacute Ucircumflex Utilde Umacron Ubreve Udieresis Uring Uhungarumlaut Uogonek Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Udotbelow Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Yhookabove Ydotbelow Ytilde Zacute Zdotaccent Zcaron Thorn Schwa DZ Dz DZcaron Dzcaron LJ Lj NJ Nj c.A c.Be c.Ve c.Ghe c.De c.Ie c.Zhe c.Ze c.I c.Ishort c.Ka c.El c.Em c.En c.O c.Pe c.Er c.Es c.Te c.U c.Ef c.Ha c.Tse c.Che c.Sha c.Shcha c.Hard c.Yeru c.Soft c.E c.Yu c.Ya c.Gje c.GheUkr c.Dje c.IeUkr c.Dze c.Iegrave c.Io c.IUkr c.Yi c.Je c.Igrave c.Kje c.Lje c.Nje c.Tshe c.Yushort c.Dzhe c.Yat c.Fita c.Izhitsa c.Ghebar c.Zhespike c.Kaspike c.Enspike c.Haspike c.Chespike c.Ustraight c.Ustraightbar c.Shha c.Palochka c.Schwa c.Imacron c.Obar c.Umacron c.Zehook c.KaBashkir c.Eshook c.Abreve c.Iebreve c.Udblacute c.Odieresis c.AIe c.De.BGR c.El.BGR Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Iotadieresis Omicrontonos Upsilontonos Upsilondieresis Omegatonos";
+name = uppercase;
+}
+);
 copyright = "Copyright © 2018 by David Brezina. All rights reserved.";
 customParameters = (
 {
@@ -934,10 +941,68 @@ date = "2018-11-22 20:20:48 +0000";
 designer = "David Brezina";
 designerURL = "https://rosettatype.com";
 familyName = Handjet;
+featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem cyrl dflt;\012languagesystem latn TRK;\012languagesystem latn AZE;\012languagesystem latn CRT;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012languagesystem latn NLD;\012#languagesystem latn VIT;\012languagesystem cyrl SRB;\012languagesystem cyrl MKD;\012languagesystem cyrl BGR;\012";
+name = Languagesystems;
+}
+);
 features = (
 {
-code = "lookup ANIMALS {\012    sub colon c a t by cat;\012    sub colon b l a c k c a t by cat.black;\012    sub colon r i g h t c a t t t by cat.taller.right;\012    sub colon r i g h t c a t t by cat.tall.right;\012    sub colon r i g h t c a t by cat.right;\012    sub colon b l a c k r i g h t c a t t t by cat.black.taller.right;\012    sub colon b l a c k r i g h t c a t t by cat.black.tall.right;\012    sub colon b l a c k r i g h t c a t by cat.black.right;\012    \012    sub colon o w l  by owl;\012    sub colon f l y i n g o w l  by owl.flying;\012    sub colon b l a c k o w l by owl.black;\012    sub colon b l a c k f l y i n g o w l by owl.black.flying;\012\012    sub lozenge [bar slash] by lozenge.pica;\012    sub less [bar slash] greater by lozenge.pica;\012} ANIMALS;\012\012lookup CATS_1 {\012	sub [cat cat.black] t' t' by cat.tallertail;\012	sub [cat cat.black] t' by cat.talltail;\012} CATS_1;\012\012lookup CATS_2 {\012	sub cat' [cat.tallertail cat.talltail] by cat.body;\012	sub cat.black' [cat.tallertail cat.talltail] by cat.black.body;\012} CATS_2;\012\012lookup KASHIDOGS_LEFT {\012	sub colon' d' [o dog.body dog.butt] by dog.head;\012	sub [dog.head dog.body] o' g' by dog.butt;\012	sub [dog.head dog.body] o' by dog.body;\012	sub colon' b' l' a' c' k' d' [o dog.body dog.butt] by dog.black.head;\012	sub [dog.black.head dog.black.body] o' g' by dog.black.butt;\012	sub [dog.black.head dog.black.body] o' by dog.black.body;\012} KASHIDOGS_LEFT;\012\012lookup KASHIDOGS_RIGHT {\012	sub colon' r' i' g' h' t' d' [o dog.body dog.head.right] by dog.butt.right;\012	sub [dog.butt.right dog.body] o' g' by dog.head.right;\012	sub [dog.butt.right dog.body] o' by dog.body;\012	\012	sub colon' b' l' a' c' k' r' i' g' h' t' d' [o dog.body dog.head.right] by dog.black.butt.right;\012	sub [dog.black.butt.right dog.black.body] o' g' by dog.black.head.right;\012	sub [dog.black.butt.right dog.black.body] o' by dog.black.body;\012} KASHIDOGS_RIGHT;\012 ";
+code = "feature locl;\012feature case;\012feature sups;\012feature sinf;\012feature ordn;\012feature frac;\012\012sub period by ellipsis;\012sub hyphen from [endash emdash minus];";
+name = aalt;
+},
+{
+code = "\012@combining_top_accents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012@combining_nontop_accents = [cedillacomb ogonekcomb];\012\012@markscomb = [circumflexcomb caroncomb brevecomb acutecomb gravecomb circumflextildecomb circumflexgravecomb circumflexhookabovecomb circumflexacutecomb];\012@markscomb_case = [circumflexcomb.case caroncomb.case brevecomb.case acutecomb.case gravecomb.case circumflextildecomb.case circumflexgravecomb.case circumflexhookabovecomb.case circumflexacutecomb.case];\012        \012lookup ccmp_Other_1 {\012    sub [i]' @combining_top_accents by [idotless];\012    sub [i]' @combining_nontop_accents @combining_top_accents by [idotless];\012    \012    sub @uppercase @markscomb' by @markscomb_case;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012    sub @markscomb_case @markscomb' by @markscomb_case;\012} ccmp_Other_2;";
+name = ccmp;
+},
+{
+code = "    sub firsttonechinese by macroncomb;\012    sub secondtonechinese by acutecomb;\012    sub fourthtonechinese by gravecomb;\012\012    script latn; # Latin\012        # i -> idotaccent substitution effectively switches off the fi and ffi ligatures\012        language TRK; # Turkish\012            lookup LOCL_TRK {\012                sub i by idotaccent;\012            } LOCL_TRK;\012        language AZE; # Azeri\012            lookup LOCL_TRK;\012        language CRT; # Crimean Tatar\012            lookup LOCL_TRK;\012        language KAZ; # Kazakh\012            lookup LOCL_TRK;\012        language TAT; # Tatar\012            lookup LOCL_TRK;\012\012        # handling of S and T with commaaccent\012        language ROM; # Romanian\012            lookup LOCL_ROM {\012                sub Scedilla by Scommaaccent;\012                sub scedilla by scommaaccent;\012                sub Tcedilla by Tcommaaccent;\012                sub tcedilla by tcommaaccent;\012            } LOCL_ROM;\012        language MOL; # Moldavian\012            lookup LOCL_ROM;\012\012        # Catalan dot\012        language CAT; # Catalan\012            sub l periodcentered' l by periodcentered.CAT;\012            sub L periodcentered' L by periodcentered.CAT.case;\012\012        # Dutch ij and ij with acute\012        # some overlap with ccmp as ccmp gets removed from Latin-only version\012        language NLD; # Dutch\012            lookup LOCL_DUTCHIJ_DECOMPOSE {\012                sub ij by i j;\012                sub IJ by I J;  \012            } LOCL_DUTCHIJ_DECOMPOSE;\012            lookup LOCL_DUTCHJACUTE {\012                sub i' j acutecomb by iacute;\012                sub I' J acutecomb by Iacute;\012                sub iacute j' acutecomb' by jacute;\012                sub Iacute J' acutecomb' by Jacute;\012                sub iacute j' by jacute;\012                sub Iacute J' by Jacute;\012            } LOCL_DUTCHJACUTE;\012            lookup LOCL_DUTCHIJACUTE_COMPOSE {\012                sub ij acutecomb by iacute_j.NLD;\012                sub IJ acutecomb by Iacute_J.NLD;\012                sub i j acutecomb by iacute_j.NLD;\012                sub I J acutecomb by Iacute_J.NLD;\012            } LOCL_DUTCHIJACUTE_COMPOSE;\012        language VIT;\012            sub circumflexcomb acutecomb by circumflexacutecomb;\012            sub circumflexcomb gravecomb by circumflexgravecomb;\012            sub circumflexcomb hookabovecomb by circumflexhookabovecomb;\012            sub circumflexcomb tildecomb by circumflextildecomb;\012\012    script cyrl;\012        language SRB; # Serbian\012            lookup LOCL_SRB {\012                sub c.be by c.be.SRB;\012            } LOCL_SRB;\012        language MKD; # Moldavian\012            lookup LOCL_SRB;\012        language BGR; # Bulgarian\012            lookup LOCL_BGR {\012                sub c.De by c.De.BGR;\012                sub c.El by c.El.BGR;\012                sub c.ve by c.ve.BGR;\012                sub c.ghe by c.ghe.BGR;\012                sub c.de by c.de.BGR;\012                sub c.zhe by c.zhe.BGR;\012                sub c.ze by c.ze.BGR;\012                sub c.i by c.i.BGR;\012                sub c.ishort by c.ishort.BGR;\012                sub c.igrave by c.igrave.BGR;\012                sub c.ka by c.ka.BGR;\012                sub c.el by c.el.BGR;\012                sub c.pe by c.pe.BGR;\012                sub c.te by c.te.BGR;\012                sub c.tse by c.tse.BGR;\012                sub c.sha by c.sha.BGR;\012                sub c.shcha by c.shcha.BGR;\012                sub c.yu by c.yu.BGR;\012            } LOCL_BGR;";
+name = locl;
+},
+{
+code = "@brackets = [parenleft parenright bracketleft bracketright braceleft braceright angledbracketleft angledbracketright bar brokenbar];\012\012@hyphens = [hyphen softhyphen hyphentwo nonbreakinghyphen hyphen.case];\012\012@greek_uppercase_tonos = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos];\012\012@greek_uppercase_non_tonos = [Alpha Epsilon Eta Iota Omicron Upsilon Omega];\012\012sub questiondown by questiondown.case;\012sub exclamdown by exclamdown.case;\012sub at by at.case;\012sub @hyphens by hyphen.case;\012sub colon by colon.case;\012sub endash by endash.case;\012sub emdash by emdash.case;\012sub guilsinglleft by guilsinglleft.case;\012sub guilsinglright by guilsinglright.case;\012sub guillemetleft by guillemetleft.case;\012sub guillemetright by guillemetright.case;\012sub circumflexcomb by circumflexcomb.case;\012sub caroncomb by caroncomb.case;\012sub brevecomb by brevecomb.case;\012sub acutecomb by acutecomb.case;\012sub gravecomb by gravecomb.case;\012sub circumflextildecomb by circumflextildecomb.case;\012sub circumflexgravecomb by circumflexgravecomb.case;\012sub circumflexhookabovecomb by circumflexhookabovecomb.case;\012sub circumflexacutecomb by circumflexacutecomb.case;\012sub bulletoperator by bulletoperator.case;\012sub periodcentered.CAT by periodcentered.CAT.case;\012sub tonoscomb by tonoscomb.case;\012\012# Greek\012\012# a fix for monotonic and polytonic orthography in all-cap setting\012# add dialytika after letters with tonos, varia, or oxia\012sub @greek_uppercase_tonos [Upsilon Iota]' by [Upsilondieresis Iotadieresis];    \012# remove accents in all-cap setting\012sub @greek_uppercase_tonos by @greek_uppercase_non_tonos;\012\012# shift some punctuation\012pos bullet <0 60 0 0>;\012pos @brackets <0 60 0 0>;\012\012# German Eszett\012# to fix apps which do not support the new orthography yet\012\012sub germandbls by Germandbls;";
+name = case;
+},
+{
+code = "    lookup SUPS {\012        sub zero by zerosuperior;\012        sub one by onesuperior;\012        sub two by twosuperior;\012        sub three by threesuperior;\012        sub four by foursuperior;\012        sub five by fivesuperior;\012        sub six by sixsuperior;\012        sub seven by sevensuperior;\012        sub eight by eightsuperior;\012        sub nine by ninesuperior;\012    } SUPS;";
+name = sups;
+},
+{
+code = "    lookup SINF {\012        sub zero by zerosuperior;\012        sub one by onesuperior;\012        sub two by twosuperior;\012        sub three by threesuperior;\012        sub four by foursuperior;\012        sub five by fivesuperior;\012        sub six by sixsuperior;\012        sub seven by sevensuperior;\012        sub eight by eightsuperior;\012        sub nine by ninesuperior;\012    } SINF;";
+name = sinf;
+},
+{
+code = "lookup SINF;";
+name = subs;
+},
+{
+code = "@ordn_from = [a o];\012@ordn_to = [ordfeminine ordmasculine];\012\012sub [zero one two three four five six seven eight nine] @ordn_from' by @ordn_to;\012sub @ordn_to @ordn_from' by @ordn_to;\012sub N o period by numero;";
+name = ordn;
+},
+{
+code = "lookup SUPS;";
+name = numr;
+},
+{
+code = "lookup SINF;";
+name = dnom;
+},
+{
+code = "    @numerators = [zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior];\012\012    @denominators = [zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];\012\012    @figures = [zero one two three four five six seven eight nine];\012\012    lookup percent {\012    sub zero [slash fraction divisionslash] zero by percent;\012    sub zero [slash fraction divisionslash] zero zero by perthousand;\012    } percent;\012    lookup FractionBar {\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             slash;\012         sub @figures slash' @figures by fraction;\012    } FractionBar;\012\012    lookup Numerator1 {\012         sub @figures'\012         fraction by @numerators;\012    } Numerator1;\012\012    lookup Denominator {\012         sub [fraction @denominators]\012         @figures' by @denominators;\012    } Denominator;\012\012    sub @figures space' @numerators by thinspace;\012\012    # Vulgar fractions\012    sub onesuperior fraction twoinferior by onehalf;\012    sub onesuperior fraction threeinferior by onethird;\012    sub twosuperior fraction threeinferior by twothirds;\012    sub onesuperior fraction fourinferior by onequarter;\012    sub threesuperior fraction fourinferior by threequarters;\012    sub onesuperior fraction fiveinferior by onefifth;\012    sub twosuperior fraction fiveinferior by twofifths;\012    sub threesuperior fraction fiveinferior by threefifths;\012    sub foursuperior fraction fiveinferior by fourfifths;\012    sub onesuperior fraction sixinferior by onesixth;\012    sub fivesuperior fraction sixinferior by fivesixths;\012    sub onesuperior fraction seveninferior by oneseventh;\012    sub twosuperior fraction seveninferior by twosevenths;\012    sub threesuperior fraction seveninferior by threesevenths;\012    sub foursuperior fraction seveninferior by foursevenths;\012    sub fivesuperior fraction seveninferior by fivesevenths;\012    sub sixsuperior fraction seveninferior by sixsevenths;\012    sub onesuperior fraction eightinferior by oneeighth;\012    sub threesuperior fraction eightinferior by threeeighths;\012    sub fivesuperior fraction eightinferior by fiveeighths;\012    sub sevensuperior fraction eightinferior by seveneighths;\012    sub onesuperior fraction nineinferior by oneninth;\012    sub twosuperior fraction nineinferior by twoninths;\012    sub foursuperior fraction nineinferior by fourninths;\012    sub fivesuperior fraction nineinferior by fiveninths;\012    sub sevensuperior fraction nineinferior by sevenninths;\012    sub eightsuperior fraction nineinferior by eightninths;";
+name = frac;
+},
+{
+code = "sub idieresis idieresis by idieresis_idieresis;";
+name = liga;
+},
+{
+code = "lookup ARROWS {\012	sub hyphen greater by arrowright;\012	sub less hyphen by arrowleft;\012} ARROWS;\012\012lookup ANIMALS {\012    sub colon c a t by cat;\012    sub colon b l a c k c a t by cat.black;\012    sub colon r i g h t c a t t t by cat.taller.right;\012    sub colon r i g h t c a t t by cat.tall.right;\012    sub colon r i g h t c a t by cat.right;\012    sub colon b l a c k r i g h t c a t t t by cat.black.taller.right;\012    sub colon b l a c k r i g h t c a t t by cat.black.tall.right;\012    sub colon b l a c k r i g h t c a t by cat.black.right;\012    \012    sub colon o w l  by owl;\012    sub colon f l y i n g o w l  by owl.flying;\012    sub colon b l a c k o w l by owl.black;\012    sub colon b l a c k f l y i n g o w l by owl.black.flying;\012\012    sub lozenge [bar slash] by lozenge.pica;\012    sub less [bar slash] greater by lozenge.pica;\012} ANIMALS;\012\012lookup CATS_1 {\012	sub [cat cat.black] t' t' by cat.tallertail;\012	sub [cat cat.black] t' by cat.talltail;\012} CATS_1;\012\012lookup CATS_2 {\012	sub cat' [cat.tallertail cat.talltail] by cat.body;\012	sub cat.black' [cat.tallertail cat.talltail] by cat.black.body;\012} CATS_2;\012\012lookup KASHIDOGS_LEFT {\012	sub colon' d' [o dog.body dog.butt] by dog.head;\012	sub [dog.head dog.body] o' g' by dog.butt;\012	sub [dog.head dog.body] o' by dog.body;\012	sub colon' b' l' a' c' k' d' [o dog.body dog.butt] by dog.black.head;\012	sub [dog.black.head dog.black.body] o' g' by dog.black.butt;\012	sub [dog.black.head dog.black.body] o' by dog.black.body;\012} KASHIDOGS_LEFT;\012\012lookup KASHIDOGS_RIGHT {\012	sub colon' r' i' g' h' t' d' [o dog.body dog.head.right] by dog.butt.right;\012	sub [dog.butt.right dog.body] o' g' by dog.head.right;\012	sub [dog.butt.right dog.body] o' by dog.body;\012	\012	sub colon' b' l' a' c' k' r' i' g' h' t' d' [o dog.body dog.head.right] by dog.black.butt.right;\012	sub [dog.black.butt.right dog.black.body] o' g' by dog.black.head.right;\012	sub [dog.black.butt.right dog.black.body] o' by dog.black.body;\012} KASHIDOGS_RIGHT;\012 ";
 name = dlig;
+},
+{
+code = "pos @uppercase <30 0 60 0>;\012";
+name = cpsp;
 }
 );
 fontMaster = (
@@ -946,48 +1011,6 @@ ascender = 720;
 capHeight = 660;
 custom = Circle;
 customValue = 100;
-customParameters = (
-{
-name = underlinePosition;
-value = -120;
-},
-{
-name = underlineThickness;
-value = 60;
-},
-{
-name = typoAscender;
-value = 720;
-},
-{
-name = typoDescender;
-value = -240;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 720;
-},
-{
-name = hheaDescender;
-value = -240;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 720;
-},
-{
-name = winDescent;
-value = 240;
-}
-);
 descender = -180;
 horizontalStems = (
 10
@@ -5386,98 +5409,98 @@ unicode = 0065;
 {
 color = 4;
 glyphname = f;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-24 15:27:36 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
+transform = "{1, 0, 0, 1, 90, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
+transform = "{1, 0, 0, 1, 90, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
+transform = "{1, 0, 0, 1, 90, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
+transform = "{1, 0, 0, 1, 90, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
+transform = "{1, 0, 0, 1, 90, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
+transform = "{1, 0, 0, 1, 90, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
+transform = "{1, 0, 0, 1, 90, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 0}";
+transform = "{1, 0, 0, 1, 90, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 420}";
+transform = "{1, 0, 0, 1, 30, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 420}";
+transform = "{1, 0, 0, 1, 150, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
+transform = "{1, 0, 0, 1, 210, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 600}";
+transform = "{1, 0, 0, 1, 90, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 540}";
+transform = "{1, 0, 0, 1, 90, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 660}";
+transform = "{1, 0, 0, 1, 150, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 660}";
+transform = "{1, 0, 0, 1, 210, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 660}";
+transform = "{1, 0, 0, 1, 270, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 480}";
+transform = "{1, 0, 0, 1, 90, 480}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 240;
+width = 270;
 }
 );
 unicode = 0066;
@@ -5808,7 +5831,7 @@ unicode = 006A;
 {
 color = 4;
 glyphname = k;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-24 15:46:22 +0000";
 layers = (
 {
 anchors = (
@@ -6870,93 +6893,93 @@ unicode = 0073;
 {
 color = 4;
 glyphname = t;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-24 15:27:36 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{150, 0}";
+position = "{180, 0}";
 },
 {
 name = right;
-position = "{150, 540}";
+position = "{180, 540}";
 }
 );
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
+transform = "{1, 0, 0, 1, 90, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
+transform = "{1, 0, 0, 1, 90, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
+transform = "{1, 0, 0, 1, 90, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
+transform = "{1, 0, 0, 1, 90, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
+transform = "{1, 0, 0, 1, 90, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
+transform = "{1, 0, 0, 1, 90, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
+transform = "{1, 0, 0, 1, 90, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
+transform = "{1, 0, 0, 1, 150, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
+transform = "{1, 0, 0, 1, 210, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 420}";
+transform = "{1, 0, 0, 1, 30, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 420}";
+transform = "{1, 0, 0, 1, 150, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
+transform = "{1, 0, 0, 1, 210, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 540}";
+transform = "{1, 0, 0, 1, 90, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 480}";
+transform = "{1, 0, 0, 1, 90, 480}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 270;
+width = 300;
 }
 );
 unicode = 0074;
@@ -8134,7 +8157,7 @@ unicode = 002C;
 {
 color = 4;
 glyphname = hyphen;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-24 15:46:40 +0000";
 layers = (
 {
 components = (
@@ -8163,6 +8186,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 360;
 }
 );
+leftKerningGroup = hyphen;
+rightKerningGroup = hyphen;
 unicode = 002D;
 },
 {
@@ -11136,33 +11161,28 @@ unicode = 00BB;
 {
 color = 4;
 glyphname = quoteleft;
-lastChange = "2018-11-19 17:29:28 +0000";
+lastChange = "2018-11-24 15:36:51 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 540}";
+transform = "{1, 0, 0, 1, 30, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 480}";
+transform = "{1, 0, 0, 1, 0, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 480}";
+transform = "{1, 0, 0, 1, 60, 600}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 180;
+width = 120;
 }
 );
 leftKerningGroup = quotes_top;
@@ -11171,33 +11191,28 @@ unicode = 2018;
 {
 color = 4;
 glyphname = quoteright;
-lastChange = "2018-11-19 17:29:40 +0000";
+lastChange = "2018-11-24 15:37:01 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 540}";
+transform = "{1, 0, 0, 1, 30, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 600}";
+transform = "{1, 0, 0, 1, 60, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 600}";
+transform = "{1, 0, 0, 1, 0, 480}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 180;
+width = 120;
 }
 );
 leftKerningGroup = quotes_top;
@@ -11206,7 +11221,7 @@ unicode = 2019;
 {
 color = 4;
 glyphname = quotesinglbase;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-24 15:37:06 +0000";
 layers = (
 {
 components = (
@@ -11216,14 +11231,14 @@ transform = "{1, 0, 0, 1, 0, -600}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 180;
+width = 120;
 }
 );
 unicode = 201A;
 },
 {
 glyphname = quotedblleft;
-lastChange = "2018-11-19 17:29:28 +0000";
+lastChange = "2018-11-24 15:36:51 +0000";
 layers = (
 {
 components = (
@@ -11234,11 +11249,11 @@ name = quoteleft;
 {
 alignment = 1;
 name = quoteleft;
-transform = "{1, 0, 0, 1, 180, 0}";
+transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 360;
+width = 240;
 }
 );
 leftKerningGroup = quotes_top;
@@ -11246,7 +11261,7 @@ unicode = 201C;
 },
 {
 glyphname = quotedblright;
-lastChange = "2018-11-19 17:29:28 +0000";
+lastChange = "2018-11-24 15:37:02 +0000";
 layers = (
 {
 components = (
@@ -11257,11 +11272,11 @@ name = quoteright;
 {
 alignment = 1;
 name = quoteright;
-transform = "{1, 0, 0, 1, 180, 0}";
+transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 360;
+width = 240;
 }
 );
 leftKerningGroup = quotes_top;
@@ -11269,7 +11284,7 @@ unicode = 201D;
 },
 {
 glyphname = quotedblbase;
-lastChange = "2018-11-19 16:28:17 +0000";
+lastChange = "2018-11-24 15:37:07 +0000";
 layers = (
 {
 components = (
@@ -11280,11 +11295,11 @@ name = quotesinglbase;
 {
 alignment = 1;
 name = quotesinglbase;
-transform = "{1, 0, 0, 1, 180, 0}";
+transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 360;
+width = 240;
 }
 );
 unicode = 201E;
@@ -20248,7 +20263,7 @@ unicode = 00DF;
 },
 {
 glyphname = tcaron;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-24 15:27:43 +0000";
 layers = (
 {
 components = (
@@ -20257,18 +20272,18 @@ name = t;
 },
 {
 name = caroncomb.calt;
-transform = "{1, 0, 0, 1, 0, 60}";
+transform = "{1, 0, 0, 1, 30, 60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 270;
+width = 300;
 }
 );
 unicode = 0165;
 },
 {
 glyphname = tcommaaccent;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-24 15:27:43 +0000";
 layers = (
 {
 components = (
@@ -20277,17 +20292,18 @@ name = t;
 },
 {
 name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 30, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 270;
+width = 300;
 }
 );
 unicode = 021B;
 },
 {
 glyphname = tcedilla;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-24 15:27:43 +0000";
 layers = (
 {
 components = (
@@ -20296,10 +20312,11 @@ name = t;
 },
 {
 name = cedillacomb;
+transform = "{1, 0, 0, 1, 30, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 270;
+width = 300;
 }
 );
 unicode = 0163;
@@ -20307,7 +20324,7 @@ unicode = 0163;
 {
 color = 4;
 glyphname = tbar;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-24 15:28:18 +0000";
 layers = (
 {
 components = (
@@ -20317,19 +20334,19 @@ name = t;
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 240}";
+transform = "{1, 0, 0, 1, 30, 240}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
+transform = "{1, 0, 0, 1, 150, 240}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 240}";
+transform = "{1, 0, 0, 1, 210, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 270;
+width = 300;
 }
 );
 unicode = 0167;
@@ -27315,7 +27332,7 @@ unicode = F0109;
 {
 color = 4;
 glyphname = arrowleft;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-24 15:47:09 +0000";
 layers = (
 {
 components = (
@@ -27409,6 +27426,7 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 780;
 }
 );
+rightKerningGroup = hyphen;
 unicode = 2190;
 },
 {
@@ -27513,7 +27531,7 @@ unicode = 2191;
 {
 color = 4;
 glyphname = arrowright;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-24 15:47:03 +0000";
 layers = (
 {
 components = (
@@ -27607,6 +27625,7 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 780;
 }
 );
+leftKerningGroup = hyphen;
 unicode = 2192;
 },
 {
@@ -44312,64 +44331,64 @@ unicode = 03B8;
 {
 color = 4;
 glyphname = iota;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-24 15:32:27 +0000";
 layers = (
 {
 anchors = (
 {
 name = top;
-position = "{90, 480}";
+position = "{120, 480}";
 }
 );
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 0}";
+transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
+transform = "{1, 0, 0, 1, 90, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
+transform = "{1, 0, 0, 1, 90, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
+transform = "{1, 0, 0, 1, 90, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
+transform = "{1, 0, 0, 1, 90, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
+transform = "{1, 0, 0, 1, 90, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
+transform = "{1, 0, 0, 1, 90, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
+transform = "{1, 0, 0, 1, 90, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 420}";
+transform = "{1, 0, 0, 1, 30, 420}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 180;
+width = 210;
 }
 );
 unicode = 03B9;
@@ -46338,7 +46357,7 @@ unicode = 03AE;
 },
 {
 glyphname = iotatonos;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-24 15:32:33 +0000";
 layers = (
 {
 components = (
@@ -46347,17 +46366,18 @@ name = iota;
 },
 {
 name = tonoscomb;
+transform = "{1, 0, 0, 1, 30, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 180;
+width = 210;
 }
 );
 unicode = 03AF;
 },
 {
 glyphname = iotadieresis;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-24 15:32:33 +0000";
 layers = (
 {
 components = (
@@ -46366,18 +46386,18 @@ name = iota;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -60, 0}";
+transform = "{1, 0, 0, 1, -30, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 180;
+width = 210;
 }
 );
 unicode = 03CA;
 },
 {
 glyphname = iotadieresistonos;
-lastChange = "2018-11-19 16:28:18 +0000";
+lastChange = "2018-11-24 15:32:33 +0000";
 layers = (
 {
 components = (
@@ -46386,11 +46406,11 @@ name = iota;
 },
 {
 name = dieresistonoscomb;
-transform = "{1, 0, 0, 1, -120, 0}";
+transform = "{1, 0, 0, 1, -90, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 180;
+width = 210;
 }
 );
 unicode = 0390;
@@ -53849,11 +53869,17 @@ a = -30;
 Y = {
 "@MMK_R_o" = -60;
 };
+arrowleft = {
+hyphen = -120;
+};
 c.shcha = {
 c.de = 30;
 };
 fraction = {
 "@MMK_R_inferior" = -270;
+};
+hyphen = {
+arrowright = -120;
 };
 r = {
 a = -30;
@@ -53865,14 +53891,16 @@ slash = {
 slash = -120;
 };
 t = {
-"@MMK_R_o" = 0;
 t = -30;
+};
+"@MMK_L_hyphen" = {
+"@MMK_R_hyphen" = -120;
 };
 };
 };
 manufacturer = " RST";
 manufacturerURL = "https://rosettatype.com";
-unitsPerEm = 960;
+unitsPerEm = 1020;
 versionMajor = 1;
 versionMinor = 0;
 }

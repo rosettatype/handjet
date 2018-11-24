@@ -37,10 +37,10 @@ table OS/2 {
                         850     # WE/Latin 1
                         437     # US
                         ;
-      winAscent         900;
-      winDescent        300;
-      TypoAscender      900;
-      TypoDescender     -300;
+      winAscent         780;
+      winDescent        240;
+      TypoAscender      780;
+      TypoDescender     -240;
       TypoLineGap       0;
       XHeight           480;
       CapHeight         660;
@@ -52,8 +52,8 @@ table OS/2 {
 
 table hhea {
       #CaretOffset -50;
-      Ascender  900;
-      Descender -300;
+      Ascender  780;
+      Descender -240;
       LineGap   0;
 } hhea;
 

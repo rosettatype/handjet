@@ -67,7 +67,7 @@ def makeInstance(family_name, style_name, position,
 # Main
 
 def main():
-    Font = Glyphs.currentDocument.font
+    font = Glyphs.currentDocument.font
 
     # Type-family name
 
@@ -88,13 +88,13 @@ def main():
              ]
 
     wghts = [("Thin", 10),
-             ("Extralight", 20),
-             ("Light", 28),
-             ("Regular", 42),
-             ("Medium", 56),
-             ("Semibold", 60),
-             ("Bold", 80),
-             ("Extrabold", 100),
+             ("Extralight", 15),
+             ("Light", 21),
+             ("Regular", 28),
+             ("Medium", 40),
+             ("Semibold", 56),
+             ("Bold", 60),
+             ("Extrabold", 90),
              ("Black", 120),
              ]
 
@@ -103,7 +103,7 @@ def main():
              ]
 
     # delte all instances
-    Font.setInstances_(None)
+    font.setInstances_(None)
 
     for opsz_name, opsz_value in opszs:
         for wdth_name, wdth_value in wdths:
@@ -112,7 +112,7 @@ def main():
                 fname = fname.strip()
                 position = (wght_value, wdth_value, opsz_value)
                 inst = makeInstance(fname, wght_name, position, superfamily=True)
-                Font.instances.append(inst)
+                font.instances.append(inst)
 
 
 if __name__ == '__main__':
