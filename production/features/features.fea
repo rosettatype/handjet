@@ -10,11 +10,21 @@ include(tables.fea);
 
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+languagesystem cyrl dflt;
+languagesystem latn TRK;
 languagesystem latn AZE;
 languagesystem latn CRT;
-languagesystem latn TRK;
-languagesystem latn TAT;
 languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+languagesystem latn NLD;
+#languagesystem latn VIT;
+languagesystem cyrl SRB;
+languagesystem cyrl MKD;
+languagesystem cyrl BGR;
+
 
 
 #----------------------------------------------------------------------------
@@ -46,21 +56,22 @@ feature aalt {
 #----------------------------------------------------------------------------
 # Composition of accented characters
 
-@uppercase = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent];
+@uppercase = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Amacron Abreve Adieresis Aring Aogonek Aringacute Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Ahookabove Adotbelow AE AEacute Cacute Ccircumflex Cdotaccent Ccaron Ccedilla Dcaron Dcroat Eth Egrave Eacute Ecircumflex Emacron Ebreve Edotaccent Edieresis Ecaron Eogonek Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ehookabove Etilde Edotbelow Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Igrave Iacute Icircumflex Itilde Imacron Ibreve Idotaccent Idieresis Iogonek Ihookabove Idotbelow IJ Jacute Jcircumflex Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Nacute Ntilde Ncaron Eng Ncommaaccent Ograve Oacute Ocircumflex Otilde Omacron Obreve Odieresis Ohungarumlaut Oslash Oslashacute Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Odotbelow OE Racute Rcaron Rcommaaccent Sacute Scircumflex Scaron Scommaaccent Scedilla Germandbls Tcaron Tcommaaccent Tcedilla Tbar Ugrave Uacute Ucircumflex Utilde Umacron Ubreve Udieresis Uring Uhungarumlaut Uogonek Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Udotbelow Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Yhookabove Ydotbelow Ytilde Zacute Zdotaccent Zcaron Thorn Schwa DZ Dz DZcaron Dzcaron LJ Lj NJ Nj c.A c.Be c.Ve c.Ghe c.De c.Ie c.Zhe c.Ze c.I c.Ishort c.Ka c.El c.Em c.En c.O c.Pe c.Er c.Es c.Te c.U c.Ef c.Ha c.Tse c.Che c.Sha c.Shcha c.Hard c.Yeru c.Soft c.E c.Yu c.Ya c.Gje c.GheUkr c.Dje c.IeUkr c.Dze c.Iegrave c.Io c.IUkr c.Yi c.Je c.Igrave c.Kje c.Lje c.Nje c.Tshe c.Yushort c.Dzhe c.Yat c.Fita c.Izhitsa c.Ghebar c.Zhespike c.Kaspike c.Enspike c.Haspike c.Chespike c.Ustraight c.Ustraightbar c.Shha c.Palochka c.Schwa c.Imacron c.Obar c.Umacron c.Zehook c.KaBashkir c.Eshook c.Abreve c.Iebreve c.Udblacute c.Odieresis c.AIe c.De.BGR c.El.BGR Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Iotadieresis Omicrontonos Upsilontonos Upsilondieresis Omegatonos;
+
+@combining_top_accents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+@markscomb = [gravecomb acutecomb circumflexcomb caroncomb];
+@markscomb_case = [gravecomb.case acutecomb.case circumflexcomb.case caroncomb.case];
 
 feature ccmp {
     lookup ccmp_Other_1 {
-        @combining_top_accents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
         @combining_nontop_accents = [cedillacomb ogonekcomb];
         sub [i]' @combining_top_accents by [idotless];
         sub [i]' @combining_nontop_accents @combining_top_accents by [idotless];
-        @markscomb = [gravecomb acutecomb circumflexcomb caroncomb];
-        @markscombCase = [gravecomb.case acutecomb.case circumflexcomb.case caroncomb.case];
-        sub @uppercase @markscomb' by @markscombCase;
+        sub @uppercase @markscomb' by @markscomb_case;
     } ccmp_Other_1;
 
     lookup ccmp_Other_2 {
-        sub @markscombCase @markscomb' by @markscombCase;
+        sub @markscomb_case @markscomb' by @markscomb_case;
     } ccmp_Other_2;
 } ccmp;
 
@@ -166,13 +177,13 @@ feature locl {
 #----------------------------------------------------------------------------
 # Case-sensitive forms
 
-@BRACKETS = [parenleft parenright bracketleft bracketright braceleft braceright angledbracketleft angledbracketright bar brokenbar];
+@brackets = [parenleft parenright bracketleft bracketright braceleft braceright angledbracketleft angledbracketright bar brokenbar];
 
 @hyphens = [hyphen softhyphen hyphentwo nonbreakinghyphen hyphen.case];
 
-@grUppercaseTonos = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos];
+@greek_uppercase_tonos = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos];
 
-@grUppercaseNoTonos = [Alpha Epsilon Eta Iota Omicron Upsilon Omega];
+@greek_uppercase_non_tonos = [Alpha Epsilon Eta Iota Omicron Upsilon Omega];
 
 feature case {
     sub questiondown by questiondown.case;
@@ -203,13 +214,13 @@ feature case {
 
     # a fix for monotonic and polytonic orthography in all-cap setting
     # add dialytika after letters with tonos, varia, or oxia
-    sub @grUppercaseTonos [Upsilon Iota]' by [Upsilondieresis Iotadieresis];    
+    sub @greek_uppercase_tonos [Upsilon Iota]' by [Upsilondieresis Iotadieresis];    
     # remove accents in all-cap setting
-    sub @grUppercaseTonos by @grUppercaseNoTonos;
+    sub @greek_uppercase_tonos by @greek_uppercase_non_tonos;
 
     # shift some punctuation
     pos bullet <0 60 0 0>;
-    pos @BRACKETS <0 60 0 0>;
+    pos @brackets <0 60 0 0>;
 
     # German Eszett
     # to fix apps which do not support the new orthography yet
@@ -251,6 +262,10 @@ feature sinf {
     } SINF;
 } sinf;
 
+feature subs {
+	lookup SINF;
+} subs;
+
 
 #----------------------------------------------------------------------------
 # Ordinals
@@ -261,6 +276,7 @@ feature sinf {
 feature ordn {
     sub [zero one two three four five six seven eight nine] @ordn_from' by @ordn_to;
     sub @ordn_to @ordn_from' by @ordn_to;
+    sub N o period by numero;
 } ordn;
 
 
@@ -461,7 +477,7 @@ feature frac {
     sub @figures space' @numerators by thinspace;
 
     # Vulgar fractions
-    sub onesuperior fraction nineinferior by onehalf;
+    sub onesuperior fraction twoinferior by onehalf;
     sub onesuperior fraction threeinferior by onethird;
     sub twosuperior fraction threeinferior by twothirds;
     sub onesuperior fraction fourinferior by onequarter;
@@ -505,37 +521,56 @@ feature liga {
 # Discretionary ligatures
 
 feature dlig {
-    lookup ANIMALS {
-        sub colon c a t colon by cat;
-        sub colon c a t b l a c k colon by cat.black;
-        sub colon c a t r i g h t colon by cat.right;
-        sub colon c a t b l a c k r i g h t colon by cat.black.right;
-        sub colon d o g colon by dog;
-        sub colon d o g b l a c k colon by dog.black;
-        sub colon d o g r i g h t colon by dog.right;
-        sub colon d o g b l a c k r i g h t colon by dog.black.right;
-        sub colon o w l colon by owl;
-        sub colon o w l b l a c k colon by owl.black;
+	lookup ANIMALS {
+	    sub colon c a t by cat;
+	    sub colon b l a c k c a t by cat.black;
+	    sub colon r i g h t c a t t t by cat.taller.right;
+	    sub colon r i g h t c a t t by cat.tall.right;
+	    sub colon r i g h t c a t by cat.right;
+	    sub colon b l a c k r i g h t c a t t t by cat.black.taller.right;
+	    sub colon b l a c k r i g h t c a t t by cat.black.tall.right;
+	    sub colon b l a c k r i g h t c a t by cat.black.right;
+	    
+	    sub colon o w l  by owl;
+	    sub colon f l y i n g o w l  by owl.flying;
+	    sub colon b l a c k o w l by owl.black;
+	    sub colon b l a c k f l y i n g o w l by owl.black.flying;
 
-        sub lozenge [bar slash] by lozenge.pica;
-    } ANIMALS;
-    lookup KASHIDOG {
-        sub dog.body' [space underscore] by dog.butt;
-        sub [dog.head dog.body] colon' by dog.body;
-        sub dog' colon by dog.head;
-    } KASHIDOG;
+	    sub lozenge [bar slash] by lozenge.pica;
+	    sub less [bar slash] greater by lozenge.pica;
+	} ANIMALS;
+
+	lookup CATS_1 {
+		sub [cat cat.black] t' t' by cat.tallertail;
+		sub [cat cat.black] t' by cat.talltail;
+	} CATS_1;
+
+	lookup CATS_2 {
+		sub cat' [cat.tallertail cat.talltail] by cat.body;
+		sub cat.black' [cat.tallertail cat.talltail] by cat.black.body;
+	} CATS_2;
+
+	lookup KASHIDOGS_LEFT {
+		sub colon' d' [o dog.body dog.butt] by dog.head;
+		sub [dog.head dog.body] o' g' by dog.butt;
+		sub [dog.head dog.body] o' by dog.body;
+		sub colon' b' l' a' c' k' d' [o dog.body dog.butt] by dog.black.head;
+		sub [dog.black.head dog.black.body] o' g' by dog.black.butt;
+		sub [dog.black.head dog.black.body] o' by dog.black.body;
+	} KASHIDOGS_LEFT;
+
+	lookup KASHIDOGS_RIGHT {
+		sub colon' r' i' g' h' t' d' [o dog.body dog.head.right] by dog.butt.right;
+		sub [dog.butt.right dog.body] o' g' by dog.head.right;
+		sub [dog.butt.right dog.body] o' by dog.body;
+		
+		sub colon' b' l' a' c' k' r' i' g' h' t' d' [o dog.body dog.head.right] by dog.black.butt.right;
+		sub [dog.black.butt.right dog.black.body] o' g' by dog.black.head.right;
+		sub [dog.black.butt.right dog.black.body] o' by dog.black.body;
+	} KASHIDOGS_RIGHT;
 } dlig;
 
-feature ss01 {
-    lookup ANIMALS;
-    lookup KASHIDOG;
-} ss01;
-
-feature ss02 {
-    # make them long, make them tall, make them fly
-    sub dog by dog.head dog.body dog.butt;
-    sub dog.black by dog.black.head dog.black.body dog.black.butt;
-    sub owl by owl.flying;
-    sub owl.black by owl.black.flying;
-} ss02;
+feature cpsp {
+	pos @uppercase <30 0 60 0>;
+} cpsp;
 

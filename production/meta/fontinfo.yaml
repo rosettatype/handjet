@@ -9,22 +9,22 @@ Handjet:
     openTypeOS2WidthClass: 5
   SmallLozenge:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Small Lozenge # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   SmallSlashleft:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Small Slashleft # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   SmallSlashright:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Small Slashright # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   SmallRectangle:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Small Rectangle # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   SmallSquare:
@@ -64,22 +64,22 @@ Handjet:
     styleMapStyleName: regular # needs to be lowercase
   BigLozenge:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Big Lozenge # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   BigSlashleft:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Big Slashleft # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   BigSlashright:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Big Slashright # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   BigRectangle:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Big Rectangle # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   BigSquare:
@@ -120,22 +120,22 @@ Handjet:
 
   SmallDoubleLozenge:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Small Double Lozenge # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   SmallDoubleSlashleft:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Small Double Slashleft # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   SmallDoubleSlashright:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Small Double Slashright # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   SmallDoubleRectangle:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Small Double Rectangle # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   SmallDoubleSquare:
@@ -175,22 +175,22 @@ Handjet:
     styleMapStyleName: regular # needs to be lowercase
   BigDoubleLozenge:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Big Double Lozenge # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   BigDoubleSlashleft:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Big Double Slashleft # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   BigDoubleSlashright:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Big Double Slashright # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   BigDoubleRectangle:
     openTypeOS2WeightClass: 100
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Big Double Rectangle # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   BigDoubleSquare:
@@ -252,7 +252,7 @@ HandjetLozenge:
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Lozenge # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
@@ -301,7 +301,7 @@ HandjetSlashleft:
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Slashleft # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
@@ -350,7 +350,7 @@ HandjetSlashright:
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Slashright # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
@@ -399,7 +399,7 @@ HandjetRectangle:
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Rectangle # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
@@ -448,7 +448,7 @@ HandjetSquare:
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Square # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
@@ -497,7 +497,7 @@ HandjetCircle:
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Circle # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
@@ -546,7 +546,7 @@ HandjetOval:
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Oval # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
@@ -595,7 +595,7 @@ HandjetOvalright:
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Ovalright # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
@@ -644,7 +644,7 @@ HandjetOvalleft:
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Ovalleft # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
@@ -693,7 +693,7 @@ HandjetHeart:
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Heart # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:
@@ -742,7 +742,7 @@ HandjetFlower:
     styleMapStyleName: regular # needs to be lowercase
   Regular:
     openTypeOS2WeightClass: 400
-    openTypeOS2Panose: [2, 13, 5, 3, 4, 3, 0, 0, 0, 4]
+    openTypeOS2Panose: [4, 4, 8, 4, 2, 1, 2, 2, 4, 2]
     styleMapFamilyName: Handjet Flower # keep this one simple
     styleMapStyleName: regular # needs to be lowercase
   Medium:

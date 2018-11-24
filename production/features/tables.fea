@@ -58,12 +58,12 @@ table hhea {
 } hhea;
 
 table name {
-      nameid 0 "Copyright (c) 2018 by David Březina. Published by Rosetta. All rights reserved.";
+      nameid 0 "Copyright (c) 2018 by David Brezina. Published by Rosetta. All rights reserved.";
       nameid 8 "Rosetta Type Foundry";
-      nameid 9 "David Březina";
+      nameid 9 "David Brezina";
       nameid 11 "https://www.rosettatype.com";
       nameid 12 "https://www.rosettatype.com";
-      nameid 13 "IMPORTANT, please read our license agreement at http://rosettatype.com/licence";
+      nameid 13 "IMPORTANT, please read our license agreement at https://rosettatype.com/licence";
       nameid 14 "https://rosettatype.com/license";
       nameid 25 "Handjet";
 } name;

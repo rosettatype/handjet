@@ -925,8 +925,8 @@ owl,
 owl.flying,
 owl.black,
 owl.black.flying,
-_grid,
-_shape
+_shape,
+_grid
 );
 }
 );
@@ -53729,35 +53729,6 @@ width = 960;
 },
 {
 color = 9;
-glyphname = _grid;
-lastChange = "2018-11-21 15:59:44 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _shape;
-},
-{
-alignment = -1;
-name = _shape;
-},
-{
-alignment = -1;
-name = _shape;
-},
-{
-alignment = -1;
-name = _shape;
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 60;
-}
-);
-},
-{
-color = 9;
 glyphname = _shape;
 lastChange = "2018-11-21 15:59:18 +0000";
 layers = (
@@ -53803,6 +53774,35 @@ nodes = (
 );
 }
 );
+width = 60;
+}
+);
+},
+{
+color = 9;
+glyphname = _grid;
+lastChange = "2018-11-21 15:59:44 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _shape;
+},
+{
+alignment = -1;
+name = _shape;
+},
+{
+alignment = -1;
+name = _shape;
+},
+{
+alignment = -1;
+name = _shape;
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 60;
 }
 );
