@@ -1,5 +1,5 @@
 {
-.appVersion = "1179";
+.appVersion = "1181";
 customParameters = (
 {
 name = glyphOrder;
@@ -2726,7 +2726,7 @@ glyphs = (
 {
 color = 0;
 glyphname = _shape;
-lastChange = "2018-11-23 17:13:22 +0000";
+lastChange = "2018-11-24 16:46:59 +0000";
 layers = (
 {
 background = {
@@ -3151,18 +3151,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"30 19 OFFCURVE",
-"41 30 OFFCURVE",
-"30 30 CURVE",
-"41 30 OFFCURVE",
-"30 41 OFFCURVE",
-"30 30 CURVE",
-"30 41 OFFCURVE",
-"19 30 OFFCURVE",
-"30 30 CURVE",
-"19 30 OFFCURVE",
-"30 19 OFFCURVE",
-"30 30 CURVE"
+"30 20 OFFCURVE",
+"40 30 OFFCURVE",
+"31 30 CURVE",
+"40 30 OFFCURVE",
+"30 40 OFFCURVE",
+"30 31 CURVE",
+"30 40 OFFCURVE",
+"20 30 OFFCURVE",
+"29 30 CURVE",
+"20 30 OFFCURVE",
+"30 20 OFFCURVE",
+"30 29 CURVE"
 );
 }
 );
@@ -3865,18 +3865,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"30 19 OFFCURVE",
-"41 30 OFFCURVE",
-"30 30 CURVE",
-"41 30 OFFCURVE",
-"30 41 OFFCURVE",
-"30 30 CURVE",
-"30 41 OFFCURVE",
-"19 30 OFFCURVE",
-"30 30 CURVE",
-"19 30 OFFCURVE",
-"30 19 OFFCURVE",
-"30 30 CURVE"
+"30 20 OFFCURVE",
+"40 30 OFFCURVE",
+"31 30 CURVE",
+"40 30 OFFCURVE",
+"30 40 OFFCURVE",
+"30 31 CURVE",
+"30 40 OFFCURVE",
+"20 30 OFFCURVE",
+"29 30 CURVE",
+"20 30 OFFCURVE",
+"30 20 OFFCURVE",
+"30 29 CURVE"
 );
 }
 );
@@ -4459,7 +4459,7 @@ width = 60;
 {
 color = 0;
 glyphname = _grid;
-lastChange = "2018-11-23 17:13:22 +0000";
+lastChange = "2018-11-24 16:46:59 +0000";
 layers = (
 {
 components = (
@@ -10843,7 +10843,7 @@ width = 600;
 {
 color = 8;
 glyphname = _shape.10;
-lastChange = "2018-11-22 20:45:03 +0000";
+lastChange = "2018-11-24 16:46:34 +0000";
 layers = (
 {
 background = {
@@ -10872,18 +10872,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"30 19 OFFCURVE",
-"41 30 OFFCURVE",
-"30 30 CURVE",
-"41 30 OFFCURVE",
-"30 41 OFFCURVE",
-"30 30 CURVE",
-"30 41 OFFCURVE",
-"19 30 OFFCURVE",
-"30 30 CURVE",
-"19 30 OFFCURVE",
-"30 19 OFFCURVE",
-"30 30 CURVE"
+"30 20 OFFCURVE",
+"40 30 OFFCURVE",
+"31 30 CURVE",
+"40 30 OFFCURVE",
+"30 40 OFFCURVE",
+"30 31 CURVE",
+"30 40 OFFCURVE",
+"20 30 OFFCURVE",
+"29 30 CURVE",
+"20 30 OFFCURVE",
+"30 20 OFFCURVE",
+"30 29 CURVE"
 );
 }
 );
@@ -20223,7 +20223,7 @@ width = 600;
 {
 color = 8;
 glyphname = _shape.32;
-lastChange = "2018-11-23 17:12:53 +0000";
+lastChange = "2018-11-24 16:46:43 +0000";
 layers = (
 {
 background = {
@@ -20252,18 +20252,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"30 19 OFFCURVE",
-"41 30 OFFCURVE",
-"30 30 CURVE",
-"41 30 OFFCURVE",
-"30 41 OFFCURVE",
-"30 30 CURVE",
-"30 41 OFFCURVE",
-"19 30 OFFCURVE",
-"30 30 CURVE",
-"19 30 OFFCURVE",
-"30 19 OFFCURVE",
-"30 30 CURVE"
+"30 20 OFFCURVE",
+"40 30 OFFCURVE",
+"31 30 CURVE",
+"40 30 OFFCURVE",
+"30 40 OFFCURVE",
+"30 31 CURVE",
+"30 40 OFFCURVE",
+"20 30 OFFCURVE",
+"29 30 CURVE",
+"20 30 OFFCURVE",
+"30 20 OFFCURVE",
+"30 29 CURVE"
 );
 }
 );
