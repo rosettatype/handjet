@@ -13,7 +13,7 @@
 
 	@font-face {
 		font-family: "Handjet";
-		src: url("Handjet-VF.ttf") format('woff');
+		src: url("HandjetGX.ttf") format('woff');
 		font-weight: 400;
 		font-style: normal;
 	}
@@ -46,10 +46,9 @@
 		
 		/* OpenType features: kerning, ligatures & contextual alternates */
 		font-kerning: normal; /* CSS3 */
-			-webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
-			-moz-font-feature-settings: "kern=1", "liga=1", "calt=1";	/* Firefox 4.0 to 14.0 */
-	     	-moz-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;	/* Firefox 15.0 onwards */
-			font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+			-webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "frac" 1;
+	     	-moz-font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "frac" 1;
+			font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "dlig" 1, "frac" 1;
 		
 		/* Make rendering look consistent across platforms */
 		-webkit-font-smoothing: antialiased !important;
@@ -58,12 +57,12 @@
 		transition: 0.3s;
 	}
 	#edit1 {
-		font-variation-settings: "wght" 500, "wdth" 300, "opsz" 100;
+		font-variation-settings: "wght" 40, "wdth" 900, "opsz" 100;
 		color: white;
 	}
 
 	#edit2 {
-		font-variation-settings: "wght" 500, "wdth" 300, "opsz" 100;
+		font-variation-settings: "wght" 40, "wdth" 900, "opsz" 100;
 		z-index: 10;
 		color: red;
 		display: none;
@@ -155,31 +154,31 @@
 </head>
 <body>
   <p class="edit" id="edit1" contenteditable="true">
-    Zkouška?
+    Zkouška?<br>Δοκιμή<br>Испытание
   </p>
   <p class="edit" id="edit2" contenteditable="false">
-    Zkouška?
+    Zkouška?<br>Δοκιμή<br>Испытание
   </p>
   <p>
   	<div class="range-slider white">
-	  Element size: <input id="change_wght" class="range-slider__range" type="range" value="500" min="100" max="900" step="10">
+	  Element size: <input id="change_wght" class="range-slider__range" type="range" value="60" min="10" max="120" step="10">
 	</div>
   	<div class="range-slider white">
-	  Element shape: <input id="change_wdth" class="range-slider__range" type="range" value="300" min="100" max="500" step="100">
+	  Element shape: <input id="change_wdth" class="range-slider__range" type="range" value="900" min="100" max="1100" step="50">
 	</div>
   	<div class="range-slider white">
-	  Double elements: <input id="change_opsz" class="range-slider__range" type="range" value="100" min="100" max="200" step="100">
+	  Double elements: <input id="change_opsz" class="range-slider__range" type="range" value="100" min="100" max="200" step="50">
 	</div>
   </p>
   <p>
   	<div class="range-slider red">
-	  Element size: <input id="change_wght2" class="range-slider__range" type="range" value="500" min="100" max="900" step="10">
+	  Element size: <input id="change_wght2" class="range-slider__range" type="range" value="60" min="10" max="120" step="10">
 	</div>
   	<div class="range-slider red">
-	  Element shape: <input id="change_wdth2" class="range-slider__range" type="range" value="300" min="100" max="500" step="100">
+	  Element shape: <input id="change_wdth2" class="range-slider__range" type="range" value="900" min="100" max="1100" step="50">
 	</div>
   	<div class="range-slider red">
-	  Double elements: <br><input id="change_opsz2" class="range-slider__range" type="range" value="100" min="100" max="200" step="100">
+	  Double elements: <br><input id="change_opsz2" class="range-slider__range" type="range" value="100" min="100" max="200" step="50">
 	</div>
   	<div class="range-slider red">
 	  Horizontal offset: <br> <input id="change_shift2" class="range-slider__range" type="range" value="100" min="0" max="200" step="1">
