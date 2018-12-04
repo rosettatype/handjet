@@ -6,7 +6,7 @@ BLACK = (0, 0, 0)
 WHITE = (1, 1, 1)
 RED = (0.7, 0, 0)
 FACEBLUE = (34/255, 64/255, 127/255) # (59, 89, 152)
-MARLIKBLUE = (15/255, 131/255, 159/255)  # (50/255, 156/255, 184/255)
+HANDJETCOLOR = (230/255, 250/255,40/255)  # (50/255, 156/255, 184/255)
 # outline
 letterFillColor = BLACK
 letterStrokeColor = WHITE
@@ -117,38 +117,32 @@ def draw_letter(sampletext="", glyphname="", fontfile="",
                 db.fill(*nodeFillColor)
                 db.stroke(*nodeStrokeColor)
                 db.strokeWidth(nodeStrokeWidth)
-                db.oval(x-offCurveNodeSize/2, y-offCurveNodeSize/2,
-                        offCurveNodeSize, offCurveNodeSize)
-
-def draw_label(sc):
-    with db.savedState():
-        db.translate(850, 750)
-        db.rotate(30)
-        db.scale(1.5)
-        image("coming-soon_badge.pdf", (0, 0))
+                db.oval(x-offCurveNodeSize/2, y-offCurveNodeSize/2, offCurveNodeSize, offCurveNodeSize)
 
 poster_w, poster_h = 540,540
 imageResolution = 150
 repete = 5
-wght_min, wght_max, step = 10, 120, 5
-txt = "Handjet!"
+wght_min, wght_max, step = 11, 120, 10
+wdth = 1000
+opsz = 100
+txt = "Love it!"
 size = 150
 
 db.newDrawing()
-letterFillColor = WHITE
+letterFillColor = BLACK
 for wght in range(wght_min, wght_max, step):
     db.newPage(poster_w, poster_h)
-    db.fill(*MARLIKBLUE)
+    db.fill(*HANDJETCOLOR)
     db.rect(0, 0, poster_w, poster_h)
-    draw_letter(txt, fontfile="HandjetPro-Regular", fontsize=size, fontvariations={"wght": wght}, show_handles=False, show_fill=True, show_outline=False)
+    draw_letter(txt, fontfile="Handjet-Regular_", fontsize=size, fontvariations={"wght": wght, "wdth": wdth, "opsz": opsz}, show_handles=False, show_fill=True, show_outline=False)
 for wght in range(wght_max, wght_min, -step):
     db.newPage(poster_w, poster_h)
-    db.fill(*MARLIKBLUE)
+    db.fill(*HANDJETCOLOR)
     db.rect(0, 0, poster_w, poster_h)
-    draw_letter(txt, fontfile="HandjetPro-Regular", fontsize=size, fontvariations={"wght": wght}, show_handles=False, show_fill=True, show_outline=False)
+    draw_letter(txt, fontfile="Handjet-Regular_", fontsize=size, fontvariations={"wght": wght, "wdth": wdth, "opsz": opsz}, show_handles=False, show_fill=True, show_outline=False)
 
-saveImage("handjet.mp4")
+saveImage("handjet_loveit.mp4")
 
-db.font("HandjetPro-Regular")
+db.font("Handjet-Regular")
 for axis, data in db.listFontVariations().items():
     print((axis, data))
