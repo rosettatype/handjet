@@ -1,3 +1,4 @@
+# mrhandy: 0.4
 # ----------------------------------------
 # Handjet
 # ----------------------------------------
@@ -132,6 +133,32 @@
         #- .post.rename_family:
         #    family_name: Handjet Web
         - .post.make_webfonts
+        - .remove_fonts:
+            remove_formats: ttf
+            to_folder: true
+
+# ----------------------------------------
+# compile preview webfonts
+-  
+    name: Handjet VF - preview webfonts
+    from:
+        folder: ../fonts/Handjet-VF/
+        family: Handjet
+        formats: [ttf]
+        styles: [VF]
+        minify: true
+    to:
+        folder: ../fonts/HandjetPreview/
+        family: Handjet Preview
+        minify: true
+    make_preview_webfonts:
+        - .copy_fonts:
+            folder: ../fonts/HandjetPreview/
+        - .post.rename_family:
+           family_name: Handjet Preview
+        - .post.add_puas
+        - .post.make_webfonts:
+            webformats: [woff, woff2]
         - .remove_fonts:
             remove_formats: ttf
             to_folder: true
