@@ -8,3 +8,6 @@ master_*/
 instance_*/
 variable_*/
 fonts/*
+
+# tmp glyphs db
+db.pkl
