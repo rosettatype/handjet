@@ -1,5 +1,11 @@
 {
-.appVersion = "1181";
+.appVersion = "1268";
+DisplayStrings = (
+"/deer.horns",
+"/deer",
+"/deer.tallerhorns",
+"/snowflake/snowflake.1/snowflake.2/snowflake.3/snowflake.4"
+);
 classes = (
 {
 automatic = 1;
@@ -54019,6 +54025,1386 @@ name = _shape;
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 60;
+}
+);
+},
+{
+glyphname = deer;
+lastChange = "2019-12-05 10:44:32 +0000";
+layers = (
+{
+components = (
+{
+alignment = 1;
+name = deer.body;
+},
+{
+alignment = 1;
+name = deer.horns;
+transform = "{1, 0, 0, 1, 660, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 660;
+}
+);
+unicode = 1F98C;
+},
+{
+color = 4;
+glyphname = deer.body;
+lastChange = "2019-12-05 10:43:26 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 660}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 570}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 570}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 630}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 690}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 660}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 570}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 660;
+}
+);
+},
+{
+color = 4;
+glyphname = deer.horns;
+lastChange = "2019-12-05 10:45:43 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 720}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 750}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 780}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 810}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 840}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 870}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 900}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -450, 900}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -450, 750}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -690, 930}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -690, 780}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 0;
+}
+);
+},
+{
+color = 4;
+glyphname = deer.tallerhorns;
+lastChange = "2019-12-05 10:45:43 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 720}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 750}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 780}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 1050}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 1080}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 1110}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 1140}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -450, 1140}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -450, 750}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -690, 1170}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -690, 780}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 840}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 870}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 900}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -450, 870}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -690, 900}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 810}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 960}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 990}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 1020}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -450, 990}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -690, 1020}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 930}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 0;
+}
+);
+},
+{
+color = 4;
+glyphname = deer.tallhorns;
+lastChange = "2019-12-05 10:45:43 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 720}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 750}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 780}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 930}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 960}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 990}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 1020}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -450, 1020}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -450, 750}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -690, 1050}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -690, 780}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 840}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 870}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -630, 900}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -450, 870}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -690, 900}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -510, 810}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 0;
+}
+);
+},
+{
+color = 4;
+glyphname = snowflake;
+lastChange = "2019-12-05 10:54:44 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 360}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 780;
+}
+);
+unicode = 2744;
+},
+{
+color = 4;
+glyphname = snowflake.1;
+lastChange = "2019-12-05 10:53:41 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 480}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 780;
+}
+);
+},
+{
+color = 4;
+glyphname = snowflake.2;
+lastChange = "2019-12-05 10:55:13 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 60}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 780;
+}
+);
+},
+{
+color = 4;
+glyphname = snowflake.3;
+lastChange = "2019-12-05 10:57:42 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 150}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 390}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 450}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 150}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 450}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 600, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 600, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 390}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 480}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 780;
+}
+);
+},
+{
+color = 4;
+glyphname = snowflake.4;
+lastChange = "2019-12-05 10:57:46 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 330}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 600, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 150}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 630, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 150}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 390}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 600, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 390}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 450}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 450}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 630, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 360}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 780;
 }
 );
 }
