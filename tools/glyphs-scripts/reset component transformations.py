@@ -29,17 +29,17 @@ for g in Glyphs.font.selection:
                 if c.transform[0] == -1.0:
                     newTransform[4] = c.x - c.bounds.size.width
 
-                if c.transform[4] == -1.0:
+                if c.transform[3] == -1.0:
                     newTransform[5] = c.y - c.bounds.size.height
 
                 if newTransform != list(c.transform):
                     c.transform = tuple(newTransform)
-                    g.color = 1
-                    print "Flipped turned component in place in %s, layer %s. Double-check positioning in orange glyphs" % (g.name, l.name)
+                    g.color = 10
+                    print "Flipped turned component in place in %s, layer %s. Double-check positioning in gray glyphs" % (g.name, l.name)
                 else:
-                    g.color = 0
+                    g.color = 11
                     c.transform = tuple(newTransform)
-                    print "Manually check components in %s, layer %s for correct alignment. Removed rotation/skew (%s), but position might need fixing" % (g.name, l.name, str(c.transform))
+                    print "Manually check components in %s, layer %s for correct alignment. Removed rotation/skew (%s), but position might need fixing in glyphs marked black" % (g.name, l.name, str(c.transform))
         g.endUndo()
 
 # Old version
