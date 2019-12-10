@@ -11,19 +11,36 @@ mirror/rotation/skew but retain the current mathematical position.
 Highlights any affected glyphs red and prints their affected layers to the 
 console.
 
-NOTE: Does not retain visual position for affected components
+NOTE: If a component is flipped the position is retained, however rotated or 
+skewed components might need to be manually repositioned
 """
+
 from GlyphsApp import Glyphs
 
 noTransform = (1.0, 0.0, 0.0, 1.0)
+
 for g in Glyphs.font.selection:
-    glyph.beginUndo()
-    for l in glyph.layers:
+    g.beginUndo()
+    for l in g.layers:
         for c in l.components:
             if c.transform[:4] != noTransform:
-                g.color = 0
-                print "Manually check components in %s, layer %s for correct alignment. Removed mirror/rotation/skew, but position might need fixing" % (glyph.name, layer.name)
+                newTransform = list(noTransform) + [c.x, c.y]
 
+                if c.transform[0] == -1.0:
+                    newTransform[4] = c.x - c.bounds.size.width
+
+                if c.transform[4] == -1.0:
+                    newTransform[5] = c.y - c.bounds.size.height
+
+                if newTransform != list(c.transform):
+                    c.transform = tuple(newTransform)
+                    g.color = 1
+                    print "Flipped turned component in place in %s, layer %s. Double-check positioning in orange glyphs" % (g.name, l.name)
+                else:
+                    g.color = 0
+                    c.transform = tuple(newTransform)
+                    print "Manually check components in %s, layer %s for correct alignment. Removed rotation/skew (%s), but position might need fixing" % (g.name, l.name, str(c.transform))
+        g.endUndo()
 
 # Old version
 
