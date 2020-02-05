@@ -1,4 +1,4 @@
-# MenuTitle: Reset component transformations
+# MenuTitle: reset component transformations
 
 __copyright__ = """
 Copyright (c) 2013, David Brezina
@@ -6,12 +6,12 @@ All rights reserved.
 """
 
 __doc__ = """
-Check all components in all selected glyphs’ layers and remove any 
+Check all components in all selected glyphs’ layers and remove any
 mirror/rotation/skew but retain the current mathematical position.
-Highlights any affected glyphs red and prints their affected layers to the 
+Highlights any affected glyphs red and prints their affected layers to the
 console.
 
-NOTE: If a component is flipped the position is retained, however rotated or 
+NOTE: If a component is flipped the position is retained, however rotated or
 skewed components might need to be manually repositioned
 """
 

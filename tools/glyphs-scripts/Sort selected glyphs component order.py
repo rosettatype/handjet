@@ -1,4 +1,4 @@
-# MenuTitle: Sort selected glyphs component order
+# MenuTitle: sort selected glyphs component order
 
 __copyright__ = """
 Copyright (c) 2019, Rosetta Type
@@ -10,7 +10,7 @@ Johannes Neumeier
 """
 
 __doc__ = """
-Sorts all selected glyphs' layers' components order from top to bottom, left 
+Sorts all selected glyphs' layers' components order from top to bottom, left
 to right
 """
 from GlyphsApp import Glyphs

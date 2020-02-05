@@ -1,4 +1,4 @@
-# MenuTitle: Replicate selected layer to others
+# MenuTitle: replicate selected layer to others
 __copyright__ = """
 Copyright (c) 2016, David Brezina
 All rights reserved.
