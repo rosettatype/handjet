@@ -6,7 +6,8 @@ DisplayStrings = (
 "   /tree.1/tree.3/tree.3/tree.3/tree.1     /tree.3/tree.3/tree.4/tree.4/tree.4/tree.4/tree.4/tree.1 \012/tree.1/tree.3/tree.3/tree.1/tree.1    /deer.tall/tree.1/tree.3/tree.3/tree.4  /wolf/tree.3/tree.3/tree.1 \012/tree.1/tree.3/tree.3/tree.4/tree.1/tree.3/tree.3/tree.4/tree.4/tree.4/tree.4/tree.4/tree.3/tree.1 \012        /tree.1/fox.right/tree.3/tree.3/tree.3/tree.1/rabbit/rabbit/rabbit.right     /tree.3/tree.3/tree.4  /wolf  /tree.1 \012             /tree.3/tree.3/tree.4/tree.4/tree.4/tree.4/tree.4/tree.3/tree.1/tree.1/tree.1/tree.1 \012                 /tree.3/tree.3/tree.4  /reindeer.right/reindeer.right/reindeer.right/reindeer.right/tree.3/tree.1/tree.1",
 "/pattern.1/pattern.1/pattern.1/pattern.2/pattern.2/pattern.2  /pattern.3/pattern.3/pattern.3  /pattern.4/pattern.4/pattern.4 \012/patternbg/pattern.1/patternbg/pattern.1/patternbg/pattern.1/patternbg/pattern.2/patternbg/pattern.2/patternbg/pattern.2/patternbg/pattern.2/patternbg/patternbg/pattern.3/patternbg/pattern.3/patternbg/pattern.3/patternbg/pattern.4/patternbg/pattern.4/patternbg/pattern.4/patternbg \012/patternbg.1/pattern.1/patternbg.1/pattern.1/patternbg.1/pattern.1/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/patternbg.1/pattern.3/patternbg.1/pattern.3/patternbg.1/pattern.3/patternbg.1/pattern.4/patternbg.1/pattern.4/patternbg.1/pattern.4/patternbg.1 \012/pattern.5/pattern.5/pattern.5  /pattern.6/pattern.6/pattern.6  /pattern.7/pattern.7/pattern.7  /pattern.8/pattern.8/pattern.8  /pattern.9/pattern.9/pattern.9 \012/patternbg/pattern.5/patternbg/pattern.5/patternbg/pattern.5/patternbg/pattern.6/patternbg/pattern.6/patternbg/pattern.6/patternbg/patternbg/pattern.7/patternbg/pattern.7/patternbg/pattern.7/patternbg/patternbg/pattern.8/patternbg/pattern.8/patternbg/pattern.8/patternbg/pattern.9/patternbg/pattern.9/patternbg/pattern.9/patternbg \012/patternbg.2/pattern.5/patternbg.2/pattern.5/patternbg.2/pattern.5/patternbg.2/pattern.6/patternbg.2/pattern.6/patternbg.2/pattern.6/patternbg.2/patternbg.2/pattern.7/patternbg.2/pattern.7/patternbg.2/pattern.7/patternbg.2/patternbg.2/pattern.8/patternbg.2/pattern.8/patternbg.2/pattern.8/patternbg.2/pattern.9/patternbg.2/pattern.9/patternbg.2/pattern.9/patternbg.2",
 "/arSad/arSad.fina/arSad.init/arSad.medi",
-"/arLam.init_arLam.medi_arHeh.fina/arHeh.fina/arHeh.medi/arHehDoachashmi/arHehDoachashmi.fina/arHehDoachashmi.init/arHehDoachashmi.medi"
+"/arLam.init_arLam.medi_arHeh.fina/arHeh.fina/arHeh.medi/arHehDoachashmi/arHehDoachashmi.fina/arHehDoachashmi.init/arHehDoachashmi.medi",
+"/a.yiwn"
 );
 classes = (
 {
@@ -47571,7 +47572,7 @@ unicode = 0375;
 {
 color = 7;
 glyphname = a.Ayb;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:47:57 +0000";
 layers = (
 {
 components = (
@@ -47694,6 +47695,11 @@ transform = "{1, 0, 0, 1, 60, 600}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 300, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 120}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -47705,7 +47711,7 @@ unicode = 0531;
 {
 color = 7;
 glyphname = a.Ben;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:48:13 +0000";
 layers = (
 {
 components = (
@@ -47737,22 +47743,22 @@ transform = "{1, 0, 0, 1, 60, 240}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
+transform = "{1, 0, 0, 1, 120, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 240}";
+transform = "{1, 0, 0, 1, 180, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 240}";
+transform = "{1, 0, 0, 1, 240, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
+transform = "{1, 0, 0, 1, 300, 180}";
 },
 {
 alignment = -1;
@@ -47763,11 +47769,6 @@ transform = "{1, 0, 0, 1, 60, 300}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
 },
 {
 alignment = -1;
@@ -47824,7 +47825,7 @@ unicode = 0532;
 {
 color = 7;
 glyphname = a.Gim;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:48:23 +0000";
 layers = (
 {
 components = (
@@ -47856,17 +47857,17 @@ transform = "{1, 0, 0, 1, 300, 240}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
+transform = "{1, 0, 0, 1, 120, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 300}";
+transform = "{1, 0, 0, 1, 180, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 300}";
+transform = "{1, 0, 0, 1, 240, 240}";
 },
 {
 alignment = -1;
@@ -47876,7 +47877,7 @@ transform = "{1, 0, 0, 1, 300, 300}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 300}";
+transform = "{1, 0, 0, 1, 360, 240}";
 },
 {
 alignment = -1;
@@ -47932,6 +47933,11 @@ transform = "{1, 0, 0, 1, 180, 600}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 240, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 300}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -47943,7 +47949,7 @@ unicode = 0533;
 {
 color = 7;
 glyphname = a.Da;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:48:29 +0000";
 layers = (
 {
 components = (
@@ -48036,6 +48042,11 @@ transform = "{1, 0, 0, 1, 180, 600}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 240, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 300}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -48047,7 +48058,7 @@ unicode = 0534;
 {
 color = 7;
 glyphname = a.Ech;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:48:35 +0000";
 layers = (
 {
 components = (
@@ -48109,22 +48120,22 @@ transform = "{1, 0, 0, 1, 60, 300}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
+transform = "{1, 0, 0, 1, 120, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 300}";
+transform = "{1, 0, 0, 1, 180, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 300}";
+transform = "{1, 0, 0, 1, 240, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
+transform = "{1, 0, 0, 1, 300, 360}";
 },
 {
 alignment = -1;
@@ -48305,14 +48316,14 @@ unicode = 0536;
 {
 color = 7;
 glyphname = a.Eh;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:49:44 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, -60}";
+transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 alignment = -1;
@@ -48362,22 +48373,17 @@ transform = "{1, 0, 0, 1, 60, 300}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
+transform = "{1, 0, 0, 1, 120, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 300}";
+transform = "{1, 0, 0, 1, 180, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
+transform = "{1, 0, 0, 1, 240, 360}";
 },
 {
 alignment = -1;
@@ -48414,7 +48420,7 @@ unicode = 0537;
 {
 color = 7;
 glyphname = a.Et;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:49:01 +0000";
 layers = (
 {
 components = (
@@ -48522,6 +48528,11 @@ transform = "{1, 0, 0, 1, 180, 600}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 240, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 300}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -48687,7 +48698,7 @@ unicode = 0539;
 {
 color = 7;
 glyphname = a.Zhe;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:49:27 +0000";
 layers = (
 {
 components = (
@@ -48749,17 +48760,17 @@ transform = "{1, 0, 0, 1, 300, 240}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
+transform = "{1, 0, 0, 1, 120, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 300}";
+transform = "{1, 0, 0, 1, 180, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 300}";
+transform = "{1, 0, 0, 1, 240, 360}";
 },
 {
 alignment = -1;
@@ -48769,7 +48780,7 @@ transform = "{1, 0, 0, 1, 300, 300}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 300}";
+transform = "{1, 0, 0, 1, 360, 360}";
 },
 {
 alignment = -1;
@@ -48795,6 +48806,11 @@ transform = "{1, 0, 0, 1, 300, 540}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 300, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 300}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -48910,14 +48926,14 @@ unicode = 053B;
 {
 color = 7;
 glyphname = a.Liwn;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:49:38 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, -60}";
+transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 alignment = -1;
@@ -49376,19 +49392,14 @@ unicode = 053F;
 {
 color = 7;
 glyphname = a.Ho;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:50:17 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, -60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, -30}";
+transform = "{1, 0, 0, 1, 300, -60}";
 },
 {
 alignment = -1;
@@ -49398,42 +49409,37 @@ transform = "{1, 0, 0, 1, 240, 0}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 30}";
+transform = "{1, 0, 0, 1, 180, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 60}";
+transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
+transform = "{1, 0, 0, 1, 60, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 180}";
+transform = "{1, 0, 0, 1, 120, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 240}";
+transform = "{1, 0, 0, 1, 180, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 300}";
+transform = "{1, 0, 0, 1, 240, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 420}";
+transform = "{1, 0, 0, 1, 300, 420}";
 },
 {
 alignment = -1;
@@ -49460,7 +49466,7 @@ unicode = 0540;
 {
 color = 7;
 glyphname = a.Ja;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:50:24 +0000";
 layers = (
 {
 components = (
@@ -49483,11 +49489,6 @@ transform = "{1, 0, 0, 1, 270, 0}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 330, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 0}";
 },
 {
 alignment = -1;
@@ -50209,7 +50210,7 @@ unicode = 0546;
 {
 color = 7;
 glyphname = a.Sha;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:52:11 +0000";
 layers = (
 {
 components = (
@@ -50296,22 +50297,12 @@ transform = "{1, 0, 0, 1, 240, 540}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 600}";
-},
-{
-alignment = -1;
-name = _grid;
 transform = "{1, 0, 0, 1, 90, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 600}";
+transform = "{1, 0, 0, 1, 150, 540}";
 },
 {
 alignment = -1;
@@ -50321,12 +50312,12 @@ transform = "{1, 0, 0, 1, 270, 600}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 330, 600}";
+transform = "{1, 0, 0, 1, 270, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 390, 600}";
+transform = "{1, 0, 0, 1, 330, 360}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -50467,39 +50458,29 @@ unicode = 0548;
 {
 color = 7;
 glyphname = a.Cha;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:51:59 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, -30}";
+transform = "{1, 0, 0, 1, 210, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 0}";
+transform = "{1, 0, 0, 1, 150, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 30}";
+transform = "{1, 0, 0, 1, 90, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 90}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
+transform = "{1, 0, 0, 1, 30, 180}";
 },
 {
 alignment = -1;
@@ -51449,7 +51430,7 @@ unicode = 0550;
 {
 color = 7;
 glyphname = a.Co;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:52:49 +0000";
 layers = (
 {
 components = (
@@ -51506,32 +51487,32 @@ transform = "{1, 0, 0, 1, 360, 240}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 300}";
+transform = "{1, 0, 0, 1, 360, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
+transform = "{1, 0, 0, 1, 60, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 360}";
+transform = "{1, 0, 0, 1, 120, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 360}";
+transform = "{1, 0, 0, 1, 180, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 360}";
+transform = "{1, 0, 0, 1, 240, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
+transform = "{1, 0, 0, 1, 300, 300}";
 },
 {
 alignment = -1;
@@ -51577,6 +51558,11 @@ transform = "{1, 0, 0, 1, 240, 600}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 300, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 360}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -51588,7 +51574,7 @@ unicode = 0551;
 {
 color = 7;
 glyphname = a.Yiwn;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:53:17 +0000";
 layers = (
 {
 components = (
@@ -51630,7 +51616,7 @@ transform = "{1, 0, 0, 1, 60, 240}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
+transform = "{1, 0, 0, 1, 270, 240}";
 },
 {
 alignment = -1;
@@ -51640,17 +51626,12 @@ transform = "{1, 0, 0, 1, 60, 300}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
+transform = "{1, 0, 0, 1, 210, 360}";
 },
 {
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
 },
 {
 alignment = -1;
@@ -51670,11 +51651,6 @@ transform = "{1, 0, 0, 1, 180, 420}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
 transform = "{1, 0, 0, 1, 60, 480}";
 },
 {
@@ -51686,6 +51662,11 @@ transform = "{1, 0, 0, 1, 60, 540}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 60, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 300}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -51856,7 +51837,7 @@ unicode = 0553;
 {
 color = 7;
 glyphname = a.Keh;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:53:40 +0000";
 layers = (
 {
 components = (
@@ -51883,12 +51864,37 @@ transform = "{1, 0, 0, 1, 120, 180}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
+transform = "{1, 0, 0, 1, 60, 120}";
 },
 {
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 120, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 360}";
 },
 {
 alignment = -1;
@@ -51904,31 +51910,6 @@ transform = "{1, 0, 0, 1, 240, 240}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
 },
 {
 alignment = -1;
@@ -51974,6 +51955,21 @@ transform = "{1, 0, 0, 1, 240, 600}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 300, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 120}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -52442,7 +52438,7 @@ unicode = 0561;
 {
 color = 7;
 glyphname = a.ben;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:54:01 +0000";
 layers = (
 {
 components = (
@@ -52495,11 +52491,6 @@ transform = "{1, 0, 0, 1, 60, 60}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
 },
 {
 alignment = -1;
@@ -52829,7 +52820,7 @@ unicode = 0564;
 {
 color = 7;
 glyphname = a.ech;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:54:07 +0000";
 layers = (
 {
 components = (
@@ -52897,11 +52888,6 @@ transform = "{1, 0, 0, 1, 300, 240}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 60, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
 },
 {
 alignment = -1;
@@ -53102,10 +53088,15 @@ unicode = 0566;
 {
 color = 7;
 glyphname = a.eh;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:54:22 +0000";
 layers = (
 {
 components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, -180}";
+},
 {
 alignment = -1;
 name = _grid;
@@ -53114,17 +53105,12 @@ transform = "{1, 0, 0, 1, 180, -180}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, -180}";
+transform = "{1, 0, 0, 1, 240, -120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, -60}";
+transform = "{1, 0, 0, 1, 240, -60}";
 },
 {
 alignment = -1;
@@ -53140,11 +53126,6 @@ transform = "{1, 0, 0, 1, 120, 0}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
 },
 {
 alignment = -1;
@@ -53195,11 +53176,6 @@ transform = "{1, 0, 0, 1, 180, 420}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 240, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 420}";
 },
 {
 alignment = -1;
@@ -53370,7 +53346,7 @@ unicode = 0568;
 {
 color = 7;
 glyphname = a.to;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:54:41 +0000";
 layers = (
 {
 components = (
@@ -53422,12 +53398,12 @@ transform = "{1, 0, 0, 1, 60, 120}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 120}";
+transform = "{1, 0, 0, 1, 180, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 120}";
+transform = "{1, 0, 0, 1, 240, 240}";
 },
 {
 alignment = -1;
@@ -53437,7 +53413,7 @@ transform = "{1, 0, 0, 1, 300, 120}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 120}";
+transform = "{1, 0, 0, 1, 360, 240}";
 },
 {
 alignment = -1;
@@ -53498,6 +53474,11 @@ transform = "{1, 0, 0, 1, 180, 420}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 240, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 120}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -54050,7 +54031,7 @@ unicode = 056D;
 {
 color = 7;
 glyphname = a.ca;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:55:00 +0000";
 layers = (
 {
 components = (
@@ -54162,17 +54143,7 @@ transform = "{1, 0, 0, 1, 120, 540}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 660}";
+transform = "{1, 0, 0, 1, 180, 600}";
 },
 {
 alignment = -1;
@@ -54437,7 +54408,7 @@ unicode = 0570;
 {
 color = 7;
 glyphname = a.ja;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:56:06 +0000";
 layers = (
 {
 components = (
@@ -54519,7 +54490,7 @@ transform = "{1, 0, 0, 1, 180, 360}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 360}";
+transform = "{1, 0, 0, 1, 270, 360}";
 },
 {
 alignment = -1;
@@ -54529,7 +54500,7 @@ transform = "{1, 0, 0, 1, 210, 420}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 480}";
+transform = "{1, 0, 0, 1, 150, 480}";
 },
 {
 alignment = -1;
@@ -54539,32 +54510,12 @@ transform = "{1, 0, 0, 1, 90, 540}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 540}";
+transform = "{1, 0, 0, 1, 210, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 660}";
+transform = "{1, 0, 0, 1, 150, 600}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -54705,7 +54656,7 @@ unicode = 0572;
 {
 color = 7;
 glyphname = a.cheh;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:56:29 +0000";
 layers = (
 {
 components = (
@@ -54752,7 +54703,7 @@ transform = "{1, 0, 0, 1, 300, 120}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 180}";
+transform = "{1, 0, 0, 1, 60, 180}";
 },
 {
 alignment = -1;
@@ -54762,7 +54713,7 @@ transform = "{1, 0, 0, 1, 300, 180}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
+transform = "{1, 0, 0, 1, 60, 240}";
 },
 {
 alignment = -1;
@@ -54772,7 +54723,7 @@ transform = "{1, 0, 0, 1, 300, 240}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 300}";
+transform = "{1, 0, 0, 1, 90, 300}";
 },
 {
 alignment = -1;
@@ -54782,7 +54733,7 @@ transform = "{1, 0, 0, 1, 300, 300}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 360}";
+transform = "{1, 0, 0, 1, 120, 360}";
 },
 {
 alignment = -1;
@@ -54812,17 +54763,17 @@ transform = "{1, 0, 0, 1, 210, 420}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 480}";
+transform = "{1, 0, 0, 1, 180, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 270, 540}";
+transform = "{1, 0, 0, 1, 210, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 600}";
+transform = "{1, 0, 0, 1, 240, 600}";
 },
 {
 alignment = -1;
@@ -54833,6 +54784,11 @@ transform = "{1, 0, 0, 1, 330, 660}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 390, 660}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 660}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -55389,7 +55345,7 @@ unicode = 0578;
 {
 color = 7;
 glyphname = a.cha;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:58:27 +0000";
 layers = (
 {
 components = (
@@ -55446,32 +55402,27 @@ transform = "{1, 0, 0, 1, 240, 180}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 240}";
+transform = "{1, 0, 0, 1, 180, 210}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 300}";
+transform = "{1, 0, 0, 1, 150, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
+transform = "{1, 0, 0, 1, 180, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 420}";
+transform = "{1, 0, 0, 1, 210, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 420}";
+transform = "{1, 0, 0, 1, 120, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -56560,7 +56511,7 @@ unicode = 0581;
 {
 color = 7;
 glyphname = a.yiwn;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-02-07 17:58:46 +0000";
 layers = (
 {
 components = (
@@ -56608,10 +56559,15 @@ transform = "{1, 0, 0, 1, 60, 360}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 60, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 180;
+width = 240;
 }
 );
 unicode = 0582;
@@ -57260,7 +57216,7 @@ unicode = 0586;
 {
 color = 7;
 glyphname = a.ech_a.yiwn;
-lastChange = "2019-12-10 12:53:43 +0000";
+lastChange = "2020-02-07 17:58:53 +0000";
 layers = (
 {
 components = (
@@ -57378,6 +57334,11 @@ transform = "{1, 0, 0, 1, 60, 600}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 60, 660}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
