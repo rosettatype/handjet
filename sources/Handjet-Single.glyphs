@@ -11,7 +11,9 @@ DisplayStrings = (
 "/arParenrightfancy/arBeh/arParenleftfancy",
 "/hbQamatsQatan",
 "/hbTsere",
-"/rightFacingEternity"
+"/rightFacingEternity",
+"/hbAlef/hbBet/hbGimel/hbDalet/hbHe/hbVav/hbZayin/hbHet/hbTet/hbYod/hbKaf/hbKafFinal/hbLamed/hbMemFinal/hbMem/hbNunFinal/hbNun/hbSamekh/hbAyin/hbPe/hbPeFinal/hbTsadi/hbTsadiFinal/hbQof/hbResh/hbShin/hbTav \012\012/hbAlef_hbPatah/hbAlef_hbQamats/hbAlef_hbDagesh/hbBet_hbDagesh/hbBet_hbRafe/hbGimel_hbDagesh/hbDalet_hbDagesh/hbHe_hbDagesh/hbVav_hbHolam/hbVav_hbDagesh/hbZayin_hbDagesh/hbTet_hbDagesh/hbYod_hbHiriq/hbYod_hbDagesh/hbKaf_hbDagesh/hbKaf_hbRafe/hbKafFinal_hbDagesh/hbLamed_hbDagesh/hbMem_hbDagesh/hbNun_hbDagesh/hbSamekh_hbDagesh/hbPe_hbDagesh/hbPe_hbRafe/hbPeFinal_hbDagesh/hbTsadi_hbDagesh/hbQof_hbDagesh/hbResh_hbDagesh/hbShin_hbDagesh/hbShin_hbShindot/hbShin_hbSindot/hbShin_hbDagesh_hbShindot/hbShin_hbDagesh_hbSindot/hbTav_hbDagesh",
+"/hbAlef/hbBet/hbGimel/hbDalet/hbHe/hbVav/hbZayin/hbHet/hbTet/hbYod/hbKaf/hbKafFinal/hbLamed/hbMemFinal/hbMem/hbNunFinal/hbNun/hbSamekh/hbAyin/hbPe/hbPeFinal/hbTsadi/hbTsadiFinal/hbQof/hbResh/hbShin/hbTav/hbAlef_hbPatah/hbAlef_hbQamats/hbAlef_hbDagesh/hbBet_hbDagesh/hbBet_hbRafe/hbGimel_hbDagesh/hbDalet_hbDagesh/hbHe_hbDagesh/hbVav_hbHolam/hbVav_hbDagesh/hbZayin_hbDagesh/hbTet_hbDagesh/hbYod_hbHiriq/hbYod_hbDagesh/hbKaf_hbDagesh/hbKaf_hbRafe/hbKafFinal_hbDagesh/hbLamed_hbDagesh/hbMem_hbDagesh/hbNun_hbDagesh/hbSamekh_hbDagesh/hbPe_hbDagesh/hbPe_hbRafe/hbPeFinal_hbDagesh/hbTsadi_hbDagesh/hbQof_hbDagesh/hbResh_hbDagesh/hbShin_hbDagesh/hbShin_hbShindot/hbShin_hbSindot/hbShin_hbDagesh_hbShindot/hbShin_hbDagesh_hbSindot/hbTav_hbDagesh/hbVav_hbVav/hbVav_hbYod/hbYod_hbYod/hbYod_hbYod_hbPatah/hbPaseq/hbGeresh/hbGershayim/hbMaqaf/hbSofPasuq"
 );
 classes = (
 {
@@ -26664,9 +26666,9 @@ width = 420;
 unicode = 20A1;
 },
 {
-color = 10;
+color = 1;
 glyphname = dram;
-lastChange = "2020-02-14 13:19:07 +0000";
+lastChange = "2020-02-14 13:46:34 +0000";
 layers = (
 {
 components = (
@@ -27490,7 +27492,7 @@ unicode = 20BC;
 {
 color = 1;
 glyphname = naira;
-lastChange = "2020-02-13 15:40:43 +0000";
+lastChange = "2020-02-14 13:46:23 +0000";
 layers = (
 {
 components = (
@@ -27627,37 +27629,27 @@ transform = "{1, 0, 0, 1, 300, 600}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 360}";
-},
-{
-alignment = -1;
-name = _grid;
 transform = "{1, 0, 0, 1, 180, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 360}";
+transform = "{1, 0, 0, 1, 360, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 240}";
+transform = "{1, 0, 0, 1, 0, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 240}";
+transform = "{1, 0, 0, 1, 120, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 360}";
+transform = "{1, 0, 0, 1, 240, 300}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
