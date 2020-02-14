@@ -5,14 +5,24 @@ DisplayStrings = (
 "/snowman.1",
 "   /tree.1/tree.3/tree.3/tree.3/tree.1     /tree.3/tree.3/tree.4/tree.4/tree.4/tree.4/tree.4/tree.1 \012/tree.1/tree.3/tree.3/tree.1/tree.1    /deer.tall/tree.1/tree.3/tree.3/tree.4  /wolf/tree.3/tree.3/tree.1 \012/tree.1/tree.3/tree.3/tree.4/tree.1/tree.3/tree.3/tree.4/tree.4/tree.4/tree.4/tree.4/tree.3/tree.1 \012        /tree.1/fox.right/tree.3/tree.3/tree.3/tree.1/rabbit/rabbit/rabbit.right     /tree.3/tree.3/tree.4  /wolf  /tree.1 \012             /tree.3/tree.3/tree.4/tree.4/tree.4/tree.4/tree.4/tree.3/tree.1/tree.1/tree.1/tree.1 \012                 /tree.3/tree.3/tree.4  /reindeer.right/reindeer.right/reindeer.right/reindeer.right/tree.3/tree.1/tree.1",
 "/pattern.1/pattern.1/pattern.1/pattern.2/pattern.2/pattern.2  /pattern.3/pattern.3/pattern.3  /pattern.4/pattern.4/pattern.4 \012/patternbg/pattern.1/patternbg/pattern.1/patternbg/pattern.1/patternbg/pattern.2/patternbg/pattern.2/patternbg/pattern.2/patternbg/pattern.2/patternbg/patternbg/pattern.3/patternbg/pattern.3/patternbg/pattern.3/patternbg/pattern.4/patternbg/pattern.4/patternbg/pattern.4/patternbg \012/patternbg.1/pattern.1/patternbg.1/pattern.1/patternbg.1/pattern.1/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/patternbg.1/pattern.3/patternbg.1/pattern.3/patternbg.1/pattern.3/patternbg.1/pattern.4/patternbg.1/pattern.4/patternbg.1/pattern.4/patternbg.1 \012/pattern.5/pattern.5/pattern.5  /pattern.6/pattern.6/pattern.6  /pattern.7/pattern.7/pattern.7  /pattern.8/pattern.8/pattern.8  /pattern.9/pattern.9/pattern.9 \012/patternbg/pattern.5/patternbg/pattern.5/patternbg/pattern.5/patternbg/pattern.6/patternbg/pattern.6/patternbg/pattern.6/patternbg/patternbg/pattern.7/patternbg/pattern.7/patternbg/pattern.7/patternbg/patternbg/pattern.8/patternbg/pattern.8/patternbg/pattern.8/patternbg/pattern.9/patternbg/pattern.9/patternbg/pattern.9/patternbg \012/patternbg.2/pattern.5/patternbg.2/pattern.5/patternbg.2/pattern.5/patternbg.2/pattern.6/patternbg.2/pattern.6/patternbg.2/pattern.6/patternbg.2/patternbg.2/pattern.7/patternbg.2/pattern.7/patternbg.2/pattern.7/patternbg.2/patternbg.2/pattern.8/patternbg.2/pattern.8/patternbg.2/pattern.8/patternbg.2/pattern.9/patternbg.2/pattern.9/patternbg.2/pattern.9/patternbg.2",
-"abcdefgh\012/hbAlef/hbTsadi/hbTsadiFinal \012/hbBet/hbGimel/hbHe/hbHet/hbMemFinal/hbNun/hbTav \012/hbKaf/hbMem/hbAyin/hbShin \012/hbTet/hbSamekh/hbPe/hbPeFinal \012/hbLamed/hbQof \012/hbDalet/hbZayin \012/hbKafFinal/hbNunFinal/hbResh/hbVav/hbNun/hbYod",
-"/hbAlef_hbPatah/hbAlef_hbQamats/hbAlef_hbDagesh/hbBet_hbDagesh/hbBet_hbRafe/hbGimel_hbDagesh/hbDalet_hbDagesh/hbHe_hbDagesh \012/hbVav_hbHolam/hbVav_hbDagesh/hbZayin/hbZayin_hbDagesh/hbTet_hbDagesh/hbYod_hbHiriq/hbYod_hbDagesh/hbKaf_hbDagesh/hbKaf_hbRafe/hbKafFinal_hbDagesh/hbLamed_hbDagesh/hbMem_hbDagesh/hbNun_hbDagesh \012/hbSamekh_hbDagesh/hbPe_hbDagesh/hbPe_hbRafe/hbPeFinal_hbDagesh/hbTsadi/hbTsadi_hbDagesh/hbQof/hbQof_hbDagesh/hbResh_hbDagesh \012/hbShin_hbDagesh/hbShin_hbShindot/hbShin_hbSindot/hbShin_hbDagesh_hbShindot/hbShin_hbDagesh_hbSindot/hbTav_hbDagesh"
+"*/arBeh/arStar",
+"/arParenrightfancy",
+"/hbSheva",
+"/arParenrightfancy/arBeh/arParenleftfancy",
+"/hbQamatsQatan",
+"/hbTsere",
+"/rightFacingEternity"
 );
 classes = (
 {
 automatic = 1;
-code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Amacron Abreve Adieresis Aring Aogonek Aringacute Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Ahookabove Adotbelow AE AEacute Cacute Ccircumflex Cdotaccent Ccaron Ccedilla Dcaron Dcroat Eth Egrave Eacute Ecircumflex Emacron Ebreve Edotaccent Edieresis Ecaron Eogonek Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ehookabove Etilde Edotbelow Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Igrave Iacute Icircumflex Itilde Imacron Ibreve Idotaccent Idieresis Iogonek Ihookabove Idotbelow IJ Jacute Jcircumflex Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Nacute Ntilde Ncaron Eng Ncommaaccent Ograve Oacute Ocircumflex Otilde Omacron Obreve Odieresis Ohungarumlaut Oslash Oslashacute Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Odotbelow OE Racute Rcaron Rcommaaccent Sacute Scircumflex Scaron Scommaaccent Scedilla Germandbls Tcaron Tcommaaccent Tcedilla Tbar Ugrave Uacute Ucircumflex Utilde Umacron Ubreve Udieresis Uring Uhungarumlaut Uogonek Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Udotbelow Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Yhookabove Ydotbelow Ytilde Zacute Zdotaccent Zcaron Thorn Schwa DZ Dz DZcaron Dzcaron LJ Lj NJ Nj c.A c.Be c.Ve c.Ghe c.De c.Ie c.Zhe c.Ze c.I c.Ishort c.Ka c.El c.Em c.En c.O c.Pe c.Er c.Es c.Te c.U c.Ef c.Ha c.Tse c.Che c.Sha c.Shcha c.Hard c.Yeru c.Soft c.E c.Yu c.Ya c.Gje c.GheUkr c.Dje c.IeUkr c.Dze c.Iegrave c.Io c.IUkr c.Yi c.Je c.Igrave c.Kje c.Lje c.Nje c.Tshe c.Yushort c.Dzhe c.Yat c.Fita c.Izhitsa c.Ghebar c.Zhespike c.Kaspike c.Enspike c.Haspike c.Chespike c.Ustraight c.Ustraightbar c.Shha c.Palochka c.Schwa c.Imacron c.Obar c.Umacron c.Zehook c.KaBashkir c.Eshook c.Abreve c.Iebreve c.Udblacute c.Odieresis c.AIe c.De.BGR c.El.BGR Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Iotadieresis Omicrontonos Upsilontonos Upsilondieresis Omegatonos";
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Amacron Abreve Adieresis Aring Aogonek Aringacute Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Ahookabove Adotbelow AE AEacute Cacute Ccircumflex Cdotaccent Ccaron Ccedilla Dcaron Dcroat Eth Egrave Eacute Ecircumflex Emacron Ebreve Edotaccent Edieresis Ecaron Eogonek Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ehookabove Etilde Edotbelow Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Igrave Iacute Icircumflex Itilde Imacron Ibreve Idotaccent Idieresis Iogonek Ihookabove Idotbelow IJ Jacute Jcircumflex Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Nacute Ntilde Ncaron Eng Ncommaaccent Ograve Oacute Ocircumflex Otilde Omacron Obreve Odieresis Ohungarumlaut Oslash Oslashacute Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Odotbelow OE Racute Rcaron Rcommaaccent Sacute Scircumflex Scaron Scommaaccent Scedilla Germandbls Tcaron Tcommaaccent Tcedilla Tbar Ugrave Uacute Ucircumflex Utilde Umacron Ubreve Udieresis Uring Uhungarumlaut Uogonek Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Udotbelow Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Yhookabove Ydotbelow Ytilde Zacute Zdotaccent Zcaron Thorn Schwa DZ Dz DZcaron Dzcaron LJ Lj NJ Nj c.A c.Be c.Ve c.Ghe c.De c.Ie c.Zhe c.Ze c.I c.Ishort c.Ka c.El c.Em c.En c.O c.Pe c.Er c.Es c.Te c.U c.Ef c.Ha c.Tse c.Che c.Sha c.Shcha c.Hard c.Yeru c.Soft c.E c.Yu c.Ya c.Gje c.GheUkr c.Dje c.IeUkr c.Dze c.Iegrave c.Io c.IUkr c.Yi c.Je c.Igrave c.Kje c.Lje c.Nje c.Tshe c.Ushort c.Dzhe c.Yat c.Fita c.Izhitsa c.Ghebar c.Zhespike c.Kaspike c.Enspike c.Haspike c.Chespike c.Ustraight c.Ustraightbar c.Shha c.Palochka c.Schwa c.Imacron c.Obar c.Umacron c.Zehook c.KaBashkir c.Eshook c.Abreve c.Iebreve c.Udblacute c.Odieresis c.AIe c.De.BGR c.El.BGR Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Iotadieresis Omicrontonos Upsilontonos Upsilondieresis Omegatonos";
 name = uppercase;
+},
+{
+automatic = 1;
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Amacron Abreve Adieresis Aring Aogonek Aringacute Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Ahookabove Adotbelow AE AEacute Cacute Ccircumflex Cdotaccent Ccaron Ccedilla Dcaron Dcroat Eth Egrave Eacute Ecircumflex Emacron Ebreve Edotaccent Edieresis Ecaron Eogonek Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ehookabove Etilde Edotbelow Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Igrave Iacute Icircumflex Itilde Imacron Ibreve Idotaccent Idieresis Iogonek Ihookabove Idotbelow IJ Jacute Jcircumflex Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Nacute Ntilde Ncaron Eng Ncommaaccent Ograve Oacute Ocircumflex Otilde Omacron Obreve Odieresis Ohungarumlaut Oslash Oslashacute Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Odotbelow OE Racute Rcaron Rcommaaccent Sacute Scircumflex Scaron Scommaaccent Scedilla Germandbls Tcaron Tcommaaccent Tcedilla Tbar Ugrave Uacute Ucircumflex Utilde Umacron Ubreve Udieresis Uring Uhungarumlaut Uogonek Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Udotbelow Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Yhookabove Ydotbelow Ytilde Zacute Zdotaccent Zcaron Thorn Schwa Abreveinverted Adblgrave Ebreveinverted Edblgrave Gcaron Ibreveinverted Idblgrave Obreveinverted Odblgrave Odieresismacron Odotaccentmacron Oogonek Otildemacron Rbreveinverted Rdblgrave Ubreveinverted Udblgrave Ymacron DZ Dz DZcaron Dzcaron LJ Lj NJ Nj c.A c.Be c.Ve c.Ghe c.De c.Ie c.Zhe c.Ze c.I c.Ishort c.Ka c.El c.Em c.En c.O c.Pe c.Er c.Es c.Te c.U c.Ef c.Ha c.Tse c.Che c.Sha c.Shcha c.Hard c.Yeru c.Soft c.E c.Yu c.Ya c.Gje c.GheUkr c.Dje c.IeUkr c.Dze c.Iegrave c.Io c.IUkr c.Yi c.Je c.Igrave c.Kje c.Lje c.Nje c.Tshe c.Ushort c.Dzhe c.Yat c.Fita c.Izhitsa c.Ghebar c.Zhespike c.Kaspike c.Enspike c.Haspike c.Chespike c.Ustraight c.Ustraightbar c.Shha c.Palochka c.Schwa c.Imacron c.Obar c.Umacron c.Zehook c.KaBashkir c.Eshook c.Abreve c.Iebreve c.Udblacute c.Odieresis c.AIe c.Adieresis c.Chedieresis c.Chekhakassian c.Chestroke c.Enghe c.Gedescender c.Ghemiddlehook c.Idieresis c.Kastroke c.Qa c.Udieresis c.We c.Yerudieresis c.Yusbig c.Zedieresis c.Zhebreve c.Zhedieresis c.De.BGR c.El.BGR Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Iotadieresis Omicrontonos Upsilontonos Upsilondieresis Omegatonos KaiSymbol a.Ayb a.Ben a.Gim a.Da a.Ech a.Za a.Eh a.Et a.To a.Zhe a.Ini a.Liwn a.Xeh a.Ca a.Ken a.Ho a.Ja a.Ghad a.Cheh a.Men a.Yi a.Now a.Sha a.Vo a.Cha a.Peh a.Jheh a.Ra a.Seh a.Vew a.Tiwn a.Reh a.Co a.Yiwn a.Piwr a.Keh a.Oh a.Feh a.Ayb.alt";
+name = Uppercase;
 }
 );
 copyright = "Copyright © 2018 by David Brezina. All rights reserved.";
@@ -1629,7 +1639,7 @@ designerURL = "https://rosettatype.com";
 familyName = Handjet;
 featurePrefixes = (
 {
-code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem cyrl dflt;\012languagesystem latn TRK;\012languagesystem latn AZE;\012languagesystem latn CRT;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012languagesystem latn NLD;\012#languagesystem latn VIT;\012languagesystem cyrl SRB;\012languagesystem cyrl MKD;\012languagesystem cyrl BGR;\012";
+code = "languagesystem DFLT dflt;\012languagesystem arab dflt;\012languagesystem latn dflt;\012languagesystem cyrl dflt;\012languagesystem hebr dflt;\012languagesystem latn TRK;\012languagesystem latn AZE;\012languagesystem latn CRT;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012languagesystem latn NLD;\012#languagesystem latn VIT;\012languagesystem cyrl SRB;\012languagesystem cyrl MKD;\012languagesystem cyrl BGR;\012";
 name = Languagesystems;
 }
 );
@@ -1639,15 +1649,15 @@ code = "feature locl;\012feature case;\012feature sups;\012feature sinf;\012feat
 name = aalt;
 },
 {
-code = "\012@combining_top_accents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012@combining_nontop_accents = [cedillacomb ogonekcomb];\012\012@markscomb = [circumflexcomb caroncomb brevecomb acutecomb gravecomb circumflextildecomb circumflexgravecomb circumflexhookabovecomb circumflexacutecomb];\012@markscomb_case = [circumflexcomb.case caroncomb.case brevecomb.case acutecomb.case gravecomb.case circumflextildecomb.case circumflexgravecomb.case circumflexhookabovecomb.case circumflexacutecomb.case];\012        \012lookup ccmp_Other_1 {\012    sub [i]' @combining_top_accents by [idotless];\012    sub [i]' @combining_nontop_accents @combining_top_accents by [idotless];\012    \012    sub @uppercase @markscomb' by @markscomb_case;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012    sub @markscomb_case @markscomb' by @markscomb_case;\012} ccmp_Other_2;";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [circumflexcomb caroncomb brevecomb brevebelowcomb acutecomb gravecomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb breveinvertedcomb circumflexcomb_tildecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_acutecomb tonoscomb];\012	@MarkscombCase = [circumflexcomb.case caroncomb.case brevecomb.case brevebelowcomb.case acutecomb.case gravecomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case breveinvertedcomb.case circumflexcomb_tildecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_acutecomb.case tonoscomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_arab_1 {\012	lookupflag RightToLeft;\012	sub arHamzaabove arDamma by arHamzaabove_arDamma;\012	sub arHamzaabove arDammatan by arHamzaabove_arDammatan;\012	sub arHamzaabove arFatha by arHamzaabove_arFatha;\012	sub arHamzaabove arFathatan by arHamzaabove_arFathatan;\012	sub arHamzaabove arSukun by arHamzaabove_arSukun;\012	sub arHamzabelow arKasra by arHamzabelow_arKasra;\012	sub arHamzabelow arKasratan by arHamzabelow_arKasratan;\012	sub arShadda arAlifabove by arShadda_arAlifabove;\012	sub arShadda arDamma by arShadda_arDamma;\012	sub arShadda arDammatan by arShadda_arDammatan;\012	sub arShadda arFatha by arShadda_arFatha;\012	sub arShadda arFathatan by arShadda_arFathatan;\012	sub arShadda arKasra by arShadda_arKasra;\012	sub arShadda arKasratan by arShadda_arKasratan;\012} ccmp_arab_1;\012\012lookup ccmp_latn_1 {\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	#sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	#sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;\012	#sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	#sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_1;\012\012script arab;\012lookup ccmp_arab_1;\012\012script latn;\012lookup ccmp_latn_1;\012";
 name = ccmp;
 },
 {
-code = "    sub firsttonechinese by macroncomb;\012    sub secondtonechinese by acutecomb;\012    sub fourthtonechinese by gravecomb;\012\012    script latn; # Latin\012        # i -> idotaccent substitution effectively switches off the fi and ffi ligatures\012        language TRK; # Turkish\012            lookup LOCL_TRK {\012                sub i by idotaccent;\012            } LOCL_TRK;\012        language AZE; # Azeri\012            lookup LOCL_TRK;\012        language CRT; # Crimean Tatar\012            lookup LOCL_TRK;\012        language KAZ; # Kazakh\012            lookup LOCL_TRK;\012        language TAT; # Tatar\012            lookup LOCL_TRK;\012\012        # handling of S and T with commaaccent\012        language ROM; # Romanian\012            lookup LOCL_ROM {\012                sub Scedilla by Scommaaccent;\012                sub scedilla by scommaaccent;\012                sub Tcedilla by Tcommaaccent;\012                sub tcedilla by tcommaaccent;\012            } LOCL_ROM;\012        language MOL; # Moldavian\012            lookup LOCL_ROM;\012\012        # Catalan dot\012        language CAT; # Catalan\012            sub l periodcentered' l by periodcentered.CAT;\012            sub L periodcentered' L by periodcentered.CAT.case;\012\012        # Dutch ij and ij with acute\012        # some overlap with ccmp as ccmp gets removed from Latin-only version\012        language NLD; # Dutch\012            lookup LOCL_DUTCHIJ_DECOMPOSE {\012                sub ij by i j;\012                sub IJ by I J;  \012            } LOCL_DUTCHIJ_DECOMPOSE;\012            lookup LOCL_DUTCHJACUTE {\012                sub i' j acutecomb by iacute;\012                sub I' J acutecomb by Iacute;\012                sub iacute j' acutecomb' by jacute;\012                sub Iacute J' acutecomb' by Jacute;\012                sub iacute j' by jacute;\012                sub Iacute J' by Jacute;\012            } LOCL_DUTCHJACUTE;\012            lookup LOCL_DUTCHIJACUTE_COMPOSE {\012                sub ij acutecomb by iacute_j.NLD;\012                sub IJ acutecomb by Iacute_J.NLD;\012                sub i j acutecomb by iacute_j.NLD;\012                sub I J acutecomb by Iacute_J.NLD;\012            } LOCL_DUTCHIJACUTE_COMPOSE;\012        language VIT;\012            sub circumflexcomb acutecomb by circumflexacutecomb;\012            sub circumflexcomb gravecomb by circumflexgravecomb;\012            sub circumflexcomb hookabovecomb by circumflexhookabovecomb;\012            sub circumflexcomb tildecomb by circumflextildecomb;\012\012    script cyrl;\012        language SRB; # Serbian\012            lookup LOCL_SRB {\012                sub c.be by c.be.SRB;\012            } LOCL_SRB;\012        language MKD; # Moldavian\012            lookup LOCL_SRB;\012        language BGR; # Bulgarian\012            lookup LOCL_BGR {\012                sub c.De by c.De.BGR;\012                sub c.El by c.El.BGR;\012                sub c.ve by c.ve.BGR;\012                sub c.ghe by c.ghe.BGR;\012                sub c.de by c.de.BGR;\012                sub c.zhe by c.zhe.BGR;\012                sub c.ze by c.ze.BGR;\012                sub c.i by c.i.BGR;\012                sub c.ishort by c.ishort.BGR;\012                sub c.igrave by c.igrave.BGR;\012                sub c.ka by c.ka.BGR;\012                sub c.el by c.el.BGR;\012                sub c.pe by c.pe.BGR;\012                sub c.te by c.te.BGR;\012                sub c.tse by c.tse.BGR;\012                sub c.sha by c.sha.BGR;\012                sub c.shcha by c.shcha.BGR;\012                sub c.yu by c.yu.BGR;\012            } LOCL_BGR;";
+code = "    sub firsttonechinese by macroncomb;\012    sub secondtonechinese by acutecomb;\012    sub fourthtonechinese by gravecomb;\012\012    script latn; # Latin\012        # i -> idotaccent substitution effectively switches off the fi and ffi ligatures\012        language TRK; # Turkish\012            lookup LOCL_TRK {\012                sub i by idotaccent;\012            } LOCL_TRK;\012        language AZE; # Azeri\012            lookup LOCL_TRK;\012        language CRT; # Crimean Tatar\012            lookup LOCL_TRK;\012        language KAZ; # Kazakh\012            lookup LOCL_TRK;\012        language TAT; # Tatar\012            lookup LOCL_TRK;\012\012        # handling of S and T with commaaccent\012        language ROM; # Romanian\012            lookup LOCL_ROM {\012                sub Scedilla by Scommaaccent;\012                sub scedilla by scommaaccent;\012                sub Tcedilla by Tcommaaccent;\012                sub tcedilla by tcommaaccent;\012            } LOCL_ROM;\012        language MOL; # Moldavian\012            lookup LOCL_ROM;\012\012        # Catalan dot\012        language CAT; # Catalan\012            sub l periodcentered' l by periodcentered.CAT;\012            sub L periodcentered' L by periodcentered.CAT.case;\012\012        # Dutch ij and ij with acute\012        # some overlap with ccmp as ccmp gets removed from Latin-only version\012        language NLD; # Dutch\012            lookup LOCL_DUTCHIJ_DECOMPOSE {\012                sub ij by i j;\012                sub IJ by I J;  \012            } LOCL_DUTCHIJ_DECOMPOSE;\012            lookup LOCL_DUTCHJACUTE {\012                sub i' j acutecomb by iacute;\012                sub I' J acutecomb by Iacute;\012                sub iacute j' acutecomb' by jacute;\012                sub Iacute J' acutecomb' by Jacute;\012                sub iacute j' by jacute;\012                sub Iacute J' by Jacute;\012            } LOCL_DUTCHJACUTE;\012            lookup LOCL_DUTCHIJACUTE_COMPOSE {\012                sub ij acutecomb by iacute_j.NLD;\012                sub IJ acutecomb by Iacute_J.NLD;\012                sub i j acutecomb by iacute_j.NLD;\012                sub I J acutecomb by Iacute_J.NLD;\012            } LOCL_DUTCHIJACUTE_COMPOSE;\012        language VIT;\012            sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012            sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012            sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012\012    script cyrl;\012        language SRB; # Serbian\012            lookup LOCL_SRB {\012                sub c.be by c.be.SRB;\012            } LOCL_SRB;\012        language MKD; # Moldavian\012            lookup LOCL_SRB;\012        language BGR; # Bulgarian\012            lookup LOCL_BGR {\012                sub c.De by c.De.BGR;\012                sub c.El by c.El.BGR;\012                sub c.ve by c.ve.BGR;\012                sub c.ghe by c.ghe.BGR;\012                sub c.de by c.de.BGR;\012                sub c.zhe by c.zhe.BGR;\012                sub c.ze by c.ze.BGR;\012                sub c.i by c.i.BGR;\012                sub c.ishort by c.ishort.BGR;\012                sub c.igrave by c.igrave.BGR;\012                sub c.ka by c.ka.BGR;\012                sub c.el by c.el.BGR;\012                sub c.pe by c.pe.BGR;\012                sub c.te by c.te.BGR;\012                sub c.tse by c.tse.BGR;\012                sub c.sha by c.sha.BGR;\012                sub c.shcha by c.shcha.BGR;\012                sub c.yu by c.yu.BGR;\012            } LOCL_BGR;";
 name = locl;
 },
 {
-code = "@brackets = [parenleft parenright bracketleft bracketright braceleft braceright angledbracketleft angledbracketright bar brokenbar];\012\012@hyphens = [hyphen softhyphen hyphentwo nonbreakinghyphen hyphen.case];\012\012@greek_uppercase_tonos = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos];\012\012@greek_uppercase_non_tonos = [Alpha Epsilon Eta Iota Omicron Upsilon Omega];\012\012sub questiondown by questiondown.case;\012sub exclamdown by exclamdown.case;\012sub at by at.case;\012sub @hyphens by hyphen.case;\012sub colon by colon.case;\012sub endash by endash.case;\012sub emdash by emdash.case;\012sub guilsinglleft by guilsinglleft.case;\012sub guilsinglright by guilsinglright.case;\012sub guillemetleft by guillemetleft.case;\012sub guillemetright by guillemetright.case;\012sub circumflexcomb by circumflexcomb.case;\012sub caroncomb by caroncomb.case;\012sub brevecomb by brevecomb.case;\012sub acutecomb by acutecomb.case;\012sub gravecomb by gravecomb.case;\012sub circumflextildecomb by circumflextildecomb.case;\012sub circumflexgravecomb by circumflexgravecomb.case;\012sub circumflexhookabovecomb by circumflexhookabovecomb.case;\012sub circumflexacutecomb by circumflexacutecomb.case;\012sub bulletoperator by bulletoperator.case;\012sub periodcentered.CAT by periodcentered.CAT.case;\012sub tonoscomb by tonoscomb.case;\012\012# Greek\012\012# a fix for monotonic and polytonic orthography in all-cap setting\012# add dialytika after letters with tonos, varia, or oxia\012sub @greek_uppercase_tonos [Upsilon Iota]' by [Upsilondieresis Iotadieresis];    \012# remove accents in all-cap setting\012sub @greek_uppercase_tonos by @greek_uppercase_non_tonos;\012\012# shift some punctuation\012pos bullet <0 60 0 0>;\012pos @brackets <0 60 0 0>;\012\012# German Eszett\012# to fix apps which do not support the new orthography yet\012\012sub germandbls by Germandbls;";
+code = "@brackets = [parenleft parenright bracketleft bracketright braceleft braceright angledbracketleft angledbracketright bar brokenbar];\012\012@hyphens = [hyphen softhyphen hyphentwo nonbreakinghyphen hyphen.case];\012\012@greek_uppercase_tonos = [Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos];\012\012@greek_uppercase_non_tonos = [Alpha Epsilon Eta Iota Omicron Upsilon Omega];\012\012sub questiondown by questiondown.case;\012sub exclamdown by exclamdown.case;\012sub at by at.case;\012sub @hyphens by hyphen.case;\012sub colon by colon.case;\012sub endash by endash.case;\012sub emdash by emdash.case;\012sub guilsinglleft by guilsinglleft.case;\012sub guilsinglright by guilsinglright.case;\012sub guillemetleft by guillemetleft.case;\012sub guillemetright by guillemetright.case;\012sub circumflexcomb by circumflexcomb.case;\012sub caroncomb by caroncomb.case;\012sub brevecomb by brevecomb.case;\012sub acutecomb by acutecomb.case;\012sub gravecomb by gravecomb.case;\012sub brevecomb_acutecomb by brevecomb_acutecomb.case;\012sub brevecomb_gravecomb by brevecomb_gravecomb.case;\012sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.case;\012sub brevecomb_tildecomb by brevecomb_tildecomb.case;\012sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;\012sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;\012sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;\012sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;\012sub bulletoperator by bulletoperator.case;\012sub periodcentered.CAT by periodcentered.CAT.case;\012sub tonoscomb by tonoscomb.case;\012\012# Greek\012\012# a fix for monotonic and polytonic orthography in all-cap setting\012# add dialytika after letters with tonos, varia, or oxia\012sub @greek_uppercase_tonos [Upsilon Iota]' by [Upsilondieresis Iotadieresis];    \012# remove accents in all-cap setting\012sub @greek_uppercase_tonos by @greek_uppercase_non_tonos;\012\012# shift some punctuation\012pos bullet <0 60 0 0>;\012pos @brackets <0 60 0 0>;\012\012# German Eszett\012# to fix apps which do not support the new orthography yet\012\012sub germandbls by Germandbls;";
 name = case;
 },
 {
@@ -1677,6 +1687,10 @@ name = dnom;
 {
 code = "    @numerators = [zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior];\012\012    @denominators = [zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];\012\012    @figures = [zero one two three four five six seven eight nine];\012\012    lookup percent {\012    sub zero [slash fraction divisionslash] zero by percent;\012    sub zero [slash fraction divisionslash] zero zero by perthousand;\012    } percent;\012    lookup FractionBar {\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             @figures\012             slash;\012         ignore sub slash\012             @figures\012             slash';\012         ignore sub slash'\012             @figures\012             slash;\012         sub @figures slash' @figures by fraction;\012    } FractionBar;\012\012    lookup Numerator1 {\012         sub @figures'\012         fraction by @numerators;\012    } Numerator1;\012\012    lookup Denominator {\012         sub [fraction @denominators]\012         @figures' by @denominators;\012    } Denominator;\012\012    sub @figures space' @numerators by thinspace;\012\012    # Vulgar fractions\012    sub onesuperior fraction twoinferior by onehalf;\012    sub onesuperior fraction threeinferior by onethird;\012    sub twosuperior fraction threeinferior by twothirds;\012    sub onesuperior fraction fourinferior by onequarter;\012    sub threesuperior fraction fourinferior by threequarters;\012    sub onesuperior fraction fiveinferior by onefifth;\012    sub twosuperior fraction fiveinferior by twofifths;\012    sub threesuperior fraction fiveinferior by threefifths;\012    sub foursuperior fraction fiveinferior by fourfifths;\012    sub onesuperior fraction sixinferior by onesixth;\012    sub fivesuperior fraction sixinferior by fivesixths;\012    sub onesuperior fraction seveninferior by oneseventh;\012    sub twosuperior fraction seveninferior by twosevenths;\012    sub threesuperior fraction seveninferior by threesevenths;\012    sub foursuperior fraction seveninferior by foursevenths;\012    sub fivesuperior fraction seveninferior by fivesevenths;\012    sub sixsuperior fraction seveninferior by sixsevenths;\012    sub onesuperior fraction eightinferior by oneeighth;\012    sub threesuperior fraction eightinferior by threeeighths;\012    sub fivesuperior fraction eightinferior by fiveeighths;\012    sub sevensuperior fraction eightinferior by seveneighths;\012    sub onesuperior fraction nineinferior by oneninth;\012    sub twosuperior fraction nineinferior by twoninths;\012    sub foursuperior fraction nineinferior by fourninths;\012    sub fivesuperior fraction nineinferior by fiveninths;\012    sub sevensuperior fraction nineinferior by sevenninths;\012    sub eightsuperior fraction nineinferior by eightninths;";
 name = frac;
+},
+{
+code = "lookupflag RightToLeft;\012\012# Hebrew ligatures\012sub hbYod hbYod hbPatah by hbYod_hbYod_hbPatah;\012sub hbVav hbVav by hbVav_hbVav;\012sub hbVav hbYod by hbVav_hbYod;\012sub hbYod hbYod by hbYod_hbYod;";
+name = rlig;
 },
 {
 code = "sub idieresis idieresis by idieresis_idieresis;\012\012sub a.ech a.yiwn by a.ech_a.yiwn;\012sub a.men a.eh by a.men_a.eh;\012sub a.men a.ken by a.men_a.ken;\012sub a.men a.ech by a.men_a.ech;\012sub a.men a.ini by a.men_a.ini;\012sub a.men a.now by a.men_a.now;\012sub a.men a.xeh by a.men_a.xeh;\012";
@@ -8772,7 +8786,7 @@ unicode = 0026;
 {
 color = 4;
 glyphname = asterisk;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-02-14 12:16:48 +0000";
 layers = (
 {
 components = (
@@ -10581,246 +10595,246 @@ unicode = 3009;
 {
 color = 1;
 glyphname = leftFacingEternity;
-lastChange = "2020-02-14 11:44:39 +0000";
+lastChange = "2020-02-14 13:35:34 +0000";
 layers = (
 {
 components = (
 {
 name = _grid;
-transform = "{-1, 0, 0, 1, 480, 360}";
+transform = "{1, 0, 0, 1, 420, 360}";
 },
 {
 name = _grid;
-transform = "{-1, 0, 0, 1, 540, 390}";
+transform = "{1, 0, 0, 1, 480, 390}";
 },
 {
 name = _grid;
-transform = "{-1, 0, 0, 1, 600, 420}";
+transform = "{1, 0, 0, 1, 540, 420}";
 },
 {
 name = _grid;
-transform = "{-1, 0, 0, 1, 660, 480}";
+transform = "{1, 0, 0, 1, 600, 480}";
 },
 {
 name = _grid;
-transform = "{-1, 0, 0, 1, 690, 420}";
+transform = "{1, 0, 0, 1, 630, 420}";
 },
 {
 name = _grid;
-transform = "{-1, 0, 0, 1, 600, 540}";
+transform = "{1, 0, 0, 1, 540, 540}";
 },
 {
 name = _grid;
-transform = "{-1, 0, 0, 1, 480, 630}";
+transform = "{1, 0, 0, 1, 360, 570}";
 },
 {
 name = _grid;
-transform = "{-1, 0, 0, 1, 420, 630}";
+transform = "{1, 0, 0, 1, 360, 630}";
 },
 {
 name = _grid;
-transform = "{-1, 0, 0, 1, 540, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, -1, 240, 360}";
+transform = "{1, 0, 0, 1, 480, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 180, 330}";
+transform = "{1, 0, 0, 1, 240, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 120, 300}";
+transform = "{1, 0, 0, 1, 180, 270}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 60, 240}";
+transform = "{1, 0, 0, 1, 120, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 30, 300}";
+transform = "{1, 0, 0, 1, 60, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 120, 180}";
+transform = "{1, 0, 0, 1, 30, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 240, 90}";
+transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 300, 90}";
+transform = "{1, 0, 0, 1, 240, 30}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 180, 120}";
+transform = "{1, 0, 0, 1, 300, 30}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 60}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 90, 360}";
+transform = "{1, 0, 0, 1, 30, 300}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 420, 630}";
+transform = "{1, 0, 0, 1, 420, 630}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 360, 690}";
+transform = "{1, 0, 0, 1, 300, 630}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 150, 420}";
+transform = "{1, 0, 0, 1, 90, 360}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 210, 450}";
+transform = "{1, 0, 0, 1, 150, 390}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 270, 450}";
+transform = "{1, 0, 0, 1, 210, 390}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 330, 420}";
+transform = "{1, 0, 0, 1, 270, 360}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 420, 450}";
+transform = "{1, 0, 0, 1, 360, 390}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 450, 510}";
+transform = "{1, 0, 0, 1, 390, 450}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 450, 570}";
+transform = "{1, 0, 0, 1, 390, 510}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 360, 480}";
+transform = "{1, 0, 0, 1, 300, 420}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 330, 540}";
+transform = "{1, 0, 0, 1, 270, 480}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 300, 600}";
+transform = "{1, 0, 0, 1, 240, 540}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 240, 660}";
+transform = "{1, 0, 0, 1, 180, 600}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 300, 690}";
+transform = "{1, 0, 0, 1, 240, 630}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 180, 600}";
+transform = "{1, 0, 0, 1, 120, 540}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 90, 480}";
+transform = "{1, 0, 0, 1, 30, 420}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 90, 420}";
+transform = "{1, 0, 0, 1, 30, 360}";
 },
 {
 name = _grid;
-transform = "{0, -1, -1, 0, 120, 540}";
+transform = "{1, 0, 0, 1, 60, 480}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 630, 360}";
+transform = "{1, 0, 0, 1, 630, 360}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 300, 90}";
+transform = "{1, 0, 0, 1, 300, 90}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 360, 30}";
+transform = "{1, 0, 0, 1, 360, 30}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 570, 300}";
+transform = "{1, 0, 0, 1, 570, 300}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 510, 270}";
+transform = "{1, 0, 0, 1, 510, 270}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 450, 270}";
+transform = "{1, 0, 0, 1, 450, 270}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 390, 300}";
+transform = "{1, 0, 0, 1, 390, 300}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 300, 270}";
+transform = "{1, 0, 0, 1, 300, 270}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 270, 210}";
+transform = "{1, 0, 0, 1, 270, 210}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 270, 150}";
+transform = "{1, 0, 0, 1, 270, 150}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 360, 240}";
+transform = "{1, 0, 0, 1, 360, 240}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 390, 180}";
+transform = "{1, 0, 0, 1, 390, 180}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 420, 120}";
+transform = "{1, 0, 0, 1, 420, 120}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 480, 60}";
+transform = "{1, 0, 0, 1, 480, 60}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 420, 30}";
+transform = "{1, 0, 0, 1, 420, 30}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 540, 120}";
+transform = "{1, 0, 0, 1, 540, 120}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 630, 240}";
+transform = "{1, 0, 0, 1, 630, 240}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 630, 300}";
+transform = "{1, 0, 0, 1, 630, 300}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 600, 180}";
+transform = "{1, 0, 0, 1, 600, 180}";
 },
 {
 name = _grid;
-transform = "{0, 1, 1, 0, 330, 330}";
+transform = "{1, 0, 0, 1, 330, 330}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -10832,7 +10846,7 @@ unicode = 058E;
 {
 color = 1;
 glyphname = rightFacingEternity;
-lastChange = "2020-02-13 15:20:13 +0000";
+lastChange = "2020-02-14 13:35:34 +0000";
 layers = (
 {
 components = (
@@ -10862,7 +10876,7 @@ transform = "{1, 0, 0, 1, 120, 540}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 630}";
+transform = "{1, 0, 0, 1, 300, 570}";
 },
 {
 name = _grid;
@@ -10875,203 +10889,203 @@ transform = "{1, 0, 0, 1, 180, 600}";
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 480, 360}";
+transform = "{1, 0, 0, 1, 420, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 540, 330}";
+transform = "{1, 0, 0, 1, 480, 270}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 600, 300}";
+transform = "{1, 0, 0, 1, 540, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 660, 240}";
+transform = "{1, 0, 0, 1, 600, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 690, 300}";
+transform = "{1, 0, 0, 1, 630, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 600, 180}";
+transform = "{1, 0, 0, 1, 540, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 480, 90}";
+transform = "{1, 0, 0, 1, 420, 30}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 90}";
+transform = "{1, 0, 0, 1, 360, 30}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 540, 120}";
+transform = "{1, 0, 0, 1, 480, 60}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 630, 360}";
+transform = "{1, 0, 0, 1, 630, 300}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 300, 630}";
+transform = "{1, 0, 0, 1, 240, 630}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 360, 690}";
+transform = "{1, 0, 0, 1, 360, 630}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 570, 420}";
+transform = "{1, 0, 0, 1, 570, 360}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 510, 450}";
+transform = "{1, 0, 0, 1, 510, 390}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 450, 450}";
+transform = "{1, 0, 0, 1, 450, 390}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 390, 420}";
+transform = "{1, 0, 0, 1, 390, 360}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 300, 450}";
+transform = "{1, 0, 0, 1, 300, 390}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 270, 510}";
+transform = "{1, 0, 0, 1, 270, 450}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 270, 570}";
+transform = "{1, 0, 0, 1, 270, 510}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 360, 480}";
+transform = "{1, 0, 0, 1, 360, 420}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 390, 540}";
+transform = "{1, 0, 0, 1, 390, 480}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 420, 600}";
+transform = "{1, 0, 0, 1, 420, 540}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 480, 660}";
+transform = "{1, 0, 0, 1, 480, 600}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 420, 690}";
+transform = "{1, 0, 0, 1, 420, 630}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 540, 600}";
+transform = "{1, 0, 0, 1, 540, 540}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 630, 480}";
+transform = "{1, 0, 0, 1, 630, 420}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 630, 420}";
+transform = "{1, 0, 0, 1, 630, 360}";
 },
 {
 name = _grid;
-transform = "{0, -1, 1, 0, 600, 540}";
+transform = "{1, 0, 0, 1, 600, 480}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 90, 360}";
+transform = "{1, 0, 0, 1, 30, 360}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 420, 90}";
+transform = "{1, 0, 0, 1, 360, 90}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 360, 30}";
+transform = "{1, 0, 0, 1, 300, 30}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 150, 300}";
+transform = "{1, 0, 0, 1, 90, 300}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 210, 270}";
+transform = "{1, 0, 0, 1, 150, 270}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 270, 270}";
+transform = "{1, 0, 0, 1, 210, 270}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 330, 300}";
+transform = "{1, 0, 0, 1, 270, 300}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 390, 330}";
+transform = "{1, 0, 0, 1, 360, 270}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 420, 270}";
+transform = "{1, 0, 0, 1, 390, 210}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 450, 210}";
+transform = "{1, 0, 0, 1, 390, 150}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 450, 150}";
+transform = "{1, 0, 0, 1, 300, 240}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 360, 240}";
+transform = "{1, 0, 0, 1, 270, 180}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 330, 180}";
+transform = "{1, 0, 0, 1, 240, 120}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 300, 120}";
+transform = "{1, 0, 0, 1, 180, 60}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 240, 60}";
+transform = "{1, 0, 0, 1, 240, 30}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 300, 30}";
+transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 180, 120}";
+transform = "{1, 0, 0, 1, 30, 240}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 90, 240}";
+transform = "{1, 0, 0, 1, 30, 300}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 90, 300}";
+transform = "{1, 0, 0, 1, 60, 180}";
 },
 {
 name = _grid;
-transform = "{0, 1, -1, 0, 120, 180}";
+transform = "{1, 0, 0, 1, 330, 330}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -15151,7 +15165,7 @@ width = 0;
 {
 color = 4;
 glyphname = breveinvertedcomb;
-lastChange = "2020-02-13 12:49:04 +0000";
+lastChange = "2020-02-14 13:36:02 +0000";
 layers = (
 {
 anchors = (
@@ -15164,32 +15178,32 @@ components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, -60, 720}";
+transform = "{1, 0, 0, 1, -60, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 0, 720}";
+transform = "{1, 0, 0, 1, 0, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, -120, 660}";
+transform = "{1, 0, 0, 1, -120, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 60, 660}";
+transform = "{1, 0, 0, 1, 60, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, -120, 600}";
+transform = "{1, 0, 0, 1, -120, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 60, 600}";
+transform = "{1, 0, 0, 1, 60, 540}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -15199,9 +15213,9 @@ width = 0;
 unicode = 0311;
 },
 {
-color = 9;
+color = 4;
 glyphname = breveinvertedcomb.case;
-lastChange = "2020-02-13 12:48:50 +0000";
+lastChange = "2020-02-14 13:36:02 +0000";
 layers = (
 {
 anchors = (
@@ -15214,27 +15228,27 @@ components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, -90, 660}";
+transform = "{1, 0, 0, 1, -90, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, -30, 660}";
+transform = "{1, 0, 0, 1, -30, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 30, 660}";
+transform = "{1, 0, 0, 1, 30, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, -120, 600}";
+transform = "{1, 0, 0, 1, -120, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 60, 600}";
+transform = "{1, 0, 0, 1, 60, 540}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -26650,136 +26664,136 @@ width = 420;
 unicode = 20A1;
 },
 {
-color = 1;
+color = 10;
 glyphname = dram;
-lastChange = "2020-02-13 14:42:33 +0000";
+lastChange = "2020-02-14 13:19:07 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 330, 0}";
+transform = "{1, 0, 0, 1, 270, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 330, 60}";
+transform = "{1, 0, 0, 1, 270, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 330, 120}";
+transform = "{1, 0, 0, 1, 270, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 330, 180}";
+transform = "{1, 0, 0, 1, 270, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 330, 240}";
+transform = "{1, 0, 0, 1, 270, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 390, 240}";
+transform = "{1, 0, 0, 1, 330, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 330, 300}";
+transform = "{1, 0, 0, 1, 270, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 270, 240}";
+transform = "{1, 0, 0, 1, 210, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 210, 240}";
+transform = "{1, 0, 0, 1, 150, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 330, 360}";
+transform = "{1, 0, 0, 1, 270, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 330, 420}";
+transform = "{1, 0, 0, 1, 270, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 330, 480}";
+transform = "{1, 0, 0, 1, 270, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 90, 480}";
+transform = "{1, 0, 0, 1, 30, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 330, 540}";
+transform = "{1, 0, 0, 1, 270, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 90, 540}";
+transform = "{1, 0, 0, 1, 30, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 270, 600}";
+transform = "{1, 0, 0, 1, 210, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 210, 600}";
+transform = "{1, 0, 0, 1, 150, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 150, 600}";
+transform = "{1, 0, 0, 1, 90, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 90, 420}";
+transform = "{1, 0, 0, 1, 30, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 390, 120}";
+transform = "{1, 0, 0, 1, 330, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 270, 120}";
+transform = "{1, 0, 0, 1, 210, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 210, 120}";
+transform = "{1, 0, 0, 1, 150, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 90, 360}";
+transform = "{1, 0, 0, 1, 30, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 150, 240}";
+transform = "{1, 0, 0, 1, 90, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, 1, 150, 120}";
+transform = "{1, 0, 0, 1, 90, 120}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -64637,46 +64651,46 @@ width = 180;
 unicode = 0589;
 },
 {
-color = 1;
+color = 10;
 glyphname = a.abbreviation;
-lastChange = "2020-02-13 15:29:18 +0000";
+lastChange = "2020-02-14 13:19:07 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 90, 720}";
+transform = "{1, 0, 0, 1, 30, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 60, 660}";
+transform = "{1, 0, 0, 1, 0, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 90, 600}";
+transform = "{1, 0, 0, 1, 30, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 150, 600}";
+transform = "{1, 0, 0, 1, 90, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 210, 600}";
+transform = "{1, 0, 0, 1, 150, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 270, 600}";
+transform = "{1, 0, 0, 1, 210, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 150, 720}";
+transform = "{1, 0, 0, 1, 90, 660}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -64686,31 +64700,31 @@ width = 270;
 unicode = 055F;
 },
 {
-color = 1;
+color = 10;
 glyphname = a.ringhalfleft;
-lastChange = "2020-02-13 15:29:18 +0000";
+lastChange = "2020-02-14 13:19:07 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 720}";
+transform = "{1, 0, 0, 1, 120, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 660}";
+transform = "{1, 0, 0, 1, 60, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 540}";
+transform = "{1, 0, 0, 1, 120, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 600}";
+transform = "{1, 0, 0, 1, 60, 540}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -64754,31 +64768,31 @@ width = 360;
 unicode = 058A;
 },
 {
-color = 1;
+color = 10;
 glyphname = a.apostrophe;
-lastChange = "2020-02-13 15:29:18 +0000";
+lastChange = "2020-02-14 13:19:07 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 60, 720}";
+transform = "{1, 0, 0, 1, 60, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 120, 660}";
+transform = "{1, 0, 0, 1, 120, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 60, 540}";
+transform = "{1, 0, 0, 1, 60, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, -1, 120, 600}";
+transform = "{1, 0, 0, 1, 120, 540}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -77966,13 +77980,75 @@ width = 270;
 );
 },
 {
-color = 0;
+color = 1;
 glyphname = arStar;
-lastChange = "2020-01-27 09:47:26 +0000";
+lastChange = "2020-02-14 13:11:21 +0000";
 layers = (
 {
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 360}";
+}
+);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 480;
 }
 );
 unicode = 066D;
@@ -78154,25 +78230,229 @@ width = 300;
 );
 },
 {
-color = 0;
+color = 1;
 glyphname = arParenleftfancy;
-lastChange = "2020-01-27 09:47:26 +0000";
+lastChange = "2020-02-14 13:11:21 +0000";
 layers = (
 {
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, -60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 660}";
+}
+);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 480;
 }
 );
 unicode = FD3E;
 },
 {
-color = 0;
+color = 1;
 glyphname = arParenrightfancy;
-lastChange = "2020-01-27 09:47:26 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, -60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 660}";
+}
+);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 480;
 }
 );
 unicode = FD3F;
@@ -79064,7 +79344,7 @@ unicode = 05D4;
 {
 color = 1;
 glyphname = hbVav;
-lastChange = "2020-02-14 11:45:35 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -79152,7 +79432,7 @@ unicode = 05D5;
 {
 color = 1;
 glyphname = hbZayin;
-lastChange = "2020-02-14 12:02:30 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -79243,7 +79523,7 @@ unicode = 05D6;
 {
 color = 1;
 glyphname = hbHet;
-lastChange = "2020-02-14 11:45:35 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -79389,7 +79669,7 @@ unicode = 05D7;
 {
 color = 1;
 glyphname = hbTet;
-lastChange = "2020-02-14 11:45:35 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -79418,107 +79698,107 @@ components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 540}";
+transform = "{1, 0, 0, 1, 60, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 480}";
+transform = "{1, 0, 0, 1, 60, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 420}";
+transform = "{1, 0, 0, 1, 60, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 360}";
+transform = "{1, 0, 0, 1, 60, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 300}";
+transform = "{1, 0, 0, 1, 60, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 240}";
+transform = "{1, 0, 0, 1, 60, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 180}";
+transform = "{1, 0, 0, 1, 60, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 120}";
+transform = "{1, 0, 0, 1, 60, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 60}";
+transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 540}";
+transform = "{1, 0, 0, 1, 300, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 480}";
+transform = "{1, 0, 0, 1, 360, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 420}";
+transform = "{1, 0, 0, 1, 360, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 360}";
+transform = "{1, 0, 0, 1, 360, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 300}";
+transform = "{1, 0, 0, 1, 360, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 240}";
+transform = "{1, 0, 0, 1, 360, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 120}";
+transform = "{1, 0, 0, 1, 360, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 60}";
+transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 60}";
+transform = "{1, 0, 0, 1, 180, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 180}";
+transform = "{1, 0, 0, 1, 360, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 540}";
+transform = "{1, 0, 0, 1, 240, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 60}";
+transform = "{1, 0, 0, 1, 240, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -79530,7 +79810,7 @@ unicode = 05D8;
 {
 color = 1;
 glyphname = hbYod;
-lastChange = "2020-02-14 11:45:35 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -79598,7 +79878,7 @@ unicode = 05D9;
 {
 color = 1;
 glyphname = hbKaf;
-lastChange = "2020-02-14 12:06:19 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -79627,77 +79907,77 @@ components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 60}";
+transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 540}";
+transform = "{1, 0, 0, 1, 240, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 480}";
+transform = "{1, 0, 0, 1, 300, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 420}";
+transform = "{1, 0, 0, 1, 300, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 360}";
+transform = "{1, 0, 0, 1, 300, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 300}";
+transform = "{1, 0, 0, 1, 300, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 240}";
+transform = "{1, 0, 0, 1, 300, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 120}";
+transform = "{1, 0, 0, 1, 300, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 60}";
+transform = "{1, 0, 0, 1, 240, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 60}";
+transform = "{1, 0, 0, 1, 180, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 180}";
+transform = "{1, 0, 0, 1, 300, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 540}";
+transform = "{1, 0, 0, 1, 180, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 540}";
+transform = "{1, 0, 0, 1, 120, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 60}";
+transform = "{1, 0, 0, 1, 60, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 540}";
+transform = "{1, 0, 0, 1, 60, 480}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -80344,7 +80624,7 @@ unicode = 05DF;
 {
 color = 1;
 glyphname = hbNun;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -80445,7 +80725,7 @@ unicode = 05E0;
 {
 color = 1;
 glyphname = hbSamekh;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -80474,112 +80754,112 @@ components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 540}";
+transform = "{1, 0, 0, 1, 120, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 480}";
+transform = "{1, 0, 0, 1, 60, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 420}";
+transform = "{1, 0, 0, 1, 60, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 360}";
+transform = "{1, 0, 0, 1, 60, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 300}";
+transform = "{1, 0, 0, 1, 60, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 240}";
+transform = "{1, 0, 0, 1, 60, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 180}";
+transform = "{1, 0, 0, 1, 60, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 120}";
+transform = "{1, 0, 0, 1, 60, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 60}";
+transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 540}";
+transform = "{1, 0, 0, 1, 300, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 480}";
+transform = "{1, 0, 0, 1, 360, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 420}";
+transform = "{1, 0, 0, 1, 360, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 360}";
+transform = "{1, 0, 0, 1, 360, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 300}";
+transform = "{1, 0, 0, 1, 360, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 240}";
+transform = "{1, 0, 0, 1, 360, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 120}";
+transform = "{1, 0, 0, 1, 360, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 60}";
+transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 60}";
+transform = "{1, 0, 0, 1, 180, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 180}";
+transform = "{1, 0, 0, 1, 360, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 540}";
+transform = "{1, 0, 0, 1, 180, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 540}";
+transform = "{1, 0, 0, 1, 240, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 60}";
+transform = "{1, 0, 0, 1, 240, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -80591,7 +80871,7 @@ unicode = 05E1;
 {
 color = 1;
 glyphname = hbAyin;
-lastChange = "2020-02-14 12:06:03 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -80722,7 +81002,7 @@ unicode = 05E2;
 {
 color = 1;
 glyphname = hbPe;
-lastChange = "2020-02-14 12:05:06 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -80751,107 +81031,107 @@ components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 540}";
+transform = "{1, 0, 0, 1, 120, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 480}";
+transform = "{1, 0, 0, 1, 60, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 420}";
+transform = "{1, 0, 0, 1, 60, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 360}";
+transform = "{1, 0, 0, 1, 60, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 300}";
+transform = "{1, 0, 0, 1, 120, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 300}";
+transform = "{1, 0, 0, 1, 180, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 300}";
+transform = "{1, 0, 0, 1, 240, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 120}";
+transform = "{1, 0, 0, 1, 60, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 60}";
+transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 540}";
+transform = "{1, 0, 0, 1, 300, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 480}";
+transform = "{1, 0, 0, 1, 360, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 420}";
+transform = "{1, 0, 0, 1, 360, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 360}";
+transform = "{1, 0, 0, 1, 360, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 300}";
+transform = "{1, 0, 0, 1, 360, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 240}";
+transform = "{1, 0, 0, 1, 360, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 120}";
+transform = "{1, 0, 0, 1, 300, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 60}";
+transform = "{1, 0, 0, 1, 180, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 180}";
+transform = "{1, 0, 0, 1, 360, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 540}";
+transform = "{1, 0, 0, 1, 180, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 540}";
+transform = "{1, 0, 0, 1, 240, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 60}";
+transform = "{1, 0, 0, 1, 240, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -80863,7 +81143,7 @@ unicode = 05E4;
 {
 color = 1;
 glyphname = hbPeFinal;
-lastChange = "2020-02-14 11:52:16 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -80888,102 +81168,102 @@ components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 540}";
+transform = "{1, 0, 0, 1, 120, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 480}";
+transform = "{1, 0, 0, 1, 60, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 420}";
+transform = "{1, 0, 0, 1, 60, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 360}";
+transform = "{1, 0, 0, 1, 60, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 300}";
+transform = "{1, 0, 0, 1, 120, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 300}";
+transform = "{1, 0, 0, 1, 180, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 540}";
+transform = "{1, 0, 0, 1, 300, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 480}";
+transform = "{1, 0, 0, 1, 360, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 420}";
+transform = "{1, 0, 0, 1, 360, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 360}";
+transform = "{1, 0, 0, 1, 360, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 300}";
+transform = "{1, 0, 0, 1, 360, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 240}";
+transform = "{1, 0, 0, 1, 360, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 120}";
+transform = "{1, 0, 0, 1, 360, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 60}";
+transform = "{1, 0, 0, 1, 360, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, -60}";
+transform = "{1, 0, 0, 1, 360, -120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 180}";
+transform = "{1, 0, 0, 1, 360, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 540}";
+transform = "{1, 0, 0, 1, 180, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 540}";
+transform = "{1, 0, 0, 1, 240, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 0}";
+transform = "{1, 0, 0, 1, 360, -60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 300}";
+transform = "{1, 0, 0, 1, 240, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -80995,7 +81275,7 @@ unicode = 05E3;
 {
 color = 1;
 glyphname = hbTsadi;
-lastChange = "2020-02-14 12:03:30 +0000";
+lastChange = "2020-02-14 13:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -82483,7 +82763,7 @@ unicode = FB4A;
 {
 color = 1;
 glyphname = hbSheva;
-lastChange = "2020-02-14 12:01:11 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82501,19 +82781,19 @@ transform = "{1, 0, 0, 1, -30, -120}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, -30, -240}";
+transform = "{1, 0, 0, 1, -30, -210}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05B0;
 },
 {
-color = 0;
+color = 1;
 glyphname = hbHataf_hbSegol;
-lastChange = "2020-02-14 11:19:42 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82522,16 +82802,43 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -150, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -30, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -90, -210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, -210}";
+}
+);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05B1;
 },
 {
-color = 0;
+color = 1;
 glyphname = hbHataf_hbPatah;
-lastChange = "2020-02-14 11:19:46 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82540,16 +82847,43 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -150, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -30, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -90, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, -210}";
+}
+);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05B2;
 },
 {
-color = 0;
+color = 1;
 glyphname = hbHataf_hbQamats;
-lastChange = "2020-02-14 11:19:47 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82558,16 +82892,48 @@ name = _bottom;
 position = "{0, 0}";
 }
 );
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -150, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -30, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -90, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, -210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -90, -120}";
+}
+);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05B3;
 },
 {
-color = 0;
+color = 1;
 glyphname = hbHiriq;
-lastChange = "2020-02-14 11:20:00 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82584,15 +82950,15 @@ transform = "{1, 0, 0, 1, -30, -120}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05B4;
 },
 {
-color = 0;
+color = 1;
 glyphname = hbTsere;
-lastChange = "2020-02-14 11:20:19 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82614,7 +82980,7 @@ transform = "{1, 0, 0, 1, 30, -120}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05B5;
@@ -82622,7 +82988,7 @@ unicode = 05B5;
 {
 color = 1;
 glyphname = hbSegol;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82649,7 +83015,7 @@ transform = "{1, 0, 0, 1, -30, -210}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05B6;
@@ -82657,7 +83023,7 @@ unicode = 05B6;
 {
 color = 1;
 glyphname = hbPatah;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82684,7 +83050,7 @@ transform = "{1, 0, 0, 1, -30, -120}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05B7;
@@ -82692,7 +83058,7 @@ unicode = 05B7;
 {
 color = 1;
 glyphname = hbQamats;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82724,7 +83090,7 @@ transform = "{1, 0, 0, 1, -30, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05B8;
@@ -82732,11 +83098,39 @@ unicode = 05B8;
 {
 color = 0;
 glyphname = hbQamatsQatan;
-lastChange = "2020-02-14 11:21:11 +0000";
+lastChange = "2020-02-14 13:14:11 +0000";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{0, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -90, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 30, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -30, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, -30, -180}";
+}
+);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05C7;
@@ -82744,7 +83138,7 @@ unicode = 05C7;
 {
 color = 1;
 glyphname = hbHolam;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82761,7 +83155,7 @@ transform = "{1, 0, 0, 1, -120, 600}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05B9;
@@ -82769,7 +83163,7 @@ unicode = 05B9;
 {
 color = 1;
 glyphname = hbHolamHaser;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82786,7 +83180,7 @@ transform = "{1, 0, 0, 1, -120, 600}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05BA;
@@ -82794,7 +83188,7 @@ unicode = 05BA;
 {
 color = 1;
 glyphname = hbQubuts;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82821,7 +83215,7 @@ transform = "{1, 0, 0, 1, 30, -240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05BB;
@@ -82829,7 +83223,7 @@ unicode = 05BB;
 {
 color = 1;
 glyphname = hbDagesh;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82846,7 +83240,7 @@ transform = "{1, 0, 0, 1, -30, 210}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05BC;
@@ -82854,7 +83248,7 @@ unicode = 05BC;
 {
 color = 1;
 glyphname = hbRafe;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82881,7 +83275,7 @@ transform = "{1, 0, 0, 1, 30, 600}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05BF;
@@ -82889,7 +83283,7 @@ unicode = 05BF;
 {
 color = 1;
 glyphname = hbShindot;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82906,7 +83300,7 @@ transform = "{1, 0, 0, 1, -30, 600}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05C1;
@@ -82914,7 +83308,7 @@ unicode = 05C1;
 {
 color = 1;
 glyphname = hbSindot;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-02-14 13:14:07 +0000";
 layers = (
 {
 anchors = (
@@ -82931,7 +83325,7 @@ transform = "{1, 0, 0, 1, -30, 600}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 0;
 }
 );
 unicode = 05C2;
@@ -83055,7 +83449,7 @@ unicode = FB1F;
 {
 color = 1;
 glyphname = hbPeFinal.calt;
-lastChange = "2020-02-14 11:47:31 +0000";
+lastChange = "2020-02-14 13:36:55 +0000";
 layers = (
 {
 anchors = (
@@ -83080,92 +83474,92 @@ components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 540}";
+transform = "{1, 0, 0, 1, 120, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 480}";
+transform = "{1, 0, 0, 1, 60, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 420}";
+transform = "{1, 0, 0, 1, 60, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 360}";
+transform = "{1, 0, 0, 1, 60, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 300}";
+transform = "{1, 0, 0, 1, 120, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 540}";
+transform = "{1, 0, 0, 1, 300, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 480}";
+transform = "{1, 0, 0, 1, 360, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 420}";
+transform = "{1, 0, 0, 1, 360, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 360}";
+transform = "{1, 0, 0, 1, 360, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 300}";
+transform = "{1, 0, 0, 1, 360, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 240}";
+transform = "{1, 0, 0, 1, 360, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 120}";
+transform = "{1, 0, 0, 1, 360, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 60}";
+transform = "{1, 0, 0, 1, 360, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, -60}";
+transform = "{1, 0, 0, 1, 360, -120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 180}";
+transform = "{1, 0, 0, 1, 360, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 540}";
+transform = "{1, 0, 0, 1, 180, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 540}";
+transform = "{1, 0, 0, 1, 240, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 0}";
+transform = "{1, 0, 0, 1, 360, -60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -83176,7 +83570,7 @@ width = 480;
 {
 color = 1;
 glyphname = hbPe.calt;
-lastChange = "2020-02-14 12:01:07 +0000";
+lastChange = "2020-02-14 13:36:55 +0000";
 layers = (
 {
 anchors = (
@@ -83205,102 +83599,102 @@ components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 540}";
+transform = "{1, 0, 0, 1, 120, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 480}";
+transform = "{1, 0, 0, 1, 60, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 420}";
+transform = "{1, 0, 0, 1, 60, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 360}";
+transform = "{1, 0, 0, 1, 60, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 300}";
+transform = "{1, 0, 0, 1, 120, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 120}";
+transform = "{1, 0, 0, 1, 60, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 180, 60}";
+transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 540}";
+transform = "{1, 0, 0, 1, 300, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 480}";
+transform = "{1, 0, 0, 1, 360, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 420}";
+transform = "{1, 0, 0, 1, 360, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 360}";
+transform = "{1, 0, 0, 1, 360, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 300}";
+transform = "{1, 0, 0, 1, 360, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 240}";
+transform = "{1, 0, 0, 1, 360, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 120}";
+transform = "{1, 0, 0, 1, 360, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 360, 60}";
+transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 60}";
+transform = "{1, 0, 0, 1, 180, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 420, 180}";
+transform = "{1, 0, 0, 1, 360, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 240, 540}";
+transform = "{1, 0, 0, 1, 180, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 540}";
+transform = "{1, 0, 0, 1, 240, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 300, 60}";
+transform = "{1, 0, 0, 1, 240, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -83311,74 +83705,74 @@ width = 480;
 {
 color = 1;
 glyphname = hbPaseq;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-02-14 13:36:55 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 480}";
+transform = "{1, 0, 0, 1, 60, 420}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 420}";
+transform = "{1, 0, 0, 1, 60, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 360}";
+transform = "{1, 0, 0, 1, 60, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 300}";
+transform = "{1, 0, 0, 1, 60, 240}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 240}";
+transform = "{1, 0, 0, 1, 60, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 120}";
+transform = "{1, 0, 0, 1, 60, 60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 60}";
+transform = "{1, 0, 0, 1, 60, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, -60}";
+transform = "{1, 0, 0, 1, 60, -120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 180}";
+transform = "{1, 0, 0, 1, 60, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 0}";
+transform = "{1, 0, 0, 1, 60, -60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 600}";
+transform = "{1, 0, 0, 1, 60, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 540}";
+transform = "{1, 0, 0, 1, 60, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{-1, 0, 0, -1, 120, 660}";
+transform = "{1, 0, 0, 1, 60, 600}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -83390,7 +83784,7 @@ unicode = 05C0;
 {
 color = 1;
 glyphname = hbGeresh;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-02-14 13:36:55 +0000";
 layers = (
 {
 components = (
@@ -105696,8 +106090,8 @@ rightMetricsKey = _part.arJim.YehBarri.med;
 },
 {
 color = 7;
-glyphname = a.Ayb.001;
-lastChange = "2020-02-13 15:22:08 +0000";
+glyphname = a.Ayb.alt;
+lastChange = "2020-02-14 13:20:12 +0000";
 layers = (
 {
 components = (
