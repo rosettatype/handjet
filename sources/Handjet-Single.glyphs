@@ -9,7 +9,6 @@ DisplayStrings = (
 "/arParenrightfancy",
 "/hbSheva",
 "/arParenrightfancy/arBeh/arParenleftfancy",
-"/hbQamatsQatan",
 "/hbTsere",
 "/rightFacingEternity",
 "/hbAlef/hbBet/hbGimel/hbDalet/hbHe/hbVav/hbZayin/hbHet/hbTet/hbYod/hbKaf/hbKafFinal/hbLamed/hbMemFinal/hbMem/hbNunFinal/hbNun/hbSamekh/hbAyin/hbPe/hbPeFinal/hbTsadi/hbTsadiFinal/hbQof/hbResh/hbShin/hbTav \012\012/hbAlef_hbPatah/hbAlef_hbQamats/hbAlef_hbDagesh/hbBet_hbDagesh/hbBet_hbRafe/hbGimel_hbDagesh/hbDalet_hbDagesh/hbHe_hbDagesh/hbVav_hbHolam/hbVav_hbDagesh/hbZayin_hbDagesh/hbTet_hbDagesh/hbYod_hbHiriq/hbYod_hbDagesh/hbKaf_hbDagesh/hbKaf_hbRafe/hbKafFinal_hbDagesh/hbLamed_hbDagesh/hbMem_hbDagesh/hbNun_hbDagesh/hbSamekh_hbDagesh/hbPe_hbDagesh/hbPe_hbRafe/hbPeFinal_hbDagesh/hbTsadi_hbDagesh/hbQof_hbDagesh/hbResh_hbDagesh/hbShin_hbDagesh/hbShin_hbShindot/hbShin_hbSindot/hbShin_hbDagesh_hbShindot/hbShin_hbDagesh_hbSindot/hbTav_hbDagesh",
@@ -83100,9 +83099,9 @@ width = 0;
 unicode = 05B8;
 },
 {
-color = 0;
+color = 1;
 glyphname = hbQamatsQatan;
-lastChange = "2020-02-14 13:14:11 +0000";
+lastChange = "2020-02-19 10:46:25 +0000";
 layers = (
 {
 anchors = (
