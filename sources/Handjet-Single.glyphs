@@ -4,30 +4,7 @@ DisplayStrings = (
 "/wolf",
 "/snowman.1",
 "   /tree.1/tree.3/tree.3/tree.3/tree.1     /tree.3/tree.3/tree.4/tree.4/tree.4/tree.4/tree.4/tree.1 \012/tree.1/tree.3/tree.3/tree.1/tree.1    /deer.tall/tree.1/tree.3/tree.3/tree.4  /wolf/tree.3/tree.3/tree.1 \012/tree.1/tree.3/tree.3/tree.4/tree.1/tree.3/tree.3/tree.4/tree.4/tree.4/tree.4/tree.4/tree.3/tree.1 \012        /tree.1/fox.right/tree.3/tree.3/tree.3/tree.1/rabbit/rabbit/rabbit.right     /tree.3/tree.3/tree.4  /wolf  /tree.1 \012             /tree.3/tree.3/tree.4/tree.4/tree.4/tree.4/tree.4/tree.3/tree.1/tree.1/tree.1/tree.1 \012                 /tree.3/tree.3/tree.4  /reindeer.right/reindeer.right/reindeer.right/reindeer.right/tree.3/tree.1/tree.1",
-"/pattern.1/pattern.1/pattern.1/pattern.2/pattern.2/pattern.2  /pattern.3/pattern.3/pattern.3  /pattern.4/pattern.4/pattern.4 \012/patternbg/pattern.1/patternbg/pattern.1/patternbg/pattern.1/patternbg/pattern.2/patternbg/pattern.2/patternbg/pattern.2/patternbg/pattern.2/patternbg/patternbg/pattern.3/patternbg/pattern.3/patternbg/pattern.3/patternbg/pattern.4/patternbg/pattern.4/patternbg/pattern.4/patternbg \012/patternbg.1/pattern.1/patternbg.1/pattern.1/patternbg.1/pattern.1/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/patternbg.1/pattern.3/patternbg.1/pattern.3/patternbg.1/pattern.3/patternbg.1/pattern.4/patternbg.1/pattern.4/patternbg.1/pattern.4/patternbg.1 \012/pattern.5/pattern.5/pattern.5  /pattern.6/pattern.6/pattern.6  /pattern.7/pattern.7/pattern.7  /pattern.8/pattern.8/pattern.8  /pattern.9/pattern.9/pattern.9 \012/patternbg/pattern.5/patternbg/pattern.5/patternbg/pattern.5/patternbg/pattern.6/patternbg/pattern.6/patternbg/pattern.6/patternbg/patternbg/pattern.7/patternbg/pattern.7/patternbg/pattern.7/patternbg/patternbg/pattern.8/patternbg/pattern.8/patternbg/pattern.8/patternbg/pattern.9/patternbg/pattern.9/patternbg/pattern.9/patternbg \012/patternbg.2/pattern.5/patternbg.2/pattern.5/patternbg.2/pattern.5/patternbg.2/pattern.6/patternbg.2/pattern.6/patternbg.2/pattern.6/patternbg.2/patternbg.2/pattern.7/patternbg.2/pattern.7/patternbg.2/pattern.7/patternbg.2/patternbg.2/pattern.8/patternbg.2/pattern.8/patternbg.2/pattern.8/patternbg.2/pattern.9/patternbg.2/pattern.9/patternbg.2/pattern.9/patternbg.2",
-"*/arBeh/arStar",
-"/arParenrightfancy",
-"/hbSheva",
-"/arParenrightfancy/arBeh/arParenleftfancy",
-"/hbTsere",
-"/rightFacingEternity",
-"/hbAlef/hbBet/hbGimel/hbDalet/hbHe/hbVav/hbZayin/hbHet/hbTet/hbYod/hbKaf/hbKafFinal/hbLamed/hbMemFinal/hbMem/hbNunFinal/hbNun/hbSamekh/hbAyin/hbPe/hbPeFinal/hbTsadi/hbTsadiFinal/hbQof/hbResh/hbShin/hbTav \012\012/hbAlef_hbPatah/hbAlef_hbQamats/hbAlef_hbDagesh/hbBet_hbDagesh/hbBet_hbRafe/hbGimel_hbDagesh/hbDalet_hbDagesh/hbHe_hbDagesh/hbVav_hbHolam/hbVav_hbDagesh/hbZayin_hbDagesh/hbTet_hbDagesh/hbYod_hbHiriq/hbYod_hbDagesh/hbKaf_hbDagesh/hbKaf_hbRafe/hbKafFinal_hbDagesh/hbLamed_hbDagesh/hbMem_hbDagesh/hbNun_hbDagesh/hbSamekh_hbDagesh/hbPe_hbDagesh/hbPe_hbRafe/hbPeFinal_hbDagesh/hbTsadi_hbDagesh/hbQof_hbDagesh/hbResh_hbDagesh/hbShin_hbDagesh/hbShin_hbShindot/hbShin_hbSindot/hbShin_hbDagesh_hbShindot/hbShin_hbDagesh_hbSindot/hbTav_hbDagesh",
-"/hbAlef/hbBet/hbGimel/hbDalet/hbHe/hbVav/hbZayin/hbHet/hbTet/hbYod/hbKaf/hbKafFinal/hbLamed/hbMemFinal/hbMem/hbNunFinal/hbNun/hbSamekh/hbAyin/hbPe/hbPeFinal/hbTsadi/hbTsadiFinal/hbQof/hbResh/hbShin/hbTav/hbAlef_hbPatah/hbAlef_hbQamats/hbAlef_hbDagesh/hbBet_hbDagesh/hbBet_hbRafe/hbGimel_hbDagesh/hbDalet_hbDagesh/hbHe_hbDagesh/hbVav_hbHolam/hbVav_hbDagesh/hbZayin_hbDagesh/hbTet_hbDagesh/hbYod_hbHiriq/hbYod_hbDagesh/hbKaf_hbDagesh/hbKaf_hbRafe/hbKafFinal_hbDagesh/hbLamed_hbDagesh/hbMem_hbDagesh/hbNun_hbDagesh/hbSamekh_hbDagesh/hbPe_hbDagesh/hbPe_hbRafe/hbPeFinal_hbDagesh/hbTsadi_hbDagesh/hbQof_hbDagesh/hbResh_hbDagesh/hbShin_hbDagesh/hbShin_hbShindot/hbShin_hbSindot/hbShin_hbDagesh_hbShindot/hbShin_hbDagesh_hbSindot/hbTav_hbDagesh/hbVav_hbVav/hbVav_hbYod/hbYod_hbYod/hbYod_hbYod_hbPatah/hbPaseq/hbGeresh/hbGershayim/hbMaqaf/hbSofPasuq",
-"/hbAlef/hbBet",
-"ABCDadhesion\012/hbAlef/hbBet/hbGimel/hbDalet/hbHe/hbVav/hbZayin/hbHet/hbTet/hbYod/hbKaf/hbKafFinal/hbLamed/hbMemFinal/hbMem/hbNunFinal/hbNun/hbSamekh/hbAyin/hbAyin.ss01/hbPe/hbPeFinal/hbAlef/hbTsadi/hbTsadiFinal/hbQof/hbResh/hbShin/hbTav",
-"/hbKaf/hbBet/hbNun",
-"/hbHe/hbHet/hbKafFinal/hbResh/hbNunFinal/hbVav/hbYod \012/hbZayin/hbDalet/hbResh \012/hbKaf/hbBet/hbGimel/hbNun \012/hbMem/hbPe \012/hbQof/hbLamed \012/hbSamekh/hbTet \012/hbAyin/hbShin \012/hbAlef/hbTsadi \012/hbMemFinal/hbPeFinal/hbTsadiFinal/hbTav",
-"/_part.arBeh.YehBarri.med",
-"/arThree",
-"/hbDalet",
-"/hbGimel",
-"/hbPe/hbPeFinal/hbPeFinal.calt/hbPe.calt/hbKaf/hbKafFinal",
-"/hbLamed",
-"/hbQof/hbLamed",
-"/hbSamekh",
-"/hbTet/hbTet.ss02/hbTet.ss01",
-"/hbAyin/hbAyin.ss02/hbAyin.ss01",
-"/hbAlef/hbAlef.ss01"
+"/pattern.1/pattern.1/pattern.1/pattern.2/pattern.2/pattern.2  /pattern.3/pattern.3/pattern.3  /pattern.4/pattern.4/pattern.4 \012/patternbg/pattern.1/patternbg/pattern.1/patternbg/pattern.1/patternbg/pattern.2/patternbg/pattern.2/patternbg/pattern.2/patternbg/pattern.2/patternbg/patternbg/pattern.3/patternbg/pattern.3/patternbg/pattern.3/patternbg/pattern.4/patternbg/pattern.4/patternbg/pattern.4/patternbg \012/patternbg.1/pattern.1/patternbg.1/pattern.1/patternbg.1/pattern.1/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/pattern.2/patternbg.1/patternbg.1/pattern.3/patternbg.1/pattern.3/patternbg.1/pattern.3/patternbg.1/pattern.4/patternbg.1/pattern.4/patternbg.1/pattern.4/patternbg.1 \012/pattern.5/pattern.5/pattern.5  /pattern.6/pattern.6/pattern.6  /pattern.7/pattern.7/pattern.7  /pattern.8/pattern.8/pattern.8  /pattern.9/pattern.9/pattern.9 \012/patternbg/pattern.5/patternbg/pattern.5/patternbg/pattern.5/patternbg/pattern.6/patternbg/pattern.6/patternbg/pattern.6/patternbg/patternbg/pattern.7/patternbg/pattern.7/patternbg/pattern.7/patternbg/patternbg/pattern.8/patternbg/pattern.8/patternbg/pattern.8/patternbg/pattern.9/patternbg/pattern.9/patternbg/pattern.9/patternbg \012/patternbg.2/pattern.5/patternbg.2/pattern.5/patternbg.2/pattern.5/patternbg.2/pattern.6/patternbg.2/pattern.6/patternbg.2/pattern.6/patternbg.2/patternbg.2/pattern.7/patternbg.2/pattern.7/patternbg.2/pattern.7/patternbg.2/patternbg.2/pattern.8/patternbg.2/pattern.8/patternbg.2/pattern.8/patternbg.2/pattern.9/patternbg.2/pattern.9/patternbg.2/pattern.9/patternbg.2"
 );
 classes = (
 {
@@ -37,7 +14,7 @@ name = uppercase;
 },
 {
 automatic = 1;
-code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Amacron Abreve Adieresis Aring Aogonek Aringacute Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Ahookabove Adotbelow AE AEacute Cacute Ccircumflex Cdotaccent Ccaron Ccedilla Dcaron Dcroat Eth Egrave Eacute Ecircumflex Emacron Ebreve Edotaccent Edieresis Ecaron Eogonek Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ehookabove Etilde Edotbelow Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Igrave Iacute Icircumflex Itilde Imacron Ibreve Idotaccent Idieresis Iogonek Ihookabove Idotbelow IJ Jacute Jcircumflex Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Nacute Ntilde Ncaron Eng Ncommaaccent Ograve Oacute Ocircumflex Otilde Omacron Obreve Odieresis Ohungarumlaut Oslash Oslashacute Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Odotbelow OE Racute Rcaron Rcommaaccent Sacute Scircumflex Scaron Scommaaccent Scedilla Germandbls Tcaron Tcommaaccent Tcedilla Tbar Ugrave Uacute Ucircumflex Utilde Umacron Ubreve Udieresis Uring Uhungarumlaut Uogonek Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Udotbelow Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Yhookabove Ydotbelow Ytilde Zacute Zdotaccent Zcaron Thorn Schwa Abreveinverted Adblgrave Ebreveinverted Edblgrave Gcaron Ibreveinverted Idblgrave Obreveinverted Odblgrave Odieresismacron Odotaccentmacron Oogonek Otildemacron Rbreveinverted Rdblgrave Ubreveinverted Udblgrave Ymacron DZ Dz DZcaron Dzcaron LJ Lj NJ Nj c.A c.Be c.Ve c.Ghe c.De c.Ie c.Zhe c.Ze c.I c.Ishort c.Ka c.El c.Em c.En c.O c.Pe c.Er c.Es c.Te c.U c.Ef c.Ha c.Tse c.Che c.Sha c.Shcha c.Hard c.Yeru c.Soft c.E c.Yu c.Ya c.Gje c.GheUkr c.Dje c.IeUkr c.Dze c.Iegrave c.Io c.IUkr c.Yi c.Je c.Igrave c.Kje c.Lje c.Nje c.Tshe c.Ushort c.Dzhe c.Yat c.Fita c.Izhitsa c.Ghebar c.Zhespike c.Kaspike c.Enspike c.Haspike c.Chespike c.Ustraight c.Ustraightbar c.Shha c.Palochka c.Schwa c.Imacron c.Obar c.Umacron c.Zehook c.KaBashkir c.Eshook c.Abreve c.Iebreve c.Udblacute c.Odieresis c.AIe c.Adieresis c.Chedieresis c.Chekhakassian c.Chestroke c.Enghe c.Gedescender c.Ghemiddlehook c.Idieresis c.Kastroke c.Qa c.Udieresis c.We c.Yerudieresis c.Yusbig c.Zedieresis c.Zhebreve c.Zhedieresis c.De.BGR c.El.BGR Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Iotadieresis Omicrontonos Upsilontonos Upsilondieresis Omegatonos KaiSymbol a.Ayb a.Ben a.Gim a.Da a.Ech a.Za a.Eh a.Et a.To a.Zhe a.Ini a.Liwn a.Xeh a.Ca a.Ken a.Ho a.Ja a.Ghad a.Cheh a.Men a.Yi a.Now a.Sha a.Vo a.Cha a.Peh a.Jheh a.Ra a.Seh a.Vew a.Tiwn a.Reh a.Co a.Yiwn a.Piwr a.Keh a.Oh a.Feh a.Ayb.alt";
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Amacron Abreve Adieresis Aring Aogonek Aringacute Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Ahookabove Adotbelow AE AEacute Cacute Ccircumflex Cdotaccent Ccaron Ccedilla Dcaron Dcroat Eth Egrave Eacute Ecircumflex Emacron Ebreve Edotaccent Edieresis Ecaron Eogonek Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Ehookabove Etilde Edotbelow Gcircumflex Gbreve Gdotaccent Gcommaaccent Hcircumflex Hbar Igrave Iacute Icircumflex Itilde Imacron Ibreve Idotaccent Idieresis Iogonek Ihookabove Idotbelow IJ Jacute Jcircumflex Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Nacute Ntilde Ncaron Eng Ncommaaccent Ograve Oacute Ocircumflex Otilde Omacron Obreve Odieresis Ohungarumlaut Oslash Oslashacute Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Odotbelow OE Racute Rcaron Rcommaaccent Sacute Scircumflex Scaron Scommaaccent Scedilla Germandbls Tcaron Tcommaaccent Tcedilla Tbar Ugrave Uacute Ucircumflex Utilde Umacron Ubreve Udieresis Uring Uhungarumlaut Uogonek Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Udotbelow Wgrave Wacute Wcircumflex Wdieresis Ygrave Yacute Ycircumflex Ydieresis Yhookabove Ydotbelow Ytilde Zacute Zdotaccent Zcaron Thorn Schwa Abreveinverted Adblgrave Ebreveinverted Edblgrave Gcaron Ibreveinverted Idblgrave Obreveinverted Odblgrave Odieresismacron Odotaccentmacron Oogonek Otildemacron Rbreveinverted Rdblgrave Ubreveinverted Udblgrave Ymacron DZ Dz DZcaron Dzcaron LJ Lj NJ Nj c.A c.Be c.Ve c.Ghe c.De c.Ie c.Zhe c.Ze c.I c.Ishort c.Ka c.El c.Em c.En c.O c.Pe c.Er c.Es c.Te c.U c.Ef c.Ha c.Tse c.Che c.Sha c.Shcha c.Hard c.Yeru c.Soft c.E c.Yu c.Ya c.Gje c.GheUkr c.Dje c.IeUkr c.Dze c.Iegrave c.Io c.IUkr c.Yi c.Je c.Igrave c.Kje c.Lje c.Nje c.Tshe c.Ushort c.Dzhe c.Yat c.Fita c.Izhitsa c.Ghebar c.Zhespike c.Kaspike c.Enspike c.Haspike c.Chespike c.Ustraight c.Ustraightbar c.Shha c.Palochka c.Schwa c.Imacron c.Obar c.Umacron c.Zehook c.KaBashkir c.Eshook c.Abreve c.Iebreve c.Udblacute c.Odieresis c.AIe c.Adieresis c.Chedieresis c.Chekhakassian c.Chestroke c.Enghe c.Gedescender c.Ghemiddlehook c.Idieresis c.Kastroke c.Qa c.Udieresis c.We c.Yerudieresis c.Yusbig c.Zedieresis c.Zhebreve c.Zhedieresis c.De.BGR c.El.BGR Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Iotadieresis Omicrontonos Upsilontonos Upsilondieresis Omegatonos KaiSymbol a.Ayb a.Ben a.Gim a.Da a.Ech a.Za a.Eh a.Et a.To a.Zhe a.Ini a.Liwn a.Xeh a.Ca a.Ken a.Ho a.Ja a.Ghad a.Cheh a.Men a.Yi a.Now a.Sha a.Vo a.Cha a.Peh a.Jheh a.Ra a.Seh a.Vew a.Tiwn a.Reh a.Co a.Yiwn a.Piwr a.Keh a.Oh a.Feh";
 name = Uppercase;
 }
 );
@@ -1319,65 +1296,65 @@ arLam.medi_arAlifHamzabelow.fina,
 arLam.init_arAlifWasla.fina,
 arLam.medi_arAlifWasla.fina,
 arLam.init_arLam.medi_arHeh.fina,
-arBeh_arYehBarri,
-arBeh_arYehBarri.fina,
-arPeh_arYehBarri,
-arPeh_arYehBarri.fina,
-arTeh_arYehBarri,
-arTeh_arYehBarri.fina,
-arTheh_arYehBarri,
-arTheh_arYehBarri.fina,
-arTteh_arYehBarri,
-arTteh_arYehBarri.fina,
-arJim_arYehBarri,
-arJim_arYehBarri.fina,
-arTcheh_arYehBarri,
-arTcheh_arYehBarri.fina,
-arHah_arYehBarri,
-arHah_arYehBarri.fina,
-arKhah_arYehBarri,
-arKhah_arYehBarri.fina,
-arSin_arYehBarri,
-arSin_arYehBarri.fina,
-arShin_arYehBarri,
-arShin_arYehBarri.fina,
-arSad_arYehBarri,
-arSad_arYehBarri.fina,
-arDad_arYehBarri,
-arDad_arYehBarri.fina,
-arTah_arYehBarri,
-arTah_arYehBarri.fina,
-arZah_arYehBarri,
-arZah_arYehBarri.fina,
-arAyn_arYehBarri,
-arAyn_arYehBarri.fina,
-arGhayn_arYehBarri,
-arGhayn_arYehBarri.fina,
-arFeh_arYehBarri,
-arFeh_arYehBarri.fina,
-arQaf_arYehBarri,
-arQaf_arYehBarri.fina,
-arKaf_arYehBarri,
-arKaf_arYehBarri.fina,
-arKeheh_arYehBarri,
-arKeheh_arYehBarri.fina,
-arGaf_arYehBarri,
-arGaf_arYehBarri.fina,
-arLam_arYehBarri,
-arLam_arYehBarri.fina,
-arMim_arYehBarri,
-arMim_arYehBarri.fina,
-arNun_arYehBarri,
-arNun_arYehBarri.fina,
-arHehGoal_arYehBarri,
-arHehDoachashmi_arYehBarri,
-arHehDoachashmi_arYehBarri.fina,
-arYeh_arYehBarri,
-arYeh_arYehBarri.fina,
-arYehHamza_arYehBarri,
-arYehHamza_arYehBarri.fina,
-arYehFarsi_arYehBarri,
-arYehFarsi_arYehBarri.fina,
+arBeh.init_arYehBarri.fina,
+arBeh.medi_arYehBarri.fina,
+arPeh.init_arYehBarri.fina,
+arPeh.medi_arYehBarri.fina,
+arTeh.init_arYehBarri.fina,
+arTeh.medi_arYehBarri.fina,
+arTheh.init_arYehBarri.fina,
+arTheh.medi_arYehBarri.fina,
+arTteh.init_arYehBarri.fina,
+arTteh.medi_arYehBarri.fina,
+arJim.init_arYehBarri.fina,
+arJim.medi_arYehBarri.fina,
+arTcheh.init_arYehBarri.fina,
+arTcheh.medi_arYehBarri.fina,
+arHah.init_arYehBarri.fina,
+arHah.medi_arYehBarri.fina,
+arKhah.init_arYehBarri.fina,
+arKhah.medi_arYehBarri.fina,
+arSin.init_arYehBarri.fina,
+arSin.medi_arYehBarri.fina,
+arShin.init_arYehBarri.fina,
+arShin.medi_arYehBarri.fina,
+arSad.init_arYehBarri.fina,
+arSad.medi_arYehBarri.fina,
+arDad.init_arYehBarri.fina,
+arDad.medi_arYehBarri.fina,
+arTah.init_arYehBarri.fina,
+arTah.medi_arYehBarri.fina,
+arZah.init_arYehBarri.fina,
+arZah.medi_arYehBarri.fina,
+arAyn.init_arYehBarri.fina,
+arAyn.medi_arYehBarri.fina,
+arGhayn.init_arYehBarri.fina,
+arGhayn.medi_arYehBarri.fina,
+arFeh.init_arYehBarri.fina,
+arFeh.medi_arYehBarri.fina,
+arQaf.init_arYehBarri.fina,
+arQaf.medi_arYehBarri.fina,
+arKaf.init_arYehBarri.fina,
+arKaf.medi_arYehBarri.fina,
+arKeheh.init_arYehBarri.fina,
+arKeheh.medi_arYehBarri.fina,
+arGaf.init_arYehBarri.fina,
+arGaf.medi_arYehBarri.fina,
+arLam.init_arYehBarri.fina,
+arLam.medi_arYehBarri.fina,
+arMim.init_arYehBarri.fina,
+arMim.medi_arYehBarri.fina,
+arNun.init_arYehBarri.fina,
+arNun.medi_arYehBarri.fina,
+arHehGoal.init_arYehBarri.fina,
+arHehDoachashmi.init_arYehBarri.fina,
+arHehDoachashmi.medi_arYehBarri.fina,
+arYeh.init_arYehBarri.fina,
+arYeh.medi_arYehBarri.fina,
+arYehFarsi.init_arYehBarri.fina,
+arYehFarsi.medi_arYehBarri.fina,
+arYehHamza.init_arYehBarri.fina,
+arYehHamza.medi_arYehBarri.fina,
 arAllah,
 arAllah.liga,
 arRial,
@@ -1549,20 +1526,6 @@ hbGershayim,
 hbMaqaf,
 hbSofPasuq,
 periodcentered.hebr,
-hyphen.hebr,
-endash.hebr,
-emdash.hebr,
-bullet.hebr,
-plus.hebr,
-minus.hebr,
-divide.hebr,
-multiply.hebr,
-equal.hebr,
-approxequal.hebr,
-notequal.hebr,
-less.hebr,
-greater.hebr,
-bulletoperator.hebr,
 zerowidthnonjoiner,
 zerowidthjoiner,
 lefttorightmark,
@@ -1664,9 +1627,10 @@ _grid
 );
 }
 );
-date = "2020-01-27 14:08:32 +0000";
+date = "2020-03-22 19:58:59 +0000";
 designer = "David Brezina";
 designerURL = "https://rosettatype.com";
+disablesNiceNames = 1;
 familyName = Handjet;
 featurePrefixes = (
 {
@@ -1720,7 +1684,7 @@ code = "    @numerators = [zerosuperior onesuperior twosuperior threesuperior fo
 name = frac;
 },
 {
-code = "lookupflag IgnoreMarks RightToLeft;\012\012sub arLam.init arAlif.fina by arLam.init_arAlif.fina;\012sub arLam.medi arAlif.fina by arLam.medi_arAlif.fina;\012sub arLam.init arAlifMadda.fina by arLam.init_arAlifMadda.fina;\012sub arLam.medi arAlifMadda.fina by arLam.medi_arAlifMadda.fina;\012sub arLam.init arAlifHamza.fina by arLam.init_arAlifHamza.fina;\012sub arLam.medi arAlifHamza.fina by arLam.medi_arAlifHamza.fina;\012sub arLam.init arAlifHamzabelow.fina by arLam.init_arAlifHamzabelow.fina;\012sub arLam.medi arAlifHamzabelow.fina by arLam.medi_arAlifHamzabelow.fina;\012sub arLam.init arAlifWasla.fina by arLam.init_arAlifWasla.fina;\012sub arLam.medi arAlifWasla.fina by arLam.medi_arAlifWasla.fina;\012# sub arBeh.init arYehBarri.fina by arBeh.init_arYehBarri.fina;\012# sub arBeh.medi arYehBarri.fina by arBeh.medi_arYehBarri.fina;\012# sub arPeh.init arYehBarri.fina by arPeh.init_arYehBarri.fina;\012# sub arPeh.medi arYehBarri.fina by arPeh.medi_arYehBarri.fina;\012# sub arTeh.init arYehBarri.fina by arTeh.init_arYehBarri.fina;\012# sub arTeh.medi arYehBarri.fina by arTeh.medi_arYehBarri.fina;\012# sub arTheh.init arYehBarri.fina by arTheh.init_arYehBarri.fina;\012# sub arTheh.medi arYehBarri.fina by arTheh.medi_arYehBarri.fina;\012# sub arTteh.init arYehBarri.fina by arTteh.init_arYehBarri.fina;\012# sub arTteh.medi arYehBarri.fina by arTteh.medi_arYehBarri.fina;\012# sub arJim.init arYehBarri.fina by arJim.init_arYehBarri.fina;\012# sub arJim.medi arYehBarri.fina by arJim.medi_arYehBarri.fina;\012# sub arTcheh.init arYehBarri.fina by arTcheh.init_arYehBarri.fina;\012# sub arTcheh.medi arYehBarri.fina by arTcheh.medi_arYehBarri.fina;\012# sub arHah.init arYehBarri.fina by arHah.init_arYehBarri.fina;\012# sub arHah.medi arYehBarri.fina by arHah.medi_arYehBarri.fina;\012# sub arKhah.init arYehBarri.fina by arKhah.init_arYehBarri.fina;\012# sub arKhah.medi arYehBarri.fina by arKhah.medi_arYehBarri.fina;\012# sub arSin.init arYehBarri.fina by arSin.init_arYehBarri.fina;\012# sub arSin.medi arYehBarri.fina by arSin.medi_arYehBarri.fina;\012# sub arShin.init arYehBarri.fina by arShin.init_arYehBarri.fina;\012# sub arShin.medi arYehBarri.fina by arShin.medi_arYehBarri.fina;\012# sub arSad.init arYehBarri.fina by arSad.init_arYehBarri.fina;\012# sub arSad.medi arYehBarri.fina by arSad.medi_arYehBarri.fina;\012# sub arDad.init arYehBarri.fina by arDad.init_arYehBarri.fina;\012# sub arDad.medi arYehBarri.fina by arDad.medi_arYehBarri.fina;\012# sub arTah.init arYehBarri.fina by arTah.init_arYehBarri.fina;\012# sub arTah.medi arYehBarri.fina by arTah.medi_arYehBarri.fina;\012# sub arZah.init arYehBarri.fina by arZah.init_arYehBarri.fina;\012# sub arZah.medi arYehBarri.fina by arZah.medi_arYehBarri.fina;\012# sub arAyn.init arYehBarri.fina by arAyn.init_arYehBarri.fina;\012# sub arAyn.medi arYehBarri.fina by arAyn.medi_arYehBarri.fina;\012# sub arGhayn.init arYehBarri.fina by arGhayn.init_arYehBarri.fina;\012# sub arGhayn.medi arYehBarri.fina by arGhayn.medi_arYehBarri.fina;\012# sub arFeh.init arYehBarri.fina by arFeh.init_arYehBarri.fina;\012# sub arFeh.medi arYehBarri.fina by arFeh.medi_arYehBarri.fina;\012# sub arQaf.init arYehBarri.fina by arQaf.init_arYehBarri.fina;\012# sub arQaf.medi arYehBarri.fina by arQaf.medi_arYehBarri.fina;\012# sub arKaf.init arYehBarri.fina by arKaf.init_arYehBarri.fina;\012# sub arKaf.medi arYehBarri.fina by arKaf.medi_arYehBarri.fina;\012# sub arKeheh.init arYehBarri.fina by arKeheh.init_arYehBarri.fina;\012# sub arKeheh.medi arYehBarri.fina by arKeheh.medi_arYehBarri.fina;\012# sub arGaf.init arYehBarri.fina by arGaf.init_arYehBarri.fina;\012# sub arGaf.medi arYehBarri.fina by arGaf.medi_arYehBarri.fina;\012# sub arLam.init arYehBarri.fina by arLam.init_arYehBarri.fina;\012# sub arLam.medi arYehBarri.fina by arLam.medi_arYehBarri.fina;\012# sub arMim.init arYehBarri.fina by arMim.init_arYehBarri.fina;\012# sub arMim.medi arYehBarri.fina by arMim.medi_arYehBarri.fina;\012# sub arNun.init arYehBarri.fina by arNun.init_arYehBarri.fina;\012# sub arNun.medi arYehBarri.fina by arNun.medi_arYehBarri.fina;\012# sub arHehGoal.init arYehBarri.fina by arHehGoal.init_arYehBarri.fina;\012# sub arHehDoachashmi.init arYehBarri.fina by arHehDoachashmi.init_arYehBarri.fina;\012# sub arHehDoachashmi.medi arYehBarri.fina by arHehDoachashmi.medi_arYehBarri.fina;\012# sub arYeh.init arYehBarri.fina by arYeh.init_arYehBarri.fina;\012# sub arYeh.medi arYehBarri.fina by arYeh.medi_arYehBarri.fina;\012# sub arYehFarsi.init arYehBarri.fina by arYehFarsi.init_arYehBarri.fina;\012# sub arYehFarsi.medi arYehBarri.fina by arYehFarsi.medi_arYehBarri.fina;\012# sub arYehHamza.init arYehBarri.fina by arYehHamza.init_arYehBarri.fina;\012# sub arYehHamza.medi arYehBarri.fina by arYehHamza.medi_arYehBarri.fina;";
+code = "lookupflag IgnoreMarks RightToLeft;\012\012sub arLam.init arAlif.fina by arLam.init_arAlif.fina;\012sub arLam.medi arAlif.fina by arLam.medi_arAlif.fina;\012sub arLam.init arAlifMadda.fina by arLam.init_arAlifMadda.fina;\012sub arLam.medi arAlifMadda.fina by arLam.medi_arAlifMadda.fina;\012sub arLam.init arAlifHamza.fina by arLam.init_arAlifHamza.fina;\012sub arLam.medi arAlifHamza.fina by arLam.medi_arAlifHamza.fina;\012sub arLam.init arAlifHamzabelow.fina by arLam.init_arAlifHamzabelow.fina;\012sub arLam.medi arAlifHamzabelow.fina by arLam.medi_arAlifHamzabelow.fina;\012sub arLam.init arAlifWasla.fina by arLam.init_arAlifWasla.fina;\012sub arLam.medi arAlifWasla.fina by arLam.medi_arAlifWasla.fina;\012sub arBeh.init arYehBarri.fina by arBeh.init_arYehBarri.fina;\012sub arBeh.medi arYehBarri.fina by arBeh.medi_arYehBarri.fina;\012sub arPeh.init arYehBarri.fina by arPeh.init_arYehBarri.fina;\012sub arPeh.medi arYehBarri.fina by arPeh.medi_arYehBarri.fina;\012sub arTeh.init arYehBarri.fina by arTeh.init_arYehBarri.fina;\012sub arTeh.medi arYehBarri.fina by arTeh.medi_arYehBarri.fina;\012sub arTheh.init arYehBarri.fina by arTheh.init_arYehBarri.fina;\012sub arTheh.medi arYehBarri.fina by arTheh.medi_arYehBarri.fina;\012sub arTteh.init arYehBarri.fina by arTteh.init_arYehBarri.fina;\012sub arTteh.medi arYehBarri.fina by arTteh.medi_arYehBarri.fina;\012sub arJim.init arYehBarri.fina by arJim.init_arYehBarri.fina;\012sub arJim.medi arYehBarri.fina by arJim.medi_arYehBarri.fina;\012sub arTcheh.init arYehBarri.fina by arTcheh.init_arYehBarri.fina;\012sub arTcheh.medi arYehBarri.fina by arTcheh.medi_arYehBarri.fina;\012sub arHah.init arYehBarri.fina by arHah.init_arYehBarri.fina;\012sub arHah.medi arYehBarri.fina by arHah.medi_arYehBarri.fina;\012sub arKhah.init arYehBarri.fina by arKhah.init_arYehBarri.fina;\012sub arKhah.medi arYehBarri.fina by arKhah.medi_arYehBarri.fina;\012sub arSin.init arYehBarri.fina by arSin.init_arYehBarri.fina;\012sub arSin.medi arYehBarri.fina by arSin.medi_arYehBarri.fina;\012sub arShin.init arYehBarri.fina by arShin.init_arYehBarri.fina;\012sub arShin.medi arYehBarri.fina by arShin.medi_arYehBarri.fina;\012sub arSad.init arYehBarri.fina by arSad.init_arYehBarri.fina;\012sub arSad.medi arYehBarri.fina by arSad.medi_arYehBarri.fina;\012sub arDad.init arYehBarri.fina by arDad.init_arYehBarri.fina;\012sub arDad.medi arYehBarri.fina by arDad.medi_arYehBarri.fina;\012sub arTah.init arYehBarri.fina by arTah.init_arYehBarri.fina;\012sub arTah.medi arYehBarri.fina by arTah.medi_arYehBarri.fina;\012sub arZah.init arYehBarri.fina by arZah.init_arYehBarri.fina;\012sub arZah.medi arYehBarri.fina by arZah.medi_arYehBarri.fina;\012sub arAyn.init arYehBarri.fina by arAyn.init_arYehBarri.fina;\012sub arAyn.medi arYehBarri.fina by arAyn.medi_arYehBarri.fina;\012sub arGhayn.init arYehBarri.fina by arGhayn.init_arYehBarri.fina;\012sub arGhayn.medi arYehBarri.fina by arGhayn.medi_arYehBarri.fina;\012sub arFeh.init arYehBarri.fina by arFeh.init_arYehBarri.fina;\012sub arFeh.medi arYehBarri.fina by arFeh.medi_arYehBarri.fina;\012sub arQaf.init arYehBarri.fina by arQaf.init_arYehBarri.fina;\012sub arQaf.medi arYehBarri.fina by arQaf.medi_arYehBarri.fina;\012sub arKaf.init arYehBarri.fina by arKaf.init_arYehBarri.fina;\012sub arKaf.medi arYehBarri.fina by arKaf.medi_arYehBarri.fina;\012sub arKeheh.init arYehBarri.fina by arKeheh.init_arYehBarri.fina;\012sub arKeheh.medi arYehBarri.fina by arKeheh.medi_arYehBarri.fina;\012sub arGaf.init arYehBarri.fina by arGaf.init_arYehBarri.fina;\012sub arGaf.medi arYehBarri.fina by arGaf.medi_arYehBarri.fina;\012sub arLam.init arYehBarri.fina by arLam.init_arYehBarri.fina;\012sub arLam.medi arYehBarri.fina by arLam.medi_arYehBarri.fina;\012sub arMim.init arYehBarri.fina by arMim.init_arYehBarri.fina;\012sub arMim.medi arYehBarri.fina by arMim.medi_arYehBarri.fina;\012sub arNun.init arYehBarri.fina by arNun.init_arYehBarri.fina;\012sub arNun.medi arYehBarri.fina by arNun.medi_arYehBarri.fina;\012sub arHehGoal.init arYehBarri.fina by arHehGoal.init_arYehBarri.fina;\012sub arHehDoachashmi.init arYehBarri.fina by arHehDoachashmi.init_arYehBarri.fina;\012sub arHehDoachashmi.medi arYehBarri.fina by arHehDoachashmi.medi_arYehBarri.fina;\012sub arYeh.init arYehBarri.fina by arYeh.init_arYehBarri.fina;\012sub arYeh.medi arYehBarri.fina by arYeh.medi_arYehBarri.fina;\012sub arYehFarsi.init arYehBarri.fina by arYehFarsi.init_arYehBarri.fina;\012sub arYehFarsi.medi arYehBarri.fina by arYehFarsi.medi_arYehBarri.fina;\012sub arYehHamza.init arYehBarri.fina by arYehHamza.init_arYehBarri.fina;\012sub arYehHamza.medi arYehBarri.fina by arYehHamza.medi_arYehBarri.fina;";
 name = rlig;
 },
 {
@@ -1752,7 +1716,7 @@ name = medi;
 },
 {
 automatic = 1;
-code = "sub arAlifMadda by arAlifMadda.fina;\012sub arAlifHamza by arAlifHamza.fina;\012sub arWawHamza by arWawHamza.fina;\012sub arAlifHamzabelow by arAlifHamzabelow.fina;\012sub arYehHamza by arYehHamza.fina;\012sub arAlif by arAlif.fina;\012sub arBeh by arBeh.fina;\012sub arTehMarbuta by arTehMarbuta.fina;\012sub arTeh by arTeh.fina;\012sub arTheh by arTheh.fina;\012sub arJim by arJim.fina;\012sub arHah by arHah.fina;\012sub arKhah by arKhah.fina;\012sub arDal by arDal.fina;\012sub arDhal by arDhal.fina;\012sub arReh by arReh.fina;\012sub arZeh by arZeh.fina;\012sub arSin by arSin.fina;\012sub arShin by arShin.fina;\012sub arSad by arSad.fina;\012sub arDad by arDad.fina;\012sub arTah by arTah.fina;\012sub arZah by arZah.fina;\012sub arAyn by arAyn.fina;\012sub arGhayn by arGhayn.fina;\012sub arFeh by arFeh.fina;\012sub arQaf by arQaf.fina;\012sub arKaf by arKaf.fina;\012sub arLam by arLam.fina;\012sub arMim by arMim.fina;\012sub arNun by arNun.fina;\012sub arHeh by arHeh.fina;\012sub arWaw by arWaw.fina;\012sub arAlifMaksura by arAlifMaksura.fina;\012sub arYeh by arYeh.fina;\012sub arAlifWasla by arAlifWasla.fina;\012sub arBehdotless by arBehdotless.fina;\012sub arTteh by arTteh.fina;\012sub arPeh by arPeh.fina;\012sub arTcheh by arTcheh.fina;\012sub arDdal by arDdal.fina;\012sub arRreh by arRreh.fina;\012sub arJeh by arJeh.fina;\012sub arFehdotless by arFehdotless.fina;\012sub arVeh by arVeh.fina;\012sub arQafdotless by arQafdotless.fina;\012sub arKeheh by arKeheh.fina;\012sub arGaf by arGaf.fina;\012sub arNunGhunna by arNunGhunna.fina;\012sub arHehDoachashmi by arHehDoachashmi.fina;\012sub arHehGoal by arHehGoal.fina;\012sub arHehGoalHamzaabove by arHehGoalHamzaabove.fina;\012sub arHehGoal2habove by arHehGoal2habove.fina;\012sub arHehHamza by arHehHamza.fina;\012sub arYehFarsi by arYehFarsi.fina;\012sub arYehBarri by arYehBarri.fina;\012sub arYehBarriHamzaabove by arYehBarriHamzaabove.fina;\012sub arBeh_arYehBarri by arBeh_arYehBarri.fina;\012sub arPeh_arYehBarri by arPeh_arYehBarri.fina;\012sub arTeh_arYehBarri by arTeh_arYehBarri.fina;\012sub arTheh_arYehBarri by arTheh_arYehBarri.fina;\012sub arTteh_arYehBarri by arTteh_arYehBarri.fina;\012sub arJim_arYehBarri by arJim_arYehBarri.fina;\012sub arTcheh_arYehBarri by arTcheh_arYehBarri.fina;\012sub arHah_arYehBarri by arHah_arYehBarri.fina;\012sub arKhah_arYehBarri by arKhah_arYehBarri.fina;\012sub arSin_arYehBarri by arSin_arYehBarri.fina;\012sub arShin_arYehBarri by arShin_arYehBarri.fina;\012sub arSad_arYehBarri by arSad_arYehBarri.fina;\012sub arDad_arYehBarri by arDad_arYehBarri.fina;\012sub arTah_arYehBarri by arTah_arYehBarri.fina;\012sub arZah_arYehBarri by arZah_arYehBarri.fina;\012sub arAyn_arYehBarri by arAyn_arYehBarri.fina;\012sub arGhayn_arYehBarri by arGhayn_arYehBarri.fina;\012sub arFeh_arYehBarri by arFeh_arYehBarri.fina;\012sub arQaf_arYehBarri by arQaf_arYehBarri.fina;\012sub arKaf_arYehBarri by arKaf_arYehBarri.fina;\012sub arKeheh_arYehBarri by arKeheh_arYehBarri.fina;\012sub arGaf_arYehBarri by arGaf_arYehBarri.fina;\012sub arLam_arYehBarri by arLam_arYehBarri.fina;\012sub arMim_arYehBarri by arMim_arYehBarri.fina;\012sub arNun_arYehBarri by arNun_arYehBarri.fina;\012sub arHehDoachashmi_arYehBarri by arHehDoachashmi_arYehBarri.fina;\012sub arYeh_arYehBarri by arYeh_arYehBarri.fina;\012sub arYehHamza_arYehBarri by arYehHamza_arYehBarri.fina;\012sub arYehFarsi_arYehBarri by arYehFarsi_arYehBarri.fina;\012";
+code = "sub arAlifMadda by arAlifMadda.fina;\012sub arAlifHamza by arAlifHamza.fina;\012sub arWawHamza by arWawHamza.fina;\012sub arAlifHamzabelow by arAlifHamzabelow.fina;\012sub arYehHamza by arYehHamza.fina;\012sub arAlif by arAlif.fina;\012sub arBeh by arBeh.fina;\012sub arTehMarbuta by arTehMarbuta.fina;\012sub arTeh by arTeh.fina;\012sub arTheh by arTheh.fina;\012sub arJim by arJim.fina;\012sub arHah by arHah.fina;\012sub arKhah by arKhah.fina;\012sub arDal by arDal.fina;\012sub arDhal by arDhal.fina;\012sub arReh by arReh.fina;\012sub arZeh by arZeh.fina;\012sub arSin by arSin.fina;\012sub arShin by arShin.fina;\012sub arSad by arSad.fina;\012sub arDad by arDad.fina;\012sub arTah by arTah.fina;\012sub arZah by arZah.fina;\012sub arAyn by arAyn.fina;\012sub arGhayn by arGhayn.fina;\012sub arFeh by arFeh.fina;\012sub arQaf by arQaf.fina;\012sub arKaf by arKaf.fina;\012sub arLam by arLam.fina;\012sub arMim by arMim.fina;\012sub arNun by arNun.fina;\012sub arHeh by arHeh.fina;\012sub arWaw by arWaw.fina;\012sub arAlifMaksura by arAlifMaksura.fina;\012sub arYeh by arYeh.fina;\012sub arAlifWasla by arAlifWasla.fina;\012sub arBehdotless by arBehdotless.fina;\012sub arTteh by arTteh.fina;\012sub arPeh by arPeh.fina;\012sub arTcheh by arTcheh.fina;\012sub arDdal by arDdal.fina;\012sub arRreh by arRreh.fina;\012sub arJeh by arJeh.fina;\012sub arFehdotless by arFehdotless.fina;\012sub arVeh by arVeh.fina;\012sub arQafdotless by arQafdotless.fina;\012sub arKeheh by arKeheh.fina;\012sub arGaf by arGaf.fina;\012sub arNunGhunna by arNunGhunna.fina;\012sub arHehDoachashmi by arHehDoachashmi.fina;\012sub arHehGoal by arHehGoal.fina;\012sub arHehGoalHamzaabove by arHehGoalHamzaabove.fina;\012sub arHehGoal2habove by arHehGoal2habove.fina;\012sub arHehHamza by arHehHamza.fina;\012sub arYehFarsi by arYehFarsi.fina;\012sub arYehBarri by arYehBarri.fina;\012sub arYehBarriHamzaabove by arYehBarriHamzaabove.fina;\012";
 name = fina;
 },
 {
@@ -10639,359 +10603,16 @@ leftKerningGroup = tall_punctuation;
 unicode = 3009;
 },
 {
-color = 1;
+color = 10;
 glyphname = leftFacingEternity;
-lastChange = "2020-02-14 13:35:34 +0000";
+lastChange = "2020-03-22 09:09:41 +0000";
 layers = (
 {
+background = {
 components = (
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 420, 360}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 390}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 540, 420}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 600, 480}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 630, 420}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 540, 540}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 570}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 630}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 270}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 30}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 30}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 60}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 300}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 630}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 630}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 90, 360}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 390}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 210, 390}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 360}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 390}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 450}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 510}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 420}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 480}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 540}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 600}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 630}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 540}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 420}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 360}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 480}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 630, 360}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 90}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 30}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 570, 300}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 510, 270}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 450, 270}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 300}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 270}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 210}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 270, 150}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 240}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 390, 180}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 120}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 60}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 30}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 540, 120}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 630, 240}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 630, 300}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 600, 180}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 330, 330}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 720;
-}
-);
-unicode = 058E;
-},
-{
-color = 1;
-glyphname = rightFacingEternity;
-lastChange = "2020-02-14 13:35:34 +0000";
-layers = (
-{
-components = (
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 360}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 390}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 420}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 480}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 420}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 540}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 570}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 630}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 270}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 540, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 600, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 630, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 540, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 30}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 30}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 60}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 630, 300}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 630}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 630}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 570, 360}";
+transform = "{1, 0, 0, 1, 450, 360}";
 },
 {
 name = _grid;
@@ -10999,63 +10620,396 @@ transform = "{1, 0, 0, 1, 510, 390}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 450, 390}";
+transform = "{1, 0, 0, 1, 570, 420}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 390, 360}";
+transform = "{1, 0, 0, 1, 630, 480}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 390}";
+transform = "{1, 0, 0, 1, 660, 420}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 270, 450}";
+transform = "{1, 0, 0, 1, 570, 540}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 270, 510}";
+transform = "{1, 0, 0, 1, 390, 570}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 420}";
+transform = "{1, 0, 0, 1, 390, 630}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 390, 480}";
+transform = "{1, 0, 0, 1, 510, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 30}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 30}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 60}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 420, 540}";
+transform = "{1, 0, 0, 1, 60, 300}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 480, 600}";
+transform = "{1, 0, 0, 1, 450, 630}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 420, 630}";
+transform = "{1, 0, 0, 1, 330, 630}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 540, 540}";
+transform = "{1, 0, 0, 1, 120, 360}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 630, 420}";
+transform = "{1, 0, 0, 1, 180, 390}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 630, 360}";
+transform = "{1, 0, 0, 1, 240, 390}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 600, 480}";
+transform = "{1, 0, 0, 1, 300, 360}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 360}";
+transform = "{1, 0, 0, 1, 390, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 450}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 510}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 480}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 540}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 600}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 540}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 480}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 90}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 30}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 600, 300}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 270}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 270}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 300}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 270}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 210}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 150}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 240}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 180}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 120}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 60}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 30}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 120}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 240}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 300}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 630, 180}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 330}";
+}
+);
+};
+components = (
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 630, 480}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 540}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 570}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 30}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 30}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 60}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 300}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 330}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 450}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 510}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 480}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 510}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 600}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 540}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 480}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 360}";
 },
 {
 name = _grid;
@@ -11063,79 +11017,571 @@ transform = "{1, 0, 0, 1, 360, 90}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 30}";
+transform = "{1, 0, 0, 1, 390, 30}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 300}";
+transform = "{1, 0, 0, 1, 600, 330}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 270}";
+transform = "{1, 0, 0, 1, 540, 270}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 270}";
+transform = "{1, 0, 0, 1, 480, 270}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 270, 300}";
+transform = "{1, 0, 0, 1, 420, 300}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 360, 270}";
+transform = "{1, 0, 0, 1, 330, 270}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 390, 210}";
+transform = "{1, 0, 0, 1, 300, 210}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 390, 150}";
+transform = "{1, 0, 0, 1, 300, 150}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
+transform = "{1, 0, 0, 1, 390, 240}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 270, 180}";
+transform = "{1, 0, 0, 1, 420, 180}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 120}";
+transform = "{1, 0, 0, 1, 480, 150}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 180, 60}";
+transform = "{1, 0, 0, 1, 510, 60}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 30}";
+transform = "{1, 0, 0, 1, 450, 30}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 120, 120}";
+transform = "{1, 0, 0, 1, 570, 120}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 240}";
+transform = "{1, 0, 0, 1, 660, 240}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 300}";
+transform = "{1, 0, 0, 1, 660, 300}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
+transform = "{1, 0, 0, 1, 630, 180}";
 },
 {
 name = _grid;
-transform = "{1, 0, 0, 1, 330, 330}";
+transform = "{1, 0, 0, 1, 360, 330}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 720;
+width = 780;
+}
+);
+unicode = 058E;
+},
+{
+color = 10;
+glyphname = rightFacingEternity;
+lastChange = "2020-03-22 09:09:41 +0000";
+layers = (
+{
+background = {
+components = (
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 480}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 540}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 570}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 630, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 30}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 30}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 60}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 300}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 600, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 450}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 510}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 480}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 540}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 600}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 540}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 630, 480}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 90}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 30}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 300}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 270}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 270}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 300}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 270}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 210}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 150}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 240}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 180}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 120}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 60}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 30}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 120}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 240}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 300}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 180}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 330}";
+}
+);
+};
+components = (
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 480}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 540}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 570}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 630, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 30}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 30}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 60}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 300}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 600, 330}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 390}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 450}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 510}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 480}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 510}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 510, 600}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 450, 630}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 570, 540}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 420}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 630, 480}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 360}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 90}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 30}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 330}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 270}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 270}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 300}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 390, 270}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 210}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 150}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 330, 240}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 180}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 150}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 60}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 270, 30}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 120}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 240}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 300}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 180}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 330}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 780;
 }
 );
 unicode = 058D;
@@ -13316,7 +13762,7 @@ width = 420;
 {
 color = 6;
 glyphname = circumflex;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13334,7 +13780,7 @@ unicode = 02C6;
 {
 color = 6;
 glyphname = caron;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13352,7 +13798,7 @@ unicode = 02C7;
 {
 color = 6;
 glyphname = macron;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13370,7 +13816,7 @@ unicode = 00AF;
 {
 color = 6;
 glyphname = firsttonechinese;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 anchors = (
@@ -13393,7 +13839,7 @@ unicode = 02C9;
 {
 color = 6;
 glyphname = secondtonechinese;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 anchors = (
@@ -13417,7 +13863,7 @@ unicode = 02CA;
 {
 color = 6;
 glyphname = fourthtonechinese;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 anchors = (
@@ -13441,7 +13887,7 @@ unicode = 02CB;
 {
 color = 6;
 glyphname = breve;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13459,7 +13905,7 @@ unicode = 02D8;
 {
 color = 6;
 glyphname = dieresis;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13477,7 +13923,7 @@ unicode = 00A8;
 {
 color = 6;
 glyphname = acute;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13495,7 +13941,7 @@ unicode = 00B4;
 {
 color = 6;
 glyphname = grave;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13513,7 +13959,7 @@ unicode = 0060;
 {
 color = 6;
 glyphname = cedilla;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13531,7 +13977,7 @@ unicode = 00B8;
 {
 color = 6;
 glyphname = dotaccent;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13549,7 +13995,7 @@ unicode = 02D9;
 {
 color = 6;
 glyphname = ring;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13567,7 +14013,7 @@ unicode = 02DA;
 {
 color = 6;
 glyphname = ogonek;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13585,7 +14031,7 @@ unicode = 02DB;
 {
 color = 6;
 glyphname = tilde;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13603,7 +14049,7 @@ unicode = 02DC;
 {
 color = 6;
 glyphname = hungarumlaut;
-lastChange = "2020-01-27 12:26:04 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -13621,7 +14067,7 @@ unicode = 02DD;
 {
 color = 6;
 glyphname = dblgrave;
-lastChange = "2020-02-13 12:38:08 +0000";
+lastChange = "2020-03-22 09:14:28 +0000";
 layers = (
 {
 components = (
@@ -15713,9 +16159,9 @@ width = 0;
 );
 },
 {
-color = 1;
+color = 10;
 glyphname = primemod;
-lastChange = "2020-02-13 15:03:31 +0000";
+lastChange = "2020-03-22 09:09:37 +0000";
 layers = (
 {
 components = (
@@ -15730,9 +16176,9 @@ width = 180;
 unicode = 02B9;
 },
 {
-color = 1;
+color = 10;
 glyphname = dblprimemod;
-lastChange = "2020-02-13 15:03:31 +0000";
+lastChange = "2020-03-22 09:09:37 +0000";
 layers = (
 {
 components = (
@@ -26417,9 +26863,9 @@ width = 420;
 unicode = 20B9;
 },
 {
-color = 1;
+color = 10;
 glyphname = cedi;
-lastChange = "2020-02-13 14:42:33 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -26561,9 +27007,9 @@ width = 420;
 unicode = 20B5;
 },
 {
-color = 1;
+color = 10;
 glyphname = colonsign;
-lastChange = "2020-02-13 15:34:10 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -26710,9 +27156,9 @@ width = 420;
 unicode = 20A1;
 },
 {
-color = 1;
+color = 10;
 glyphname = dram;
-lastChange = "2020-02-14 13:46:34 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -26849,9 +27295,9 @@ width = 420;
 unicode = 058F;
 },
 {
-color = 1;
+color = 10;
 glyphname = florin;
-lastChange = "2020-02-13 14:42:33 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -26968,9 +27414,9 @@ width = 420;
 unicode = 0192;
 },
 {
-color = 1;
+color = 10;
 glyphname = franc;
-lastChange = "2020-02-13 15:36:12 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -27077,9 +27523,9 @@ width = 300;
 unicode = 20A3;
 },
 {
-color = 1;
+color = 10;
 glyphname = guarani;
-lastChange = "2020-02-13 14:42:33 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -27231,9 +27677,9 @@ width = 420;
 unicode = 20B2;
 },
 {
-color = 1;
+color = 10;
 glyphname = lira;
-lastChange = "2020-02-13 14:42:33 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -27375,9 +27821,9 @@ width = 420;
 unicode = 20A4;
 },
 {
-color = 1;
+color = 10;
 glyphname = manat;
-lastChange = "2020-02-13 14:42:33 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -27534,9 +27980,9 @@ width = 420;
 unicode = 20BC;
 },
 {
-color = 1;
+color = 10;
 glyphname = naira;
-lastChange = "2020-02-14 13:46:23 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -27703,9 +28149,9 @@ width = 420;
 unicode = 20A6;
 },
 {
-color = 1;
+color = 10;
 glyphname = peseta;
-lastChange = "2020-02-13 15:41:40 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -27882,9 +28328,9 @@ width = 420;
 unicode = 20A7;
 },
 {
-color = 1;
+color = 10;
 glyphname = peso;
-lastChange = "2020-02-13 14:42:33 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -28036,9 +28482,9 @@ width = 420;
 unicode = 20B1;
 },
 {
-color = 1;
+color = 10;
 glyphname = sheqel;
-lastChange = "2020-02-13 14:42:33 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -28230,9 +28676,9 @@ width = 540;
 unicode = 20AA;
 },
 {
-color = 1;
+color = 10;
 glyphname = tenge;
-lastChange = "2020-02-13 14:42:33 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -28334,9 +28780,9 @@ width = 420;
 unicode = 20B8;
 },
 {
-color = 1;
+color = 10;
 glyphname = tugrikkip;
-lastChange = "2020-02-13 15:56:22 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -28477,9 +28923,9 @@ width = 420;
 );
 },
 {
-color = 1;
+color = 10;
 glyphname = won;
-lastChange = "2020-02-13 15:35:02 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -28795,9 +29241,9 @@ width = 420;
 unicode = 00A4;
 },
 {
-color = 1;
+color = 10;
 glyphname = commercialMinusSign;
-lastChange = "2020-02-13 15:03:49 +0000";
+lastChange = "2020-03-22 09:09:49 +0000";
 layers = (
 {
 components = (
@@ -28945,7 +29391,7 @@ unicode = 2033;
 {
 color = 6;
 glyphname = percent;
-lastChange = "2020-01-27 14:00:12 +0000";
+lastChange = "2020-03-22 09:14:21 +0000";
 layers = (
 {
 components = (
@@ -28973,7 +29419,7 @@ unicode = 0025;
 {
 color = 6;
 glyphname = perthousand;
-lastChange = "2020-01-27 14:00:12 +0000";
+lastChange = "2020-03-22 09:14:21 +0000";
 layers = (
 {
 components = (
@@ -29844,29 +30290,29 @@ unicode = 00AC;
 {
 color = 4;
 glyphname = bulletoperator;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 19:47:11 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 180}";
+transform = "{1, 0, 0, 1, 150, 210}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 180}";
+transform = "{1, 0, 0, 1, 210, 210}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 240}";
+transform = "{1, 0, 0, 1, 150, 270}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 240}";
+transform = "{1, 0, 0, 1, 210, 270}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -31957,7 +32403,7 @@ unicode = 00BD;
 },
 {
 glyphname = onethird;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -31979,13 +32425,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = onesuperior;
-rightMetricsKey = onesuperior;
 unicode = 2153;
 },
 {
 glyphname = twothirds;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32007,13 +32451,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = twosuperior;
-rightMetricsKey = twosuperior;
 unicode = 2154;
 },
 {
 glyphname = onequarter;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:17 +0000";
 layers = (
 {
 components = (
@@ -32039,7 +32481,7 @@ unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:17 +0000";
 layers = (
 {
 components = (
@@ -32065,7 +32507,7 @@ unicode = 00BE;
 },
 {
 glyphname = onefifth;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32087,13 +32529,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = onesuperior;
-rightMetricsKey = onesuperior;
 unicode = 2155;
 },
 {
 glyphname = twofifths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32115,13 +32555,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = twosuperior;
-rightMetricsKey = twosuperior;
 unicode = 2156;
 },
 {
 glyphname = threefifths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32143,13 +32581,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = threesuperior;
-rightMetricsKey = threesuperior;
 unicode = 2157;
 },
 {
 glyphname = fourfifths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32171,13 +32607,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = foursuperior;
-rightMetricsKey = foursuperior;
 unicode = 2158;
 },
 {
 glyphname = onesixth;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32199,13 +32633,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = onesuperior;
-rightMetricsKey = onesuperior;
 unicode = 2159;
 },
 {
 glyphname = fivesixths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32227,13 +32659,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = fivesuperior;
-rightMetricsKey = fivesuperior;
 unicode = 215A;
 },
 {
 glyphname = oneseventh;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32255,13 +32685,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = onesuperior;
-rightMetricsKey = onesuperior;
 unicode = 2150;
 },
 {
 glyphname = twosevenths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32283,13 +32711,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = twosuperior;
-rightMetricsKey = twosuperior;
 unicode = F0100;
 },
 {
 glyphname = threesevenths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32311,13 +32737,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = threesuperior;
-rightMetricsKey = threesuperior;
 unicode = F0101;
 },
 {
 glyphname = foursevenths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32339,13 +32763,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = foursuperior;
-rightMetricsKey = foursuperior;
 unicode = F0102;
 },
 {
 glyphname = fivesevenths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32367,13 +32789,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = fivesuperior;
-rightMetricsKey = fivesuperior;
 unicode = F0103;
 },
 {
 glyphname = sixsevenths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32395,13 +32815,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = sixsuperior;
-rightMetricsKey = sixsuperior;
 unicode = F0104;
 },
 {
 glyphname = oneeighth;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32423,13 +32841,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = onesuperior;
-rightMetricsKey = onesuperior;
 unicode = 215B;
 },
 {
 glyphname = threeeighths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32451,13 +32867,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = threesuperior;
-rightMetricsKey = threesuperior;
 unicode = 215C;
 },
 {
 glyphname = fiveeighths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32479,13 +32893,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = fivesuperior;
-rightMetricsKey = fivesuperior;
 unicode = 215D;
 },
 {
 glyphname = seveneighths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32507,13 +32919,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = sevensuperior;
-rightMetricsKey = sevensuperior;
 unicode = 215E;
 },
 {
 glyphname = oneninth;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32535,13 +32945,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = onesuperior;
-rightMetricsKey = onesuperior;
 unicode = 2151;
 },
 {
 glyphname = twoninths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32563,13 +32971,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = twosuperior;
-rightMetricsKey = twosuperior;
 unicode = F0105;
 },
 {
 glyphname = fourninths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32591,13 +32997,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = foursuperior;
-rightMetricsKey = foursuperior;
 unicode = F0106;
 },
 {
 glyphname = fiveninths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32619,13 +33023,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = fivesuperior;
-rightMetricsKey = fivesuperior;
 unicode = F0107;
 },
 {
 glyphname = sevenninths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32647,13 +33049,11 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = sevensuperior;
-rightMetricsKey = sevensuperior;
 unicode = F0108;
 },
 {
 glyphname = eightninths;
-lastChange = "2020-02-05 10:10:17 +0000";
+lastChange = "2020-03-22 09:15:18 +0000";
 layers = (
 {
 components = (
@@ -32675,8 +33075,6 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 420;
 }
 );
-leftMetricsKey = eightsuperior;
-rightMetricsKey = eightsuperior;
 unicode = F0109;
 },
 {
@@ -39316,9 +39714,9 @@ width = 390;
 unicode = 04CB;
 },
 {
-color = 1;
+color = 10;
 glyphname = c.Chestroke;
-lastChange = "2020-02-13 15:00:16 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 components = (
@@ -39455,9 +39853,9 @@ width = 390;
 unicode = 04B8;
 },
 {
-color = 1;
+color = 10;
 glyphname = c.Enghe;
-lastChange = "2020-02-13 15:00:09 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 components = (
@@ -39708,9 +40106,9 @@ width = 330;
 unicode = 04F6;
 },
 {
-color = 1;
+color = 10;
 glyphname = c.Ghemiddlehook;
-lastChange = "2020-02-13 15:00:16 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 components = (
@@ -39871,9 +40269,9 @@ width = 480;
 unicode = 04E4;
 },
 {
-color = 1;
+color = 10;
 glyphname = c.Kastroke;
-lastChange = "2020-02-13 15:00:09 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 components = (
@@ -40118,9 +40516,9 @@ width = 570;
 unicode = 04F8;
 },
 {
-color = 1;
+color = 10;
 glyphname = c.Yusbig;
-lastChange = "2020-02-13 15:00:16 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 anchors = (
@@ -45807,9 +46205,9 @@ width = 420;
 unicode = 04CC;
 },
 {
-color = 1;
+color = 10;
 glyphname = c.chestroke;
-lastChange = "2020-02-13 15:00:09 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 anchors = (
@@ -45922,9 +46320,9 @@ width = 420;
 unicode = 04B9;
 },
 {
-color = 1;
+color = 10;
 glyphname = c.enghe;
-lastChange = "2020-02-13 15:00:09 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 components = (
@@ -46136,9 +46534,9 @@ width = 300;
 unicode = 04F7;
 },
 {
-color = 1;
+color = 10;
 glyphname = c.ghemiddlehook;
-lastChange = "2020-02-13 15:00:09 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 anchors = (
@@ -46271,9 +46669,9 @@ width = 420;
 unicode = 04E5;
 },
 {
-color = 1;
+color = 10;
 glyphname = c.kastroke;
-lastChange = "2020-02-13 15:00:09 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 components = (
@@ -46470,9 +46868,9 @@ width = 510;
 unicode = 04F9;
 },
 {
-color = 1;
+color = 10;
 glyphname = c.yusbig;
-lastChange = "2020-02-13 15:00:09 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 anchors = (
@@ -54340,9 +54738,9 @@ width = 180;
 unicode = 0375;
 },
 {
-color = 1;
+color = 10;
 glyphname = KaiSymbol;
-lastChange = "2020-02-13 12:16:18 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 components = (
@@ -54387,9 +54785,9 @@ width = 420;
 unicode = 03CF;
 },
 {
-color = 1;
+color = 10;
 glyphname = kaiSymbol;
-lastChange = "2020-02-13 12:16:18 +0000";
+lastChange = "2020-03-22 09:10:20 +0000";
 layers = (
 {
 components = (
@@ -62254,11 +62652,12 @@ width = 420;
 unicode = 0578;
 },
 {
-color = 0;
+color = 7;
 glyphname = a.cha;
-lastChange = "2020-03-20 10:01:57 +0000";
+lastChange = "2020-03-22 09:10:25 +0000";
 layers = (
 {
+background = {
 components = (
 {
 alignment = -1;
@@ -62334,6 +62733,94 @@ transform = "{1, 0, 0, 1, 90, 240}";
 alignment = -1;
 name = _grid;
 transform = "{1, 0, 0, 1, 180, 180}";
+}
+);
+};
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, -60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -64514,56 +65001,134 @@ width = 1080;
 unicode = FB17;
 },
 {
-color = 1;
+color = 0;
 glyphname = a.emphasis;
-lastChange = "2020-02-13 15:29:33 +0000";
+lastChange = "2020-03-22 09:21:21 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 660}";
+transform = "{1, 0, 0, 1, 90, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 600}";
+transform = "{1, 0, 0, 1, 60, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 540}";
+transform = "{1, 0, 0, 1, 30, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 60, 660}";
+transform = "{1, 0, 0, 1, 90, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 600}";
+transform = "{1, 0, 0, 1, 60, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 540}";
+transform = "{1, 0, 0, 1, 30, 540}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 120;
+width = 180;
 }
 );
 unicode = 055B;
 },
 {
-color = 1;
+color = 0;
 glyphname = a.exclam;
-lastChange = "2020-02-13 15:29:18 +0000";
+lastChange = "2020-03-22 09:21:21 +0000";
 layers = (
 {
 components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 150, 660}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 30, 540}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 240;
+}
+);
+unicode = 055C;
+},
+{
+color = 0;
+glyphname = a.comma;
+lastChange = "2020-03-22 09:21:21 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 30, 660}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 90, 540}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 180;
+}
+);
+unicode = 055D;
+},
+{
+color = 0;
+glyphname = a.question;
+lastChange = "2020-03-22 09:21:21 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 210, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 660}";
+},
 {
 alignment = -1;
 name = _grid;
@@ -64577,94 +65142,16 @@ transform = "{1, 0, 0, 1, 90, 600}";
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, 540}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 180;
-}
-);
-unicode = 055C;
-},
-{
-color = 1;
-glyphname = a.comma;
-lastChange = "2020-02-13 15:29:18 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 600}";
-},
-{
-alignment = -1;
-name = _grid;
 transform = "{1, 0, 0, 1, 60, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 30, 480}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 120;
-}
-);
-unicode = 055D;
-},
-{
-color = 1;
-glyphname = a.question;
-lastChange = "2020-02-13 15:29:18 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 150, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 660}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 30, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 0, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, -30, 480}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 210;
+width = 300;
 }
 );
 unicode = 055E;
@@ -64687,58 +65174,58 @@ width = 180;
 unicode = 0589;
 },
 {
-color = 10;
+color = 0;
 glyphname = a.abbreviation;
-lastChange = "2020-02-14 13:19:07 +0000";
+lastChange = "2020-03-22 09:21:21 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 660}";
+transform = "{1, 0, 0, 1, 60, 660}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 0, 600}";
+transform = "{1, 0, 0, 1, 30, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 30, 540}";
+transform = "{1, 0, 0, 1, 60, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 540}";
+transform = "{1, 0, 0, 1, 120, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 540}";
+transform = "{1, 0, 0, 1, 180, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 540}";
+transform = "{1, 0, 0, 1, 240, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 660}";
+transform = "{1, 0, 0, 1, 120, 660}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 270;
+width = 330;
 }
 );
 unicode = 055F;
 },
 {
-color = 10;
+color = 0;
 glyphname = a.ringhalfleft;
-lastChange = "2020-02-14 13:19:07 +0000";
+lastChange = "2020-03-22 09:13:24 +0000";
 layers = (
 {
 components = (
@@ -64770,9 +65257,9 @@ width = 240;
 unicode = 0559;
 },
 {
-color = 1;
+color = 0;
 glyphname = a.hyphen;
-lastChange = "2020-02-13 15:29:18 +0000";
+lastChange = "2020-03-22 09:13:24 +0000";
 layers = (
 {
 components = (
@@ -64804,9 +65291,9 @@ width = 360;
 unicode = 058A;
 },
 {
-color = 10;
+color = 0;
 glyphname = a.apostrophe;
-lastChange = "2020-02-14 13:19:07 +0000";
+lastChange = "2020-03-22 09:13:27 +0000";
 layers = (
 {
 components = (
@@ -64907,9 +65394,8 @@ width = 420;
 unicode = 0621;
 },
 {
-color = 1;
 glyphname = arAlifMadda;
-lastChange = "2020-01-27 10:45:13 +0000";
+lastChange = "2020-03-22 09:12:44 +0000";
 layers = (
 {
 components = (
@@ -64928,9 +65414,8 @@ width = 180;
 unicode = 0622;
 },
 {
-color = 1;
 glyphname = arAlifMadda.fina;
-lastChange = "2020-01-27 10:45:13 +0000";
+lastChange = "2020-03-22 09:12:44 +0000";
 layers = (
 {
 components = (
@@ -65029,9 +65514,8 @@ width = 420;
 unicode = FE86;
 },
 {
-color = 1;
 glyphname = arAlifHamzabelow;
-lastChange = "2020-01-24 18:43:59 +0000";
+lastChange = "2020-03-22 09:12:44 +0000";
 layers = (
 {
 components = (
@@ -65050,9 +65534,8 @@ width = 180;
 unicode = 0625;
 },
 {
-color = 1;
 glyphname = arAlifHamzabelow.fina;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 09:12:44 +0000";
 layers = (
 {
 components = (
@@ -66298,9 +66781,8 @@ width = 480;
 unicode = 062F;
 },
 {
-color = 6;
 glyphname = arDal.fina;
-lastChange = "2020-02-05 10:26:27 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -66707,9 +67189,8 @@ width = 900;
 unicode = 0633;
 },
 {
-color = 6;
 glyphname = arSin.fina;
-lastChange = "2020-02-04 18:30:03 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -66867,9 +67348,8 @@ width = 660;
 unicode = FEB3;
 },
 {
-color = 6;
 glyphname = arSin.medi;
-lastChange = "2020-02-04 18:29:27 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -67168,9 +67648,8 @@ width = 960;
 unicode = 0635;
 },
 {
-color = 6;
 glyphname = arSad.fina;
-lastChange = "2020-02-05 10:34:39 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -67343,9 +67822,8 @@ width = 720;
 unicode = FEBB;
 },
 {
-color = 6;
 glyphname = arSad.medi;
-lastChange = "2020-02-04 18:39:46 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -67628,9 +68106,8 @@ width = 720;
 unicode = 0637;
 },
 {
-color = 6;
 glyphname = arTah.fina;
-lastChange = "2020-02-04 18:42:02 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -67660,9 +68137,8 @@ width = 720;
 unicode = FEC2;
 },
 {
-color = 6;
 glyphname = arTah.init;
-lastChange = "2020-02-04 18:42:09 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -67687,9 +68163,8 @@ width = 720;
 unicode = FEC3;
 },
 {
-color = 6;
 glyphname = arTah.medi;
-lastChange = "2020-02-04 18:42:24 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -68508,9 +68983,8 @@ width = 720;
 unicode = 0643;
 },
 {
-color = 6;
 glyphname = arKaf.fina;
-lastChange = "2020-01-27 11:26:27 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -68637,9 +69111,8 @@ width = 420;
 unicode = FEDB;
 },
 {
-color = 6;
 glyphname = arKaf.medi;
-lastChange = "2020-03-08 10:30:52 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -69064,9 +69537,8 @@ width = 480;
 unicode = 0645;
 },
 {
-color = 6;
 glyphname = arMim.fina;
-lastChange = "2020-02-05 10:28:41 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -70266,9 +70738,8 @@ width = 300;
 unicode = FEF4;
 },
 {
-color = 1;
 glyphname = arAlifWasla;
-lastChange = "2020-01-27 10:35:49 +0000";
+lastChange = "2020-03-22 09:12:44 +0000";
 layers = (
 {
 components = (
@@ -70287,9 +70758,8 @@ width = 180;
 unicode = 0671;
 },
 {
-color = 1;
 glyphname = arAlifWasla.fina;
-lastChange = "2020-01-27 10:35:49 +0000";
+lastChange = "2020-03-22 09:12:44 +0000";
 layers = (
 {
 components = (
@@ -70412,9 +70882,8 @@ width = 720;
 unicode = 066E;
 },
 {
-color = 6;
 glyphname = arBehdotless.fina;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -70499,9 +70968,8 @@ width = 300;
 );
 },
 {
-color = 6;
 glyphname = arBehdotless.medi;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -70689,9 +71157,8 @@ width = 300;
 unicode = FB59;
 },
 {
-color = 1;
 glyphname = arTcheh;
-lastChange = "2020-02-05 13:57:03 +0000";
+lastChange = "2020-03-22 09:12:44 +0000";
 layers = (
 {
 components = (
@@ -70710,9 +71177,8 @@ width = 480;
 unicode = 0686;
 },
 {
-color = 1;
 glyphname = arTcheh.fina;
-lastChange = "2020-02-05 13:56:57 +0000";
+lastChange = "2020-03-22 09:12:44 +0000";
 layers = (
 {
 components = (
@@ -71779,9 +72245,8 @@ width = 720;
 unicode = 06A9;
 },
 {
-color = 6;
 glyphname = arKeheh.fina;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -71908,9 +72373,8 @@ width = 420;
 unicode = FB90;
 },
 {
-color = 6;
 glyphname = arKeheh.medi;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 anchors = (
@@ -71940,9 +72404,19 @@ unicode = FB91;
 },
 {
 glyphname = arGaf;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 09:32:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{360, 0}";
+},
+{
+name = top;
+position = "{450, 660}";
+}
+);
 components = (
 {
 name = arKeheh;
@@ -71959,9 +72433,19 @@ unicode = 06AF;
 },
 {
 glyphname = arGaf.fina;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 09:32:59 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{360, 0}";
+},
+{
+name = top;
+position = "{450, 660}";
+}
+);
 components = (
 {
 name = arKeheh.fina;
@@ -71978,9 +72462,19 @@ unicode = FB93;
 },
 {
 glyphname = arGaf.init;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 09:33:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{150, 0}";
+},
+{
+name = top;
+position = "{150, 660}";
+}
+);
 components = (
 {
 name = arKeheh.init;
@@ -71998,9 +72492,19 @@ unicode = FB94;
 },
 {
 glyphname = arGaf.medi;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 09:33:27 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{150, 0}";
+},
+{
+name = top;
+position = "{150, 660}";
+}
+);
 components = (
 {
 name = arKeheh.medi;
@@ -72272,9 +72776,8 @@ width = 600;
 unicode = 06BE;
 },
 {
-color = 6;
 glyphname = arHehDoachashmi.fina;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 components = (
@@ -72436,9 +72939,8 @@ width = 540;
 unicode = FBAC;
 },
 {
-color = 6;
 glyphname = arHehDoachashmi.medi;
-lastChange = "2019-12-10 12:24:55 +0000";
+lastChange = "2020-03-22 09:12:16 +0000";
 layers = (
 {
 components = (
@@ -72755,9 +73257,9 @@ width = 300;
 unicode = FBFF;
 },
 {
-color = 0;
+color = 7;
 glyphname = arYehBarri;
-lastChange = "2020-01-24 18:34:29 +0000";
+lastChange = "2020-03-22 16:12:03 +0000";
 layers = (
 {
 anchors = (
@@ -72834,9 +73336,9 @@ width = 600;
 unicode = 06D2;
 },
 {
-color = 0;
+color = 7;
 glyphname = arYehBarri.fina;
-lastChange = "2020-01-24 18:34:12 +0000";
+lastChange = "2020-03-22 16:12:03 +0000";
 layers = (
 {
 anchors = (
@@ -72918,9 +73420,8 @@ width = 300;
 unicode = FBAF;
 },
 {
-color = 0;
 glyphname = arYehBarriHamzaabove;
-lastChange = "2020-03-08 10:57:59 +0000";
+lastChange = "2020-03-22 16:11:57 +0000";
 layers = (
 {
 components = (
@@ -72939,9 +73440,8 @@ width = 600;
 unicode = 06D3;
 },
 {
-color = 0;
 glyphname = arYehBarriHamzaabove.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+lastChange = "2020-03-22 16:11:57 +0000";
 layers = (
 {
 components = (
@@ -72960,8 +73460,9 @@ width = 300;
 unicode = FBB1;
 },
 {
+color = 7;
 glyphname = arLam.init_arAlif.fina;
-lastChange = "2020-01-24 18:37:04 +0000";
+lastChange = "2020-03-22 15:44:31 +0000";
 layers = (
 {
 anchors = (
@@ -73101,8 +73602,9 @@ width = 480;
 unicode = FEFB;
 },
 {
+color = 6;
 glyphname = arLam.medi_arAlif.fina;
-lastChange = "2020-01-24 18:37:45 +0000";
+lastChange = "2020-03-22 15:44:32 +0000";
 layers = (
 {
 components = (
@@ -73278,8 +73780,9 @@ width = 480;
 );
 },
 {
+color = 7;
 glyphname = arLam.init_arLam.medi_arHeh.fina;
-lastChange = "2020-02-05 10:33:12 +0000";
+lastChange = "2020-03-22 19:44:10 +0000";
 layers = (
 {
 anchors = (
@@ -73476,18 +73979,40 @@ width = 900;
 );
 },
 {
-color = 0;
-glyphname = arBeh_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arBeh.init_arYehBarri.fina;
+lastChange = "2020-03-22 16:11:28 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arBeh.init;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -300}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.fina;
+},
+{
+name = arDotbelow;
+transform = "{1, 0, 0, 1, 270, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73498,18 +74023,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arBeh.init;
 },
 {
-color = 0;
-glyphname = arBeh_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arBeh.medi_arYehBarri.fina;
+lastChange = "2020-03-22 16:11:30 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arBeh.medi;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -300}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.medi;
+},
+{
+name = arDotbelow;
+transform = "{1, 0, 0, 1, 270, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73520,18 +74067,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arBeh.medi;
 },
 {
-color = 0;
-glyphname = arPeh_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arPeh.init_arYehBarri.fina;
+lastChange = "2020-03-22 15:56:04 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arPeh.init;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -360}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.fina;
+},
+{
+name = arThreedotsdownbelow;
+transform = "{1, 0, 0, 1, 180, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73542,18 +74111,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arPeh.init;
 },
 {
-color = 0;
-glyphname = arPeh_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arPeh.medi_arYehBarri.fina;
+lastChange = "2020-03-22 15:56:04 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arPeh.medi;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -360}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.medi;
+},
+{
+name = arThreedotsdownbelow;
+transform = "{1, 0, 0, 1, 180, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73564,18 +74155,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arPeh.medi;
 },
 {
-color = 0;
-glyphname = arTeh_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arTeh.init_arYehBarri.fina;
+lastChange = "2020-03-22 15:56:04 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arTeh.init;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -180}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 420}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.fina;
+},
+{
+name = arTwodotshorizontalabove;
+transform = "{1, 0, 0, 1, 300, -60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73586,18 +74199,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arTeh.init;
 },
 {
-color = 0;
-glyphname = arTeh_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arTeh.medi_arYehBarri.fina;
+lastChange = "2020-03-22 15:56:04 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arTeh.medi;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -180}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 420}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.medi;
+},
+{
+name = arTwodotshorizontalabove;
+transform = "{1, 0, 0, 1, 300, -60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73608,18 +74243,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arTeh.medi;
 },
 {
-color = 0;
-glyphname = arTheh_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arTheh.init_arYehBarri.fina;
+lastChange = "2020-03-22 15:56:04 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arTheh.init;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -180}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 480}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.fina;
+},
+{
+name = arThreedotsupabove;
+transform = "{1, 0, 0, 1, 300, -60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73630,18 +74287,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arTheh.init;
 },
 {
-color = 0;
-glyphname = arTheh_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arTheh.medi_arYehBarri.fina;
+lastChange = "2020-03-22 15:56:04 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arTheh.medi;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -180}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 480}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.medi;
+},
+{
+name = arThreedotsupabove;
+transform = "{1, 0, 0, 1, 300, -60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73652,18 +74331,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arTheh.medi;
 },
 {
-color = 0;
-glyphname = arTteh_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arTteh.init_arYehBarri.fina;
+lastChange = "2020-03-22 15:56:04 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arTteh.init;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -180}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 600}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.fina;
+},
+{
+name = arTahabove;
+transform = "{1, 0, 0, 1, 360, -60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73674,18 +74375,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arTteh.init;
 },
 {
-color = 0;
-glyphname = arTteh_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arTteh.medi_arYehBarri.fina;
+lastChange = "2020-03-22 15:56:04 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arTteh.medi;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -180}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 600}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.medi;
+},
+{
+name = arTahabove;
+transform = "{1, 0, 0, 1, 360, -60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73696,18 +74419,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arTteh.medi;
 },
 {
-color = 0;
-glyphname = arJim_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arJim.init_arYehBarri.fina;
+lastChange = "2020-03-22 15:56:04 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arJim.init;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{510, -300}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{570, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arJim.YehBarri.fina;
+},
+{
+name = arDotbelow;
+transform = "{1, 0, 0, 1, 390, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73718,18 +74463,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arJim.init;
 },
 {
-color = 0;
-glyphname = arJim_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arJim.medi_arYehBarri.fina;
+lastChange = "2020-03-22 15:56:04 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arJim.medi;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{510, -300}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{570, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arJim.YehBarri.medi;
+},
+{
+name = arDotbelow;
+transform = "{1, 0, 0, 1, 390, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73740,18 +74507,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arJim.medi;
 },
 {
-color = 0;
-glyphname = arTcheh_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arTcheh.init_arYehBarri.fina;
+lastChange = "2020-03-22 16:04:20 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arTcheh.init;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{510, -360}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{570, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arJim.YehBarri.fina;
+},
+{
+name = arThreedotsdownbelow;
+transform = "{1, 0, 0, 1, 300, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73762,18 +74551,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arTcheh.init;
 },
 {
-color = 0;
-glyphname = arTcheh_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arTcheh.medi_arYehBarri.fina;
+lastChange = "2020-03-22 16:04:20 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arTcheh.medi;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{510, -360}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{570, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arJim.YehBarri.medi;
+},
+{
+name = arThreedotsdownbelow;
+transform = "{1, 0, 0, 1, 300, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73784,18 +74595,36 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arTcheh.medi;
 },
 {
-color = 0;
-glyphname = arHah_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arHah.init_arYehBarri.fina;
+lastChange = "2020-03-22 16:04:20 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arHah.init;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{510, -180}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{570, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arJim.YehBarri.fina;
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73806,18 +74635,36 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arHah.init;
 },
 {
-color = 0;
-glyphname = arHah_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arHah.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:34:52 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arHah.medi;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{510, -180}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{570, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arJim.YehBarri.medi;
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73828,18 +74675,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arHah.medi;
 },
 {
-color = 0;
-glyphname = arKhah_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arKhah.init_arYehBarri.fina;
+lastChange = "2020-03-22 16:04:20 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arKhah.init;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{510, -180}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{570, 420}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arJim.YehBarri.fina;
+},
+{
+name = arDotabove;
+transform = "{1, 0, 0, 1, 450, -60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73850,18 +74719,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arKhah.init;
 },
 {
-color = 0;
-glyphname = arKhah_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arKhah.medi_arYehBarri.fina;
+lastChange = "2020-03-22 16:04:20 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arKhah.medi;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{510, -180}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{570, 420}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arJim.YehBarri.medi;
+},
+{
+name = arDotabove;
+transform = "{1, 0, 0, 1, 450, -60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -73872,11 +74763,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arKhah.medi;
 },
 {
-color = 0;
-glyphname = arSin_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arSin.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:48 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{720, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{690, 300}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arSin.init;
@@ -73894,11 +74807,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arSin.init;
 },
 {
-color = 0;
-glyphname = arSin_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arSin.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:45 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{720, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{690, 300}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arSin.medi;
@@ -73916,11 +74851,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arSin.medi;
 },
 {
-color = 0;
-glyphname = arShin_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arShin.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{720, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{690, 480}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arShin.init;
@@ -73938,11 +74895,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arShin.init;
 },
 {
-color = 0;
-glyphname = arShin_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arShin.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:34 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{720, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{690, 480}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arShin.medi;
@@ -73960,11 +74939,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arShin.medi;
 },
 {
-color = 0;
-glyphname = arSad_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arSad.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{780, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{780, 300}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arSad.init;
@@ -73982,11 +74983,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arSad.init;
 },
 {
-color = 0;
-glyphname = arSad_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arSad.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:22 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{780, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{780, 300}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arSad.medi;
@@ -74004,11 +75027,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arSad.medi;
 },
 {
-color = 0;
-glyphname = arDad_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arDad.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:17 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{780, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{780, 420}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arDad.init;
@@ -74026,11 +75071,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arDad.init;
 },
 {
-color = 0;
-glyphname = arDad_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arDad.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:15 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{780, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{780, 420}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arDad.medi;
@@ -74048,11 +75115,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arDad.medi;
 },
 {
-color = 0;
-glyphname = arTah_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arTah.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{780, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{780, 300}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arTah.init;
@@ -74070,11 +75159,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arTah.init;
 },
 {
-color = 0;
-glyphname = arTah_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arTah.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:12 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{780, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{780, 300}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arTah.medi;
@@ -74092,11 +75203,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arTah.medi;
 },
 {
-color = 0;
-glyphname = arZah_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arZah.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:10 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{780, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{780, 420}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arZah.init;
@@ -74114,11 +75247,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arZah.init;
 },
 {
-color = 0;
-glyphname = arZah_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arZah.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:33:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{780, 0}";
+},
+{
+name = bottom_2;
+position = "{330, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{780, 420}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arZah.medi;
@@ -74136,11 +75291,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arZah.medi;
 },
 {
-color = 0;
-glyphname = arAyn_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arAyn.init_arYehBarri.fina;
+lastChange = "2020-03-22 16:10:34 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{510, -180}";
+},
+{
+name = bottom_2;
+position = "{210, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 300}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arAyn.init;
@@ -74158,11 +75335,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arAyn.init;
 },
 {
-color = 0;
-glyphname = arAyn_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 7;
+glyphname = arAyn.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:34:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{510, -180}";
+},
+{
+name = bottom_2;
+position = "{210, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 300}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arAyn.medi;
@@ -74170,6 +75369,11 @@ transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 name = arYehBarri.fina;
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74180,11 +75384,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arAyn.medi;
 },
 {
-color = 0;
-glyphname = arGhayn_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arGhayn.init_arYehBarri.fina;
+lastChange = "2020-03-22 16:10:34 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{510, -180}";
+},
+{
+name = bottom_2;
+position = "{210, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 420}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arGhayn.init;
@@ -74202,11 +75428,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arGhayn.init;
 },
 {
-color = 0;
-glyphname = arGhayn_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 7;
+glyphname = arGhayn.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:34:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{510, -180}";
+},
+{
+name = bottom_2;
+position = "{210, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 420}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arGhayn.medi;
@@ -74214,6 +75462,11 @@ transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 name = arYehBarri.fina;
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74224,11 +75477,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arGhayn.medi;
 },
 {
-color = 0;
-glyphname = arFeh_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 7;
+glyphname = arFeh.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:34:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{540, -180}";
+},
+{
+name = bottom_2;
+position = "{210, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{540, 540}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arFeh.init;
@@ -74236,6 +75511,11 @@ transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 name = arYehBarri.fina;
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74246,11 +75526,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arFeh.init;
 },
 {
-color = 0;
-glyphname = arFeh_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 7;
+glyphname = arFeh.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:34:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{540, -180}";
+},
+{
+name = bottom_2;
+position = "{210, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{540, 480}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arFeh.medi;
@@ -74258,6 +75560,11 @@ transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 name = arYehBarri.fina;
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74268,11 +75575,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arFeh.medi;
 },
 {
-color = 0;
-glyphname = arQaf_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 7;
+glyphname = arQaf.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:34:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{540, -180}";
+},
+{
+name = bottom_2;
+position = "{210, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{540, 540}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arQaf.init;
@@ -74280,6 +75609,11 @@ transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 name = arYehBarri.fina;
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74290,11 +75624,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arQaf.init;
 },
 {
-color = 0;
-glyphname = arQaf_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 7;
+glyphname = arQaf.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:34:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{540, -180}";
+},
+{
+name = bottom_2;
+position = "{210, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{540, 480}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arQaf.medi;
@@ -74302,6 +75658,11 @@ transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 name = arYehBarri.fina;
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74312,11 +75673,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arQaf.medi;
 },
 {
-color = 0;
-glyphname = arKaf_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arKaf.init_arYehBarri.fina;
+lastChange = "2020-03-22 15:44:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{450, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{390, -60}";
+},
+{
+name = top_1;
+position = "{450, 600}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arKaf.init;
@@ -74334,11 +75717,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arKaf.init;
 },
 {
-color = 0;
-glyphname = arKaf_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arKaf.medi_arYehBarri.fina;
+lastChange = "2020-03-22 15:44:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{450, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{390, -60}";
+},
+{
+name = top_1;
+position = "{450, 600}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arKaf.medi;
@@ -74356,11 +75761,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arKaf.medi;
 },
 {
-color = 0;
-glyphname = arKeheh_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arKeheh.init_arYehBarri.fina;
+lastChange = "2020-03-22 15:44:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{450, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{390, -60}";
+},
+{
+name = top_1;
+position = "{450, 600}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arKeheh.init;
@@ -74378,11 +75805,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arKeheh.init;
 },
 {
-color = 0;
-glyphname = arKeheh_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arKeheh.medi_arYehBarri.fina;
+lastChange = "2020-03-22 15:44:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{450, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{390, -60}";
+},
+{
+name = top_1;
+position = "{450, 600}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arKeheh.medi;
@@ -74400,11 +75849,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arKeheh.medi;
 },
 {
-color = 0;
-glyphname = arGaf_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arGaf.init_arYehBarri.fina;
+lastChange = "2020-03-22 15:44:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{450, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{390, -60}";
+},
+{
+name = top_1;
+position = "{450, 660}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arGaf.init;
@@ -74422,11 +75893,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arGaf.init;
 },
 {
-color = 0;
-glyphname = arGaf_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arGaf.medi_arYehBarri.fina;
+lastChange = "2020-03-22 15:44:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{450, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{390, -60}";
+},
+{
+name = top_1;
+position = "{450, 660}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arGaf.medi;
@@ -74444,11 +75937,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arGaf.medi;
 },
 {
-color = 0;
-glyphname = arLam_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arLam.init_arYehBarri.fina;
+lastChange = "2020-03-22 16:17:10 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{450, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{450, 660}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
 components = (
 {
 name = arLam.init;
@@ -74466,11 +75981,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arLam.init;
 },
 {
-color = 0;
-glyphname = arLam_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arLam.medi_arYehBarri.fina;
+lastChange = "2020-03-22 16:17:10 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{450, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{450, 660}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
 components = (
 {
 name = arLam.medi;
@@ -74488,11 +76025,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arLam.medi;
 },
 {
-color = 0;
-glyphname = arMim_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 7;
+glyphname = arMim.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:30:52 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{570, -180}";
+},
+{
+name = bottom_2;
+position = "{270, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{570, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
 components = (
 {
 name = arMim.init;
@@ -74500,6 +76059,16 @@ transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 name = arYehBarri.fina;
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 600, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74510,11 +76079,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arMim.init;
 },
 {
-color = 0;
-glyphname = arMim_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 7;
+glyphname = arMim.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:30:52 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{570, -180}";
+},
+{
+name = bottom_2;
+position = "{270, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{570, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
 components = (
 {
 name = arMim.medi;
@@ -74522,6 +76113,16 @@ transform = "{1, 0, 0, 1, 300, 0}";
 },
 {
 name = arYehBarri.fina;
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 600, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74532,11 +76133,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arMim.medi;
 },
 {
-color = 0;
-glyphname = arNun_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arNun.init_arYehBarri.fina;
+lastChange = "2020-03-22 16:17:15 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{450, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 420}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
 components = (
 {
 name = arNun.init;
@@ -74554,11 +76177,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arNun.init;
 },
 {
-color = 0;
-glyphname = arNun_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arNun.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:15:12 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{450, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 420}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
 components = (
 {
 name = arNun.medi;
@@ -74576,11 +76221,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arNun.medi;
 },
 {
-color = 0;
-glyphname = arHehGoal_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arHehGoal.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:30:03 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{510, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{630, 480}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arHehGoal.init;
@@ -74598,11 +76265,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arHehGoal.init;
 },
 {
-color = 0;
-glyphname = arHehDoachashmi_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arHehDoachashmi.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:30:03 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{510, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{630, 480}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arHehDoachashmi.init;
@@ -74620,11 +76309,33 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arHehDoachashmi.init;
 },
 {
-color = 0;
-glyphname = arHehDoachashmi_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arHehDoachashmi.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:30:03 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{510, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{630, 480}";
+},
+{
+name = top_2;
+position = "{150, 60}";
+}
+);
 components = (
 {
 name = arHehDoachashmi.medi;
@@ -74642,18 +76353,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arHehDoachashmi.medi;
 },
 {
-color = 0;
-glyphname = arYeh_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arYeh.init_arYehBarri.fina;
+lastChange = "2020-03-22 16:11:45 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arYeh.init;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -300}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.fina;
+},
+{
+name = arTwodotshorizontalbelow;
+transform = "{1, 0, 0, 1, 180, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74664,18 +76397,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arYeh.init;
 },
 {
-color = 0;
-glyphname = arYeh_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arYeh.medi_arYehBarri.fina;
+lastChange = "2020-03-22 16:11:45 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arYeh.medi;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -300}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.medi;
+},
+{
+name = arTwodotshorizontalbelow;
+transform = "{1, 0, 0, 1, 180, -180}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74686,18 +76441,128 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arYeh.medi;
 },
 {
-color = 0;
-glyphname = arYehHamza_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arYehFarsi.init_arYehBarri.fina;
+lastChange = "2020-03-22 19:30:03 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arYehHamza.init;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -300}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.fina;
+},
+{
+name = arTwodotshorizontalbelow;
+transform = "{1, 0, 0, 1, 180, -180}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 600;
+}
+);
+leftMetricsKey = arYehBarri.fina;
+rightMetricsKey = arYehFarsi.init;
+},
+{
+color = 6;
+glyphname = arYehFarsi.medi_arYehBarri.fina;
+lastChange = "2020-03-22 19:30:03 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+position = "{390, -300}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 300}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.medi;
+},
+{
+name = arTwodotshorizontalbelow;
+transform = "{1, 0, 0, 1, 180, -180}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 600;
+}
+);
+leftMetricsKey = arYehBarri.fina;
+rightMetricsKey = arYehFarsi.medi;
+},
+{
+color = 6;
+glyphname = arYehHamza.init_arYehBarri.fina;
+lastChange = "2020-03-22 16:13:02 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+position = "{390, -180}";
+},
+{
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 540}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.fina;
+},
+{
+name = arHamzaabove;
+transform = "{1, 0, 0, 1, 360, -60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74708,18 +76573,40 @@ leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arYehHamza.init;
 },
 {
-color = 0;
-glyphname = arYehHamza_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
+color = 6;
+glyphname = arYehHamza.medi_arYehBarri.fina;
+lastChange = "2020-03-22 16:13:02 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = arYehHamza.medi;
-transform = "{1, 0, 0, 1, 300, 0}";
+name = bottom_1;
+position = "{390, -180}";
 },
 {
-name = arYehBarri.fina;
+name = bottom_2;
+position = "{150, -180}";
+},
+{
+name = caret_1;
+position = "{330, -60}";
+},
+{
+name = top_1;
+position = "{510, 540}";
+},
+{
+name = top_2;
+position = "{210, 60}";
+}
+);
+components = (
+{
+name = _part.arBeh.YehBarri.medi;
+},
+{
+name = arHamzaabove;
+transform = "{1, 0, 0, 1, 360, -60}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -74728,50 +76615,6 @@ width = 600;
 );
 leftMetricsKey = arYehBarri.fina;
 rightMetricsKey = arYehHamza.medi;
-},
-{
-color = 0;
-glyphname = arYehFarsi_arYehBarri;
-lastChange = "2020-03-08 10:57:59 +0000";
-layers = (
-{
-components = (
-{
-name = arYehFarsi;
-transform = "{1, 0, 0, 1, 600, 0}";
-},
-{
-name = arYehBarri;
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 1200;
-}
-);
-leftMetricsKey = arYehBarri.fina;
-rightMetricsKey = arYehFarsi.init;
-},
-{
-color = 0;
-glyphname = arYehFarsi_arYehBarri.fina;
-lastChange = "2020-03-08 10:57:59 +0000";
-layers = (
-{
-components = (
-{
-name = arYehFarsi.fina;
-transform = "{1, 0, 0, 1, 300, 0}";
-},
-{
-name = arYehBarri.fina;
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 900;
-}
-);
-leftMetricsKey = arYehBarri.fina;
-rightMetricsKey = arYehFarsi.medi;
 },
 {
 glyphname = arAllah;
@@ -74813,13 +76656,278 @@ width = 900;
 );
 },
 {
-color = 0;
+color = 7;
 glyphname = arRial;
-lastChange = "2020-01-27 11:22:29 +0000";
+lastChange = "2020-03-22 19:49:50 +0000";
 layers = (
 {
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 600, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 720, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 720, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 720, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 720, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 720, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, -60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, -60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 480}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 540}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 600}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 600, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 660, 450}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, 390}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 360}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 420}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 300}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 330}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 540, -120}";
+},
+{
+name = _grid;
+transform = "{1, 0, 0, 1, 660, -120}";
+}
+);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
+width = 840;
 }
 );
 unicode = FDFC;
@@ -78036,9 +80144,9 @@ width = 270;
 );
 },
 {
-color = 1;
+color = 7;
 glyphname = arStar;
-lastChange = "2020-02-14 13:11:21 +0000";
+lastChange = "2020-03-22 09:11:40 +0000";
 layers = (
 {
 components = (
@@ -78112,7 +80220,7 @@ unicode = 066D;
 {
 color = 7;
 glyphname = parenleft.arab;
-lastChange = "2020-01-27 10:54:22 +0000";
+lastChange = "2020-03-22 09:11:40 +0000";
 layers = (
 {
 components = (
@@ -78200,7 +80308,7 @@ width = 300;
 {
 color = 7;
 glyphname = parenright.arab;
-lastChange = "2020-01-27 14:00:39 +0000";
+lastChange = "2020-03-22 09:11:40 +0000";
 layers = (
 {
 components = (
@@ -78286,123 +80394,123 @@ width = 300;
 );
 },
 {
-color = 1;
+color = 7;
 glyphname = arParenleftfancy;
-lastChange = "2020-02-14 13:11:21 +0000";
+lastChange = "2020-03-22 09:11:40 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 120}";
+transform = "{1, 0, 0, 1, 150, 120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 180}";
+transform = "{1, 0, 0, 1, 30, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 180}";
+transform = "{1, 0, 0, 1, 150, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 330, 180}";
+transform = "{1, 0, 0, 1, 270, 180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 210}";
+transform = "{1, 0, 0, 1, 90, 210}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 270, 210}";
+transform = "{1, 0, 0, 1, 210, 210}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 150, 270}";
+transform = "{1, 0, 0, 1, 90, 270}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 270, 270}";
+transform = "{1, 0, 0, 1, 210, 270}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 90, 300}";
+transform = "{1, 0, 0, 1, 30, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 300}";
+transform = "{1, 0, 0, 1, 150, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 330, 300}";
+transform = "{1, 0, 0, 1, 270, 300}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 360}";
+transform = "{1, 0, 0, 1, 150, 360}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 330, -180}";
+transform = "{1, 0, 0, 1, 270, -180}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 270, -120}";
+transform = "{1, 0, 0, 1, 210, -120}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, -60}";
+transform = "{1, 0, 0, 1, 180, -60}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 0}";
+transform = "{1, 0, 0, 1, 150, 0}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 210, 480}";
+transform = "{1, 0, 0, 1, 150, 480}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 240, 540}";
+transform = "{1, 0, 0, 1, 180, 540}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 270, 600}";
+transform = "{1, 0, 0, 1, 210, 600}";
 },
 {
 alignment = -1;
 name = _grid;
-transform = "{1, 0, 0, 1, 330, 660}";
+transform = "{1, 0, 0, 1, 270, 660}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 480;
+width = 420;
 }
 );
 unicode = FD3E;
 },
 {
-color = 1;
+color = 7;
 glyphname = arParenrightfancy;
-lastChange = "2020-02-14 13:36:41 +0000";
+lastChange = "2020-03-22 09:11:40 +0000";
 layers = (
 {
 components = (
@@ -78508,7 +80616,7 @@ transform = "{1, 0, 0, 1, 90, 660}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 480;
+width = 420;
 }
 );
 unicode = FD3F;
@@ -78516,7 +80624,7 @@ unicode = FD3F;
 {
 color = 7;
 glyphname = arDotabove;
-lastChange = "2020-01-27 15:02:41 +0000";
+lastChange = "2020-03-22 09:11:40 +0000";
 layers = (
 {
 anchors = (
@@ -78803,9 +80911,9 @@ width = 600;
 );
 },
 {
-color = 1;
+color = 7;
 glyphname = hbAlef;
-lastChange = "2020-03-20 09:54:22 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -78934,9 +81042,9 @@ width = 450;
 unicode = 05D0;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbBet;
-lastChange = "2020-03-05 14:05:56 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -79055,9 +81163,9 @@ width = 480;
 unicode = 05D1;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbGimel;
-lastChange = "2020-03-20 09:23:05 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -79156,9 +81264,9 @@ width = 360;
 unicode = 05D2;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbDalet;
-lastChange = "2020-03-20 09:17:46 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -79257,9 +81365,9 @@ width = 420;
 unicode = 05D3;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbHe;
-lastChange = "2020-02-14 11:45:35 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -79388,9 +81496,9 @@ width = 480;
 unicode = 05D4;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbVav;
-lastChange = "2020-02-14 13:36:41 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -79476,9 +81584,9 @@ rightKerningGroup = hbVav;
 unicode = 05D5;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbZayin;
-lastChange = "2020-03-20 09:19:19 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -79567,9 +81675,9 @@ width = 300;
 unicode = 05D6;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbHet;
-lastChange = "2020-02-18 09:38:59 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -79713,9 +81821,9 @@ width = 540;
 unicode = 05D7;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbTet;
-lastChange = "2020-03-20 09:42:44 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -79864,9 +81972,9 @@ width = 480;
 unicode = 05D8;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbYod;
-lastChange = "2020-03-05 13:51:39 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -79937,9 +82045,9 @@ rightKerningGroup = hbVav;
 unicode = 05D9;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbKaf;
-lastChange = "2020-03-20 09:27:04 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -80048,9 +82156,9 @@ width = 420;
 unicode = 05DB;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbKafFinal;
-lastChange = "2020-03-20 09:31:01 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -80154,9 +82262,9 @@ width = 420;
 unicode = 05DA;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbLamed;
-lastChange = "2020-03-20 09:34:40 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -80265,9 +82373,9 @@ width = 420;
 unicode = 05DC;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbMemFinal;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -80431,9 +82539,9 @@ width = 540;
 unicode = 05DD;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbMem;
-lastChange = "2020-03-20 09:32:23 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -80582,9 +82690,9 @@ width = 510;
 unicode = 05DE;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbNunFinal;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -80678,9 +82786,9 @@ width = 300;
 unicode = 05DF;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbNun;
-lastChange = "2020-03-05 14:08:04 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -80779,9 +82887,9 @@ width = 360;
 unicode = 05E0;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbSamekh;
-lastChange = "2020-03-20 09:41:33 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -80930,9 +83038,9 @@ width = 480;
 unicode = 05E1;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbAyin;
-lastChange = "2020-03-05 14:27:54 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -81061,9 +83169,9 @@ width = 450;
 unicode = 05E2;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbPe;
-lastChange = "2020-03-05 14:09:51 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -81202,9 +83310,9 @@ width = 480;
 unicode = 05E4;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbPeFinal;
-lastChange = "2020-03-20 09:30:30 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -81329,9 +83437,9 @@ width = 480;
 unicode = 05E3;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbTsadi;
-lastChange = "2020-03-05 14:05:09 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -81455,9 +83563,9 @@ width = 450;
 unicode = 05E6;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbTsadiFinal;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -81571,9 +83679,9 @@ width = 450;
 unicode = 05E5;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbQof;
-lastChange = "2020-03-20 09:33:56 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -81717,9 +83825,9 @@ width = 480;
 unicode = 05E7;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbResh;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -81813,9 +83921,9 @@ width = 420;
 unicode = 05E8;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbShin;
-lastChange = "2020-03-05 14:25:09 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -81988,9 +84096,9 @@ width = 540;
 unicode = 05E9;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbTav;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -82802,9 +84910,9 @@ width = 540;
 unicode = FB4A;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbSheva;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -82832,9 +84940,9 @@ width = 0;
 unicode = 05B0;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbHataf_hbSegol;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -82877,9 +84985,9 @@ width = 0;
 unicode = 05B1;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbHataf_hbPatah;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -82922,9 +85030,9 @@ width = 0;
 unicode = 05B2;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbHataf_hbQamats;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -82972,9 +85080,9 @@ width = 0;
 unicode = 05B3;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbHiriq;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -82997,9 +85105,9 @@ width = 0;
 unicode = 05B4;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbTsere;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83027,9 +85135,9 @@ width = 0;
 unicode = 05B5;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbSegol;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83062,9 +85170,9 @@ width = 0;
 unicode = 05B6;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbPatah;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83097,9 +85205,9 @@ width = 0;
 unicode = 05B7;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbQamats;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83137,9 +85245,9 @@ width = 0;
 unicode = 05B8;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbQamatsQatan;
-lastChange = "2020-02-19 10:46:25 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83177,9 +85285,9 @@ width = 0;
 unicode = 05C7;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbHolam;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83202,9 +85310,9 @@ width = 0;
 unicode = 05B9;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbHolamHaser;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83227,9 +85335,9 @@ width = 0;
 unicode = 05BA;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbQubuts;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83262,9 +85370,9 @@ width = 0;
 unicode = 05BB;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbDagesh;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83287,9 +85395,9 @@ width = 0;
 unicode = 05BC;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbRafe;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83322,9 +85430,9 @@ width = 0;
 unicode = 05BF;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbShindot;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83347,9 +85455,9 @@ width = 0;
 unicode = 05C1;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbSindot;
-lastChange = "2020-02-14 13:14:07 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83372,9 +85480,9 @@ width = 0;
 unicode = 05C2;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbVav_hbVav;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 components = (
@@ -83395,9 +85503,9 @@ rightKerningGroup = hbVav;
 unicode = 05F0;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbVav_hbYod;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 components = (
@@ -83416,9 +85524,9 @@ width = 540;
 unicode = 05F1;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbYod_hbYod;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 components = (
@@ -83437,9 +85545,9 @@ width = 540;
 unicode = 05F2;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbYod_hbYod_hbPatah;
-lastChange = "2020-02-14 11:45:20 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 components = (
@@ -83488,9 +85596,9 @@ width = 540;
 unicode = FB1F;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbPeFinal.calt;
-lastChange = "2020-03-20 09:30:38 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83609,9 +85717,9 @@ width = 480;
 );
 },
 {
-color = 1;
+color = 7;
 glyphname = hbPe.calt;
-lastChange = "2020-03-20 09:30:40 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 anchors = (
@@ -83744,9 +85852,9 @@ width = 480;
 );
 },
 {
-color = 1;
+color = 7;
 glyphname = hbPaseq;
-lastChange = "2020-02-14 13:36:55 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 components = (
@@ -83823,9 +85931,9 @@ width = 180;
 unicode = 05C0;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbGeresh;
-lastChange = "2020-02-14 13:36:55 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 components = (
@@ -83852,9 +85960,9 @@ width = 120;
 unicode = 05F3;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbGershayim;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 components = (
@@ -83875,9 +85983,9 @@ width = 240;
 unicode = 05F4;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbMaqaf;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 components = (
@@ -83909,9 +86017,9 @@ width = 360;
 unicode = 05BE;
 },
 {
-color = 1;
+color = 7;
 glyphname = hbSofPasuq;
-lastChange = "2020-02-14 12:01:04 +0000";
+lastChange = "2020-03-22 09:11:00 +0000";
 layers = (
 {
 components = (
@@ -83941,6 +86049,39 @@ width = 180;
 }
 );
 unicode = 05C3;
+},
+{
+color = 4;
+glyphname = periodcentered.hebr;
+lastChange = "2020-03-22 19:48:21 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 210}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, 270}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 270}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 240;
+}
+);
 },
 {
 glyphname = zerowidthnonjoiner;
@@ -103826,152 +105967,9 @@ width = 60;
 );
 },
 {
-color = 7;
-glyphname = a.Ayb.alt;
-lastChange = "2020-02-14 13:20:12 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 300}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 360}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 420}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 480}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 540}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 600}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 60}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 480;
-}
-);
-},
-{
-color = 1;
+color = 0;
 glyphname = hbAlef.ss01;
-lastChange = "2020-03-20 09:58:17 +0000";
+lastChange = "2020-03-22 09:11:09 +0000";
 layers = (
 {
 anchors = (
@@ -104104,9 +106102,9 @@ width = 450;
 );
 },
 {
-color = 1;
+color = 0;
 glyphname = hbZayin.ss01;
-lastChange = "2020-03-20 09:58:14 +0000";
+lastChange = "2020-03-22 09:11:09 +0000";
 layers = (
 {
 anchors = (
@@ -104194,9 +106192,9 @@ width = 300;
 );
 },
 {
-color = 1;
+color = 0;
 glyphname = hbTet.ss01;
-lastChange = "2020-03-20 09:58:08 +0000";
+lastChange = "2020-03-22 09:11:09 +0000";
 layers = (
 {
 anchors = (
@@ -104344,9 +106342,9 @@ width = 480;
 );
 },
 {
-color = 1;
+color = 0;
 glyphname = hbAyin.ss01;
-lastChange = "2020-03-20 09:48:00 +0000";
+lastChange = "2020-03-22 09:11:09 +0000";
 layers = (
 {
 anchors = (
@@ -104474,9 +106472,9 @@ width = 510;
 );
 },
 {
-color = 1;
+color = 0;
 glyphname = hbTet.ss02;
-lastChange = "2020-03-20 09:58:10 +0000";
+lastChange = "2020-03-22 09:11:09 +0000";
 layers = (
 {
 anchors = (
@@ -104624,9 +106622,9 @@ width = 510;
 );
 },
 {
-color = 1;
+color = 0;
 glyphname = hbAyin.ss02;
-lastChange = "2020-03-20 09:58:03 +0000";
+lastChange = "2020-03-22 09:11:09 +0000";
 layers = (
 {
 anchors = (
@@ -104754,8 +106752,229 @@ width = 450;
 );
 },
 {
+color = 7;
+glyphname = _part.arBeh.YehBarri.fina;
+lastChange = "2020-03-22 19:57:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{390, -180}";
+},
+{
+name = top;
+position = "{510, 300}";
+}
+);
+components = (
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 60}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, 240}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 300, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 360, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 420, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 120, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 180, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 240, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 480, -180}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, -120}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 60, -60}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 600;
+}
+);
+},
+{
+color = 7;
+glyphname = _part.arBeh.YehBarri.medi;
+lastChange = "2020-03-22 19:57:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{390, -180}";
+},
+{
+name = top;
+position = "{510, 300}";
+}
+);
+components = (
+{
+alignment = 1;
+name = _part.arBeh.YehBarri.fina;
+},
+{
+alignment = 1;
+name = _part.link;
+transform = "{1, 0, 0, 1, 600, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 600;
+}
+);
+},
+{
+color = 7;
+glyphname = _part.arJim.YehBarri.fina;
+lastChange = "2020-03-22 19:57:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{510, -180}";
+},
+{
+name = top;
+position = "{570, 300}";
+}
+);
+components = (
+{
+name = arYehBarri.fina;
+},
+{
+name = arHah.init;
+transform = "{1, 0, 0, 1, 300, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, -180}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 810;
+}
+);
+},
+{
+color = 7;
+glyphname = _part.arJim.YehBarri.medi;
+lastChange = "2020-03-22 19:57:45 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{510, -180}";
+},
+{
+name = top;
+position = "{570, 300}";
+}
+);
+components = (
+{
+name = arYehBarri.fina;
+},
+{
+name = arHah.medi;
+transform = "{1, 0, 0, 1, 300, 0}";
+},
+{
+alignment = -1;
+name = _grid;
+transform = "{1, 0, 0, 1, 540, -180}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 840;
+}
+);
+},
+{
+color = 7;
 glyphname = _part.arKaf;
-lastChange = "2020-02-05 14:01:09 +0000";
+lastChange = "2020-03-22 19:36:56 +0000";
 layers = (
 {
 anchors = (
@@ -104920,8 +107139,9 @@ width = 240;
 );
 },
 {
+color = 7;
 glyphname = _part.miniKeheh;
-lastChange = "2020-02-05 14:01:09 +0000";
+lastChange = "2020-03-22 19:36:53 +0000";
 layers = (
 {
 anchors = (
@@ -104969,434 +107189,6 @@ transform = "{1, 0, 0, 1, 60, 420}";
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 300;
-}
-);
-},
-{
-export = 0;
-glyphname = _part.arBeh.YehBarri.fina;
-lastChange = "2020-01-27 15:19:36 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{330, -180}";
-}
-);
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, -60}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
-}
-);
-},
-{
-export = 0;
-glyphname = _part.arBeh.YehBarri.med;
-lastChange = "2020-01-24 18:27:57 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{330, -180}";
-}
-);
-components = (
-{
-alignment = 1;
-name = _part.arBeh.YehBarri.fina;
-},
-{
-alignment = 1;
-name = _part.link;
-transform = "{1, 0, 0, 1, 600, 0}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 600;
-}
-);
-},
-{
-export = 0;
-glyphname = _part.arJim.YehBarri.fina;
-lastChange = "2020-01-24 18:31:22 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{510, -180}";
-},
-{
-name = top;
-position = "{510, 300}";
-}
-);
-components = (
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 60}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 540, 120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 540, 180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 540, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 600, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 660, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, -60}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 780;
-}
-);
-},
-{
-export = 0;
-glyphname = _part.arJim.YehBarri.med;
-lastChange = "2020-01-24 18:31:11 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{510, -180}";
-},
-{
-name = top;
-position = "{510, 300}";
-}
-);
-components = (
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 300, 0}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 0}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 600, 0}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 660, 0}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 720, 0}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 60}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 540, 60}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 120}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 540, 180}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 360, 240}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 420, 240}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 480, 240}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 540, 240}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 600, 240}";
-},
-{
-name = _grid;
-transform = "{1, 0, 0, 1, 660, 240}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 300, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 360, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 420, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 120, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 180, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 240, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 480, -180}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, -120}";
-},
-{
-alignment = -1;
-name = _grid;
-transform = "{1, 0, 0, 1, 60, -60}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 780;
 }
 );
 }
