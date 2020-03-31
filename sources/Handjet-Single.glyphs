@@ -55990,7 +55990,7 @@ unicode = 0539;
 {
 color = 7;
 glyphname = a.Zhe;
-lastChange = "2020-02-07 17:49:27 +0000";
+lastChange = "2020-03-31 09:18:57 +0000";
 layers = (
 {
 components = (
@@ -56106,7 +56106,7 @@ transform = "{1, 0, 0, 1, 60, 300}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 480;
+width = 450;
 }
 );
 unicode = 053A;
@@ -60787,7 +60787,7 @@ unicode = 0569;
 {
 color = 7;
 glyphname = a.zhe;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-03-31 09:18:46 +0000";
 layers = (
 {
 components = (
@@ -60913,7 +60913,7 @@ transform = "{1, 0, 0, 1, 300, 660}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 480;
+width = 450;
 }
 );
 unicode = 056A;
@@ -62429,7 +62429,7 @@ unicode = 0576;
 {
 color = 7;
 glyphname = a.sha;
-lastChange = "2019-12-10 12:41:01 +0000";
+lastChange = "2020-03-31 09:19:43 +0000";
 layers = (
 {
 components = (
@@ -80901,7 +80901,7 @@ width = 600;
 {
 color = 7;
 glyphname = hbAlef;
-lastChange = "2020-03-24 18:38:03 +0000";
+lastChange = "2020-03-31 09:42:06 +0000";
 layers = (
 {
 anchors = (
@@ -80915,7 +80915,7 @@ position = "{60, 0}";
 },
 {
 name = center;
-position = "{240, 120}";
+position = "{210, 120}";
 },
 {
 name = top;
@@ -81037,13 +81037,13 @@ unicode = 05D0;
 {
 color = 7;
 glyphname = hbBet;
-lastChange = "2020-03-24 18:36:06 +0000";
+lastChange = "2020-03-31 09:43:30 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{210, 0}";
+position = "{240, 0}";
 },
 {
 name = bottomleft;
@@ -81817,13 +81817,13 @@ unicode = 05D7;
 {
 color = 7;
 glyphname = hbTet;
-lastChange = "2020-03-24 18:34:18 +0000";
+lastChange = "2020-03-31 09:42:46 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{240, 0}";
+position = "{270, 0}";
 },
 {
 name = bottomleft;
@@ -84280,7 +84280,7 @@ unicode = FB2F;
 },
 {
 glyphname = hbAlef_hbDagesh;
-lastChange = "2020-03-24 18:42:46 +0000";
+lastChange = "2020-03-31 09:42:06 +0000";
 layers = (
 {
 components = (
@@ -84289,7 +84289,7 @@ name = hbAlef;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 240, -120}";
+transform = "{1, 0, 0, 1, 210, -120}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -106476,6 +106476,9 @@ a = -30;
 Y = {
 "@MMK_R_comma" = -30;
 "@MMK_R_o" = -60;
+};
+a.zhe = {
+a.sha = -30;
 };
 arrowleft = {
 hyphen = -120;
