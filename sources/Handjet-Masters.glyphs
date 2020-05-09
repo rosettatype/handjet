@@ -1,0 +1,4318 @@
+{
+.appVersion = "1286";
+DisplayStrings = (
+"/slnt-100"
+);
+customParameters = (
+{
+name = glyphOrder;
+value = (
+placeholder,
+"ital-100",
+"ital-200",
+"ital-300",
+"ital-400",
+"ital-500",
+"ital-600",
+"ital-700",
+"ital-800",
+"wdth-100",
+"wdth-1000",
+"wdth-2000",
+"slnt-100",
+"slnt-200",
+"slnt-300",
+"slnt-400",
+"slnt-500",
+"slnt-600",
+"wght-100",
+"wght-1000",
+"wght-2000",
+"opsz-100",
+"opsz-200",
+"opsz-300"
+);
+}
+);
+date = "2020-05-09 09:00:29 +0000";
+familyName = "Handjet Masters";
+fontMaster = (
+{
+ascender = 800;
+capHeight = 700;
+customValue = 100;
+customValue1 = 100;
+customValue2 = 100;
+descender = -200;
+id = "D705B390-3487-4797-B79F-A044C23E058D";
+xHeight = 500;
+}
+);
+glyphs = (
+{
+color = 11;
+glyphname = placeholder;
+lastChange = "2020-05-09 09:01:17 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"34 -120 OFFCURVE",
+"-34 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -34 OFFCURVE",
+"-120 34 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-34 120 OFFCURVE",
+"34 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 34 OFFCURVE",
+"120 -34 OFFCURVE",
+"120 -120 CURVE SMOOTH",
+"120 -120 OFFCURVE",
+"120 -120 OFFCURVE",
+"120 -120 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+paths = (
+{
+closed = 1;
+nodes = (
+"-120 -120 LINE",
+"-110 120 LINE",
+"110 120 LINE",
+"120 -120 LINE"
+);
+}
+);
+width = 0;
+}
+);
+},
+{
+color = 6;
+glyphname = "ital-100";
+lastChange = "2020-05-09 08:51:19 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"34 -120 OFFCURVE",
+"-34 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -34 OFFCURVE",
+"-120 34 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-34 120 OFFCURVE",
+"34 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 34 OFFCURVE",
+"120 -34 OFFCURVE",
+"120 -120 CURVE SMOOTH",
+"120 -120 OFFCURVE",
+"120 -120 OFFCURVE",
+"120 -120 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+paths = (
+{
+closed = 1;
+nodes = (
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+},
+{
+color = 6;
+glyphname = "ital-200";
+lastChange = "2020-05-09 08:51:19 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"34 -120 OFFCURVE",
+"-34 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -34 OFFCURVE",
+"-120 34 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-34 120 OFFCURVE",
+"34 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 34 OFFCURVE",
+"120 -34 OFFCURVE",
+"120 -120 CURVE SMOOTH",
+"120 -120 OFFCURVE",
+"120 -120 OFFCURVE",
+"120 -120 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+paths = (
+{
+closed = 1;
+nodes = (
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -34 OFFCURVE",
+"-120 34 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-34 120 OFFCURVE",
+"34 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+},
+{
+color = 6;
+glyphname = "ital-300";
+lastChange = "2020-05-09 08:51:19 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"34 -120 OFFCURVE",
+"-34 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -34 OFFCURVE",
+"-120 34 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-34 120 OFFCURVE",
+"34 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 34 OFFCURVE",
+"120 -34 OFFCURVE",
+"120 -120 CURVE SMOOTH",
+"120 -120 OFFCURVE",
+"120 -120 OFFCURVE",
+"120 -120 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+paths = (
+{
+closed = 1;
+nodes = (
+"34 -120 OFFCURVE",
+"-34 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -34 OFFCURVE",
+"-120 34 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-34 120 OFFCURVE",
+"34 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 34 OFFCURVE",
+"120 -34 OFFCURVE",
+"120 -120 CURVE SMOOTH",
+"120 -120 OFFCURVE",
+"120 -120 OFFCURVE",
+"120 -120 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+},
+{
+color = 6;
+glyphname = "ital-400";
+lastChange = "2020-05-09 08:51:19 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"34 -120 OFFCURVE",
+"-34 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -34 OFFCURVE",
+"-120 34 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-34 120 OFFCURVE",
+"34 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 34 OFFCURVE",
+"120 -34 OFFCURVE",
+"120 -120 CURVE SMOOTH",
+"120 -120 OFFCURVE",
+"120 -120 OFFCURVE",
+"120 -120 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 -120 OFFCURVE",
+"0 -120 OFFCURVE",
+"0 -120 CURVE",
+"-76 -120 OFFCURVE",
+"-120 -76 OFFCURVE",
+"-120 0 CURVE SMOOTH",
+"-120 0 OFFCURVE",
+"-120 0 OFFCURVE",
+"-120 0 CURVE",
+"-120 66 OFFCURVE",
+"-76 120 OFFCURVE",
+"0 120 CURVE SMOOTH",
+"0 120 OFFCURVE",
+"0 120 OFFCURVE",
+"0 120 CURVE",
+"66 120 OFFCURVE",
+"120 76 OFFCURVE",
+"120 0 CURVE SMOOTH",
+"120 0 OFFCURVE",
+"120 0 OFFCURVE",
+"120 0 CURVE",
+"120 -66 OFFCURVE",
+"76 -120 OFFCURVE",
+"0 -120 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+},
+{
+color = 6;
+glyphname = "ital-500";
+lastChange = "2020-05-09 08:51:19 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"34 -120 OFFCURVE",
+"-34 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -34 OFFCURVE",
+"-120 34 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-34 120 OFFCURVE",
+"34 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 34 OFFCURVE",
+"120 -34 OFFCURVE",
+"120 -120 CURVE SMOOTH",
+"120 -120 OFFCURVE",
+"120 -120 OFFCURVE",
+"120 -120 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 -3 OFFCURVE",
+"-1 -3 OFFCURVE",
+"-1 -3 CURVE",
+"-1 -267 OFFCURVE",
+"-267 0 OFFCURVE",
+"-3 0 CURVE",
+"-3 0 OFFCURVE",
+"-3 1 OFFCURVE",
+"-3 1 CURVE",
+"-267 1 OFFCURVE",
+"0 267 OFFCURVE",
+"0 3 CURVE",
+"0 3 OFFCURVE",
+"1 3 OFFCURVE",
+"1 3 CURVE",
+"1 267 OFFCURVE",
+"267 0 OFFCURVE",
+"3 0 CURVE",
+"3 0 OFFCURVE",
+"3 -1 OFFCURVE",
+"3 -1 CURVE",
+"267 -1 OFFCURVE",
+"0 -267 OFFCURVE",
+"0 -3 CURVE"
+);
+}
+);
+width = 0;
+}
+);
+},
+{
+color = 6;
+glyphname = "ital-600";
+lastChange = "2020-05-09 08:51:19 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"34 -120 OFFCURVE",
+"-34 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -34 OFFCURVE",
+"-120 34 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-34 120 OFFCURVE",
+"34 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 34 OFFCURVE",
+"120 -34 OFFCURVE",
+"120 -120 CURVE SMOOTH",
+"120 -120 OFFCURVE",
+"120 -120 OFFCURVE",
+"120 -120 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 -120 OFFCURVE",
+"-1 -120 OFFCURVE",
+"-1 -120 CURVE",
+"0 0 OFFCURVE",
+"0 0 OFFCURVE",
+"-120 0 CURVE",
+"-120 0 OFFCURVE",
+"-120 1 OFFCURVE",
+"-120 1 CURVE",
+"0 0 OFFCURVE",
+"0 0 OFFCURVE",
+"0 120 CURVE",
+"0 120 OFFCURVE",
+"1 120 OFFCURVE",
+"1 120 CURVE",
+"0 0 OFFCURVE",
+"0 0 OFFCURVE",
+"120 0 CURVE",
+"120 0 OFFCURVE",
+"120 -1 OFFCURVE",
+"120 -1 CURVE",
+"0 0 OFFCURVE",
+"0 0 OFFCURVE",
+"0 -120 CURVE"
+);
+}
+);
+width = 0;
+}
+);
+},
+{
+color = 6;
+glyphname = "ital-700";
+lastChange = "2020-05-09 08:51:19 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"34 -120 OFFCURVE",
+"-34 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -34 OFFCURVE",
+"-120 34 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-34 120 OFFCURVE",
+"34 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 34 OFFCURVE",
+"120 -34 OFFCURVE",
+"120 -120 CURVE SMOOTH",
+"120 -120 OFFCURVE",
+"120 -120 OFFCURVE",
+"120 -120 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 -120 OFFCURVE",
+"0 -120 OFFCURVE",
+"0 -120 CURVE",
+"-33 -53 OFFCURVE",
+"-72 -58 OFFCURVE",
+"-72 0 CURVE",
+"-72 0 OFFCURVE",
+"-72 0 OFFCURVE",
+"-72 0 CURVE",
+"-72 58 OFFCURVE",
+"-33 53 OFFCURVE",
+"-1 120 CURVE",
+"-1 120 OFFCURVE",
+"1 120 OFFCURVE",
+"1 120 CURVE",
+"33 53 OFFCURVE",
+"72 58 OFFCURVE",
+"72 0 CURVE",
+"72 0 OFFCURVE",
+"72 0 OFFCURVE",
+"72 0 CURVE",
+"72 -58 OFFCURVE",
+"32 -53 OFFCURVE",
+"0 -120 CURVE"
+);
+}
+);
+width = 0;
+}
+);
+},
+{
+color = 6;
+glyphname = "ital-800";
+lastChange = "2020-05-09 08:51:19 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"34 -120 OFFCURVE",
+"-34 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -120 OFFCURVE",
+"-120 -120 OFFCURVE",
+"-120 -120 CURVE SMOOTH",
+"-120 -34 OFFCURVE",
+"-120 34 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-120 120 OFFCURVE",
+"-120 120 OFFCURVE",
+"-120 120 CURVE SMOOTH",
+"-34 120 OFFCURVE",
+"34 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 120 OFFCURVE",
+"120 120 OFFCURVE",
+"120 120 CURVE SMOOTH",
+"120 34 OFFCURVE",
+"120 -34 OFFCURVE",
+"120 -120 CURVE SMOOTH",
+"120 -120 OFFCURVE",
+"120 -120 OFFCURVE",
+"120 -120 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 -120 OFFCURVE",
+"0 -120 OFFCURVE",
+"0 -120 CURVE",
+"-59 -53 OFFCURVE",
+"-120 -29 OFFCURVE",
+"-120 48 CURVE",
+"-120 48 OFFCURVE",
+"-120 48 OFFCURVE",
+"-120 48 CURVE",
+"-120 135 OFFCURVE",
+"-1 152 OFFCURVE",
+"-1 48 CURVE",
+"-1 48 OFFCURVE",
+"1 48 OFFCURVE",
+"1 48 CURVE",
+"1 152 OFFCURVE",
+"120 135 OFFCURVE",
+"120 48 CURVE",
+"120 48 OFFCURVE",
+"120 48 OFFCURVE",
+"120 48 CURVE",
+"120 -29 OFFCURVE",
+"58 -53 OFFCURVE",
+"0 -120 CURVE"
+);
+}
+);
+width = 0;
+}
+);
+},
+{
+color = 4;
+glyphname = "wdth-100";
+lastChange = "2020-05-09 08:53:51 +0000";
+layers = (
+{
+components = (
+{
+name = placeholder;
+transform = "{0.1, 0, 0, 1, 0, 0}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 4;
+glyphname = "wdth-1000";
+lastChange = "2020-05-09 08:54:18 +0000";
+layers = (
+{
+components = (
+{
+name = placeholder;
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 4;
+glyphname = "wdth-2000";
+lastChange = "2020-05-09 08:59:00 +0000";
+layers = (
+{
+components = (
+{
+name = placeholder;
+transform = "{2, 0, 0, 1, 0, 0}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 8;
+glyphname = "slnt-100";
+lastChange = "2020-05-09 08:57:09 +0000";
+layers = (
+{
+components = (
+{
+name = placeholder;
+transform = "{0, 1, -1, 0, 0, 0}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 8;
+glyphname = "slnt-200";
+lastChange = "2020-05-09 08:56:19 +0000";
+layers = (
+{
+components = (
+{
+name = placeholder;
+transform = "{0.5, 0.86603, -0.86603, 0.5, 0, 0}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 8;
+glyphname = "slnt-300";
+lastChange = "2020-05-09 08:54:46 +0000";
+layers = (
+{
+components = (
+{
+name = placeholder;
+transform = "{0.86603, 0.5, -0.5, 0.86603, 0, 0}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 8;
+glyphname = "slnt-400";
+lastChange = "2020-05-09 08:57:19 +0000";
+layers = (
+{
+components = (
+{
+name = placeholder;
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 8;
+glyphname = "slnt-500";
+lastChange = "2020-05-09 08:55:15 +0000";
+layers = (
+{
+components = (
+{
+name = placeholder;
+transform = "{0.86603, -0.5, 0.5, 0.86603, 0, 0}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 8;
+glyphname = "slnt-600";
+lastChange = "2020-05-09 08:55:24 +0000";
+layers = (
+{
+components = (
+{
+name = placeholder;
+transform = "{0.5, -0.86603, 0.86603, 0.5, 0, 0}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 9;
+glyphname = "wght-100";
+lastChange = "2020-05-09 08:59:14 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"154 0 OFFCURVE",
+"86 0 OFFCURVE",
+"0 0 CURVE SMOOTH",
+"0 0 OFFCURVE",
+"0 0 OFFCURVE",
+"0 0 CURVE SMOOTH",
+"0 86 OFFCURVE",
+"0 154 OFFCURVE",
+"0 240 CURVE SMOOTH",
+"0 240 OFFCURVE",
+"0 240 OFFCURVE",
+"0 240 CURVE SMOOTH",
+"86 240 OFFCURVE",
+"154 240 OFFCURVE",
+"240 240 CURVE SMOOTH",
+"240 240 OFFCURVE",
+"240 240 OFFCURVE",
+"240 240 CURVE SMOOTH",
+"240 154 OFFCURVE",
+"240 86 OFFCURVE",
+"240 0 CURVE SMOOTH",
+"240 0 OFFCURVE",
+"240 0 OFFCURVE",
+"240 0 CURVE SMOOTH"
+);
+}
+);
+};
+components = (
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.1, 0, 0, 0.1, 0, 0}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 9;
+glyphname = "wght-1000";
+lastChange = "2020-05-09 08:59:28 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"154 0 OFFCURVE",
+"86 0 OFFCURVE",
+"0 0 CURVE SMOOTH",
+"0 0 OFFCURVE",
+"0 0 OFFCURVE",
+"0 0 CURVE SMOOTH",
+"0 86 OFFCURVE",
+"0 154 OFFCURVE",
+"0 240 CURVE SMOOTH",
+"0 240 OFFCURVE",
+"0 240 OFFCURVE",
+"0 240 CURVE SMOOTH",
+"86 240 OFFCURVE",
+"154 240 OFFCURVE",
+"240 240 CURVE SMOOTH",
+"240 240 OFFCURVE",
+"240 240 OFFCURVE",
+"240 240 CURVE SMOOTH",
+"240 154 OFFCURVE",
+"240 86 OFFCURVE",
+"240 0 CURVE SMOOTH",
+"240 0 OFFCURVE",
+"240 0 OFFCURVE",
+"240 0 CURVE SMOOTH"
+);
+}
+);
+};
+components = (
+{
+alignment = -1;
+name = placeholder;
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 9;
+glyphname = "wght-2000";
+lastChange = "2020-05-09 08:59:49 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"154 0 OFFCURVE",
+"86 0 OFFCURVE",
+"0 0 CURVE SMOOTH",
+"0 0 OFFCURVE",
+"0 0 OFFCURVE",
+"0 0 CURVE SMOOTH",
+"0 86 OFFCURVE",
+"0 154 OFFCURVE",
+"0 240 CURVE SMOOTH",
+"0 240 OFFCURVE",
+"0 240 OFFCURVE",
+"0 240 CURVE SMOOTH",
+"86 240 OFFCURVE",
+"154 240 OFFCURVE",
+"240 240 CURVE SMOOTH",
+"240 240 OFFCURVE",
+"240 240 OFFCURVE",
+"240 240 CURVE SMOOTH",
+"240 154 OFFCURVE",
+"240 86 OFFCURVE",
+"240 0 CURVE SMOOTH",
+"240 0 OFFCURVE",
+"240 0 OFFCURVE",
+"240 0 CURVE SMOOTH"
+);
+}
+);
+};
+components = (
+{
+alignment = -1;
+name = placeholder;
+transform = "{2, 0, 0, 2, 0, 0}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 7;
+glyphname = "opsz-100";
+lastChange = "2020-05-09 08:51:24 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = placeholder;
+transform = "{1, 0, 0, 1, 120, 120}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{1, 0, 0, 1, 120, 120}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{1, 0, 0, 1, 120, 120}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{1, 0, 0, 1, 120, 120}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{1, 0, 0, 1, 120, 120}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{1, 0, 0, 1, 120, 120}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{1, 0, 0, 1, 120, 120}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{1, 0, 0, 1, 120, 120}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{1, 0, 0, 1, 120, 120}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 7;
+glyphname = "opsz-200";
+lastChange = "2020-05-09 08:51:24 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.5, 0, 0, 0.5, 60, 180}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.5, 0, 0, 0.5, 180, 180}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.5, 0, 0, 0.5, 180, 180}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.5, 0, 0, 0.5, 60, 180}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.5, 0, 0, 0.5, 180, 180}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.5, 0, 0, 0.5, 180, 180}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.5, 0, 0, 0.5, 60, 60}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.5, 0, 0, 0.5, 180, 60}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.5, 0, 0, 0.5, 180, 60}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+},
+{
+color = 7;
+glyphname = "opsz-300";
+lastChange = "2020-05-09 08:51:24 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.333, 0, 0, 0.333, 40, 200}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.333, 0, 0, 0.333, 120, 200}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.333, 0, 0, 0.333, 200, 200}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.333, 0, 0, 0.333, 40, 120}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.333, 0, 0, 0.333, 120, 120}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.333, 0, 0, 0.333, 200, 120}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.333, 0, 0, 0.333, 40, 40}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.333, 0, 0, 0.333, 120, 40}";
+},
+{
+alignment = -1;
+name = placeholder;
+transform = "{0.333, 0, 0, 0.333, 200, 40}";
+}
+);
+layerId = "D705B390-3487-4797-B79F-A044C23E058D";
+width = 0;
+}
+);
+}
+);
+instances = (
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 10;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 20;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 28;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 42;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 56;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 60;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 80;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge";
+}
+);
+interpolationCustom = 100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 120;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 10;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 20;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 28;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 42;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 56;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 80;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft";
+}
+);
+interpolationCustom = 100;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 120;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 10;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 20;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 28;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 42;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 56;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 80;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright";
+}
+);
+interpolationCustom = 100;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 120;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 10;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 20;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 28;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 42;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 56;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 80;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle";
+}
+);
+interpolationCustom = 100;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 120;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 10;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 20;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 28;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 42;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 56;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 80;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square";
+}
+);
+interpolationCustom = 100;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 120;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 10;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 20;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 28;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 42;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 56;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 80;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright";
+}
+);
+interpolationCustom = 100;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 120;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 10;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 20;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 28;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 42;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 56;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 80;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft";
+}
+);
+interpolationCustom = 100;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 120;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 10;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 20;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 28;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 42;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 56;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 80;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval";
+}
+);
+interpolationCustom = 100;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 120;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 10;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 20;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 28;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 42;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 56;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 80;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle";
+}
+);
+interpolationCustom = 100;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 120;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 10;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 20;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 28;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 42;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 56;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 80;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart";
+}
+);
+interpolationCustom = 100;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 120;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 10;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 20;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 28;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 42;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 56;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 60;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 80;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower";
+}
+);
+interpolationCustom = 100;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower";
+}
+);
+interpolationCustom = 100;
+interpolationWeight = 120;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 10;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 20;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 28;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 42;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 56;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 60;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 80;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge Double";
+}
+);
+interpolationCustom = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Lozenge Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 120;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 10;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 20;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 28;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 42;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 56;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 60;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 80;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 120;
+interpolationWidth = 200;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 10;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 20;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 28;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 42;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 56;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 60;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 80;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Slashright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 120;
+interpolationWidth = 300;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 10;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 20;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 28;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 42;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 56;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 60;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 80;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Rectangle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 120;
+interpolationWidth = 400;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 10;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 20;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 28;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 42;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 56;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 60;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 80;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square Double";
+}
+);
+interpolationCustom = 200;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Square Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 120;
+interpolationWidth = 500;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 10;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 20;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 28;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 42;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 56;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 60;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 80;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalright Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 120;
+interpolationWidth = 600;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 10;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 20;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 28;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 42;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 56;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 60;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 80;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Ovalleft Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 120;
+interpolationWidth = 700;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 10;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 20;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 28;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 42;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 56;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 60;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 80;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval Double";
+}
+);
+interpolationCustom = 200;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Oval Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 120;
+interpolationWidth = 800;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 10;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 20;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 28;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 42;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 56;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 60;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 80;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Circle Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 120;
+interpolationWidth = 900;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 10;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 20;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 28;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 42;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 56;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 60;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 80;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart Double";
+}
+);
+interpolationCustom = 200;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Heart Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 120;
+interpolationWidth = 1000;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 10;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 20;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extralight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 28;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 42;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 56;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 60;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Semibold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 80;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower Double";
+}
+);
+interpolationCustom = 200;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Extrabold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Handjet Flower Double";
+}
+);
+interpolationCustom = 200;
+interpolationWeight = 120;
+interpolationWidth = 1100;
+instanceInterpolations = {
+"D705B390-3487-4797-B79F-A044C23E058D" = 1;
+};
+name = Black;
+weightClass = Black;
+}
+);
+unitsPerEm = 4080;
+versionMajor = 2;
+versionMinor = 0;
+}
