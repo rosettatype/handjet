@@ -5,42 +5,42 @@ customParameters = (
 name = glyphOrder;
 value = (
 placeholder,
-"wdth-100",
-"wdth-200",
-"wdth-300",
-"wdth-333",
-"wdth-366",
-"wdth-400",
-"wdth-433",
-"wdth-466",
-"wdth-500",
-"wdth-600",
-"wdth-633",
-"wdth-666",
-"wdth-700",
-"wdth-733",
-"wdth-766",
-"wdth-800",
-"wdth-900",
-"wdth-1000",
-"wdth-1100",
-"wdth-1133",
-"wdth-1166",
-"wdth-1200",
-"wdth-1233",
-"wdth-1266",
-"wdth-1300",
-"wdth-1400",
-"wdth-1500",
-"wdth-1600",
-"wdth-1633",
-"wdth-1666",
-"wdth-1700",
-"wdth-1733",
-"wdth-1766",
-"wdth-1800",
-"wdth-1900",
-"wdth-2000",
+"SHAP-100",
+"SHAP-200",
+"SHAP-300",
+"SHAP-333",
+"SHAP-366",
+"SHAP-400",
+"SHAP-433",
+"SHAP-466",
+"SHAP-500",
+"SHAP-600",
+"SHAP-633",
+"SHAP-666",
+"SHAP-700",
+"SHAP-733",
+"SHAP-766",
+"SHAP-800",
+"SHAP-900",
+"SHAP-1000",
+"SHAP-1100",
+"SHAP-1133",
+"SHAP-1166",
+"SHAP-1200",
+"SHAP-1233",
+"SHAP-1266",
+"SHAP-1300",
+"SHAP-1400",
+"SHAP-1500",
+"SHAP-1600",
+"SHAP-1633",
+"SHAP-1666",
+"SHAP-1700",
+"SHAP-1733",
+"SHAP-1766",
+"SHAP-1800",
+"SHAP-1900",
+"SHAP-2000",
 "wght-100",
 "wght-400",
 "wght-900",
@@ -53,8 +53,8 @@ placeholder,
 name = Axes;
 value = (
 {
-Name = Width;
-Tag = wdth;
+Name = Shape;
+Tag = SHAP;
 }
 );
 }
@@ -88,10 +88,10 @@ xHeight = 500;
 );
 glyphs = (
 {
-color = 9;
+color = 6;
 export = 0;
-glyphname = "wdth-100";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-100";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -234,8 +234,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-200";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-200";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -378,8 +378,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-300";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-300";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -522,8 +522,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-333";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-333";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -666,8 +666,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-366";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-366";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -810,8 +810,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-400";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-400";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -954,8 +954,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-433";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-433";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -1098,8 +1098,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-466";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-466";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -1242,8 +1242,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-500";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-500";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -1386,8 +1386,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-600";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-600";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -1530,8 +1530,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-633";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-633";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -1674,8 +1674,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-666";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-666";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -1818,8 +1818,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-700";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-700";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -1962,8 +1962,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-733";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-733";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -2106,8 +2106,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-766";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-766";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -2250,8 +2250,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-800";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-800";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -2394,8 +2394,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-900";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-900";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -2536,10 +2536,10 @@ width = 0;
 );
 },
 {
-color = 9;
+color = 6;
 export = 0;
-glyphname = "wdth-1000";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1000";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -2682,8 +2682,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1100";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1100";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -2826,8 +2826,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1133";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1133";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -2970,8 +2970,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1166";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1166";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -3114,8 +3114,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1200";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1200";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -3258,8 +3258,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1233";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1233";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -3402,8 +3402,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1266";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1266";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -3546,8 +3546,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1300";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1300";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -3690,8 +3690,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1400";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1400";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -3834,8 +3834,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1500";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1500";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -3978,8 +3978,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1600";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1600";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -4122,8 +4122,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1633";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1633";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -4266,8 +4266,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1666";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1666";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -4410,8 +4410,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1700";
-lastChange = "2020-05-11 15:20:08 +0000";
+glyphname = "SHAP-1700";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -4554,8 +4554,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "wdth-1800";
-lastChange = "2020-05-11 15:47:44 +0000";
+glyphname = "SHAP-1800";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -4696,10 +4696,10 @@ width = 0;
 );
 },
 {
-color = 9;
+color = 6;
 export = 0;
-glyphname = "wdth-1900";
-lastChange = "2020-05-11 15:40:11 +0000";
+glyphname = "SHAP-1900";
+lastChange = "2020-05-12 15:53:30 +0000";
 layers = (
 {
 background = {
@@ -4882,7 +4882,7 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = "wdth-300";
+name = "SHAP-300";
 transform = "{0.1, 0, 0, 0.1, 0, 0}";
 }
 );
@@ -4926,7 +4926,7 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = "wdth-300";
+name = "SHAP-300";
 transform = "{0.1, 0, 0, 0.1, 0, 0}";
 }
 );
@@ -4978,7 +4978,7 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = "wdth-300";
+name = "SHAP-300";
 }
 );
 layerId = "D705B390-3487-4797-B79F-A044C23E058D";
@@ -5021,7 +5021,7 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = "wdth-300";
+name = "SHAP-300";
 }
 );
 layerId = "21F17980-9185-40A4-B5A3-13BE69C2F7C8";
@@ -5072,7 +5072,7 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = "wdth-300";
+name = "SHAP-300";
 transform = "{2, 0, 0, 2, 0, 0}";
 }
 );
@@ -5116,7 +5116,7 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = "wdth-300";
+name = "SHAP-300";
 transform = "{2, 0, 0, 2, 0, 0}";
 }
 );
@@ -5457,7 +5457,7 @@ width = 0;
 },
 {
 glyphname = shape;
-lastChange = "2020-05-11 15:47:16 +0000";
+lastChange = "2020-05-12 15:54:02 +0000";
 layers = (
 {
 layerId = "D705B390-3487-4797-B79F-A044C23E058D";
@@ -5564,7 +5564,7 @@ nodes = (
 }
 );
 };
-layerId = "62358678-0434-476E-8E2D-901A7F6BA842";
+layerId = "17A3AE98-4CD5-4B5C-960E-9354EB5288C1";
 name = "{200}";
 paths = (
 {
@@ -5634,7 +5634,7 @@ nodes = (
 }
 );
 };
-layerId = "B01598FA-F91D-4403-8D6E-F40B962255F1";
+layerId = "9F04EA0A-E9AF-4C4F-8521-6D5460EA658E";
 name = "{300}";
 paths = (
 {
@@ -5704,7 +5704,7 @@ nodes = (
 }
 );
 };
-layerId = "7BC4FCA8-55D6-4775-9937-2E71CA9E5688";
+layerId = "20B7A90D-5694-424F-B37D-7E6950370C9E";
 name = "{333}";
 paths = (
 {
@@ -5774,7 +5774,7 @@ nodes = (
 }
 );
 };
-layerId = "FFFF7F3F-ABEF-40E3-951B-4C9177A9AF50";
+layerId = "68F47B06-395B-4C64-A85A-B0AFDD0112B0";
 name = "{366}";
 paths = (
 {
@@ -5844,7 +5844,7 @@ nodes = (
 }
 );
 };
-layerId = "A490F23C-0B9D-4E40-AAA8-1FE91ACEF40E";
+layerId = "C9385749-2652-4634-BFEC-A20E72307696";
 name = "{400}";
 paths = (
 {
@@ -5914,7 +5914,7 @@ nodes = (
 }
 );
 };
-layerId = "E7F6EA02-B013-4581-899D-0BDC6686D8B6";
+layerId = "6FEAE265-EE97-4844-806D-FAA286D3ABFF";
 name = "{433}";
 paths = (
 {
@@ -5984,7 +5984,7 @@ nodes = (
 }
 );
 };
-layerId = "B75C3078-66E7-45EE-9643-95F2BDF62E20";
+layerId = "805E4598-9CB4-491D-99D5-2FA7BD8F88E9";
 name = "{466}";
 paths = (
 {
@@ -6054,7 +6054,7 @@ nodes = (
 }
 );
 };
-layerId = "EF2380C4-AA3D-4189-A408-898BAD4EFD7E";
+layerId = "E417E9F4-662D-494A-B8B1-C8042CC3E0E6";
 name = "{500}";
 paths = (
 {
@@ -6124,7 +6124,7 @@ nodes = (
 }
 );
 };
-layerId = "BF0EE551-98FA-4A10-B887-79633D7CD36F";
+layerId = "036FC678-71AE-4DEC-BA26-A805C3D6F4EA";
 name = "{600}";
 paths = (
 {
@@ -6194,7 +6194,7 @@ nodes = (
 }
 );
 };
-layerId = "B3C730A5-73DA-4710-B8D9-E5EDF4653952";
+layerId = "C23D56E2-4000-4B13-8417-0C0D3DCF3456";
 name = "{633}";
 paths = (
 {
@@ -6264,7 +6264,7 @@ nodes = (
 }
 );
 };
-layerId = "43803D4C-26F4-4D5E-AAFB-012521D4F164";
+layerId = "9F60ED21-0D42-473A-A94B-22901C81FC11";
 name = "{666}";
 paths = (
 {
@@ -6334,7 +6334,7 @@ nodes = (
 }
 );
 };
-layerId = "46E4AC04-89FA-46EF-B983-7CE2502D382C";
+layerId = "52081E80-F130-49A3-87C5-B0B35321BC9F";
 name = "{700}";
 paths = (
 {
@@ -6404,7 +6404,7 @@ nodes = (
 }
 );
 };
-layerId = "96BC94BE-D146-4924-8212-95BB731B04FA";
+layerId = "079976E8-B056-4C73-B68B-2D69B31E608A";
 name = "{733}";
 paths = (
 {
@@ -6474,7 +6474,7 @@ nodes = (
 }
 );
 };
-layerId = "CBC8F442-A51E-4BAF-8F17-3A10B39C5D29";
+layerId = "D51E960C-0F32-49A3-82ED-36FB9DCA8663";
 name = "{766}";
 paths = (
 {
@@ -6544,7 +6544,7 @@ nodes = (
 }
 );
 };
-layerId = "ACA335EE-E01F-4080-93FC-8D6D94C3FD16";
+layerId = "13C9F867-20DB-4922-A72E-ADD32C0751F8";
 name = "{800}";
 paths = (
 {
@@ -6614,7 +6614,7 @@ nodes = (
 }
 );
 };
-layerId = "C3B230FD-6728-4557-AFF3-8520097E3D4D";
+layerId = "8C8D75EF-583E-4BCF-B89E-6D4210AE32F5";
 name = "{900}";
 paths = (
 {
@@ -6684,7 +6684,7 @@ nodes = (
 }
 );
 };
-layerId = "ABDA7791-1A1A-4C59-9A22-0D5063A37570";
+layerId = "B3581E87-E2CD-45DE-B106-48019F8D9B82";
 name = "{1000}";
 paths = (
 {
@@ -6754,7 +6754,7 @@ nodes = (
 }
 );
 };
-layerId = "4C04EBA9-1DB0-4AF8-B864-DD0AC5ABD9D5";
+layerId = "DF69BE45-82F5-41A2-A2DB-C67E0DFD9B31";
 name = "{1100}";
 paths = (
 {
@@ -6824,7 +6824,7 @@ nodes = (
 }
 );
 };
-layerId = "F656ECFC-88FB-4B36-9A05-6C13E7844006";
+layerId = "9A7C944E-87AD-4F2E-A8AB-E323B39C889C";
 name = "{1133}";
 paths = (
 {
@@ -6894,7 +6894,7 @@ nodes = (
 }
 );
 };
-layerId = "B571C77A-996C-4C22-8E17-833B6EC6BE86";
+layerId = "180399F6-5E31-4707-99E2-8DDA83894B32";
 name = "{1166}";
 paths = (
 {
@@ -6964,7 +6964,7 @@ nodes = (
 }
 );
 };
-layerId = "4576BCA2-7F73-4458-8A71-2E3710B8EF73";
+layerId = "BFC348FF-EAC1-4CF4-A738-14541DE7DFCF";
 name = "{1200}";
 paths = (
 {
@@ -7034,7 +7034,7 @@ nodes = (
 }
 );
 };
-layerId = "006DB5C9-9DE1-4048-84F9-AA1BDFDCD46F";
+layerId = "4C464C22-259B-43C5-8222-AF4BCA074ACD";
 name = "{1233}";
 paths = (
 {
@@ -7104,7 +7104,7 @@ nodes = (
 }
 );
 };
-layerId = "A362D9F2-9F15-4325-8054-51D8E7D85C4D";
+layerId = "2CC8E380-21E0-4F99-BC78-791801938736";
 name = "{1266}";
 paths = (
 {
@@ -7174,7 +7174,7 @@ nodes = (
 }
 );
 };
-layerId = "417BBEE1-F5B8-4359-97A6-08DEF4D60883";
+layerId = "45B2AD84-F77B-463E-A31E-7657FC60056E";
 name = "{1300}";
 paths = (
 {
@@ -7244,7 +7244,7 @@ nodes = (
 }
 );
 };
-layerId = "65532D60-D85F-44E0-9607-2DABE4BB6775";
+layerId = "762262DF-CB6B-4541-BF12-67A07CC28E8A";
 name = "{1400}";
 paths = (
 {
@@ -7314,7 +7314,7 @@ nodes = (
 }
 );
 };
-layerId = "A46A7940-F5A5-4AC1-95B8-87A8E21364DA";
+layerId = "AE3ECA66-16BF-4DA2-AD70-7449B077C762";
 name = "{1500}";
 paths = (
 {
@@ -7384,7 +7384,7 @@ nodes = (
 }
 );
 };
-layerId = "279743F6-EAC7-4432-8FC5-76B860912E82";
+layerId = "D3DE45BF-A123-4A76-A059-0D85DB3621B0";
 name = "{1600}";
 paths = (
 {
@@ -7454,7 +7454,7 @@ nodes = (
 }
 );
 };
-layerId = "7221592D-BC4F-4D30-B38A-6E36E012FFCA";
+layerId = "A271D251-E010-45FA-B003-F8668FE34B37";
 name = "{1633}";
 paths = (
 {
@@ -7524,7 +7524,7 @@ nodes = (
 }
 );
 };
-layerId = "DB19F226-DFFE-4083-ABA9-23F40338502D";
+layerId = "A024D9D0-FDA8-4719-BF0E-6EB527629927";
 name = "{1666}";
 paths = (
 {
@@ -7594,7 +7594,7 @@ nodes = (
 }
 );
 };
-layerId = "D72F0BAE-53FA-4FC1-B2C5-A8F86D345429";
+layerId = "68B4CF18-C72E-4052-A35C-7C3E82772B9E";
 name = "{1700}";
 paths = (
 {
@@ -7664,7 +7664,7 @@ nodes = (
 }
 );
 };
-layerId = "AA29391B-05F7-4820-96D0-823DC05EBDC4";
+layerId = "D6CA3555-1DA1-4985-A289-CC7CEF818D02";
 name = "{1800}";
 paths = (
 {

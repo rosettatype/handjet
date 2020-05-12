@@ -1615,8 +1615,8 @@ _grid
 name = Axes;
 value = (
 {
-Name = Width;
-Tag = wdth;
+Name = Shape;
+Tag = SHAP;
 }
 );
 },
@@ -1636,6 +1636,9 @@ value = (
 6,
 7,
 9,
+10,
+11,
+13,
 29,
 31,
 32,
@@ -1652,12 +1655,16 @@ value = (
 "1251",
 "1253",
 "1254",
+"1255",
+"1256",
 "1257",
 "1258",
 "869",
 "866",
 "865",
+"864",
 "863",
+"862",
 "861",
 "860",
 "857",
@@ -1665,6 +1672,7 @@ value = (
 "852",
 "775",
 "737",
+"708",
 "850",
 "437"
 );
@@ -1686,11 +1694,11 @@ name = "Disable Subroutines";
 value = 1;
 }
 );
-date = "2020-05-11 14:15:41 +0000";
+date = "2020-05-12 16:07:12 +0000";
 designer = "David Brezina";
 designerURL = "https://rosettatype.com";
 disablesNiceNames = 1;
-familyName = Handjet;
+familyName = "Handjet Characters";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;\012languagesystem arab dflt;\012\012#languagesystem armn dflt;\012\012languagesystem cyrl dflt;\012languagesystem cyrl SRB;\012languagesystem cyrl MKD;\012languagesystem cyrl BGR;\012\012#languagesystem grek dflt;\012\012languagesystem hebr dflt;\012languagesystem hebr JII;\012\012languagesystem latn dflt;\012languagesystem latn TRK;\012languagesystem latn AZE;\012languagesystem latn CRT;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012languagesystem latn NLD;\012#languagesystem latn VIT;\012";
