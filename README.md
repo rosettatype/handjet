@@ -25,7 +25,7 @@ There are three source files.
 
 To populate the `Handjet-Uprights.glyphs` one needs to:
 
-1. Copy all glyphs from `Handjet-Characters.glyphs` and replicate the single master to all masters using the `replicate in all layers.py` macro.
+1. Copy all glyphs from `Handjet-Characters.glyphs` and replicate the single master to all masters using the `propagate selected layer to other masters.py` macro.
 2. Copy all glyphs from `Handjet-Shapes.glyphs` and compile the `shape` and `grid` glyphs anew using the `compile shape glyph.py` macro.
 3. Make sure you preserve all font info settings during this process.
 

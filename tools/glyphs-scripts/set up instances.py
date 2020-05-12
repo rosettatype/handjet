@@ -1,11 +1,8 @@
-#MenuTitle: make instances
-# encoding: utf-8
+#MenuTitle: set up instances
 
 """
-Generate custom parameters in instances
+Generate instances for a typeface incl. custom parameters
 """
-
-# Rosetta-specif setup
 
 translateWeight = {"Thin": "Thin",
                    "Extralight": "ExtraLight",
@@ -74,46 +71,56 @@ def main():
     family_name = "Handjet"
 
     # Widths
-    wdths = [("Lozenge", 100),
-             ("Slashleft", 200),
-             ("Slashright", 300),
-             ("Rectangle", 400),
-             ("Square", 500),
-             ("Ovalright", 600),
-             ("Ovalleft", 700),
-             ("Oval", 800),
-             ("Circle", 900),
-             ("Heart", 1000),
-             ("Flower", 1100),
+    shapes = [("Triangle", 200),
+              ("Square", 300),
+              ("Lozenge", 349.5),
+              ("Rectangle", 700),
+              ("Rounded Square", 920),
+              ("Circle", 1000),
+              ("Flower", 1500),
+              ("Star", 1600),
+              ("Spindle", 1800),
+              ("Heart", 1900),
+              ]
+    COMPLEX_SHAPES = [
+            "Triangle",
+            "Flower",
+            "Spindle",
+            "Heart",
+    ]
+
+    wghts = [("Extralight", 200),
+             ("Light", 350),
+             ("Regular", 400),
+             ("Medium", 500),
+             ("Semibold", 600),
+             ("Bold", 700),
+             ("Extrabold", 800),
              ]
 
-    wghts = [("Thin", 10),
-             ("Extralight", 15),
-             ("Light", 21),
-             ("Regular", 28),
-             ("Medium", 40),
-             ("Semibold", 56),
-             ("Bold", 60),
-             ("Extrabold", 90),
-             ("Black", 120),
+    opszs = [("", 10),
+             ("Double", 50),
+             ("Triple", 100),
              ]
 
-    opszs = [("", 100),
-             ("Double", 200),
-             ]
 
-    # delte all instances
+    # delete all instances
     font.setInstances_(None)
 
     for opsz_name, opsz_value in opszs:
-        for wdth_name, wdth_value in wdths:
+        for shape_name, shape_value in shapes:
             for wght_name, wght_value in wghts:
-                fname = family_name + " " + wdth_name + " " + opsz_name
+                if opsz_name != "" and wght_name in COMPLEX_SHAPES:
+                    continue
+                if opsz_name:
+                    fname = family_name + " " + opsz_name + " " + shape_name
+                else:
+                    # to avoid the extra word space
+                    fname = family_name + " " + shape_name
                 fname = fname.strip()
-                position = (wght_value, wdth_value, opsz_value)
+                position = (wght_value, shape_value, opsz_value)
                 inst = makeInstance(fname, wght_name, position, superfamily=True)
                 font.instances.append(inst)
-
 
 if __name__ == '__main__':
     main()
