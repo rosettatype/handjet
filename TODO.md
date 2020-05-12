@@ -1,7 +1,13 @@
 # TODO
 
-- add LOCL code from Skolar (IJ, periodcentered)
-- frac does not work
-- document features (animals, symbols, patterns)
-- update old production files
-- add licence and credits files
+## Design
+
+- [ ] check Arabic marks and spacing
+- [ ] document features (animals, symbols, patterns)
+
+## Production:
+
+- [ ] review vertical metrics
+- [ ] frac does not work
+- [ ] set up open-source production
+- [ ] add licence and credits files
