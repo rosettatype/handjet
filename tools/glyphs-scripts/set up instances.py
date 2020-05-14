@@ -4,6 +4,7 @@
 Generate instances for a typeface incl. custom parameters
 """
 
+# Rosetta weight names -> Glyphs weight names
 translateWeight = {"Thin": "Thin",
                    "Extralight": "ExtraLight",
                    "Light": "Light",
@@ -14,16 +15,9 @@ translateWeight = {"Thin": "Thin",
                    "Extrabold": "ExtraBold",
                    "Black": "Black"
                    }
-translateWidth = {"Compressed": "Condensed",
-                  "Condensed": "SemiCondensed",
-                  "Normal": "Medium (normal)",
-                  "": "Medium (normal)",
-                  "Extended": "Semi Expanded"
-                  }
 
 
-def makeInstance(family_name, style_name, position,
-                 customParameters={}, width_name="Normal", superfamily=False):
+def makeInstance(name, family_name, style_name, position):
     """
     Make instance using set parameters.
     """
@@ -32,31 +26,19 @@ def makeInstance(family_name, style_name, position,
 
     # generic parameters
     i.active = True
-    i.name = style_name
+    i.name = name
 
     # names and MM parameters
-    if style_name.find("Italic") != -1:
-        i.isItalic = True
-        weight = style_name.replace("Italic", "").strip()
-        if not weight:
-            weight = "Regular"
-    else:
-        i.isItalic = False
-        weight = style_name
+    i.isItalic = False
+    weight = style_name
 
     i.isBold = (weight == "Bold")
     i.weight = translateWeight[weight]
-    i.width = translateWidth[width_name]
+    i.width = "Medium (normal)"
     i.weightValue = position[0]
     i.widthValue = position[1]
     i.customValue = position[2]
-
-    # custom parameters
-    if superfamily:
-        i.customParameters["familyName"] = family_name
-
-    for key, value in customParameters.items():
-        i.customParameters[key] = value
+    i.customParameters["familyName"] = family_name
 
     return i
 
@@ -119,7 +101,8 @@ def main():
                     fname = family_name + " " + shape_name
                 fname = fname.strip()
                 position = (wght_value, shape_value, opsz_value)
-                inst = makeInstance(fname, wght_name, position, superfamily=True)
+                name = fname + " " + wght_name
+                inst = makeInstance(name, fname, wght_name, position)
                 font.instances.append(inst)
 
 if __name__ == '__main__':

@@ -13,47 +13,47 @@ font = Glyphs.currentDocument.font
 master_id = font.masters[0].id
 
 # get axes values used in SHAP-XXXX, wght-XXX, and opsz-XXX glyphs
-axes = OrderedDict()
+positions = OrderedDict()
 for gl in font.glyphs:
     for an in ["SHAP", "wght", "opsz"]:
         if gl.name.startswith(an):
             _, pos = gl.name.split("-")
             pos = int(pos)
-            if an in axes:
-                axes[an].append(pos)
+            if an in positions:
+                positions[an].append(pos)
             else:
-                axes[an] = [pos]
+                positions[an] = [pos]
 
-# clean up the shape glyph
-print("Cleaning up the shape glyph")
-if "shape" not in font.glyphs:
-    font.glyphs.append(GSGlyph("shape"))
-gl = font.glyphs["shape"]
-for i in range(len(gl.layers))[::-1]:
-    ll = gl.layers[i]
-    if ll.name[0] in ["[", "{"]:
-        # delete brace and bracket layers
-        del gl.layers[i]
-    else:
-        # cleanup master layers
-        ll.paths = []
-        ll.components = []
-        ll.anchors = []
-        ll.width = 0
+print("Cleaning up the shape and grid glyphs")
+for gn in ["shape", "grid"]:
+    if gn not in font.glyphs:
+        font.glyphs.append(GSGlyph(gn))
+    gl = font.glyphs[gn]
+    for i in range(len(gl.layers))[::-1]:
+        ll = gl.layers[i]
+        if ll.name[0] in ["[", "{"]:
+            # delete brace and bracket layers
+            del gl.layers[i]
+        else:
+            # cleanup master layers
+            ll.paths = []
+            ll.components = []
+            ll.anchors = []
+            ll.width = 0
 shape_glyph = font.glyphs["shape"]
-
-print("Copying contours from SHAP-XXX and wght-XXX glyphs "
-      "to layers in the shape glyph")
+grid_glyph = font.glyphs["grid"]
 
 # create new layers in shape glyph
 # based on SHAP-XXXX and wght-XXX glyphs
-for shap in axes["SHAP"]:
+print("Copying contours from SHAP-XXX and wght-XXX glyphs "
+      "to layers in the shape glyph")
+for shap in positions["SHAP"]:
     shap_name = "SHAP-%d" % shap
-    for wght in axes["wght"]:
+    for wght in positions["wght"]:
         # get the transformation from the wght-XXX glyph
         wght_name = "wght-%d" % wght
         tr = font.glyphs[wght_name].layers[master_id].components[0].transform
-        for opsz in axes["opsz"]:
+        for opsz in positions["opsz"]:
             # get the contour from the shap-XXXX glyph
             contour_layer = font.glyphs[shap_name].layers[master_id].copy()
             # modify the transformation to better fit different grid layouts
@@ -81,11 +81,11 @@ for shap in axes["SHAP"]:
 
 print("Copying componets from opsz-XXX glyphs to corresponding layers "
       "in the grid glyph")
-grid_glyph = font.glyphs["grid"]
 for ll in grid_glyph.layers:
     if ll.name[0] not in ["[", "{"]:
-        # get opsz value from the associated master
-        opsz = font.masters[ll.layerId].axes[2]
+        # get opsz value from the associated master axes coordinates
+        mposition = font.masters[ll.layerId].axes
+        opsz = mposition[2]
         # get corresponding master glyph
         opsz_name = "opsz-%.f" % float(opsz)
         opsz_glyph = font.glyphs[opsz_name]
@@ -97,5 +97,3 @@ for ll in grid_glyph.layers:
             c_.automaticAlignment = False
             c_.position = c.position
             ll.components.append(c_)
-
-
