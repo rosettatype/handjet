@@ -1,6 +1,6 @@
 # Handjet
 
-By: David Březina <david@mrbrezina.com>
+By: David Březina  
 Released in: May 2020
 
 ## Scripts
@@ -10,6 +10,16 @@ Released in: May 2020
 - Cyrillic
 - Greek
 - Latin
+
+## Variable font
+
+Handjet is an element-based design (aka pixel font, modular font, …), every letter is composed using multiple copies of the same element. Handjet is primarily a variable font with three axes:
+
+- **Weight (wght)** controls the size of the element,
+- **Shape (SHAP)** controls the shape of the element,
+- **Optical size (opsz)** controls how many elements are used per grid unit: a single element, a group of 2x2 elements, or a group of 3x3 elements.
+
+The interpolation between shapes creates a rotation or disappearing effect for some of them.
 
 ## Source files
 
