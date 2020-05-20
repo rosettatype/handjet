@@ -1807,7 +1807,7 @@ id = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 verticalStems = (
 40
 );
-weightValue = 1000;
+weightValue = 900;
 widthValue = 300;
 xHeight = 1920;
 }
