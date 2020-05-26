@@ -10,7 +10,7 @@ font.disableUpdateInterface()
 
 # glyphs
 for gl in selected:
-    if not gl.name in ["shape", "grid"]:
+    if not gl.name.startswith("shape"):
         original = gl.layers[master_id]
         gl.beginUndo()
         for i in range(len(font.masters)):

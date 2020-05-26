@@ -89,21 +89,21 @@ def main():
     # delete all instances
     font.setInstances_(None)
 
-    for opsz_name, opsz_value in opszs:
-        for shape_name, shape_value in shapes:
-            for wght_name, wght_value in wghts:
-                if opsz_name != "" and wght_name in COMPLEX_SHAPES:
-                    continue
-                if opsz_name:
-                    fname = family_name + " " + opsz_name + " " + shape_name
-                else:
-                    # to avoid the extra word space
-                    fname = family_name + " " + shape_name
-                fname = fname.strip()
-                position = (wght_value, shape_value, opsz_value)
-                name = fname + " " + wght_name
-                inst = makeInstance(name, fname, wght_name, position)
-                font.instances.append(inst)
+    # for opsz_name, opsz_value in opszs:
+    #     for shape_name, shape_value in shapes:
+    #         for wght_name, wght_value in wghts:
+    #             if opsz_name != "" and wght_name in COMPLEX_SHAPES:
+    #                 continue
+    #             if opsz_name:
+    #                 fname = family_name + " " + opsz_name + " " + shape_name
+    #             else:
+    #                 # to avoid the extra word space
+    #                 fname = family_name + " " + shape_name
+    #             fname = fname.strip()
+    #             position = (wght_value, shape_value, opsz_value)
+    #             name = fname + " " + wght_name
+    #             inst = makeInstance(name, fname, wght_name, position)
+    #             font.instances.append(inst)
 
 if __name__ == '__main__':
     main()
