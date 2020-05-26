@@ -79,9 +79,9 @@ for (name, axes), m in zip(masters.items(), font.masters):
 
 # glyphs
 # update all glyphs based on the first master
-# skip for shape and grid glyphs
+# skip pixel glyphs
 for gl in font.glyphs:
-    if not gl.name in ["shape", "grid"]:
+    if not gl.name.startswith("pixel"):
         original = gl.layers[master_id]
         gl.beginUndo()
         for i in range(len(font.masters)):

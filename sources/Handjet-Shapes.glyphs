@@ -4,44 +4,44 @@ customParameters = (
 {
 name = glyphOrder;
 value = (
-"shape.SHAP-100",
-"shape.SHAP-200",
-"shape.SHAP-300",
-"shape.SHAP-333",
-"shape.SHAP-366",
-"shape.SHAP-400",
-"shape.SHAP-500",
-"shape.SHAP-533",
-"shape.SHAP-566",
-"shape.SHAP-600",
-"shape.SHAP-633",
-"shape.SHAP-666",
-"shape.SHAP-700",
-"shape.SHAP-800",
-"shape.SHAP-900",
-"shape.SHAP-1000",
-"shape.SHAP-1033",
-"shape.SHAP-1066",
-"shape.SHAP-1100",
-"shape.SHAP-1133",
-"shape.SHAP-1166",
-"shape.SHAP-1200",
-"shape.SHAP-1300",
-"shape.SHAP-1400",
-"shape.SHAP-1500",
-"shape.SHAP-1533",
-"shape.SHAP-1566",
-"shape.SHAP-1600",
-"shape.SHAP-1633",
-"shape.SHAP-1666",
-"shape.SHAP-1700",
-"shape.SHAP-1800",
-"shape.wght-100",
-"shape.wght-400",
-"shape.wght-900",
-"shape.opsz-10",
-"shape.opsz-50",
-"shape.opsz-100"
+"pixel.SHAP-100",
+"pixel.SHAP-200",
+"pixel.SHAP-300",
+"pixel.SHAP-333",
+"pixel.SHAP-366",
+"pixel.SHAP-400",
+"pixel.SHAP-500",
+"pixel.SHAP-533",
+"pixel.SHAP-566",
+"pixel.SHAP-600",
+"pixel.SHAP-633",
+"pixel.SHAP-666",
+"pixel.SHAP-700",
+"pixel.SHAP-800",
+"pixel.SHAP-900",
+"pixel.SHAP-1000",
+"pixel.SHAP-1033",
+"pixel.SHAP-1066",
+"pixel.SHAP-1100",
+"pixel.SHAP-1133",
+"pixel.SHAP-1166",
+"pixel.SHAP-1200",
+"pixel.SHAP-1300",
+"pixel.SHAP-1400",
+"pixel.SHAP-1500",
+"pixel.SHAP-1533",
+"pixel.SHAP-1566",
+"pixel.SHAP-1600",
+"pixel.SHAP-1633",
+"pixel.SHAP-1666",
+"pixel.SHAP-1700",
+"pixel.SHAP-1800",
+"pixel.wght-100",
+"pixel.wght-400",
+"pixel.wght-900",
+"pixel.opsz-10",
+"pixel.opsz-50",
+"pixel.opsz-100"
 );
 },
 {
@@ -85,8 +85,8 @@ glyphs = (
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-100";
-lastChange = "2020-05-26 10:48:13 +0000";
+glyphname = "pixel.SHAP-100";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -229,8 +229,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-200";
-lastChange = "2020-05-26 10:48:13 +0000";
+glyphname = "pixel.SHAP-200";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -373,8 +373,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-300";
-lastChange = "2020-05-26 10:48:13 +0000";
+glyphname = "pixel.SHAP-300";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -517,8 +517,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-333";
-lastChange = "2020-05-26 10:48:13 +0000";
+glyphname = "pixel.SHAP-333";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -661,8 +661,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-366";
-lastChange = "2020-05-26 10:48:13 +0000";
+glyphname = "pixel.SHAP-366";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -805,8 +805,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-400";
-lastChange = "2020-05-26 10:48:13 +0000";
+glyphname = "pixel.SHAP-400";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -949,8 +949,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-500";
-lastChange = "2020-05-26 10:48:13 +0000";
+glyphname = "pixel.SHAP-500";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -1093,8 +1093,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-533";
-lastChange = "2020-05-26 10:48:13 +0000";
+glyphname = "pixel.SHAP-533";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -1237,8 +1237,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-566";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-566";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -1381,8 +1381,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-600";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-600";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -1525,8 +1525,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-633";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-633";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -1669,8 +1669,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-666";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-666";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -1813,8 +1813,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-700";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-700";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -1957,8 +1957,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-800";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-800";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -2101,8 +2101,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-900";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-900";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -2245,8 +2245,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1000";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1000";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -2389,8 +2389,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1033";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1033";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -2533,8 +2533,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1066";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1066";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -2677,8 +2677,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1100";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1100";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -2821,8 +2821,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1133";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1133";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -2965,8 +2965,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1166";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1166";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -3109,8 +3109,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1200";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1200";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -3253,8 +3253,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1300";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1300";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -3397,8 +3397,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1400";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1400";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -3541,8 +3541,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1500";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1500";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -3685,8 +3685,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1533";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1533";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -3829,8 +3829,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1566";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1566";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -3973,8 +3973,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1600";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1600";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -4117,8 +4117,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1700";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1700";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -4261,8 +4261,8 @@ width = 0;
 {
 color = 6;
 export = 0;
-glyphname = "shape.SHAP-1800";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.SHAP-1800";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -4405,8 +4405,8 @@ width = 0;
 {
 color = 3;
 export = 0;
-glyphname = "shape.wght-100";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.wght-100";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -4445,7 +4445,7 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = "shape.SHAP-300";
+name = "pixel.SHAP-300";
 transform = "{0.1, 0, 0, 0.1, 0, 0}";
 }
 );
@@ -4501,8 +4501,8 @@ width = 0;
 {
 color = 3;
 export = 0;
-glyphname = "shape.wght-400";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.wght-400";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -4541,7 +4541,7 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = "shape.SHAP-300";
+name = "pixel.SHAP-300";
 }
 );
 layerId = "D705B390-3487-4797-B79F-A044C23E058D";
@@ -4595,8 +4595,8 @@ width = 0;
 {
 color = 3;
 export = 0;
-glyphname = "shape.wght-900";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.wght-900";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 background = {
@@ -4635,7 +4635,7 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = "shape.SHAP-300";
+name = "pixel.SHAP-300";
 transform = "{2, 0, 0, 2, 0, 0}";
 }
 );
@@ -4691,54 +4691,54 @@ width = 0;
 {
 color = 3;
 export = 0;
-glyphname = "shape.opsz-10";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.opsz-10";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{1, 0, 0, 1, 120, 120}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{1, 0, 0, 1, 120, 120}";
 }
 );
@@ -4801,54 +4801,54 @@ width = 0;
 {
 color = 3;
 export = 0;
-glyphname = "shape.opsz-50";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.opsz-50";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.5, 0, 0, 0.5, 60, 180}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.5, 0, 0, 0.5, 180, 180}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.5, 0, 0, 0.5, 180, 180}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.5, 0, 0, 0.5, 60, 180}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.5, 0, 0, 0.5, 180, 180}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.5, 0, 0, 0.5, 180, 180}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.5, 0, 0, 0.5, 60, 60}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.5, 0, 0, 0.5, 180, 60}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.5, 0, 0, 0.5, 180, 60}";
 }
 );
@@ -4911,54 +4911,54 @@ width = 0;
 {
 color = 3;
 export = 0;
-glyphname = "shape.opsz-100";
-lastChange = "2020-05-26 10:48:14 +0000";
+glyphname = "pixel.opsz-100";
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.333, 0, 0, 0.333, 40, 200}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.333, 0, 0, 0.333, 120, 200}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.333, 0, 0, 0.333, 200, 200}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.333, 0, 0, 0.333, 40, 120}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.333, 0, 0, 0.333, 120, 120}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.333, 0, 0, 0.333, 200, 120}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.333, 0, 0, 0.333, 40, 40}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.333, 0, 0, 0.333, 120, 40}";
 },
 {
 alignment = -1;
-name = shape;
+name = pixel;
 transform = "{0.333, 0, 0, 0.333, 200, 40}";
 }
 );
@@ -5019,8 +5019,8 @@ width = 0;
 );
 },
 {
-glyphname = shape;
-lastChange = "2020-05-26 10:49:35 +0000";
+glyphname = pixel;
+lastChange = "2020-05-26 11:13:38 +0000";
 layers = (
 {
 layerId = "D705B390-3487-4797-B79F-A044C23E058D";
