@@ -1,4 +1,4 @@
-#MenuTitle: compile pixel glyph
+# MenuTitle: compile pixel glyph
 
 """
 Combine pixel.SHAP-XXXX, pixel.wght-XXX, and pixel.opsz-XXX glyphs to form
@@ -38,21 +38,14 @@ for gl in font.glyphs:
                 for c in font.glyphs[gl.name].layers[master_id].components:
                     opsz_transforms[pos].append(c.transform)
 
+
 print("Cleaning up the pixel glyph")
 if "pixel" not in font.glyphs:
     font.glyphs.append(GSGlyph("pixel"))
+
 gl = font.glyphs["pixel"]
-for i in range(len(gl.layers))[::-1]:
-    ll = gl.layers[i]
-    if ll.name[0] in ["[", "{"]:
-        # delete brace and bracket layers
-        del gl.layers[i]
-    else:
-        # cleanup master layers
-        ll.paths = []
-        ll.components = []
-        ll.anchors = []
-        ll.width = 0
+for i in reversed(range(len(gl.layers))):
+    del gl.layers[i]
 pixel_glyph = font.glyphs["pixel"]
 
 
@@ -67,15 +60,16 @@ for shap in axes["SHAP"]:
         for opsz in axes["opsz"]:
             # find an existing master layer with the same coordinates
             # otherwise, create a brace layer
-            for m in font.masters:
-                if list(m.axes) == [wght, shap, opsz]:
-                    layer = pixel_glyph.layers[m.id]
-                    break
+            if list(font.masters[0].axes) == [wght, shap, opsz]:
+                layer = pixel_glyph.layers[font.masters[0].id]
+
             else:
-                # the name has to be in this order
+                # create a layer with the axis values as name in this order
                 layer = GSLayer()
                 layer.name = "{%d,%d,%d}" % (wght, shap, opsz)
                 pixel_glyph.layers.append(layer)
+                print("Created new pixel layer %s" % layer.name)
+
             # add transformed paths to this layer
             for opsz_tr in opsz_transforms[opsz]:
                 # get the path from the shap-XXXX glyph, first master layer
