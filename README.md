@@ -35,9 +35,15 @@ There are three source files.
 
 To populate the `Handjet-Uprights.glyphs` one needs to:
 
-1. Copy all glyphs from `Handjet-Characters.glyphs` and then replicate the single master to all masters using the `set up masters.py` macro. This also sets up masters values in font info.
-2. Copy all glyphs from `Handjet-Shapes.glyphs` and then compile the `pixel` glyph anew using the `compile pixel glyph.py` macro.
-3. Make sure you preserve all font info in `Handjet-Uprights.glyphs` during this process.
+1. Remove all glyphs from `Handjet-Uprights.glyphs`.
+2. Copy all glyphs from `Handjet-Characters.glyphs` to `Handjet-Uprights.glyphs`.
+3. In `Handjet-Uprights.glyphs` replicate the single master to all masters using the `set up masters.py` macro. This also sets up masters values in font info.
+4. Copy all glyphs from `Handjet-Shapes.glyphs` to `Handjet-Uprights.glyphs`.
+5. In `Handjet-Uprights.glyphs` compile the `pixel` glyph anew using the `compile pixel glyph.py` macro.
+
+NOTE: Make sure you preserve all font info in `Handjet-Uprights.glyphs` during this process.
+
+NOTE: In addition to the created masters, the `pixel` glyph will have additional brace layer masters.
 
 The masters and instances in the `Handjet-Uprights.glyphs` can be set up using macros too, but they are currently left empty. There were too many instances in the font info and it slowed the Glyphs app down significantly.
 
