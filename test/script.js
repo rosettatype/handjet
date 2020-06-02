@@ -24,8 +24,8 @@ $(document).ready(function() {
         vary(edit, {"wght": this.value});
     });
 
-    $("#change_wdth").on('input', function(){
-        vary(edit, {"wdth": this.value});
+    $("#change_SHAP").on('input', function(){
+        vary(edit, {"SHAP": this.value});
     });
 
     $("#change_opsz").on('input', function(){
@@ -36,8 +36,8 @@ $(document).ready(function() {
         vary(edit2, {"wght": this.value});
     });
 
-    $("#change_wdth2").on('input', function(){
-        vary(edit2, {"wdth": this.value});
+    $("#change_SHAP2").on('input', function(){
+        vary(edit2, {"SHAP": this.value});
     });
 
     $("#change_opsz2").on('input', function(){

@@ -25,12 +25,12 @@ The interpolation between shapes creates a rotation or disappearing effect for s
 
 In principle all glyphs remain structually the same across all masters except for one special glyph: `pixel` which represents the element shape and is different for each master.
 
-The `pixel` glyph is compiled from all non-exporting `pixel.xxx` glyphs and is the only component that changes between the masters of this Variable Font. You can recompile the `pixel` glyph by using the `tools/glyphs-scripts/compile pixel glyph.py` GlyphsApp macro.
+The `pixel` glyph is compiled from all non-exporting `pixel.xxx` glyphs and is the only component that changes between the masters of this Variable Font. You can recompile the `pixel` glyph by using the `production/glyphs-scripts/compile pixel glyph.py` GlyphsApp macro.
 
-Note that all masters and predefined instances are (pre-)set in the `production/Handjet.designspace`. You can use the `tools/scripts/create-designspace-instances.py` script to re-generate a set of `<instance>` tags to copy to the designspace.
+Note that all masters and predefined instances are (pre-)set in the `production/Handjet.designspace`. You can use the `production/scripts/create-designspace-instances.py` script to re-generate a set of `<instance>` tags to copy to the designspace.
 
 ## Building a the Variable Font from the sources
 
 - In your python3 environment, make sure to install the required pip packages: `$ pip install -r requirements.txt`
-- Make sure you make the `tools/build.sh` file executable: `$ chmod +x tools/build.sh`
-- To recompile, run `$ ./tools/build.sh` and new fonts will be generated in the `fonts/` directory (it's a complex file and takes a while to recompile)
+- Make sure you make the `production/build.sh` file executable: `$ chmod +x production/build.sh`
+- To recompile, run `$ ./production/build.sh` and new fonts will be generated in the `fonts/` directory (it's a complex file and takes a while to recompile)
