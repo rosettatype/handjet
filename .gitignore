@@ -10,3 +10,6 @@ variable_*/
 
 # tmp glyphs db
 db.pkl
+
+# tmp designspace <instances>
+production/instances-tmp.xml

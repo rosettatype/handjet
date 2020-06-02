@@ -23,9 +23,10 @@ wghts = [("Extralight", 200),
          ("Extrabold", 800),
          ]
 
+# For now we generate only all wght-to-shape  predefined instances
 opszs = [("", 10),
-         ("Double", 50),
-         ("Triple", 100),
+        #  ("Double", 50),
+        #  ("Triple", 100),
          ]
 
 instances = ""

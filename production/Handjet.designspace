@@ -1902,1688 +1902,569 @@
     </source>
   </sources>
 
-  <!-- manually added named instances for every master, run tools/create-instances.py 
+  <!-- manually added named instances for every master, run tools/scripts/create-designspace-instances.py 
     to generate production/instances-tmp.xml and copy here to replace instances tag -->
   <instances>
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,200,10}" layer="{200,200,10}" familyname="Handjet" stylename="Extralight Triangle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,200,50}" layer="{200,200,50}" familyname="Handjet" stylename="Double Extralight Triangle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,200,100}" layer="{200,200,100}" familyname="Handjet" stylename="Triple Extralight Triangle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,300,10}" layer="{200,300,10}" familyname="Handjet" stylename="Extralight Square">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,300,50}" layer="{200,300,50}" familyname="Handjet" stylename="Double Extralight Square">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,300,100}" layer="{200,300,100}" familyname="Handjet" stylename="Triple Extralight Square">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,349,10}" layer="{200,349,10}" familyname="Handjet" stylename="Extralight Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,349,50}" layer="{200,349,50}" familyname="Handjet" stylename="Double Extralight Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,349,100}" layer="{200,349,100}" familyname="Handjet" stylename="Triple Extralight Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,600,10}" layer="{200,600,10}" familyname="Handjet" stylename="Extralight Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,600,50}" layer="{200,600,50}" familyname="Handjet" stylename="Double Extralight Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,600,100}" layer="{200,600,100}" familyname="Handjet" stylename="Triple Extralight Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,820,10}" layer="{200,820,10}" familyname="Handjet" stylename="Extralight Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,820,50}" layer="{200,820,50}" familyname="Handjet" stylename="Double Extralight Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,820,100}" layer="{200,820,100}" familyname="Handjet" stylename="Triple Extralight Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,900,10}" layer="{200,900,10}" familyname="Handjet" stylename="Extralight Circle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,900,50}" layer="{200,900,50}" familyname="Handjet" stylename="Double Extralight Circle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,900,100}" layer="{200,900,100}" familyname="Handjet" stylename="Triple Extralight Circle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1400,10}" layer="{200,1400,10}" familyname="Handjet" stylename="Extralight Flower">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1400,50}" layer="{200,1400,50}" familyname="Handjet" stylename="Double Extralight Flower">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1400,100}" layer="{200,1400,100}" familyname="Handjet" stylename="Triple Extralight Flower">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1500,10}" layer="{200,1500,10}" familyname="Handjet" stylename="Extralight Star">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1500,50}" layer="{200,1500,50}" familyname="Handjet" stylename="Double Extralight Star">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1500,100}" layer="{200,1500,100}" familyname="Handjet" stylename="Triple Extralight Star">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1700,10}" layer="{200,1700,10}" familyname="Handjet" stylename="Extralight Spindle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1700,50}" layer="{200,1700,50}" familyname="Handjet" stylename="Double Extralight Spindle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1700,100}" layer="{200,1700,100}" familyname="Handjet" stylename="Triple Extralight Spindle">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1800,10}" layer="{200,1800,10}" familyname="Handjet" stylename="Extralight Heart">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1800,50}" layer="{200,1800,50}" familyname="Handjet" stylename="Double Extralight Heart">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1800,100}" layer="{200,1800,100}" familyname="Handjet" stylename="Triple Extralight Heart">
-      <location>
-        <dimension name="Weight" xvalue="200" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,200,10}" layer="{350,200,10}" familyname="Handjet" stylename="Light Triangle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,200,50}" layer="{350,200,50}" familyname="Handjet" stylename="Double Light Triangle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,200,100}" layer="{350,200,100}" familyname="Handjet" stylename="Triple Light Triangle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,300,10}" layer="{350,300,10}" familyname="Handjet" stylename="Light Square">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,300,50}" layer="{350,300,50}" familyname="Handjet" stylename="Double Light Square">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,300,100}" layer="{350,300,100}" familyname="Handjet" stylename="Triple Light Square">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,349,10}" layer="{350,349,10}" familyname="Handjet" stylename="Light Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,349,50}" layer="{350,349,50}" familyname="Handjet" stylename="Double Light Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,349,100}" layer="{350,349,100}" familyname="Handjet" stylename="Triple Light Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,600,10}" layer="{350,600,10}" familyname="Handjet" stylename="Light Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,600,50}" layer="{350,600,50}" familyname="Handjet" stylename="Double Light Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,600,100}" layer="{350,600,100}" familyname="Handjet" stylename="Triple Light Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,820,10}" layer="{350,820,10}" familyname="Handjet" stylename="Light Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,820,50}" layer="{350,820,50}" familyname="Handjet" stylename="Double Light Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,820,100}" layer="{350,820,100}" familyname="Handjet" stylename="Triple Light Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,900,10}" layer="{350,900,10}" familyname="Handjet" stylename="Light Circle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,900,50}" layer="{350,900,50}" familyname="Handjet" stylename="Double Light Circle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,900,100}" layer="{350,900,100}" familyname="Handjet" stylename="Triple Light Circle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1400,10}" layer="{350,1400,10}" familyname="Handjet" stylename="Light Flower">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1400,50}" layer="{350,1400,50}" familyname="Handjet" stylename="Double Light Flower">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1400,100}" layer="{350,1400,100}" familyname="Handjet" stylename="Triple Light Flower">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1500,10}" layer="{350,1500,10}" familyname="Handjet" stylename="Light Star">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1500,50}" layer="{350,1500,50}" familyname="Handjet" stylename="Double Light Star">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1500,100}" layer="{350,1500,100}" familyname="Handjet" stylename="Triple Light Star">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1700,10}" layer="{350,1700,10}" familyname="Handjet" stylename="Light Spindle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1700,50}" layer="{350,1700,50}" familyname="Handjet" stylename="Double Light Spindle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1700,100}" layer="{350,1700,100}" familyname="Handjet" stylename="Triple Light Spindle">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1800,10}" layer="{350,1800,10}" familyname="Handjet" stylename="Light Heart">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1800,50}" layer="{350,1800,50}" familyname="Handjet" stylename="Double Light Heart">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1800,100}" layer="{350,1800,100}" familyname="Handjet" stylename="Triple Light Heart">
-      <location>
-        <dimension name="Weight" xvalue="350" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,200,10}" layer="{400,200,10}" familyname="Handjet" stylename="Regular Triangle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,200,50}" layer="{400,200,50}" familyname="Handjet" stylename="Double Regular Triangle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,200,100}" layer="{400,200,100}" familyname="Handjet" stylename="Triple Regular Triangle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,300,10}" layer="{400,300,10}" familyname="Handjet" stylename="Regular Square">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,300,50}" layer="{400,300,50}" familyname="Handjet" stylename="Double Regular Square">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,300,100}" layer="{400,300,100}" familyname="Handjet" stylename="Triple Regular Square">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,349,10}" layer="{400,349,10}" familyname="Handjet" stylename="Regular Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,349,50}" layer="{400,349,50}" familyname="Handjet" stylename="Double Regular Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,349,100}" layer="{400,349,100}" familyname="Handjet" stylename="Triple Regular Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,600,10}" layer="{400,600,10}" familyname="Handjet" stylename="Regular Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,600,50}" layer="{400,600,50}" familyname="Handjet" stylename="Double Regular Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,600,100}" layer="{400,600,100}" familyname="Handjet" stylename="Triple Regular Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,820,10}" layer="{400,820,10}" familyname="Handjet" stylename="Regular Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,820,50}" layer="{400,820,50}" familyname="Handjet" stylename="Double Regular Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,820,100}" layer="{400,820,100}" familyname="Handjet" stylename="Triple Regular Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,900,10}" layer="{400,900,10}" familyname="Handjet" stylename="Regular Circle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,900,50}" layer="{400,900,50}" familyname="Handjet" stylename="Double Regular Circle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,900,100}" layer="{400,900,100}" familyname="Handjet" stylename="Triple Regular Circle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1400,10}" layer="{400,1400,10}" familyname="Handjet" stylename="Regular Flower">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1400,50}" layer="{400,1400,50}" familyname="Handjet" stylename="Double Regular Flower">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1400,100}" layer="{400,1400,100}" familyname="Handjet" stylename="Triple Regular Flower">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1500,10}" layer="{400,1500,10}" familyname="Handjet" stylename="Regular Star">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1500,50}" layer="{400,1500,50}" familyname="Handjet" stylename="Double Regular Star">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1500,100}" layer="{400,1500,100}" familyname="Handjet" stylename="Triple Regular Star">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1700,10}" layer="{400,1700,10}" familyname="Handjet" stylename="Regular Spindle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1700,50}" layer="{400,1700,50}" familyname="Handjet" stylename="Double Regular Spindle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1700,100}" layer="{400,1700,100}" familyname="Handjet" stylename="Triple Regular Spindle">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1800,10}" layer="{400,1800,10}" familyname="Handjet" stylename="Regular Heart">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1800,50}" layer="{400,1800,50}" familyname="Handjet" stylename="Double Regular Heart">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1800,100}" layer="{400,1800,100}" familyname="Handjet" stylename="Triple Regular Heart">
-      <location>
-        <dimension name="Weight" xvalue="400" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,200,10}" layer="{500,200,10}" familyname="Handjet" stylename="Medium Triangle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,200,50}" layer="{500,200,50}" familyname="Handjet" stylename="Double Medium Triangle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,200,100}" layer="{500,200,100}" familyname="Handjet" stylename="Triple Medium Triangle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,300,10}" layer="{500,300,10}" familyname="Handjet" stylename="Medium Square">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,300,50}" layer="{500,300,50}" familyname="Handjet" stylename="Double Medium Square">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,300,100}" layer="{500,300,100}" familyname="Handjet" stylename="Triple Medium Square">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,349,10}" layer="{500,349,10}" familyname="Handjet" stylename="Medium Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,349,50}" layer="{500,349,50}" familyname="Handjet" stylename="Double Medium Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,349,100}" layer="{500,349,100}" familyname="Handjet" stylename="Triple Medium Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,600,10}" layer="{500,600,10}" familyname="Handjet" stylename="Medium Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,600,50}" layer="{500,600,50}" familyname="Handjet" stylename="Double Medium Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,600,100}" layer="{500,600,100}" familyname="Handjet" stylename="Triple Medium Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,820,10}" layer="{500,820,10}" familyname="Handjet" stylename="Medium Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,820,50}" layer="{500,820,50}" familyname="Handjet" stylename="Double Medium Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,820,100}" layer="{500,820,100}" familyname="Handjet" stylename="Triple Medium Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,900,10}" layer="{500,900,10}" familyname="Handjet" stylename="Medium Circle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,900,50}" layer="{500,900,50}" familyname="Handjet" stylename="Double Medium Circle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,900,100}" layer="{500,900,100}" familyname="Handjet" stylename="Triple Medium Circle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1400,10}" layer="{500,1400,10}" familyname="Handjet" stylename="Medium Flower">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1400,50}" layer="{500,1400,50}" familyname="Handjet" stylename="Double Medium Flower">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1400,100}" layer="{500,1400,100}" familyname="Handjet" stylename="Triple Medium Flower">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1500,10}" layer="{500,1500,10}" familyname="Handjet" stylename="Medium Star">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1500,50}" layer="{500,1500,50}" familyname="Handjet" stylename="Double Medium Star">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1500,100}" layer="{500,1500,100}" familyname="Handjet" stylename="Triple Medium Star">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1700,10}" layer="{500,1700,10}" familyname="Handjet" stylename="Medium Spindle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1700,50}" layer="{500,1700,50}" familyname="Handjet" stylename="Double Medium Spindle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1700,100}" layer="{500,1700,100}" familyname="Handjet" stylename="Triple Medium Spindle">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1800,10}" layer="{500,1800,10}" familyname="Handjet" stylename="Medium Heart">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1800,50}" layer="{500,1800,50}" familyname="Handjet" stylename="Double Medium Heart">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1800,100}" layer="{500,1800,100}" familyname="Handjet" stylename="Triple Medium Heart">
-      <location>
-        <dimension name="Weight" xvalue="500" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,200,10}" layer="{600,200,10}" familyname="Handjet" stylename="Semibold Triangle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,200,50}" layer="{600,200,50}" familyname="Handjet" stylename="Double Semibold Triangle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,200,100}" layer="{600,200,100}" familyname="Handjet" stylename="Triple Semibold Triangle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,300,10}" layer="{600,300,10}" familyname="Handjet" stylename="Semibold Square">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,300,50}" layer="{600,300,50}" familyname="Handjet" stylename="Double Semibold Square">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,300,100}" layer="{600,300,100}" familyname="Handjet" stylename="Triple Semibold Square">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,349,10}" layer="{600,349,10}" familyname="Handjet" stylename="Semibold Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,349,50}" layer="{600,349,50}" familyname="Handjet" stylename="Double Semibold Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,349,100}" layer="{600,349,100}" familyname="Handjet" stylename="Triple Semibold Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,600,10}" layer="{600,600,10}" familyname="Handjet" stylename="Semibold Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,600,50}" layer="{600,600,50}" familyname="Handjet" stylename="Double Semibold Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,600,100}" layer="{600,600,100}" familyname="Handjet" stylename="Triple Semibold Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,820,10}" layer="{600,820,10}" familyname="Handjet" stylename="Semibold Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,820,50}" layer="{600,820,50}" familyname="Handjet" stylename="Double Semibold Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,820,100}" layer="{600,820,100}" familyname="Handjet" stylename="Triple Semibold Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,900,10}" layer="{600,900,10}" familyname="Handjet" stylename="Semibold Circle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,900,50}" layer="{600,900,50}" familyname="Handjet" stylename="Double Semibold Circle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,900,100}" layer="{600,900,100}" familyname="Handjet" stylename="Triple Semibold Circle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1400,10}" layer="{600,1400,10}" familyname="Handjet" stylename="Semibold Flower">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1400,50}" layer="{600,1400,50}" familyname="Handjet" stylename="Double Semibold Flower">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1400,100}" layer="{600,1400,100}" familyname="Handjet" stylename="Triple Semibold Flower">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1500,10}" layer="{600,1500,10}" familyname="Handjet" stylename="Semibold Star">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1500,50}" layer="{600,1500,50}" familyname="Handjet" stylename="Double Semibold Star">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1500,100}" layer="{600,1500,100}" familyname="Handjet" stylename="Triple Semibold Star">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1700,10}" layer="{600,1700,10}" familyname="Handjet" stylename="Semibold Spindle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1700,50}" layer="{600,1700,50}" familyname="Handjet" stylename="Double Semibold Spindle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1700,100}" layer="{600,1700,100}" familyname="Handjet" stylename="Triple Semibold Spindle">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1800,10}" layer="{600,1800,10}" familyname="Handjet" stylename="Semibold Heart">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1800,50}" layer="{600,1800,50}" familyname="Handjet" stylename="Double Semibold Heart">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1800,100}" layer="{600,1800,100}" familyname="Handjet" stylename="Triple Semibold Heart">
-      <location>
-        <dimension name="Weight" xvalue="600" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,200,10}" layer="{700,200,10}" familyname="Handjet" stylename="Bold Triangle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,200,50}" layer="{700,200,50}" familyname="Handjet" stylename="Double Bold Triangle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,200,100}" layer="{700,200,100}" familyname="Handjet" stylename="Triple Bold Triangle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,300,10}" layer="{700,300,10}" familyname="Handjet" stylename="Bold Square">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,300,50}" layer="{700,300,50}" familyname="Handjet" stylename="Double Bold Square">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,300,100}" layer="{700,300,100}" familyname="Handjet" stylename="Triple Bold Square">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,349,10}" layer="{700,349,10}" familyname="Handjet" stylename="Bold Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,349,50}" layer="{700,349,50}" familyname="Handjet" stylename="Double Bold Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,349,100}" layer="{700,349,100}" familyname="Handjet" stylename="Triple Bold Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,600,10}" layer="{700,600,10}" familyname="Handjet" stylename="Bold Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,600,50}" layer="{700,600,50}" familyname="Handjet" stylename="Double Bold Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,600,100}" layer="{700,600,100}" familyname="Handjet" stylename="Triple Bold Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,820,10}" layer="{700,820,10}" familyname="Handjet" stylename="Bold Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,820,50}" layer="{700,820,50}" familyname="Handjet" stylename="Double Bold Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,820,100}" layer="{700,820,100}" familyname="Handjet" stylename="Triple Bold Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,900,10}" layer="{700,900,10}" familyname="Handjet" stylename="Bold Circle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,900,50}" layer="{700,900,50}" familyname="Handjet" stylename="Double Bold Circle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,900,100}" layer="{700,900,100}" familyname="Handjet" stylename="Triple Bold Circle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1400,10}" layer="{700,1400,10}" familyname="Handjet" stylename="Bold Flower">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1400,50}" layer="{700,1400,50}" familyname="Handjet" stylename="Double Bold Flower">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1400,100}" layer="{700,1400,100}" familyname="Handjet" stylename="Triple Bold Flower">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1500,10}" layer="{700,1500,10}" familyname="Handjet" stylename="Bold Star">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1500,50}" layer="{700,1500,50}" familyname="Handjet" stylename="Double Bold Star">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1500,100}" layer="{700,1500,100}" familyname="Handjet" stylename="Triple Bold Star">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1700,10}" layer="{700,1700,10}" familyname="Handjet" stylename="Bold Spindle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1700,50}" layer="{700,1700,50}" familyname="Handjet" stylename="Double Bold Spindle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1700,100}" layer="{700,1700,100}" familyname="Handjet" stylename="Triple Bold Spindle">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1800,10}" layer="{700,1800,10}" familyname="Handjet" stylename="Bold Heart">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1800,50}" layer="{700,1800,50}" familyname="Handjet" stylename="Double Bold Heart">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1800,100}" layer="{700,1800,100}" familyname="Handjet" stylename="Triple Bold Heart">
-      <location>
-        <dimension name="Weight" xvalue="700" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,200,10}" layer="{800,200,10}" familyname="Handjet" stylename="Extrabold Triangle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,200,50}" layer="{800,200,50}" familyname="Handjet" stylename="Double Extrabold Triangle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,200,100}" layer="{800,200,100}" familyname="Handjet" stylename="Triple Extrabold Triangle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="200" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,300,10}" layer="{800,300,10}" familyname="Handjet" stylename="Extrabold Square">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,300,50}" layer="{800,300,50}" familyname="Handjet" stylename="Double Extrabold Square">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,300,100}" layer="{800,300,100}" familyname="Handjet" stylename="Triple Extrabold Square">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="300" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,349,10}" layer="{800,349,10}" familyname="Handjet" stylename="Extrabold Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,349,50}" layer="{800,349,50}" familyname="Handjet" stylename="Double Extrabold Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,349,100}" layer="{800,349,100}" familyname="Handjet" stylename="Triple Extrabold Lozenge">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="349" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,600,10}" layer="{800,600,10}" familyname="Handjet" stylename="Extrabold Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,600,50}" layer="{800,600,50}" familyname="Handjet" stylename="Double Extrabold Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,600,100}" layer="{800,600,100}" familyname="Handjet" stylename="Triple Extrabold Rectangle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="600" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,820,10}" layer="{800,820,10}" familyname="Handjet" stylename="Extrabold Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,820,50}" layer="{800,820,50}" familyname="Handjet" stylename="Double Extrabold Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,820,100}" layer="{800,820,100}" familyname="Handjet" stylename="Triple Extrabold Rounded Square">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="820" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,900,10}" layer="{800,900,10}" familyname="Handjet" stylename="Extrabold Circle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,900,50}" layer="{800,900,50}" familyname="Handjet" stylename="Double Extrabold Circle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,900,100}" layer="{800,900,100}" familyname="Handjet" stylename="Triple Extrabold Circle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="900" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1400,10}" layer="{800,1400,10}" familyname="Handjet" stylename="Extrabold Flower">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1400,50}" layer="{800,1400,50}" familyname="Handjet" stylename="Double Extrabold Flower">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1400,100}" layer="{800,1400,100}" familyname="Handjet" stylename="Triple Extrabold Flower">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1400" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1500,10}" layer="{800,1500,10}" familyname="Handjet" stylename="Extrabold Star">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1500,50}" layer="{800,1500,50}" familyname="Handjet" stylename="Double Extrabold Star">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1500,100}" layer="{800,1500,100}" familyname="Handjet" stylename="Triple Extrabold Star">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1500" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1700,10}" layer="{800,1700,10}" familyname="Handjet" stylename="Extrabold Spindle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1700,50}" layer="{800,1700,50}" familyname="Handjet" stylename="Double Extrabold Spindle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1700,100}" layer="{800,1700,100}" familyname="Handjet" stylename="Triple Extrabold Spindle">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1700" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1800,10}" layer="{800,1800,10}" familyname="Handjet" stylename="Extrabold Heart">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="10" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1800,50}" layer="{800,1800,50}" familyname="Handjet" stylename="Double Extrabold Heart">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="50" />
-      </location>
-    </instance>
-
-    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1800,100}" layer="{800,1800,100}" familyname="Handjet" stylename="Triple Extrabold Heart">
-      <location>
-        <dimension name="Weight" xvalue="800" />
-        <dimension name="Shape" xvalue="1800" />
-        <dimension name="Optical size" xvalue="100" />
-      </location>
-    </instance>
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,200,10}" layer="{200,200,10}" familyname="Handjet" stylename="Extralight Triangle" >
+        <location>
+            <dimension name="Weight" xvalue="200"/>
+            <dimension name="Shape" xvalue="200"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,300,10}" layer="{200,300,10}" familyname="Handjet" stylename="Extralight Square" >
+        <location>
+            <dimension name="Weight" xvalue="200"/>
+            <dimension name="Shape" xvalue="300"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,349,10}" layer="{200,349,10}" familyname="Handjet" stylename="Extralight Lozenge" >
+        <location>
+            <dimension name="Weight" xvalue="200"/>
+            <dimension name="Shape" xvalue="349"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,600,10}" layer="{200,600,10}" familyname="Handjet" stylename="Extralight Rectangle" >
+        <location>
+            <dimension name="Weight" xvalue="200"/>
+            <dimension name="Shape" xvalue="600"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,820,10}" layer="{200,820,10}" familyname="Handjet" stylename="Extralight Rounded Square" >
+        <location>
+            <dimension name="Weight" xvalue="200"/>
+            <dimension name="Shape" xvalue="820"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,900,10}" layer="{200,900,10}" familyname="Handjet" stylename="Extralight Circle" >
+        <location>
+            <dimension name="Weight" xvalue="200"/>
+            <dimension name="Shape" xvalue="900"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1400,10}" layer="{200,1400,10}" familyname="Handjet" stylename="Extralight Flower" >
+        <location>
+            <dimension name="Weight" xvalue="200"/>
+            <dimension name="Shape" xvalue="1400"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1500,10}" layer="{200,1500,10}" familyname="Handjet" stylename="Extralight Star" >
+        <location>
+            <dimension name="Weight" xvalue="200"/>
+            <dimension name="Shape" xvalue="1500"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1700,10}" layer="{200,1700,10}" familyname="Handjet" stylename="Extralight Spindle" >
+        <location>
+            <dimension name="Weight" xvalue="200"/>
+            <dimension name="Shape" xvalue="1700"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {200,1800,10}" layer="{200,1800,10}" familyname="Handjet" stylename="Extralight Heart" >
+        <location>
+            <dimension name="Weight" xvalue="200"/>
+            <dimension name="Shape" xvalue="1800"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,200,10}" layer="{350,200,10}" familyname="Handjet" stylename="Light Triangle" >
+        <location>
+            <dimension name="Weight" xvalue="350"/>
+            <dimension name="Shape" xvalue="200"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,300,10}" layer="{350,300,10}" familyname="Handjet" stylename="Light Square" >
+        <location>
+            <dimension name="Weight" xvalue="350"/>
+            <dimension name="Shape" xvalue="300"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,349,10}" layer="{350,349,10}" familyname="Handjet" stylename="Light Lozenge" >
+        <location>
+            <dimension name="Weight" xvalue="350"/>
+            <dimension name="Shape" xvalue="349"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,600,10}" layer="{350,600,10}" familyname="Handjet" stylename="Light Rectangle" >
+        <location>
+            <dimension name="Weight" xvalue="350"/>
+            <dimension name="Shape" xvalue="600"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,820,10}" layer="{350,820,10}" familyname="Handjet" stylename="Light Rounded Square" >
+        <location>
+            <dimension name="Weight" xvalue="350"/>
+            <dimension name="Shape" xvalue="820"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,900,10}" layer="{350,900,10}" familyname="Handjet" stylename="Light Circle" >
+        <location>
+            <dimension name="Weight" xvalue="350"/>
+            <dimension name="Shape" xvalue="900"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1400,10}" layer="{350,1400,10}" familyname="Handjet" stylename="Light Flower" >
+        <location>
+            <dimension name="Weight" xvalue="350"/>
+            <dimension name="Shape" xvalue="1400"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1500,10}" layer="{350,1500,10}" familyname="Handjet" stylename="Light Star" >
+        <location>
+            <dimension name="Weight" xvalue="350"/>
+            <dimension name="Shape" xvalue="1500"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1700,10}" layer="{350,1700,10}" familyname="Handjet" stylename="Light Spindle" >
+        <location>
+            <dimension name="Weight" xvalue="350"/>
+            <dimension name="Shape" xvalue="1700"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {350,1800,10}" layer="{350,1800,10}" familyname="Handjet" stylename="Light Heart" >
+        <location>
+            <dimension name="Weight" xvalue="350"/>
+            <dimension name="Shape" xvalue="1800"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,200,10}" layer="{400,200,10}" familyname="Handjet" stylename="Regular Triangle" >
+        <location>
+            <dimension name="Weight" xvalue="400"/>
+            <dimension name="Shape" xvalue="200"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,300,10}" layer="{400,300,10}" familyname="Handjet" stylename="Regular Square" >
+        <location>
+            <dimension name="Weight" xvalue="400"/>
+            <dimension name="Shape" xvalue="300"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,349,10}" layer="{400,349,10}" familyname="Handjet" stylename="Regular Lozenge" >
+        <location>
+            <dimension name="Weight" xvalue="400"/>
+            <dimension name="Shape" xvalue="349"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,600,10}" layer="{400,600,10}" familyname="Handjet" stylename="Regular Rectangle" >
+        <location>
+            <dimension name="Weight" xvalue="400"/>
+            <dimension name="Shape" xvalue="600"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,820,10}" layer="{400,820,10}" familyname="Handjet" stylename="Regular Rounded Square" >
+        <location>
+            <dimension name="Weight" xvalue="400"/>
+            <dimension name="Shape" xvalue="820"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,900,10}" layer="{400,900,10}" familyname="Handjet" stylename="Regular Circle" >
+        <location>
+            <dimension name="Weight" xvalue="400"/>
+            <dimension name="Shape" xvalue="900"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1400,10}" layer="{400,1400,10}" familyname="Handjet" stylename="Regular Flower" >
+        <location>
+            <dimension name="Weight" xvalue="400"/>
+            <dimension name="Shape" xvalue="1400"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1500,10}" layer="{400,1500,10}" familyname="Handjet" stylename="Regular Star" >
+        <location>
+            <dimension name="Weight" xvalue="400"/>
+            <dimension name="Shape" xvalue="1500"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1700,10}" layer="{400,1700,10}" familyname="Handjet" stylename="Regular Spindle" >
+        <location>
+            <dimension name="Weight" xvalue="400"/>
+            <dimension name="Shape" xvalue="1700"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {400,1800,10}" layer="{400,1800,10}" familyname="Handjet" stylename="Regular Heart" >
+        <location>
+            <dimension name="Weight" xvalue="400"/>
+            <dimension name="Shape" xvalue="1800"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,200,10}" layer="{500,200,10}" familyname="Handjet" stylename="Medium Triangle" >
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="Shape" xvalue="200"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,300,10}" layer="{500,300,10}" familyname="Handjet" stylename="Medium Square" >
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="Shape" xvalue="300"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,349,10}" layer="{500,349,10}" familyname="Handjet" stylename="Medium Lozenge" >
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="Shape" xvalue="349"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,600,10}" layer="{500,600,10}" familyname="Handjet" stylename="Medium Rectangle" >
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="Shape" xvalue="600"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,820,10}" layer="{500,820,10}" familyname="Handjet" stylename="Medium Rounded Square" >
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="Shape" xvalue="820"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,900,10}" layer="{500,900,10}" familyname="Handjet" stylename="Medium Circle" >
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="Shape" xvalue="900"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1400,10}" layer="{500,1400,10}" familyname="Handjet" stylename="Medium Flower" >
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="Shape" xvalue="1400"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1500,10}" layer="{500,1500,10}" familyname="Handjet" stylename="Medium Star" >
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="Shape" xvalue="1500"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1700,10}" layer="{500,1700,10}" familyname="Handjet" stylename="Medium Spindle" >
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="Shape" xvalue="1700"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {500,1800,10}" layer="{500,1800,10}" familyname="Handjet" stylename="Medium Heart" >
+        <location>
+            <dimension name="Weight" xvalue="500"/>
+            <dimension name="Shape" xvalue="1800"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,200,10}" layer="{600,200,10}" familyname="Handjet" stylename="Semibold Triangle" >
+        <location>
+            <dimension name="Weight" xvalue="600"/>
+            <dimension name="Shape" xvalue="200"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,300,10}" layer="{600,300,10}" familyname="Handjet" stylename="Semibold Square" >
+        <location>
+            <dimension name="Weight" xvalue="600"/>
+            <dimension name="Shape" xvalue="300"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,349,10}" layer="{600,349,10}" familyname="Handjet" stylename="Semibold Lozenge" >
+        <location>
+            <dimension name="Weight" xvalue="600"/>
+            <dimension name="Shape" xvalue="349"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,600,10}" layer="{600,600,10}" familyname="Handjet" stylename="Semibold Rectangle" >
+        <location>
+            <dimension name="Weight" xvalue="600"/>
+            <dimension name="Shape" xvalue="600"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,820,10}" layer="{600,820,10}" familyname="Handjet" stylename="Semibold Rounded Square" >
+        <location>
+            <dimension name="Weight" xvalue="600"/>
+            <dimension name="Shape" xvalue="820"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,900,10}" layer="{600,900,10}" familyname="Handjet" stylename="Semibold Circle" >
+        <location>
+            <dimension name="Weight" xvalue="600"/>
+            <dimension name="Shape" xvalue="900"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1400,10}" layer="{600,1400,10}" familyname="Handjet" stylename="Semibold Flower" >
+        <location>
+            <dimension name="Weight" xvalue="600"/>
+            <dimension name="Shape" xvalue="1400"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1500,10}" layer="{600,1500,10}" familyname="Handjet" stylename="Semibold Star" >
+        <location>
+            <dimension name="Weight" xvalue="600"/>
+            <dimension name="Shape" xvalue="1500"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1700,10}" layer="{600,1700,10}" familyname="Handjet" stylename="Semibold Spindle" >
+        <location>
+            <dimension name="Weight" xvalue="600"/>
+            <dimension name="Shape" xvalue="1700"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {600,1800,10}" layer="{600,1800,10}" familyname="Handjet" stylename="Semibold Heart" >
+        <location>
+            <dimension name="Weight" xvalue="600"/>
+            <dimension name="Shape" xvalue="1800"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,200,10}" layer="{700,200,10}" familyname="Handjet" stylename="Bold Triangle" >
+        <location>
+            <dimension name="Weight" xvalue="700"/>
+            <dimension name="Shape" xvalue="200"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,300,10}" layer="{700,300,10}" familyname="Handjet" stylename="Bold Square" >
+        <location>
+            <dimension name="Weight" xvalue="700"/>
+            <dimension name="Shape" xvalue="300"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,349,10}" layer="{700,349,10}" familyname="Handjet" stylename="Bold Lozenge" >
+        <location>
+            <dimension name="Weight" xvalue="700"/>
+            <dimension name="Shape" xvalue="349"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,600,10}" layer="{700,600,10}" familyname="Handjet" stylename="Bold Rectangle" >
+        <location>
+            <dimension name="Weight" xvalue="700"/>
+            <dimension name="Shape" xvalue="600"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,820,10}" layer="{700,820,10}" familyname="Handjet" stylename="Bold Rounded Square" >
+        <location>
+            <dimension name="Weight" xvalue="700"/>
+            <dimension name="Shape" xvalue="820"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,900,10}" layer="{700,900,10}" familyname="Handjet" stylename="Bold Circle" >
+        <location>
+            <dimension name="Weight" xvalue="700"/>
+            <dimension name="Shape" xvalue="900"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1400,10}" layer="{700,1400,10}" familyname="Handjet" stylename="Bold Flower" >
+        <location>
+            <dimension name="Weight" xvalue="700"/>
+            <dimension name="Shape" xvalue="1400"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1500,10}" layer="{700,1500,10}" familyname="Handjet" stylename="Bold Star" >
+        <location>
+            <dimension name="Weight" xvalue="700"/>
+            <dimension name="Shape" xvalue="1500"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1700,10}" layer="{700,1700,10}" familyname="Handjet" stylename="Bold Spindle" >
+        <location>
+            <dimension name="Weight" xvalue="700"/>
+            <dimension name="Shape" xvalue="1700"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {700,1800,10}" layer="{700,1800,10}" familyname="Handjet" stylename="Bold Heart" >
+        <location>
+            <dimension name="Weight" xvalue="700"/>
+            <dimension name="Shape" xvalue="1800"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,200,10}" layer="{800,200,10}" familyname="Handjet" stylename="Extrabold Triangle" >
+        <location>
+            <dimension name="Weight" xvalue="800"/>
+            <dimension name="Shape" xvalue="200"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,300,10}" layer="{800,300,10}" familyname="Handjet" stylename="Extrabold Square" >
+        <location>
+            <dimension name="Weight" xvalue="800"/>
+            <dimension name="Shape" xvalue="300"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,349,10}" layer="{800,349,10}" familyname="Handjet" stylename="Extrabold Lozenge" >
+        <location>
+            <dimension name="Weight" xvalue="800"/>
+            <dimension name="Shape" xvalue="349"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,600,10}" layer="{800,600,10}" familyname="Handjet" stylename="Extrabold Rectangle" >
+        <location>
+            <dimension name="Weight" xvalue="800"/>
+            <dimension name="Shape" xvalue="600"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,820,10}" layer="{800,820,10}" familyname="Handjet" stylename="Extrabold Rounded Square" >
+        <location>
+            <dimension name="Weight" xvalue="800"/>
+            <dimension name="Shape" xvalue="820"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,900,10}" layer="{800,900,10}" familyname="Handjet" stylename="Extrabold Circle" >
+        <location>
+            <dimension name="Weight" xvalue="800"/>
+            <dimension name="Shape" xvalue="900"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1400,10}" layer="{800,1400,10}" familyname="Handjet" stylename="Extrabold Flower" >
+        <location>
+            <dimension name="Weight" xvalue="800"/>
+            <dimension name="Shape" xvalue="1400"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1500,10}" layer="{800,1500,10}" familyname="Handjet" stylename="Extrabold Star" >
+        <location>
+            <dimension name="Weight" xvalue="800"/>
+            <dimension name="Shape" xvalue="1500"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1700,10}" layer="{800,1700,10}" familyname="Handjet" stylename="Extrabold Spindle" >
+        <location>
+            <dimension name="Weight" xvalue="800"/>
+            <dimension name="Shape" xvalue="1700"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
+    <instance filename="../master_ufo/Handjet-Regular.ufo" name="Handjet Regular {800,1800,10}" layer="{800,1800,10}" familyname="Handjet" stylename="Extrabold Heart" >
+        <location>
+            <dimension name="Weight" xvalue="800"/>
+            <dimension name="Shape" xvalue="1800"/>
+            <dimension name="Optical size" xvalue="10"/>
+        </location>
+    </instance>
+    
   </instances>
 
 
