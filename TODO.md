@@ -1,16 +1,8 @@
 # TODO
 
-## Design
+## Documentation
 
-- [ ] check Arabic marks and spacing
 - [ ] document features (animals, symbols, patterns)
-
-## Production:
-
-- [x] review vertical metrics
-- [ ] expand frac feature that currently works only for single digit arbitrary nut fractions (via kerning sup/inf against fraction-slash)
-- [x] set up open-source production
-- [ ] add licence and credits files
 
 ### Production backlog
 
