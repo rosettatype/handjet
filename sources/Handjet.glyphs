@@ -1,5 +1,5 @@
 {
-.appVersion = "1338";
+.appVersion = "1340";
 classes = (
 {
 automatic = 1;
@@ -591,7 +591,7 @@ peseta,
 peso,
 sheqel,
 tenge,
-tugrikkip,
+kip,
 won,
 currency,
 commercialMinusSign,
@@ -1703,11 +1703,7 @@ value = 1;
 },
 {
 name = note;
-value = "Recompiling the “pixel” glyph from all “pixel.xxx” combination requires the “compile pixel glyph” script from the repo.";
-},
-{
-name = note;
-value = "The Variable Font masters are defined in a pre-made designspace file and use the exact same charset EXCEPT for the pixel glyph which varies for each “master”.";
+value = "Recompiling the “pixel” glyph from all “pixel.xxx” combination requires the “compile pixel glyph” script from the repo.\012\012The Variable Font masters are defined in a pre-made designspace file and use the exact same charset EXCEPT for the pixel glyph which varies for each “master”.";
 },
 {
 name = "Disable Last Change";
@@ -28697,6 +28693,149 @@ unicode = 20B8;
 },
 {
 color = 4;
+glyphname = kip;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 0}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1320, 0}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 240}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1200, 240}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 480}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1080, 480}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 720}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 960, 720}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 960}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 840, 960}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 0, 1200}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 1200}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 480, 1200}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 720, 1200}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 960, 1200}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1200, 1200}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 1440}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 840, 1440}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 1680}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 960, 1680}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1080, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 2160}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1200, 2160}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 2400}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1320, 2400}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 1680;
+}
+);
+unicode = 20AD;
+},
+{
+color = 4;
 glyphname = won;
 layers = (
 {
@@ -46234,21 +46373,6 @@ position = "{840, 1920}";
 );
 components = (
 {
-name = pixel;
-},
-{
-name = pixel;
-transform = "{1, 0, 0, 1, 600, 0}";
-},
-{
-name = pixel;
-transform = "{1, 0, 0, 1, 1200, 0}";
-},
-{
-name = pixel;
-transform = "{1, 0, 0, 1, 1800, 0}";
-},
-{
 alignment = -1;
 name = pixel;
 transform = "{1, 0, 0, 1, 240, 0}";
@@ -46327,6 +46451,26 @@ transform = "{1, 0, 0, 1, 720, 1680}";
 alignment = -1;
 name = pixel;
 transform = "{1, 0, 0, 1, 960, 1680}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 960, -480}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 960, -240}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 480, -720}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 720, -720}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -105227,149 +105371,6 @@ width = 1440;
 );
 leftKerningGroup = patternbgs;
 rightKerningGroup = patternbgs;
-},
-{
-color = 4;
-glyphname = kip;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1320, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1200, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1080, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 840, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 720, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1200, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 840, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1080, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1200, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1320, 2400}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 1680;
-}
-);
-unicode = 20AD;
 },
 {
 color = 9;
