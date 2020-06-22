@@ -22,4 +22,6 @@ rm master_ufo/Handjet-Regular.designspace
 # Compile Variable fonts
 echo "Compiling TTF variable font from designspace"
 fontmake -m production/Handjet.designspace -o variable
-cp variable_ttf/Handjet-VF.ttf fonts/Handjet-VF.ttf
+mkdir fonts
+mv variable_ttf/Handjet-VF.ttf fonts/Handjet-VF.ttf
+rm -r variable_ttf
