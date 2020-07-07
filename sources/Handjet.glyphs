@@ -1,7 +1,8 @@
 {
 .appVersion = "1286";
 DisplayStrings = (
-"ïï\012/a.men/a.ech \012/a.ech/a.eh \012/a.eh/a.ini \012/a.ini/a.ken \012/a.ken/a.now \012/a.now/a.xeh \012/hbVav/hbVav \012/hbVav/hbYod \012/hbYod/hbYod"
+"ïï\012/a.men/a.ech \012/a.ech/a.eh \012/a.eh/a.ini \012/a.ini/a.ken \012/a.ken/a.now \012/a.now/a.xeh \012/hbVav/hbVav \012/hbVav/hbYod \012/hbYod/hbYod",
+"/pixel"
 );
 classes = (
 {
@@ -1226,6 +1227,10 @@ arVeh,
 arVeh.fina,
 arVeh.init,
 arVeh.medi,
+arFehtwodotsbelow,
+arFehtwodotsbelow.fina,
+arFehtwodotsbelow.medi,
+arFehtwodotsbelow.init,
 arQafdotless,
 arQafdotless.fina,
 arKeheh,
@@ -70803,7 +70808,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{1440, 0}";
+position = "{1920, 0}";
 },
 {
 name = top;
@@ -70946,7 +70951,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{1440, 0}";
+position = "{2160, 0}";
 },
 {
 name = top;
@@ -71088,7 +71093,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{240, 0}";
+position = "{720, 0}";
 },
 {
 name = top;
@@ -71367,6 +71372,79 @@ width = 1680;
 }
 );
 unicode = FB6D;
+},
+{
+glyphname = arFehtwodotsbelow;
+layers = (
+{
+components = (
+{
+name = arFehdotless;
+},
+{
+name = arTwodotshorizontalbelow;
+transform = "{1, 0, 0, 1, 1080, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 2880;
+}
+);
+unicode = 0760;
+},
+{
+glyphname = arFehtwodotsbelow.fina;
+layers = (
+{
+components = (
+{
+name = arFehdotless.fina;
+},
+{
+name = arTwodotshorizontalbelow;
+transform = "{1, 0, 0, 1, 1320, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 2880;
+}
+);
+},
+{
+glyphname = arFehtwodotsbelow.medi;
+layers = (
+{
+components = (
+{
+name = arFehdotless.medi;
+},
+{
+name = arTwodotshorizontalbelow;
+transform = "{1, 0, 0, 1, 120, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 1680;
+}
+);
+},
+{
+glyphname = arFehtwodotsbelow.init;
+layers = (
+{
+components = (
+{
+name = arFehdotless.init;
+},
+{
+name = arTwodotshorizontalbelow;
+transform = "{1, 0, 0, 1, -120, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 1680;
+}
+);
 },
 {
 color = 7;
