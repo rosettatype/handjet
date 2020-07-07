@@ -25,8 +25,8 @@ mkdir fonts
 
 # Fix GASP table
 gftools fix-nonhinting variable_ttf/Handjet-VF.ttf variable_ttf/Handjet-VF.ttf.2
-gftools fix-dsig variable_ttf/Handjet-VF.ttf.2 variable_ttf/Handjet-VF.ttf.3
-mv Handjet-VF.ttf.3 fonts/Handjet\[wght\,SHAP\,GRID\].ttf
+gftools fix-dsig --autofix variable_ttf/Handjet-VF.ttf.2
+mv variable_ttf/Handjet-VF.ttf.2 fonts/Handjet\[wght\,SHAP\,GRID\].ttf
 
 
 # Cleanup
