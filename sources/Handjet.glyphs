@@ -1,5 +1,5 @@
 {
-.appVersion = "1340";
+.appVersion = "1286";
 classes = (
 {
 automatic = 1;
@@ -7,7 +7,7 @@ code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircu
 name = Uppercase;
 }
 );
-copyright = "Copyright © 2018 by David Brezina. All rights reserved.";
+copyright = "Copyright 2018 Handjet Project Authors (https://github.com/rosettatype/Handjet/)";
 customParameters = (
 {
 name = glyphOrder;
@@ -1615,8 +1615,8 @@ Name = Shape;
 Tag = SHAP;
 },
 {
-Name = "Optical size";
-Tag = opsz;
+Name = Grid;
+Tag = GRID;
 }
 );
 },
@@ -1627,7 +1627,6 @@ value = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 {
 name = fsType;
 value = (
-2
 );
 },
 {
@@ -1687,11 +1686,11 @@ value = RST;
 },
 {
 name = license;
-value = "IMPORTANT, please read our license agreement at https://rosettatype.com/licence";
+value = "Licensed under the SIL Open Font License, Version 1.1";
 },
 {
 name = licenseURL;
-value = "https://rosettatype.com/license";
+value = "http://scripts.sil.org/OFL";
 },
 {
 name = "Disable Subroutines";
@@ -1714,7 +1713,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2020-06-02 07:33:39 +0000";
+date = "2020-07-07 14:01:42 +0000";
 designer = "David Brezina";
 designerURL = "https://rosettatype.com";
 disablesNiceNames = 1;
@@ -24574,6 +24573,12 @@ color = 4;
 glyphname = idieresis_idieresis;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{720, 0}";
+}
+);
 components = (
 {
 name = idotless;
@@ -64319,6 +64324,12 @@ color = 4;
 glyphname = a.men_a.eh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1680, 0}";
+}
+);
 components = (
 {
 name = a.men;
@@ -64343,6 +64354,12 @@ color = 4;
 glyphname = a.men_a.ken;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1680, 0}";
+}
+);
 components = (
 {
 name = a.men;
@@ -64367,6 +64384,12 @@ color = 4;
 glyphname = a.men_a.ech;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1680, 0}";
+}
+);
 components = (
 {
 name = a.men;
@@ -64392,6 +64415,12 @@ color = 4;
 glyphname = a.men_a.ini;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1680, 0}";
+}
+);
 components = (
 {
 name = a.men;
@@ -64417,6 +64446,12 @@ color = 4;
 glyphname = a.men_a.now;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1680, 0}";
+}
+);
 components = (
 {
 name = a.men;
@@ -64543,6 +64578,12 @@ color = 4;
 glyphname = a.men_a.xeh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1680, 0}";
+}
+);
 components = (
 {
 name = a.men;
@@ -64577,22 +64618,7 @@ transform = "{1, 0, 0, 1, 120, 2160}";
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 120, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
 transform = "{1, 0, 0, 1, 240, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 360, 2640}";
 },
 {
 alignment = -1;
@@ -85078,6 +85104,12 @@ color = 4;
 glyphname = hbVav_hbVav;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1200, 0}";
+}
+);
 components = (
 {
 name = hbVav;
@@ -85100,6 +85132,12 @@ color = 4;
 glyphname = hbVav_hbYod;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1200, 0}";
+}
+);
 components = (
 {
 name = hbVav;
@@ -85120,6 +85158,12 @@ color = 4;
 glyphname = hbYod_hbYod;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1200, 0}";
+}
+);
 components = (
 {
 name = hbYod;
@@ -180411,7 +180455,7 @@ width = 0;
 {
 color = 3;
 export = 0;
-glyphname = "pixel.opsz-10";
+glyphname = "pixel.GRID-10";
 layers = (
 {
 components = (
@@ -180469,7 +180513,7 @@ width = 0;
 {
 color = 3;
 export = 0;
-glyphname = "pixel.opsz-50";
+glyphname = "pixel.GRID-50";
 layers = (
 {
 components = (
@@ -180527,7 +180571,7 @@ width = 0;
 {
 color = 3;
 export = 0;
-glyphname = "pixel.opsz-100";
+glyphname = "pixel.GRID-100";
 layers = (
 {
 components = (
@@ -180608,7 +180652,7 @@ kerning = {
 };
 };
 };
-manufacturer = " RST";
+manufacturer = "Rosetta Type Foundry";
 manufacturerURL = "https://rosettatype.com";
 unitsPerEm = 4080;
 versionMajor = 2;
