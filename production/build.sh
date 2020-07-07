@@ -5,7 +5,6 @@ set -x
 echo "Cleaning up folders"
 rm -r instance_ufo
 rm -r master_ufo
-rm -r variable_otf
 rm -r variable_ttf
 
 
@@ -24,10 +23,11 @@ echo "Compiling TTF variable font from designspace"
 fontmake -m production/Handjet.designspace -o variable --production-names
 mkdir fonts
 
-# Fix GASP table (no hinting)
+# Fix GASP table
 gftools fix-nonhinting variable_ttf/Handjet-VF.ttf variable_ttf/Handjet-VF.ttf.2
 gftools fix-dsig variable_ttf/Handjet-VF.ttf.2 variable_ttf/Handjet-VF.ttf.3
 mv Handjet-VF.ttf.3 fonts/Handjet\[wght\,SHAP\,GRID\].ttf
+
 
 # Cleanup
 rm -r variable_ttf
