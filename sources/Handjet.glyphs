@@ -1,5 +1,8 @@
 {
 .appVersion = "1286";
+DisplayStrings = (
+"ïï\012/a.men/a.ech \012/a.ech/a.eh \012/a.eh/a.ini \012/a.ini/a.ken \012/a.ken/a.now \012/a.now/a.xeh \012/hbVav/hbVav \012/hbVav/hbYod \012/hbYod/hbYod"
+);
 classes = (
 {
 automatic = 1;
@@ -180649,6 +180652,9 @@ kerning = {
 };
 "@MMK_L_superior" = {
 "@MMK_R_fraction" = -600;
+};
+idieresis = {
+idieresis = 240;
 };
 };
 };
