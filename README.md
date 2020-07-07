@@ -1,7 +1,7 @@
 # Handjet
 
 By: David Březina  
-Released in: May 2020
+Completed in: May 2020
 
 ## Scripts
 
@@ -9,6 +9,7 @@ Released in: May 2020
 - Armenian
 - Cyrillic
 - Greek
+- Hebrew
 - Latin
 
 ## Variable font
@@ -17,7 +18,7 @@ Handjet is an element-based design (aka pixel font, modular font, …) where eve
 
 - **Weight (wght)** (100-900) controls the size of the element,
 - **Shape (SHAP)** (100-1800) controls the shape of the element,
-- **Optical size (opsz)** (10-100) controls how many elements are used per one grid unit: a single element, a group of 2x2 elements, or a group of 3x3 elements.
+- **Grid (GRID)** (10-100) controls how many elements are used per one grid unit: a single element, a group of 2x2 elements (duoble), or a group of 3x3 elements (triple).
 
 The interpolation between shapes creates a rotation or disappearing effect for some of them.
 
