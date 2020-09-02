@@ -185,10 +185,16 @@ for weight_name, w, is_base in wght_masters:
                 stylename = "%s %s %s" % (weight_name, shape_name, grid_name)
                 sources += source % (brace, brace, w, s, g)
 for weight_name, w in wght_instances:
-    for shape_name, s in SHAP_instances:
-        for grid_name, g in GRID_instances:
+    # For now we are interested only in shape 300 = default shape instances
+    # for shape_name, s in SHAP_instances:
+    for shape_name, s in [("Square", 300)]:
+        # For now there is only the one grid instance that makes sense
+        # for grid_name, g in GRID_instances:
+        for grid_name, g in [("", 10)]:
             brace = "{%d,%d,%d}" % (w, s, g)
-            stylename = " ".join([grid_name, shape_name, weight_name])
+            # A "fuller" stylename with the grid and shape components
+            # stylename = " ".join([grid_name, shape_name, weight_name])
+            stylename = weight_name
             instances += instance % (brace, brace, stylename, w, s, g)
 
 code = code % (sources, instances)
