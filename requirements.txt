@@ -1,1 +1,3 @@
 fontmake==2.1.4
+statmake==0.3.0
+gftools==0.4.2

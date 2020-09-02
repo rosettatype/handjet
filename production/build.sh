@@ -21,13 +21,18 @@ rm master_ufo/Handjet-Regular.designspace
 # Compile Variable fonts
 echo "Compiling TTF variable font from designspace"
 fontmake -m production/Handjet.designspace -o variable --production-names
-mkdir fonts
+
+
+# Add STAT table
+statmake --designspace production/Handjet.designspace variable_ttf/Handjet-VF.ttf
+
 
 # Fix GASP table
 gftools fix-nonhinting variable_ttf/Handjet-VF.ttf variable_ttf/Handjet-VF.ttf.2
 gftools fix-dsig --autofix variable_ttf/Handjet-VF.ttf.2
+
+
+# Move fonts to final destination & cleanup
+mkdir fonts
 mv variable_ttf/Handjet-VF.ttf.2 fonts/Handjet\[wght\,SHAP\,GRID\].ttf
-
-
-# Cleanup
 rm -r variable_ttf

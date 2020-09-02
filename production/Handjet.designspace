@@ -2281,5 +2281,158 @@
         <string>pixel.wght-900</string>
       </array>
     </dict>
+  </lib> 
+  <lib>
+    <dict>
+        <key>org.statmake.stylespace</key>
+        <dict>
+        
+    <key>axes</key>
+    <array>
+        <dict>
+            <key>name</key>
+            <string>Weight</string>
+            <key>tag</key>
+            <string>wght</string>
+            <key>locations</key>
+            <array>
+                <!-- All weight entries -->
+                
+<dict>
+    <key>name</key>
+    <string>Extralight</string>
+    <key>value</key>
+    <integer>200</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Light</string>
+    <key>value</key>
+    <integer>300</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Regular</string>
+    <key>value</key>
+    <integer>400</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Medium</string>
+    <key>value</key>
+    <integer>500</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Semibold</string>
+    <key>value</key>
+    <integer>600</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Bold</string>
+    <key>value</key>
+    <integer>700</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Extrabold</string>
+    <key>value</key>
+    <integer>800</integer>
+</dict>
+            </array>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Shape</string>
+            <key>tag</key>
+            <string>SHAP</string>
+            <key>locations</key>
+            <array>
+                <!-- All shape entries -->
+                
+<dict>
+    <key>name</key>
+    <string>Triangle</string>
+    <key>value</key>
+    <integer>200</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Square</string>
+    <key>value</key>
+    <integer>300</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Lozenge</string>
+    <key>value</key>
+    <integer>349</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Rectangle</string>
+    <key>value</key>
+    <integer>600</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Rounded Square</string>
+    <key>value</key>
+    <integer>820</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Circle</string>
+    <key>value</key>
+    <integer>900</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Flower</string>
+    <key>value</key>
+    <integer>1400</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Star</string>
+    <key>value</key>
+    <integer>1500</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Spindle</string>
+    <key>value</key>
+    <integer>1700</integer>
+</dict>
+<dict>
+    <key>name</key>
+    <string>Heart</string>
+    <key>value</key>
+    <integer>1800</integer>
+</dict>
+            </array>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Grid</string>
+            <key>tag</key>
+            <string>GRID</string>
+            <key>locations</key>
+            <array>
+                <!-- All grid entries -->
+                
+<dict>
+    <key>name</key>
+    <string></string>
+    <key>value</key>
+    <integer>10</integer>
+</dict>
+            </array>
+        </dict>
+    </array>
+
+        </dict>
+    </dict>
   </lib>
 </designspace>
