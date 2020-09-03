@@ -1,29 +1,30 @@
 import sys
 from fontTools.otlLib.builder import buildStatTable
 from fontTools.ttLib import TTFont
-from make_designspace import (SHAP_instances, wght_instances, GRID_instances)
+from make_designspace import (wghts, ESHPs, EGRDs)
 
 path = sys.argv[1]
 font = TTFont(path)
 
-wghts = dict(
+wght_axis = dict(
     tag="wght",
     name="Weight",
-    values=[dict(value=v, name=n) for n, v in wght_instances]
+    values=[dict(value=v, name=n) for v, _, n in wghts if n is not None]
 )
 
-shaps = dict(
-    tag="SHAP",
-    name="Shape",
-    values=[dict(value=v, name=n) for n, v in SHAP_instances]
+shape_axis = dict(
+    tag="ESHP",
+    name="Element Shape",
+    values=[dict(value=v, name=n) for v, _, n in ESHPs if n is not None]
 )
 
-grids = dict(
-    tag="GRID",
-    name="Grid",
-    values=[dict(value=v, name=n) for n, v in GRID_instances]
+grid_axis = dict(
+    tag="EGRD",
+    name="Element Grid",
+    values=[dict(value=v, name=n) for v, _, n in EGRDs if n is not None]
 )
 
-buildStatTable(font, [wghts, shaps, grids], elidedFallbackName=2)
+buildStatTable(font, [wght_axis, shape_axis, grid_axis], elidedFallbackName=2)
 
 font.save(path)
+print("Added STAT table to %s" % path)
