@@ -2680,7 +2680,7 @@ customValue = 10;
 customParameters = (
 {
 name = winAscent;
-value = 8640;
+value = 9840;
 },
 {
 name = winDescent;

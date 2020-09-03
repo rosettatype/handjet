@@ -40,3 +40,6 @@ gftools fix-dsig --autofix variable_ttf/Handjet-VF.ttf.2
 mkdir fonts
 mv variable_ttf/Handjet-VF.ttf.2 fonts/Handjet\[ESHP\,EGRD\,wght\].ttf
 rm -r variable_ttf
+
+# Run fontbakery
+fontbakery check-googlefonts --ghmarkdown test/Handjet-report.md
