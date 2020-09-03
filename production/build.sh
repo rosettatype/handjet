@@ -24,8 +24,8 @@ fontmake -m production/Handjet.designspace -o variable --production-names
 
 
 # Add STAT table
-statmake --designspace production/Handjet.designspace variable_ttf/Handjet-VF.ttf
-
+# statmake --designspace production/Handjet.designspace variable_ttf/Handjet-VF.ttf
+python production/add_stat_table.py fonts/Handjet-VF.ttf
 
 # Fix GASP table
 gftools fix-nonhinting variable_ttf/Handjet-VF.ttf variable_ttf/Handjet-VF.ttf.2

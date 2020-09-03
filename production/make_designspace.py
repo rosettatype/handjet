@@ -52,7 +52,8 @@ GRID_masters = [
 
 SHAP_instances = [("Triangle", 200),
                   ("Square", 300),
-                  ("Lozenge", 349.5),
+                #   ("Lozenge", 349.5),
+                  ("Lozenge", 350),
                   ("Rectangle", 600),
                   ("Rounded Square", 820),
                   ("Circle", 900),
@@ -71,7 +72,7 @@ wght_instances = [("Extralight", 200),
                   ("Extrabold", 800),
                   ]
 
-GRID_instances = [("", 10)]
+GRID_instances = [("1x1", 10)]
 
 
 code = """<?xml version='1.0' encoding='UTF-8'?>
@@ -136,14 +137,6 @@ code = """<?xml version='1.0' encoding='UTF-8'?>
         <string>pixel.wght-900</string>
       </array>
     </dict>
-  </lib> 
-  <lib>
-    <dict>
-        <key>org.statmake.stylespace</key>
-        <dict>
-        %s
-        </dict>
-    </dict>
   </lib>
 </designspace>
 """
@@ -205,70 +198,7 @@ for weight_name, w in wght_instances:
             stylename = weight_name
             instances += instance % (brace, brace, stylename, w, s, g)
 
-# Make stylespace document from which to generate a stylespace path
-entry = """
-<dict>
-    <key>name</key>
-    <string>%s</string>
-    <key>value</key>
-    <integer>%d</integer>
-</dict>"""
-
-stylespace = """
-    <key>axes</key>
-    <array>
-        <dict>
-            <key>name</key>
-            <string>Weight</string>
-            <key>tag</key>
-            <string>wght</string>
-            <key>locations</key>
-            <array>
-                <!-- All weight entries -->
-                %s
-            </array>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Shape</string>
-            <key>tag</key>
-            <string>SHAP</string>
-            <key>locations</key>
-            <array>
-                <!-- All shape entries -->
-                %s
-            </array>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Grid</string>
-            <key>tag</key>
-            <string>GRID</string>
-            <key>locations</key>
-            <array>
-                <!-- All grid entries -->
-                %s
-            </array>
-        </dict>
-    </array>
-"""
-
-weight_entries = ""
-shape_entries = ""
-grid_entries = ""
-
-for weight_name, w in wght_instances:
-    weight_entries += entry % (weight_name, w)
-
-for shape_name, w in SHAP_instances:
-    shape_entries += entry % (shape_name, w)
-
-for grid_name, w in GRID_instances:
-    grid_entries += entry % (grid_name, w)
-
-stylespace = stylespace % (weight_entries, shape_entries, grid_entries)
-
 # Write all designspace parts
-code = code % (sources, instances, stylespace)
+code = code % (sources, instances)
 with open("production/Handjet.designspace", "w") as f:
     f.write(code)
