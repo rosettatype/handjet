@@ -215,39 +215,7 @@ field, using bits 0 and 5.
 <br>
 </details>
 <details>
-<summary><b>[163] Handjet[ESHP,EGRD,wght].ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Checking with fontTools.ttx</summary>
-
-* [com.google.fonts/check/ttx-roundtrip](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ttx-roundtrip)
-
-* 💔 **ERROR** Failed with FileNotFoundError: [Errno 2] No such file or directory: 'fonts/Handjet[ESHP,EGRD,wght].ttf'
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
-
-* [com.google.fonts/check/canonical_filename](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename)
-<pre>--- Rationale ---
-
-A font&#x27;s filename must be composed in the following manner:
-&lt;familyname&gt;-&lt;stylename&gt;.ttf
-
-- Nunito-Regular.ttf,
-- Oswald-BoldItalic.ttf
-
-Variable fonts must list the axis tags in alphabetical order in square brackets
-and separated by commas:
-
-- Roboto[wdth,wght].ttf
-- Familyname-Italic[wght].ttf
-
-
-</pre>
-
-* 🔥 **FAIL** The file 'Handjet[ESHP,EGRD,wght].ttf' must be renamed to 'Handjet[EGRD,ESHP,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
-
-</details>
+<summary><b>[163] Handjet[EGRD,ESHP,wght].ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Check license file has good copyright string.</summary>
 
@@ -330,28 +298,6 @@ increases.
 </pre>
 
 * 🔥 **FAIL** Font em size (unitsPerEm) is 8160. If possible, please consider using 1000. Good values for unitsPerEm, though, are typically these: [16, 32, 64, 128, 256, 500, 512, 1000, 1024, 2000, 2048]. [code: bad-value]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking with ftxvalidator.</summary>
-
-* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
-
-* 🔥 **FAIL** ftxvalidator output follows:
-
-b'FTException: Error 10 (tFontContainer == nullptr) in file /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/ValidatorRules/ATS-493.0.4.1/FontValidation/Core/ATSFontTest.cp, line 606\n'
-
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking with ots-sanitize.</summary>
-
-* [com.google.fonts/check/ots](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ots)
-
-* 🔥 **FAIL** ots-sanitize returned an error code (1). Output follows:
-
-Failed to open: fonts/Handjet[ESHP,EGRD,wght].ttf
-
 
 </details>
 <details>
@@ -1466,7 +1412,7 @@ of hinted versus unhinted font files.
 
 * ℹ **INFO** Hinting filesize impact:
 
-	|  | fonts/Handjet[ESHP,EGRD,wght].ttf |
+	|  | fonts/Handjet[EGRD,ESHP,wght].ttf |
 	|:--- | ---:|
 	| Dehinted Size | 391.9kb |
 	| Hinted Size | 390.4kb |
@@ -1579,7 +1525,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GSUB, GPOS, DSIG, prep, loca, gasp]
+* ℹ **INFO** This font contains the following optional tables [loca, GPOS, gasp, GSUB, prep, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1599,6 +1545,30 @@ checks.
 </pre>
 
 * ℹ **INFO** fonts [code: family-path]
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking file is named canonically.</summary>
+
+* [com.google.fonts/check/canonical_filename](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename)
+<pre>--- Rationale ---
+
+A font&#x27;s filename must be composed in the following manner:
+&lt;familyname&gt;-&lt;stylename&gt;.ttf
+
+- Nunito-Regular.ttf,
+- Oswald-BoldItalic.ttf
+
+Variable fonts must list the axis tags in alphabetical order in square brackets
+and separated by commas:
+
+- Roboto[wdth,wght].ttf
+- Familyname-Italic[wght].ttf
+
+
+</pre>
+
+* 🍞 **PASS** fonts/Handjet[EGRD,ESHP,wght].ttf is named canonically.
 
 </details>
 <details>
@@ -2207,6 +2177,22 @@ take care of their own situation.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Checking with ftxvalidator.</summary>
+
+* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
+
+* 🍞 **PASS** ftxvalidator passed this file
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking with ots-sanitize.</summary>
+
+* [com.google.fonts/check/ots](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ots)
+
+* 🍞 **PASS** ots-sanitize passed this file
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Font contains .notdef as first glyph?</summary>
 
 * [com.google.fonts/check/mandatory_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs)
@@ -2301,6 +2287,14 @@ Duplicate glyph names prevent font installation on Mac OS X.
 </pre>
 
 * 🍞 **PASS** Font contains unique glyph names.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking with fontTools.ttx</summary>
+
+* [com.google.fonts/check/ttx-roundtrip](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ttx-roundtrip)
+
+* 🍞 **PASS** Hey! It all looks good!
 
 </details>
 <details>
@@ -2724,5 +2718,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 8 | 4 | 78 | 8 | 78 | 0 |
-| 1% | 5% | 2% | 44% | 5% | 44% | 0% |
+| 0 | 5 | 4 | 78 | 8 | 82 | 0 |
+| 0% | 3% | 2% | 44% | 5% | 46% | 0% |

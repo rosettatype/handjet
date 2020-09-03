@@ -42,4 +42,4 @@ mv variable_ttf/Handjet-VF.ttf.2 fonts/Handjet\[EGRD\,ESHP\,wght\].ttf
 rm -r variable_ttf
 
 # Run fontbakery
-fontbakery check-googlefonts --ghmarkdown test/Handjet-report.md fonts/Handjet\[ESHP\,EGRD\,wght\].ttf
+fontbakery check-googlefonts --ghmarkdown test/Handjet-report.md fonts/Handjet\[EGRD\,ESHP\,wght\].ttf
