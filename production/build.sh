@@ -38,8 +38,8 @@ gftools fix-dsig --autofix variable_ttf/Handjet-VF.ttf.2
 
 # Move fonts to final destination & cleanup
 mkdir fonts
-mv variable_ttf/Handjet-VF.ttf.2 fonts/Handjet\[ESHP\,EGRD\,wght\].ttf
+mv variable_ttf/Handjet-VF.ttf.2 fonts/Handjet\[EGRD\,ESHP\,wght\].ttf
 rm -r variable_ttf
 
 # Run fontbakery
-fontbakery check-googlefonts --ghmarkdown test/Handjet-report.md
+fontbakery check-googlefonts --ghmarkdown test/Handjet-report.md fonts/Handjet\[ESHP\,EGRD\,wght\].ttf
