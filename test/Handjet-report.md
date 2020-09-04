@@ -217,65 +217,6 @@ field, using bits 0 and 5.
 <details>
 <summary><b>[163] Handjet[EGRD,ESHP,wght].ttf</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Check license file has good copyright string.</summary>
-
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
-<pre>--- Rationale ---
-
-An OFL.txt file&#x27;s first line should be the font copyright e.g:
-&quot;Copyright 2019 The Montserrat Project Authors
-(https://github.com/julietaula/montserrat)&quot;
-
-
-</pre>
-
-* 🔥 **FAIL** First line in license file does not match expected format: "copyright 2020 handjet project authors"
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
-<pre>--- Rationale ---
-
-A known licensing description must be provided in the NameID 14 (LICENSE
-DESCRIPTION) entries of the name table.
-
-The source of truth for this check (to determine which license is in use) is a
-file placed side-by-side to your font project including the licensing terms.
-
-Depending on the chosen license, one of the following string snippets is
-expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
-table:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-
-
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-
-When in doubt, please choose OFL for new font projects.
-
-
-</pre>
-
-* 🔥 **FAIL** License file LICENSE.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "Licensed under the SIL Open Font License, Version 1.1" Must be changed to "Licensed under the Apache License, Version 2.0" [code: wrong]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts</summary>
-
-* [com.google.fonts/check/font_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright)
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2018 Handjet Project Authors (https://github.com/rosettatype/Handjet/)" [code: bad-notice-format]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
 
 * [com.google.fonts/check/unitsperem_strict](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/unitsperem_strict)
@@ -327,6 +268,38 @@ the same x,y coordinates.
 	* {'glyph': 'pixel.EGRD1', 'component': 'pixel', 'x': 240, 'y': 240}
 	* {'glyph': 'pixel.EGRD2', 'component': 'pixel', 'x': 360, 'y': 360}
 	* {'glyph': 'pixel.EGRD2', 'component': 'pixel', 'x': 120, 'y': 360} and 3 more. [code: found-duplicates]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> License URL matches License text on name table?</summary>
+
+* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
+<pre>--- Rationale ---
+
+A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
+of the name table.
+
+The source of truth for this check is the licensing text found on the NameID 13
+entry (LICENSE DESCRIPTION).
+
+The string snippets used for detecting licensing terms are:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Font has a valid license URL in NAME table.
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
 
 </details>
 <details>
@@ -636,37 +609,6 @@ This check is meant to avoid typos in this field.
 * [com.google.fonts/check/family/has_license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/has_license)
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> License URL matches License text on name table?</summary>
-
-* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
-<pre>--- Rationale ---
-
-A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
-of the name table.
-
-The source of truth for this check is the licensing text found on the NameID 13
-entry (LICENSE DESCRIPTION).
-
-The string snippets used for detecting licensing terms are:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-
-
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-
-When in doubt, please choose OFL for new font projects.
-
-
-</pre>
-
-* 💤 **SKIP** Could not infer the font license. Please ensure NameID 13 (LICENSE DESCRIPTION) is properly set.
 
 </details>
 <details>
@@ -1414,9 +1356,9 @@ of hinted versus unhinted font files.
 
 	|  | fonts/Handjet[EGRD,ESHP,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 391.9kb |
-	| Hinted Size | 390.4kb |
-	| Increase | -1604 bytes |
+	| Dehinted Size | 392.1kb |
+	| Hinted Size | 390.6kb |
+	| Increase | -1592 bytes |
 	| Change   | -0.4 % |
  [code: size-impact]
 
@@ -1525,7 +1467,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [loca, GPOS, gasp, GSUB, prep, DSIG]
+* ℹ **INFO** This font contains the following optional tables [loca, GSUB, DSIG, GPOS, prep, gasp]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1670,6 +1612,55 @@ Glyphsapp users can change the usWeightClass value of an instance by adding a
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check license file has good copyright string.</summary>
+
+* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
+<pre>--- Rationale ---
+
+An OFL.txt file&#x27;s first line should be the font copyright e.g:
+&quot;Copyright 2019 The Montserrat Project Authors
+(https://github.com/julietaula/montserrat)&quot;
+
+
+</pre>
+
+* 🍞 **PASS** looks good
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+<pre>--- Rationale ---
+
+A known licensing description must be provided in the NameID 14 (LICENSE
+DESCRIPTION) entries of the name table.
+
+The source of truth for this check (to determine which license is in use) is a
+file placed side-by-side to your font project including the licensing terms.
+
+Depending on the chosen license, one of the following string snippets is
+expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
+table:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Licensing entry on name table is correctly set.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Description strings in the name table must not exceed 200 characters.</summary>
 
 * [com.google.fonts/check/name/description_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length)
@@ -1733,6 +1724,15 @@ Arabic / etc.
 </pre>
 
 * 🍞 **PASS** None of the ASCII-only NAME table entries contain non-ASCII characteres.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Copyright notices match canonical pattern in fonts</summary>
+
+* [com.google.fonts/check/font_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright)
+
+* 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2018 The Handjet Project Authors (https://github.com/rosettatype/Handjet/)' matches canonical pattern.
+* 🍞 **PASS** Name table copyright entries are good
 
 </details>
 <details>
@@ -2718,5 +2718,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 4 | 78 | 8 | 82 | 0 |
-| 0% | 3% | 2% | 44% | 5% | 46% | 0% |
+| 0 | 2 | 5 | 77 | 8 | 85 | 0 |
+| 0% | 1% | 3% | 44% | 5% | 48% | 0% |
