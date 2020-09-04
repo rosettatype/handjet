@@ -271,38 +271,6 @@ the same x,y coordinates.
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> License URL matches License text on name table?</summary>
-
-* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
-<pre>--- Rationale ---
-
-A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
-of the name table.
-
-The source of truth for this check is the licensing text found on the NameID 13
-entry (LICENSE DESCRIPTION).
-
-The string snippets used for detecting licensing terms are:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-
-
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-
-When in doubt, please choose OFL for new font projects.
-
-
-</pre>
-
-* 🍞 **PASS** Font has a valid license URL in NAME table.
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences?</summary>
 
 * [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
@@ -1467,7 +1435,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [loca, GSUB, DSIG, GPOS, prep, gasp]
+* ℹ **INFO** This font contains the following optional tables [GPOS, prep, GSUB, loca, gasp, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1658,6 +1626,37 @@ When in doubt, please choose OFL for new font projects.
 </pre>
 
 * 🍞 **PASS** Licensing entry on name table is correctly set.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> License URL matches License text on name table?</summary>
+
+* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
+<pre>--- Rationale ---
+
+A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
+of the name table.
+
+The source of truth for this check is the licensing text found on the NameID 13
+entry (LICENSE DESCRIPTION).
+
+The string snippets used for detecting licensing terms are:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Font has a valid license URL in NAME table.
 
 </details>
 <details>
@@ -2718,5 +2717,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 5 | 77 | 8 | 85 | 0 |
-| 0% | 1% | 3% | 44% | 5% | 48% | 0% |
+| 0 | 2 | 4 | 77 | 8 | 86 | 0 |
+| 0% | 1% | 2% | 44% | 5% | 49% | 0% |
