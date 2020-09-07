@@ -242,32 +242,23 @@ increases.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
+<summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
 
-* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
+* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
 <pre>--- Rationale ---
 
-There has been cases in which fonts had faulty double quote marks, with each of
-them containing two single quote marks as components with the same x, y
-coordinates which makes them visually look like single quote marks.
+All ligatures in a font must have corresponding caret (text cursor) positions
+defined in the GDEF table, otherwhise, users may experience issues with caret
+rendering.
 
-This check ensures that glyphs do not contain duplicate components which have
-the same x,y coordinates.
+If using GlyphsApp, ligature carets can be set directly on canvas by accessing
+the `Glyph -&gt; Set Anchors` menu option or by pressing the `Cmd+U` keyboard
+shortcut.
 
 
 </pre>
 
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'pixel.EGRD1', 'component': 'pixel', 'x': 240, 'y': 240}
-	* {'glyph': 'pixel.EGRD1', 'component': 'pixel', 'x': 240, 'y': 240}
-	* {'glyph': 'pixel.EGRD1', 'component': 'pixel', 'x': 240, 'y': 240}
-	* {'glyph': 'pixel.EGRD1', 'component': 'pixel', 'x': 240, 'y': 240}
-	* {'glyph': 'pixel.EGRD1', 'component': 'pixel', 'x': 240, 'y': 240}
-	* {'glyph': 'pixel.EGRD1', 'component': 'pixel', 'x': 240, 'y': 240}
-	* {'glyph': 'pixel.EGRD1', 'component': 'pixel', 'x': 240, 'y': 240}
-	* {'glyph': 'pixel.EGRD1', 'component': 'pixel', 'x': 240, 'y': 240}
-	* {'glyph': 'pixel.EGRD2', 'component': 'pixel', 'x': 360, 'y': 360}
-	* {'glyph': 'pixel.EGRD2', 'component': 'pixel', 'x': 120, 'y': 360} and 3 more. [code: found-duplicates]
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 
 </details>
 <details>
@@ -351,6 +342,23 @@ on Variable Fonts.
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class)</summary>
+
+* [com.google.fonts/check/gdef_spacing_marks](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks)
+<pre>--- Rationale ---
+
+Glyphs in the GDEF mark glyph class should be non-spacing.
+Spacing glyphs in the GDEF mark glyph class may have incorrect anchor
+positioning that was only intended for building composite glyphs during design.
+
+
+</pre>
+
+* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+	 _part.arThreedotscenter, _part.markGaf and _part.miniKeheh [code: spacing-mark-glyphs]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class</summary>
 
 * [com.google.fonts/check/gdef_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars)
@@ -362,7 +370,25 @@ Mark characters should be in the GDEF mark glyph class.
 </pre>
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 U+0324, U+0335, U+0344, U+05B0, U+05B1, U+05B2, U+05B3, U+05B4, U+05B5, U+05B6, U+05B7, U+05B8, U+05B9, U+05BA, U+05BB, U+05BC, U+05BF, U+05C1, U+05C2, U+05C7, U+0610, U+064B, U+064C, U+064D, U+064E, U+064F, U+0650, U+0651, U+0652, U+0653, U+0654, U+0655, U+0656, U+0658 and U+0670 [code: mark-chars]
+	 U+0313 [code: mark-chars]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks)</summary>
+
+* [com.google.fonts/check/gdef_non_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars)
+<pre>--- Rationale ---
+
+Glyphs in the GDEF mark glyph class become non-spacing and may be repositioned
+if they have mark anchors.
+Only combining mark glyphs should be in that class. Any non-mark glyph must not
+be in that class, in particular spacing glyphs.
+
+
+</pre>
+
+* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
+	 U+02C9, U+02CA, U+02CB, U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB9, U+FBC0, U+FC5E, U+FC5F, U+FC60, U+FC61, U+FC62 and U+FC63 [code: non-mark-chars]
 
 </details>
 <details>
@@ -1324,9 +1350,9 @@ of hinted versus unhinted font files.
 
 	|  | fonts/Handjet[EGRD,ESHP,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 392.1kb |
-	| Hinted Size | 390.6kb |
-	| Increase | -1592 bytes |
+	| Dehinted Size | 366.9kb |
+	| Hinted Size | 365.3kb |
+	| Increase | -1588 bytes |
 	| Change   | -0.4 % |
  [code: size-impact]
 
@@ -1435,7 +1461,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GPOS, prep, GSUB, loca, gasp, DSIG]
+* ℹ **INFO** This font contains the following optional tables [GSUB, GPOS, loca, prep, gasp, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1951,26 +1977,6 @@ that are multiples of 100 on the design space.
 </pre>
 
 * 🍞 **PASS** OK
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
-<pre>--- Rationale ---
-
-All ligatures in a font must have corresponding caret (text cursor) positions
-defined in the GDEF table, otherwhise, users may experience issues with caret
-rendering.
-
-If using GlyphsApp, ligature carets can be set directly on canvas by accessing
-the `Glyph -&gt; Set Anchors` menu option or by pressing the `Cmd+U` keyboard
-shortcut.
-
-
-</pre>
-
-* 🍞 **PASS** Looks good!
 
 </details>
 <details>
@@ -2550,39 +2556,6 @@ Reference: https://github.com/googlefonts/fontbakery/issues/1845
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class)</summary>
-
-* [com.google.fonts/check/gdef_spacing_marks](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks)
-<pre>--- Rationale ---
-
-Glyphs in the GDEF mark glyph class should be non-spacing.
-Spacing glyphs in the GDEF mark glyph class may have incorrect anchor
-positioning that was only intended for building composite glyphs during design.
-
-
-</pre>
-
-* 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks)</summary>
-
-* [com.google.fonts/check/gdef_non_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars)
-<pre>--- Rationale ---
-
-Glyphs in the GDEF mark glyph class become non-spacing and may be repositioned
-if they have mark anchors.
-Only combining mark glyphs should be in that class. Any non-mark glyph must not
-be in that class, in particular spacing glyphs.
-
-
-</pre>
-
-* 🍞 **PASS** Font does not have non-mark characters in the GDEF mark glyph class.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Does GPOS table have kerning information?</summary>
 
 * [com.google.fonts/check/gpos_kerning_info](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info)
@@ -2634,6 +2607,25 @@ good-to-have (but optional) feature.
 * [com.google.fonts/check/points_out_of_bounds](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds)
 
 * 🍞 **PASS** All glyph paths have coordinates within bounds!
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
+
+* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
+<pre>--- Rationale ---
+
+There has been cases in which fonts had faulty double quote marks, with each of
+them containing two single quote marks as components with the same x, y
+coordinates which makes them visually look like single quote marks.
+
+This check ensures that glyphs do not contain duplicate components which have
+the same x,y coordinates.
+
+
+</pre>
+
+* 🍞 **PASS** Glyphs do not contain duplicate components which have the same x,y coordinates.
 
 </details>
 <details>
@@ -2717,5 +2709,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 4 | 77 | 8 | 86 | 0 |
-| 0% | 1% | 2% | 44% | 5% | 49% | 0% |
+| 0 | 1 | 7 | 77 | 8 | 84 | 0 |
+| 0% | 1% | 4% | 44% | 5% | 47% | 0% |
