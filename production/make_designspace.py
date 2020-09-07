@@ -35,7 +35,7 @@ ESHPs = [
     (349, False, "Lozerge"),
     (366, True, None),
     (400, True, None),
-    (425, True, None),
+    (425, False, None),
     (450, False, "Rectangle"),
     (500, True, "Bar (Vertical)"),
     (533, True, None),  # Tilted rectangle 30
