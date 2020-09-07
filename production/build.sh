@@ -10,7 +10,10 @@ rm -r variable_ttf
 
 # Make UFOs from latest sources
 echo "Extracting ufo files from glyphs sources"
-fontmake -g sources/Handjet.glyphs -o ufo
+# Use glyphs2ufo directly instead of fontmake in order to prevent output of
+# faulty GDEF (fontmake seems to use the glyphs2ufo --generate-GDEF api)
+# See https://github.com/googlefonts/glyphsLib/issues/620
+glyphs2ufo --output-dir master_ufo sources/Handjet.glyphs 
 
 
 # For clarity's sake, explicitly remove the designspace fontmake outputs
