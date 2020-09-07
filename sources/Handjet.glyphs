@@ -1,5 +1,5 @@
 {
-.appVersion = "1340";
+.appVersion = "1346";
 classes = (
 {
 automatic = 1;
@@ -15751,6 +15751,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -15777,6 +15781,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -15803,6 +15811,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -15829,6 +15841,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -15855,6 +15871,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -15903,6 +15923,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -15929,6 +15953,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -15972,6 +16000,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -16090,6 +16122,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -16153,6 +16189,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -16178,6 +16218,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -16241,6 +16285,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -16266,6 +16314,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -16334,6 +16386,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -16371,6 +16427,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -16423,6 +16483,10 @@ anchors = (
 {
 name = _top;
 position = "{0, 3840}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -17914,6 +17978,12 @@ unicode = 0132;
 glyphname = Iacute_J.NLD;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{2280, 0}";
+}
+);
 components = (
 {
 name = Iacute;
@@ -21999,6 +22069,12 @@ unicode = 0133;
 glyphname = iacute_j.NLD;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1440, 0}";
+}
+);
 components = (
 {
 name = iacute;
@@ -64229,6 +64305,12 @@ color = 4;
 glyphname = a.ech_a.yiwn;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -72987,6 +73069,10 @@ name = bottom_2;
 position = "{720, 0}";
 },
 {
+name = caret_1;
+position = "{1920, 0}";
+},
+{
 name = top_1;
 position = "{3120, 5280}";
 },
@@ -73128,6 +73214,10 @@ name = bottom_2;
 position = "{720, 0}";
 },
 {
+name = caret_1;
+position = "{1920, 0}";
+},
+{
 name = top_1;
 position = "{3120, 5280}";
 },
@@ -73156,6 +73246,12 @@ unicode = FEFC;
 glyphname = arLam.init_arAlifMadda.fina;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = arLam.init_arAlif.fina;
@@ -73175,6 +73271,12 @@ unicode = FEF5;
 glyphname = arLam.medi_arAlifMadda.fina;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = arLam.medi_arAlif.fina;
@@ -73194,6 +73296,12 @@ unicode = FEF6;
 glyphname = arLam.init_arAlifHamza.fina;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = arLam.init_arAlif.fina;
@@ -73213,6 +73321,12 @@ unicode = FEF7;
 glyphname = arLam.medi_arAlifHamza.fina;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = arLam.medi_arAlif.fina;
@@ -73232,6 +73346,12 @@ unicode = FEF8;
 glyphname = arLam.init_arAlifHamzabelow.fina;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = arLam.init_arAlif.fina;
@@ -73250,6 +73370,12 @@ unicode = FEF9;
 glyphname = arLam.medi_arAlifHamzabelow.fina;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = arLam.medi_arAlif.fina;
@@ -73268,6 +73394,12 @@ unicode = FEFA;
 glyphname = arLam.init_arAlifWasla.fina;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = arLam.init_arAlif.fina;
@@ -73286,6 +73418,12 @@ width = 3840;
 glyphname = arLam.medi_arAlifWasla.fina;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = arLam.medi_arAlif.fina;
@@ -76106,7 +76244,6 @@ name = arLam.init_arLam.medi_arHeh.fina;
 },
 {
 name = arShadda_arAlifabove;
-transform = "{1, 0, 0, 1, 3360, 1440}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -77216,6 +77353,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -77240,6 +77381,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -77264,6 +77409,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -77288,6 +77437,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -77308,6 +77461,12 @@ width = 0;
 glyphname = arHamzabelow_arKasra;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1200, 0}";
+}
+);
 components = (
 {
 name = arHamzabelow;
@@ -77326,6 +77485,12 @@ width = 2400;
 glyphname = arHamzabelow_arKasratan;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1200, 0}";
+}
+);
 components = (
 {
 name = arHamzabelow;
@@ -77348,6 +77513,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -77372,6 +77541,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -77397,6 +77570,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -77422,6 +77599,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -77447,6 +77628,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -77471,6 +77656,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -77496,6 +77685,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -77521,6 +77714,10 @@ anchors = (
 {
 name = _top;
 position = "{1200, 2880}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -80232,6 +80429,7 @@ width = 0;
 },
 {
 color = 7;
+export = 0;
 glyphname = _part.link;
 layers = (
 {
@@ -80254,6 +80452,7 @@ width = 0;
 },
 {
 color = 7;
+export = 0;
 glyphname = _part.markGaf;
 layers = (
 {
@@ -80292,6 +80491,7 @@ width = 4800;
 },
 {
 color = 7;
+export = 0;
 glyphname = _part.arKaf;
 layers = (
 {
@@ -80424,6 +80624,7 @@ width = 5760;
 },
 {
 color = 7;
+export = 0;
 glyphname = _part.arThreedotscenter;
 layers = (
 {
@@ -80457,6 +80658,7 @@ width = 1920;
 },
 {
 color = 7;
+export = 0;
 glyphname = _part.miniKeheh;
 layers = (
 {
@@ -80510,6 +80712,7 @@ width = 2400;
 },
 {
 color = 7;
+export = 0;
 glyphname = _part.arBeh.YehBarri.fina;
 layers = (
 {
@@ -80627,6 +80830,7 @@ width = 4800;
 },
 {
 color = 7;
+export = 0;
 glyphname = _part.arBeh.YehBarri.medi;
 layers = (
 {
@@ -80658,6 +80862,7 @@ width = 4800;
 },
 {
 color = 7;
+export = 0;
 glyphname = _part.arJim.YehBarri.fina;
 layers = (
 {
@@ -80692,6 +80897,7 @@ width = 6480;
 },
 {
 color = 7;
+export = 0;
 glyphname = _part.arJim.YehBarri.medi;
 layers = (
 {
@@ -84031,6 +84237,12 @@ unicode = 05EA;
 glyphname = hbAlef_hbPatah;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbAlef;
@@ -84050,6 +84262,12 @@ unicode = FB2E;
 glyphname = hbAlef_hbQamats;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbAlef;
@@ -84069,6 +84287,12 @@ unicode = FB2F;
 glyphname = hbAlef_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbAlef;
@@ -84088,6 +84312,12 @@ unicode = FB30;
 glyphname = hbBet_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbBet;
@@ -84107,6 +84337,12 @@ unicode = FB31;
 glyphname = hbBet_hbRafe;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbBet;
@@ -84126,6 +84362,12 @@ unicode = FB4C;
 glyphname = hbGimel_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1200, 0}";
+}
+);
 components = (
 {
 name = hbGimel;
@@ -84145,6 +84387,12 @@ unicode = FB32;
 glyphname = hbDalet_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1560, 0}";
+}
+);
 components = (
 {
 name = hbDalet;
@@ -84164,6 +84412,12 @@ unicode = FB33;
 glyphname = hbHe_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbHe;
@@ -84183,6 +84437,12 @@ unicode = FB34;
 glyphname = hbVav_hbHolam;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1200, 0}";
+}
+);
 components = (
 {
 name = hbVav;
@@ -84202,6 +84462,12 @@ unicode = FB4B;
 glyphname = hbVav_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1200, 0}";
+}
+);
 components = (
 {
 name = hbVav;
@@ -84221,6 +84487,12 @@ unicode = FB35;
 glyphname = hbZayin_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1080, 0}";
+}
+);
 components = (
 {
 name = hbZayin;
@@ -84240,6 +84512,12 @@ unicode = FB36;
 glyphname = hbTet_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbTet;
@@ -84259,6 +84537,12 @@ unicode = FB38;
 glyphname = hbYod_hbHiriq;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1200, 0}";
+}
+);
 components = (
 {
 name = hbYod;
@@ -84278,6 +84562,12 @@ unicode = FB1D;
 glyphname = hbYod_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1200, 0}";
+}
+);
 components = (
 {
 name = hbYod;
@@ -84297,6 +84587,12 @@ unicode = FB39;
 glyphname = hbKaf_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1680, 0}";
+}
+);
 components = (
 {
 name = hbKaf;
@@ -84316,6 +84612,12 @@ unicode = FB3B;
 glyphname = hbKaf_hbRafe;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1680, 0}";
+}
+);
 components = (
 {
 name = hbKaf;
@@ -84335,6 +84637,12 @@ unicode = FB4D;
 glyphname = hbKafFinal_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1560, 0}";
+}
+);
 components = (
 {
 name = hbKafFinal;
@@ -84354,6 +84662,12 @@ unicode = FB3A;
 glyphname = hbLamed_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1680, 0}";
+}
+);
 components = (
 {
 name = hbLamed;
@@ -84373,6 +84687,12 @@ unicode = FB3C;
 glyphname = hbMem_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbMem;
@@ -84392,6 +84712,12 @@ unicode = FB3E;
 glyphname = hbNun_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1320, 0}";
+}
+);
 components = (
 {
 name = hbNun;
@@ -84411,6 +84737,12 @@ unicode = FB40;
 glyphname = hbSamekh_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbSamekh;
@@ -84430,6 +84762,12 @@ unicode = FB41;
 glyphname = hbPe_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbPe.calt;
@@ -84449,6 +84787,12 @@ unicode = FB44;
 glyphname = hbPe_hbRafe;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbPe;
@@ -84468,6 +84812,12 @@ unicode = FB4E;
 glyphname = hbPeFinal_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1920, 0}";
+}
+);
 components = (
 {
 name = hbPeFinal.calt;
@@ -84487,6 +84837,12 @@ unicode = FB43;
 glyphname = hbTsadi_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1680, 0}";
+}
+);
 components = (
 {
 name = hbTsadi;
@@ -84506,6 +84862,12 @@ unicode = FB46;
 glyphname = hbQof_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1800, 0}";
+}
+);
 components = (
 {
 name = hbQof;
@@ -84525,6 +84887,12 @@ unicode = FB47;
 glyphname = hbResh_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{1560, 0}";
+}
+);
 components = (
 {
 name = hbResh;
@@ -84544,6 +84912,12 @@ unicode = FB48;
 glyphname = hbShin_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{2040, 0}";
+}
+);
 components = (
 {
 name = hbShin;
@@ -84563,6 +84937,12 @@ unicode = FB49;
 glyphname = hbShin_hbShindot;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{2040, 0}";
+}
+);
 components = (
 {
 name = hbShin;
@@ -84582,6 +84962,12 @@ unicode = FB2A;
 glyphname = hbShin_hbSindot;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{2040, 0}";
+}
+);
 components = (
 {
 name = hbShin;
@@ -84601,6 +84987,12 @@ unicode = FB2B;
 glyphname = hbShin_hbDagesh_hbShindot;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{2040, 0}";
+}
+);
 components = (
 {
 name = hbShin;
@@ -84624,6 +85016,12 @@ unicode = FB2C;
 glyphname = hbShin_hbDagesh_hbSindot;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{2040, 0}";
+}
+);
 components = (
 {
 name = hbShin;
@@ -84647,6 +85045,12 @@ unicode = FB2D;
 glyphname = hbTav_hbDagesh;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{2160, 0}";
+}
+);
 components = (
 {
 name = hbTav;
@@ -84700,6 +85104,10 @@ anchors = (
 {
 name = _bottom;
 position = "{0, 0}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -84744,6 +85152,10 @@ anchors = (
 {
 name = _bottom;
 position = "{0, 0}";
+},
+{
+name = caret_1;
+position = "{0, 0}";
 }
 );
 components = (
@@ -84787,6 +85199,10 @@ layers = (
 anchors = (
 {
 name = _bottom;
+position = "{0, 0}";
+},
+{
+name = caret_1;
 position = "{0, 0}";
 }
 );
@@ -85300,6 +85716,12 @@ color = 4;
 glyphname = hbYod_hbYod_hbPatah;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{2160, 0}";
+}
+);
 components = (
 {
 name = hbYod;
