@@ -342,56 +342,6 @@ on Variable Fonts.
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class)</summary>
-
-* [com.google.fonts/check/gdef_spacing_marks](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks)
-<pre>--- Rationale ---
-
-Glyphs in the GDEF mark glyph class should be non-spacing.
-Spacing glyphs in the GDEF mark glyph class may have incorrect anchor
-positioning that was only intended for building composite glyphs during design.
-
-
-</pre>
-
-* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 _part.arThreedotscenter, _part.markGaf and _part.miniKeheh [code: spacing-mark-glyphs]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class</summary>
-
-* [com.google.fonts/check/gdef_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars)
-<pre>--- Rationale ---
-
-Mark characters should be in the GDEF mark glyph class.
-
-
-</pre>
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 U+0313 [code: mark-chars]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks)</summary>
-
-* [com.google.fonts/check/gdef_non_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars)
-<pre>--- Rationale ---
-
-Glyphs in the GDEF mark glyph class become non-spacing and may be repositioned
-if they have mark anchors.
-Only combining mark glyphs should be in that class. Any non-mark glyph must not
-be in that class, in particular spacing glyphs.
-
-
-</pre>
-
-* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+02C9, U+02CA, U+02CB, U+FBB2, U+FBB3, U+FBB4, U+FBB5, U+FBB6, U+FBB9, U+FBC0, U+FC5E, U+FC5F, U+FC60, U+FC61, U+FC62 and U+FC63 [code: non-mark-chars]
-
-</details>
-<details>
 <summary>💤 <b>SKIP:</b> Does DESCRIPTION file contain broken links?</summary>
 
 * [com.google.fonts/check/description/broken_links](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links)
@@ -1350,9 +1300,9 @@ of hinted versus unhinted font files.
 
 	|  | fonts/Handjet[EGRD,ESHP,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 366.9kb |
-	| Hinted Size | 365.3kb |
-	| Increase | -1588 bytes |
+	| Dehinted Size | 367.0kb |
+	| Hinted Size | 365.4kb |
+	| Increase | -1624 bytes |
 	| Change   | -0.4 % |
  [code: size-impact]
 
@@ -1461,7 +1411,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [prep, gasp, loca, DSIG, GSUB, GPOS]
+* ℹ **INFO** This font contains the following optional tables [prep, DSIG, GSUB, loca, gasp, GPOS]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -2556,6 +2506,53 @@ Reference: https://github.com/googlefonts/fontbakery/issues/1845
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class)</summary>
+
+* [com.google.fonts/check/gdef_spacing_marks](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks)
+<pre>--- Rationale ---
+
+Glyphs in the GDEF mark glyph class should be non-spacing.
+Spacing glyphs in the GDEF mark glyph class may have incorrect anchor
+positioning that was only intended for building composite glyphs during design.
+
+
+</pre>
+
+* 🍞 **PASS** Font does not has spacing glyphs in the GDEF mark glyph class.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check mark characters are in GDEF mark glyph class</summary>
+
+* [com.google.fonts/check/gdef_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars)
+<pre>--- Rationale ---
+
+Mark characters should be in the GDEF mark glyph class.
+
+
+</pre>
+
+* 🍞 **PASS** Font does not have mark characters not in the GDEF mark glyph class.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check GDEF mark glyph class doesn't have characters that are not marks)</summary>
+
+* [com.google.fonts/check/gdef_non_mark_chars](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars)
+<pre>--- Rationale ---
+
+Glyphs in the GDEF mark glyph class become non-spacing and may be repositioned
+if they have mark anchors.
+Only combining mark glyphs should be in that class. Any non-mark glyph must not
+be in that class, in particular spacing glyphs.
+
+
+</pre>
+
+* 🍞 **PASS** Font does not have non-mark characters in the GDEF mark glyph class.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Does GPOS table have kerning information?</summary>
 
 * [com.google.fonts/check/gpos_kerning_info](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info)
@@ -2709,5 +2706,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 7 | 77 | 8 | 84 | 0 |
-| 0% | 1% | 4% | 44% | 5% | 47% | 0% |
+| 0 | 1 | 4 | 77 | 8 | 87 | 0 |
+| 0% | 1% | 2% | 44% | 5% | 49% | 0% |

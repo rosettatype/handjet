@@ -1415,6 +1415,12 @@ _part.link,
 _part.markGaf,
 _part.arKaf,
 _part.arThreedotscenter,
+_part.arDotabove,
+_part.arDotbelow,
+_part.arTwodotshorizontalabove,
+_part.arTwodotshorizontalbelow,
+_part.arThreedotsdownbelow,
+_part.arThreedotsupabove,
 _part.miniKeheh,
 _part.arBeh.YehBarri.fina,
 _part.arBeh.YehBarri.medi,
@@ -65478,7 +65484,7 @@ components = (
 name = arBehdotless;
 },
 {
-name = arDotbelow;
+name = _part.arDotbelow;
 transform = "{1, 0, 0, 1, 2880, 0}";
 }
 );
@@ -65497,7 +65503,7 @@ components = (
 name = arBehdotless.fina;
 },
 {
-name = arDotbelow;
+name = _part.arDotbelow;
 transform = "{1, 0, 0, 1, 2880, 0}";
 }
 );
@@ -65516,7 +65522,7 @@ components = (
 name = arBehdotless.init;
 },
 {
-name = arDotbelow;
+name = _part.arDotbelow;
 transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
@@ -65535,7 +65541,7 @@ components = (
 name = arBehdotless.medi;
 },
 {
-name = arDotbelow;
+name = _part.arDotbelow;
 transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
@@ -65554,7 +65560,7 @@ components = (
 name = arHeh;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 1680, 0}";
 }
 );
@@ -65573,7 +65579,7 @@ components = (
 name = arHeh.fina;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 2400, 960}";
 }
 );
@@ -65592,7 +65598,7 @@ components = (
 name = arBehdotless;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 2880, -480}";
 }
 );
@@ -65611,7 +65617,7 @@ components = (
 name = arBehdotless.fina;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 2880, -480}";
 }
 );
@@ -65630,7 +65636,7 @@ components = (
 name = arBehdotless.init;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 1680, -480}";
 }
 );
@@ -65649,7 +65655,7 @@ components = (
 name = arBehdotless.medi;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 1680, -480}";
 }
 );
@@ -65668,7 +65674,7 @@ components = (
 name = arBehdotless;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 2880, -480}";
 }
 );
@@ -65687,7 +65693,7 @@ components = (
 name = arBehdotless.fina;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 2880, -480}";
 }
 );
@@ -65706,7 +65712,7 @@ components = (
 name = arBehdotless.init;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 1680, -480}";
 }
 );
@@ -65725,7 +65731,7 @@ components = (
 name = arBehdotless.medi;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 1680, -480}";
 }
 );
@@ -65782,7 +65788,7 @@ components = (
 name = arHah.init;
 },
 {
-name = arDotbelow;
+name = _part.arDotbelow;
 transform = "{1, 0, 0, 1, 1680, 0}";
 }
 );
@@ -65801,7 +65807,7 @@ components = (
 name = arHah.medi;
 },
 {
-name = arDotbelow;
+name = _part.arDotbelow;
 transform = "{1, 0, 0, 1, 1680, 0}";
 }
 );
@@ -66278,7 +66284,7 @@ components = (
 name = arHah;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1920, -480}";
 }
 );
@@ -66297,7 +66303,7 @@ components = (
 name = arHah.fina;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1920, -480}";
 }
 );
@@ -66316,7 +66322,7 @@ components = (
 name = arHah.init;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 2160, -480}";
 }
 );
@@ -66335,7 +66341,7 @@ components = (
 name = arHah.medi;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 2160, -480}";
 }
 );
@@ -66467,7 +66473,7 @@ components = (
 name = arDal;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 2160, 480}";
 }
 );
@@ -66486,7 +66492,7 @@ components = (
 name = arDal.fina;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 2160, 480}";
 }
 );
@@ -66626,7 +66632,7 @@ components = (
 name = arReh;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1440, -480}";
 }
 );
@@ -66645,7 +66651,7 @@ components = (
 name = arReh.fina;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1440, -480}";
 }
 );
@@ -67029,7 +67035,7 @@ components = (
 name = arSin;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 5040, -480}";
 }
 );
@@ -67048,7 +67054,7 @@ components = (
 name = arSin.fina;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 5040, -480}";
 }
 );
@@ -67067,7 +67073,7 @@ components = (
 name = arSin.init;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 3120, -480}";
 }
 );
@@ -67086,7 +67092,7 @@ components = (
 name = arSin.medi;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 3120, -480}";
 }
 );
@@ -67490,7 +67496,7 @@ components = (
 name = arSad;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 5760, -480}";
 }
 );
@@ -67509,7 +67515,7 @@ components = (
 name = arSad.fina;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 5760, -480}";
 }
 );
@@ -67528,7 +67534,7 @@ components = (
 name = arSad.init;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 3840, -480}";
 }
 );
@@ -67547,7 +67553,7 @@ components = (
 name = arSad.medi;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 3840, -480}";
 }
 );
@@ -67818,7 +67824,7 @@ components = (
 name = arTah;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 3840, -480}";
 }
 );
@@ -67837,7 +67843,7 @@ components = (
 name = arTah.fina;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 3840, -480}";
 }
 );
@@ -67856,7 +67862,7 @@ components = (
 name = arTah.init;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 3840, -480}";
 }
 );
@@ -67875,7 +67881,7 @@ components = (
 name = arTah.medi;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 3840, -480}";
 }
 );
@@ -68334,7 +68340,7 @@ components = (
 name = arAyn;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1680, 480}";
 }
 );
@@ -68353,7 +68359,7 @@ components = (
 name = arAyn.fina;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1920, -480}";
 }
 );
@@ -68372,7 +68378,7 @@ components = (
 name = arAyn.init;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1680, -480}";
 }
 );
@@ -68391,7 +68397,7 @@ components = (
 name = arAyn.medi;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1680, -480}";
 }
 );
@@ -68410,7 +68416,7 @@ components = (
 name = arFehdotless;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 4320, 480}";
 }
 );
@@ -68429,7 +68435,7 @@ components = (
 name = arFehdotless.fina;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 4320, 0}";
 }
 );
@@ -68448,7 +68454,7 @@ components = (
 name = arFehdotless.init;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1920, 480}";
 }
 );
@@ -68467,7 +68473,7 @@ components = (
 name = arFehdotless.medi;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1920, 0}";
 }
 );
@@ -68486,7 +68492,7 @@ components = (
 name = arQafdotless;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 3360, -480}";
 }
 );
@@ -68505,7 +68511,7 @@ components = (
 name = arQafdotless.fina;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 3360, -480}";
 }
 );
@@ -68524,7 +68530,7 @@ components = (
 name = arFehdotless.init;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 1920, 480}";
 }
 );
@@ -68543,7 +68549,7 @@ components = (
 name = arFehdotless.medi;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 1920, 0}";
 }
 );
@@ -69356,7 +69362,7 @@ components = (
 name = arNunGhunna;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1920, -480}";
 }
 );
@@ -69375,7 +69381,7 @@ components = (
 name = arNunGhunna.fina;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1920, -480}";
 }
 );
@@ -69394,7 +69400,7 @@ components = (
 name = arBehdotless.init;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1680, -480}";
 }
 );
@@ -69413,7 +69419,7 @@ components = (
 name = arBehdotless.medi;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 1680, -480}";
 }
 );
@@ -70242,7 +70248,7 @@ components = (
 name = arAlifMaksura;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 2400, -1440}";
 }
 );
@@ -70261,7 +70267,7 @@ components = (
 name = arAlifMaksura.fina;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 2400, -1440}";
 }
 );
@@ -70280,7 +70286,7 @@ components = (
 name = arBehdotless.init;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
@@ -70299,7 +70305,7 @@ components = (
 name = arBehdotless.medi;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
@@ -70647,7 +70653,7 @@ components = (
 name = arBehdotless;
 },
 {
-name = arThreedotsdownbelow;
+name = _part.arThreedotsdownbelow;
 transform = "{1, 0, 0, 1, 2880, 0}";
 }
 );
@@ -70666,7 +70672,7 @@ components = (
 name = arBehdotless.fina;
 },
 {
-name = arThreedotsdownbelow;
+name = _part.arThreedotsdownbelow;
 transform = "{1, 0, 0, 1, 2880, 0}";
 }
 );
@@ -70685,7 +70691,7 @@ components = (
 name = arBehdotless.init;
 },
 {
-name = arThreedotsdownbelow;
+name = _part.arThreedotsdownbelow;
 transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
@@ -70704,7 +70710,7 @@ components = (
 name = arBehdotless.medi;
 },
 {
-name = arThreedotsdownbelow;
+name = _part.arThreedotsdownbelow;
 transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
@@ -70761,7 +70767,7 @@ components = (
 name = arHah.init;
 },
 {
-name = arThreedotsdownbelow;
+name = _part.arThreedotsdownbelow;
 transform = "{1, 0, 0, 1, 1680, 0}";
 }
 );
@@ -70780,7 +70786,7 @@ components = (
 name = arHah.medi;
 },
 {
-name = arThreedotsdownbelow;
+name = _part.arThreedotsdownbelow;
 transform = "{1, 0, 0, 1, 1680, 0}";
 }
 );
@@ -70875,7 +70881,7 @@ components = (
 name = arReh;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 1440, -480}";
 }
 );
@@ -70894,7 +70900,7 @@ components = (
 name = arReh.fina;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 1440, -480}";
 }
 );
@@ -71410,7 +71416,7 @@ components = (
 name = arFehdotless;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 4320, 480}";
 }
 );
@@ -71429,7 +71435,7 @@ components = (
 name = arFehdotless.fina;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 4320, 0}";
 }
 );
@@ -71448,7 +71454,7 @@ components = (
 name = arFehdotless.init;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 1920, 480}";
 }
 );
@@ -71467,7 +71473,7 @@ components = (
 name = arFehdotless.medi;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 1920, 0}";
 }
 );
@@ -71486,7 +71492,7 @@ components = (
 name = arFehdotless;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 3840, 0}";
 }
 );
@@ -71505,7 +71511,7 @@ components = (
 name = arFehdotless.fina;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 4320, 0}";
 }
 );
@@ -71523,7 +71529,7 @@ components = (
 name = arFehdotless.medi;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 1920, 0}";
 }
 );
@@ -71541,7 +71547,7 @@ components = (
 name = arFehdotless.init;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 1440, 0}";
 }
 );
@@ -72717,7 +72723,7 @@ components = (
 name = arHeh;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 1680, 0}";
 }
 );
@@ -72736,7 +72742,7 @@ components = (
 name = arHeh.fina;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 2400, 960}";
 }
 );
@@ -73658,7 +73664,7 @@ components = (
 name = _part.arBeh.YehBarri.fina;
 },
 {
-name = arDotbelow;
+name = _part.arDotbelow;
 transform = "{1, 0, 0, 1, 3120, -1440}";
 }
 );
@@ -73701,7 +73707,7 @@ components = (
 name = _part.arBeh.YehBarri.medi;
 },
 {
-name = arDotbelow;
+name = _part.arDotbelow;
 transform = "{1, 0, 0, 1, 3120, -1440}";
 }
 );
@@ -73744,7 +73750,7 @@ components = (
 name = _part.arBeh.YehBarri.fina;
 },
 {
-name = arThreedotsdownbelow;
+name = _part.arThreedotsdownbelow;
 transform = "{1, 0, 0, 1, 3120, -1440}";
 }
 );
@@ -73787,7 +73793,7 @@ components = (
 name = _part.arBeh.YehBarri.medi;
 },
 {
-name = arThreedotsdownbelow;
+name = _part.arThreedotsdownbelow;
 transform = "{1, 0, 0, 1, 3120, -1440}";
 }
 );
@@ -73830,7 +73836,7 @@ components = (
 name = _part.arBeh.YehBarri.fina;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 4080, -480}";
 }
 );
@@ -73873,7 +73879,7 @@ components = (
 name = _part.arBeh.YehBarri.medi;
 },
 {
-name = arTwodotshorizontalabove;
+name = _part.arTwodotshorizontalabove;
 transform = "{1, 0, 0, 1, 4080, -480}";
 }
 );
@@ -73916,7 +73922,7 @@ components = (
 name = _part.arBeh.YehBarri.fina;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 4080, -480}";
 }
 );
@@ -73959,7 +73965,7 @@ components = (
 name = _part.arBeh.YehBarri.medi;
 },
 {
-name = arThreedotsupabove;
+name = _part.arThreedotsupabove;
 transform = "{1, 0, 0, 1, 4080, -480}";
 }
 );
@@ -74088,7 +74094,7 @@ components = (
 name = _part.arJim.YehBarri.fina;
 },
 {
-name = arDotbelow;
+name = _part.arDotbelow;
 transform = "{1, 0, 0, 1, 4080, -1440}";
 }
 );
@@ -74131,7 +74137,7 @@ components = (
 name = _part.arJim.YehBarri.medi;
 },
 {
-name = arDotbelow;
+name = _part.arDotbelow;
 transform = "{1, 0, 0, 1, 4080, -1440}";
 }
 );
@@ -74174,7 +74180,7 @@ components = (
 name = _part.arJim.YehBarri.fina;
 },
 {
-name = arThreedotsdownbelow;
+name = _part.arThreedotsdownbelow;
 transform = "{1, 0, 0, 1, 4080, -1440}";
 }
 );
@@ -74217,7 +74223,7 @@ components = (
 name = _part.arJim.YehBarri.medi;
 },
 {
-name = arThreedotsdownbelow;
+name = _part.arThreedotsdownbelow;
 transform = "{1, 0, 0, 1, 4080, -1440}";
 }
 );
@@ -74338,7 +74344,7 @@ components = (
 name = _part.arJim.YehBarri.fina;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 4560, -480}";
 }
 );
@@ -74381,7 +74387,7 @@ components = (
 name = _part.arJim.YehBarri.medi;
 },
 {
-name = arDotabove;
+name = _part.arDotabove;
 transform = "{1, 0, 0, 1, 4560, -480}";
 }
 );
@@ -75979,7 +75985,7 @@ components = (
 name = _part.arBeh.YehBarri.fina;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 3120, -1440}";
 }
 );
@@ -76022,7 +76028,7 @@ components = (
 name = _part.arBeh.YehBarri.medi;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 3120, -1440}";
 }
 );
@@ -76065,7 +76071,7 @@ components = (
 name = _part.arBeh.YehBarri.fina;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 3120, -1440}";
 }
 );
@@ -76108,7 +76114,7 @@ components = (
 name = _part.arBeh.YehBarri.medi;
 },
 {
-name = arTwodotshorizontalbelow;
+name = _part.arTwodotshorizontalbelow;
 transform = "{1, 0, 0, 1, 3120, -1440}";
 }
 );
@@ -80076,199 +80082,97 @@ width = 3360;
 unicode = FD3F;
 },
 {
-color = 7;
 glyphname = arDotabove;
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{0, 2880}";
-},
-{
-name = top;
-position = "{0, 3840}";
-}
-);
 components = (
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, -240, 3360}";
+name = _part.arDotabove;
+transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 0;
+width = 1440;
 }
 );
 unicode = FBB2;
 },
 {
-color = 7;
 glyphname = arTwodotshorizontalabove;
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{0, 2880}";
-},
-{
-name = top;
-position = "{0, 3840}";
-}
-);
 components = (
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, -720, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 3360}";
+name = _part.arTwodotshorizontalabove;
+transform = "{1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 0;
+width = 2400;
 }
 );
 unicode = FBB4;
 },
 {
-color = 7;
 glyphname = arThreedotsupabove;
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{0, 2880}";
-},
-{
-name = top;
-position = "{0, 4320}";
-}
-);
 components = (
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, -720, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, -240, 3840}";
+name = _part.arThreedotsupabove;
+transform = "{1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 0;
+width = 2400;
 }
 );
 unicode = FBB6;
 },
 {
-color = 7;
 glyphname = arDotbelow;
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{0, 0}";
-},
-{
-name = bottom;
-position = "{0, -960}";
-}
-);
 components = (
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, -240, -960}";
+name = _part.arDotbelow;
+transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 0;
+width = 1440;
 }
 );
 unicode = FBB3;
 },
 {
-color = 7;
 glyphname = arTwodotshorizontalbelow;
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{0, 0}";
-},
-{
-name = bottom;
-position = "{0, -960}";
-}
-);
 components = (
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, -720, -960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, -960}";
+name = _part.arTwodotshorizontalbelow;
+transform = "{1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 0;
+width = 2400;
 }
 );
 unicode = FBB5;
 },
 {
-color = 7;
 glyphname = arThreedotsdownbelow;
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{0, 0}";
-},
-{
-name = bottom;
-position = "{0, -1440}";
-}
-);
 components = (
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, -240, -1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, -720, -960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, -960}";
+name = _part.arThreedotsdownbelow;
+transform = "{1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 0;
+width = 2400;
 }
 );
 unicode = FBB9;
@@ -80510,6 +80414,204 @@ transform = "{1, 0, 0, 1, 960, 1200}";
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 1920;
+}
+);
+},
+{
+color = 7;
+export = 0;
+glyphname = _part.arDotabove;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+},
+{
+name = top;
+position = "{0, 3840}";
+}
+);
+components = (
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, -240, 3360}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 0;
+}
+);
+},
+{
+color = 7;
+export = 0;
+glyphname = _part.arDotbelow;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, 0}";
+},
+{
+name = bottom;
+position = "{0, -960}";
+}
+);
+components = (
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, -240, -960}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 0;
+}
+);
+},
+{
+color = 7;
+export = 0;
+glyphname = _part.arTwodotshorizontalabove;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+},
+{
+name = top;
+position = "{0, 3840}";
+}
+);
+components = (
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, -720, 3360}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 3360}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 0;
+}
+);
+},
+{
+color = 7;
+export = 0;
+glyphname = _part.arTwodotshorizontalbelow;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, 0}";
+},
+{
+name = bottom;
+position = "{0, -960}";
+}
+);
+components = (
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, -720, -960}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, -960}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 0;
+}
+);
+},
+{
+color = 7;
+export = 0;
+glyphname = _part.arThreedotsdownbelow;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{0, 0}";
+},
+{
+name = bottom;
+position = "{0, -1440}";
+}
+);
+components = (
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, -240, -1440}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, -720, -960}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, -960}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 0;
+}
+);
+},
+{
+color = 7;
+export = 0;
+glyphname = _part.arThreedotsupabove;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+},
+{
+name = top;
+position = "{0, 4320}";
+}
+);
+components = (
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, -720, 3360}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 240, 3360}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, -240, 3840}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 0;
 }
 );
 },
