@@ -49,7 +49,7 @@ ESHPs = [
     (4.86, True, None),
     (5.00, True, None),
     (6.50, True, None),
-    (6.80, False, "Rounded square"),
+    (6.90, False, "Rounded square"),
     (7.63, False, "Squircle"),
     (8.00, True, "Circle"),
     (8.69, False, "Egg"),
