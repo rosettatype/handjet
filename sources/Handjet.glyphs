@@ -14208,20 +14208,14 @@ color = 6;
 glyphname = firsttonechinese;
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{0, 3840}";
-}
-);
 components = (
 {
 name = macron;
-transform = "{1, 0, 0, 1, -1200, 0}";
+transform = "{1, 0, 0, 1, 240, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 0;
+width = 2880;
 }
 );
 unicode = 02C9;
@@ -14231,19 +14225,14 @@ color = 6;
 glyphname = secondtonechinese;
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{0, 3840}";
-}
-);
 components = (
 {
 name = acutecomb;
+transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 0;
+width = 1920;
 }
 );
 unicode = 02CA;
@@ -14253,19 +14242,14 @@ color = 6;
 glyphname = fourthtonechinese;
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{0, 3840}";
-}
-);
 components = (
 {
 name = gravecomb;
+transform = "{1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 0;
+width = 1920;
 }
 );
 unicode = 02CB;
@@ -15536,8 +15520,12 @@ layers = (
 {
 anchors = (
 {
-name = top;
+name = _top;
 position = "{0, 3840}";
+},
+{
+name = top;
+position = "{0, 6100}";
 }
 );
 components = (
@@ -80456,12 +80444,6 @@ export = 0;
 glyphname = _part.markGaf;
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{3360, 4320}";
-}
-);
 components = (
 {
 alignment = -1;
@@ -80628,12 +80610,6 @@ export = 0;
 glyphname = _part.arThreedotscenter;
 layers = (
 {
-anchors = (
-{
-name = _dotcenter;
-position = "{960, 1440}";
-}
-);
 components = (
 {
 alignment = -1;
@@ -80662,12 +80638,6 @@ export = 0;
 glyphname = _part.miniKeheh;
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{1200, 2880}";
-}
-);
 components = (
 {
 alignment = -1;
