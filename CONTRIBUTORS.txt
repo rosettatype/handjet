@@ -10,3 +10,6 @@
 # Name <email address>
 
 Johannes Neumeier <johannes@rosettatype.com>
+Borna Izadpanah <borna.izad@gmail.com>
+Khajag Apelian <khajag@debakir.com>
+Meir Sadan <meir@sadan.com>
