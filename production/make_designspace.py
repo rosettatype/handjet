@@ -34,7 +34,7 @@ ESHPs = [
     (1.00, True, "Triangle"),
     (2.00, True, "Square"),
     (2.11, True, None),
-    (2.25, True, "Lozerge"),
+    (2.25, True, "Lozenge"),
     (2.36, True, None),
     (2.50, True, None),
     (3.19, False, "Block"),
