@@ -1,14 +1,16 @@
 # Handjet
 
-Handjet is an element-based variable font (aka pixel font, modular font, …) where every glyph is composed using multiple copies of the same element. Each element can take one of sixteen shapes and transition smoothly between them while creating various effects. The font currently supports these scripts: Arabic, Armenian, Cyrillic, Greek, Hebrew, and Latin.
+Handjet is an element-based variable font (aka pixel font, modular font, …) where every glyph is composed using multiple copies of the same element. Each element can take one of 23 shapes and transition smoothly between them while creating various effects. The font currently supports these scripts: Arabic, Armenian, Cyrillic, Greek, Hebrew, and Latin.
+
+![Handjet’s shapes](docs/animations/Handjet-shapes-animation.gif)
 
 ## The story
 
-In autumn 2019 I was lucky to teach type design to a group of talented graphic design students at the [Faculty of Fine Arts in Brno](https://www.favu.vut.cz/en/studios/graphic-design2). Their first exercise was to build a simple element-based font that would be tailored to work well with [handjet printers](https://duckduckgo.com/?q=handjet+printer&ia=images). The handjet’s 32-pixel vertical matrix defined the constraints, the only contour to draw was the shape of the element, and the rest was “only” a matter of placing the elements on the grid to form letters. The clocks were ticking and the students were fierce. Most of them had their first font with basic English and Czech alphabets done by the end of the day!
+In autumn 2018 I was lucky to teach type design to a group of talented graphic design students at the [Faculty of Fine Arts in Brno](https://www.favu.vut.cz/en/studios/graphic-design2). Their first exercise was to build a simple element-based font that would be tailored to work well with [handjet printers](https://duckduckgo.com/?q=handjet+printer&ia=images). The handjet’s 32-pixel vertical matrix defined the constraints, the only contour to draw was the shape of the element, and the rest was “only” a matter of placing the elements on the grid to form letters. The clocks were ticking and the students were fierce. Most of them had their first font with basic English and Czech alphabets done by the end of the day!
 
 Upon realizing the task could be taken even further, I set out to design my own font. I did not leave the house that weekend and ended up with a complete pan-European Latin. A couple of days later I had Greek and Cyrillic too. It was hard to stop. And once I started interpolating the element shapes, it got out of control completely.
 
-In its current version, the Handjet type system contains sixteen elemental shapes. Smooth transitions between them create various effects: a triangle appears out of thin air and expands into a square, the square rotates to create a lozenge and then scales into a thin rectangle, a rounded square smoothly turns into a circle, the circle into an oval, a clover becomes a rotating star, and a spindle, and a heart. The size of elements can be changed as well, producing different font weights. Plus, one can choose to use groups of 2x2 or 3x3 smaller elements instead of a single element. All of these work within a single variable font, allowing users to produce their custom variations and animations easily.
+In its current version, the Handjet type system contains 23 elemental shapes. Smooth transitions between them create various effects: a triangle appears out of thin air and expands into a square, the square rotates to create a lozenge and then scales into a thin rectangle, a rounded square smoothly turns into a circle, the circle into an oval, a clover becomes a rotating star, and a spindle, and a heart. The size of elements can be changed as well, producing different font weights. Plus, one can choose to use groups of 2x2 or 3x3 smaller elements instead of a single element. All of these work within a single variable font, allowing users to produce their custom variations and animations easily.
 
 In 2019, Google sponsored the extension and open-sourcing of Handjet. All variations and element shapes have been thoroughly revisited and extended. Working with consultants Borna Izadpanah, Khajag Apelian, and Meir Sadan, I have also added support for Arabic, Armenian, and Hebrew (respectively). Selected symbols representing wildlife and domestic animals were included together with various seasonal symbols and patterns. The fonts are provided for free without any artistic aspirations, assumptions of originality, or kerning. I hope you will have as much fun using them as I had designing them.
 
@@ -57,7 +59,7 @@ The `pixel` glyph is compiled from all non-exporting `pixel.xxx` glyphs and is t
 | 4.11 | Bar at 20 degrees | - |
 | 4.25 | Bar (Diagonal Up) | * |
 | 4.36 | Bar at 65 degrees | - |
-| 4.50 | Bar (Horizontal)  | * |
+| 4.50 | Bar (Horizontal) | * |
 | 4.61 | Bar at 110 degrees | - |
 | 4.75 | Bar (Diagonal Down) | * |
 | 4.86 | Bar at 155 degrees | - |
