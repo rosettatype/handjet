@@ -12,7 +12,6 @@ BACKCOL = (255 / 256, 242 / 256, 0)
 NODECOL = (1, 1, 1)
 defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.01}
 step = 20
-caption = ""
 
 # Draw a single frame
 
@@ -44,7 +43,7 @@ for wght in range(900, 400 - step, -step):
     variations["wght"] = wght
     draw(txt="Possibilities", variations=variations, caption=caption)
 # element grid axis
-step = 10
+step = 5
 variations = defaults.copy()
 for egrd in range(100, 300 + step, step):
     caption = "Element Grid (EGRD): %.2f" % (egrd / 100)
