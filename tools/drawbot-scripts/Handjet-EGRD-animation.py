@@ -42,5 +42,4 @@ for egrd in range(300, 100 - step, -step):
     variations["EGRD"] = egrd / 100
     draw(txt="a", variations=variations, caption=caption)
 db.saveImage("../../docs/animations/Handjet-EGRD-animation.gif")
-db.saveImage("../../docs/animations/Handjet-EGRD-animation.mp4")
 db.endDrawing()

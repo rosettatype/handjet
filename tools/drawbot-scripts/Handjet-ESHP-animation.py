@@ -100,5 +100,4 @@ for i, (name, pos) in enumerate(eshp_steps):
         variations["ESHP"] = eshp / 100
         draw(txt="﮳", variations=variations, caption=caption)
 db.saveImage("../../docs/animations/Handjet-ESHP-animation.gif")
-db.saveImage("../../docs/animations/Handjet-ESHP-animation.mp4")
 db.endDrawing()

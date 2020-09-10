@@ -62,5 +62,4 @@ for eshp in range(0, 1600 + step, step):
     variations["ESHP"] = eshp / 100
     draw(txt="Possibilities", variations=variations, caption=caption)
 db.saveImage("../../docs/animations/Handjet-axes-animation.gif")
-db.saveImage("../../docs/animations/Handjet-axes-animation.mp4")
 db.endDrawing()
