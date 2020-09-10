@@ -21,23 +21,23 @@ In 2019, Google sponsored the extension and open-sourcing of Handjet. All variat
 
 P.S. If you want to do this exercise with your students, have a look at this [Glyphs tutorial](https://glyphsapp.com/tutorials/pixelfont).
 
-P.P.S. To be perfectly clear, I went way overboard of what Handjets’ grids permits. Hence, only some of the fonts are actually good-looking when used with the printers.
+P.P.S. To be perfectly clear, I went way overboard of what Handjets’ grids permit. Hence, only some of the fonts are actually good-looking when used with these printers.
 
 ## Variable font
 
-Handjet is primarily a variable font with three axes:
+Handjet is a variable font with the following axes:
 
 - **Weight (wght)** (100-900) controls the size of the element,
-- **Element Shape (ESHP)** (0-16.0) controls the shape of the element,
+- **Element Shape (ESHP)** (0.0-16.0) controls the shape of the element,
 - **Element Grid (EGRD)** (1.0-3.0) controls how many elements are used: a single element (single), a group of 2x2 elements (double), or a group of 3x3 elements (triple).
 
-The interpolation between shapes creates a rotation or disappearing effect for some of the shapes.
+The interpolation between different element shapes along the ESHP axis creates a rotation or disappearing effect for some of them. This was done (instead of having independent rotation and scale axes for example) to simplify the design space to keep things manageable for users as well as computers.
 
 ## Source files
 
 In principle all glyphs remain structually the same across all masters except for one special glyph: `pixel` which represents the element shape and is different for each master.
 
-The `pixel` glyph is compiled from all non-exporting `pixel.xxx` glyphs and is the only component that changes between the masters of this Variable Font. You can recompile the `pixel` glyph by using the `production/glyphs-scripts/compile pixel glyph.py` GlyphsApp macro.
+The `pixel` glyph is compiled from all non-exporting `pixel.xxx` glyphs and is the only component that changes between the masters of this Variable Font. You can recompile the `pixel` glyph by using the `production/glyphs-scripts/compile pixel glyph.py` macro in the Glyphs app.
 
 ## Building a the Variable Font from the sources
 
@@ -95,4 +95,4 @@ Rows marked with `-` are for example only.
 
 ## Scripting
 
-If you would like to animate Handjet using Python and DrawBot, you can see the sources of the animations from this page in `tools/drawbot-scripts/`.
+If you would like to animate Handjet using Python and [DrawBot](http://drawbot.com), you can check out the [source code for the animations](tools/drawbot-scripts/).
