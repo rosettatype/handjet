@@ -11,7 +11,6 @@ TEXTCOL = (0, 0, 0)
 BACKCOL = (255 / 256, 242 / 256, 0)
 NODECOL = (1, 1, 1)
 defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.01}
-step = 20
 
 # Draw a single frame
 
@@ -31,6 +30,15 @@ def draw(txt="a", variations={}, caption=""):
 # Animate axes
 
 db.newDrawing()
+# element shapes axis
+step = 10
+variations = defaults.copy()
+for eshp in range(0, 1600 + step, step):
+    caption = "Element Shape (ESHP): %.2f" % (eshp / 100)
+    variations["ESHP"] = eshp / 100
+    draw(txt="Possibilities", variations=variations, caption=caption)
+db.saveImage("../../docs/animations/Handjet-axes-animation.gif")
+db.endDrawing()
 # weight axis
 step = 20
 variations = defaults.copy()
@@ -53,12 +61,3 @@ for egrd in range(300, 100 - step, -step):
     caption = "Element Grid (EGRD): %.2f" % (egrd / 100)
     variations["EGRD"] = egrd / 100
     draw(txt="Possibilities", variations=variations, caption=caption)
-# element shapes axis
-step = 10
-variations = defaults.copy()
-for eshp in range(0, 1600 + step, step):
-    caption = "Element Shape (ESHP): %.2f" % (eshp / 100)
-    variations["ESHP"] = eshp / 100
-    draw(txt="Possibilities", variations=variations, caption=caption)
-db.saveImage("../../docs/animations/Handjet-axes-animation.gif")
-db.endDrawing()
