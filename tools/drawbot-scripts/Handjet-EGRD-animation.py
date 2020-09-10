@@ -22,7 +22,7 @@ def draw(txt="a", variations={}, caption=""):
     db.fill(*TEXTCOL)
     db.stroke(None)
     path = db.BezierPath()
-    path.text(txt, (w / 2, 110), align="center")
+    path.text(txt, (w / 2, 100), align="center")
     db.drawPath(path)
     txt = db.FormattedString(caption, font="InputMono-Regular", fontSize=11, fill=TEXTCOL)
     db.text(txt, (w / 2, 40), align="center")
