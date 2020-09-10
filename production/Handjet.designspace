@@ -7,7 +7,7 @@
     <axis tag="wght" name="Weight"
         minimum="100" maximum="900" default="400" />
     <axis tag="ESHP" name="Element Shape"
-        minimum="0.00" maximum="16.00" default="8.00" />
+        minimum="0.00" maximum="16.00" default="2.00" />
     <axis tag="EGRD" name="Element Grid"
         minimum="1.0" maximum="3.0" default="1.0" />
 </axes>
@@ -824,12 +824,18 @@
         </location>
     </source>
 
+    <!-- base source -->
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,200,1}" layer="{400,200,1}">
+        name="Handjet Regular"
+        familyname="Handjet" stylename="Regular">
+        <lib copy="1" />
+        <groups copy="1" />
+        <features copy="1" />
+        <info copy="1" />
         <location>
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="2.0"/>
-            <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Grid" xvalue="1"/>
         </location>
     </source>
 
@@ -1229,18 +1235,12 @@
         </location>
     </source>
 
-    <!-- base source -->
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular"
-        familyname="Handjet" stylename="Regular">
-        <lib copy="1" />
-        <groups copy="1" />
-        <features copy="1" />
-        <info copy="1" />
+        name="Handjet Regular {400,800,1}" layer="{400,800,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="8.0"/>
-            <dimension name="Element Grid" xvalue="1"/>
+            <dimension name="Element Grid" xvalue="1.0"/>
         </location>
     </source>
 
@@ -2293,91 +2293,91 @@
 <instances>
 
     <instance filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,800,1}" layer="{100,800,1}"
+        name="Handjet Regular {100,200,1}" layer="{100,200,1}"
         familyname="Handjet" stylename="Thin">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
         </location>
     </instance>
 
     <instance filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {200,800,1}" layer="{200,800,1}"
+        name="Handjet Regular {200,200,1}" layer="{200,200,1}"
         familyname="Handjet" stylename="ExtraLight">
         <location>
             <dimension name="Weight" xvalue="200"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
         </location>
     </instance>
 
     <instance filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {300,800,1}" layer="{300,800,1}"
+        name="Handjet Regular {300,200,1}" layer="{300,200,1}"
         familyname="Handjet" stylename="Light">
         <location>
             <dimension name="Weight" xvalue="300"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
         </location>
     </instance>
 
     <instance filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,800,1}" layer="{400,800,1}"
+        name="Handjet Regular {400,200,1}" layer="{400,200,1}"
         familyname="Handjet" stylename="Regular">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
         </location>
     </instance>
 
     <instance filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {500,800,1}" layer="{500,800,1}"
+        name="Handjet Regular {500,200,1}" layer="{500,200,1}"
         familyname="Handjet" stylename="Medium">
         <location>
             <dimension name="Weight" xvalue="500"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
         </location>
     </instance>
 
     <instance filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {600,800,1}" layer="{600,800,1}"
+        name="Handjet Regular {600,200,1}" layer="{600,200,1}"
         familyname="Handjet" stylename="SemiBold">
         <location>
             <dimension name="Weight" xvalue="600"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
         </location>
     </instance>
 
     <instance filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {700,800,1}" layer="{700,800,1}"
+        name="Handjet Regular {700,200,1}" layer="{700,200,1}"
         familyname="Handjet" stylename="Bold">
         <location>
             <dimension name="Weight" xvalue="700"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
         </location>
     </instance>
 
     <instance filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {800,800,1}" layer="{800,800,1}"
+        name="Handjet Regular {800,200,1}" layer="{800,200,1}"
         familyname="Handjet" stylename="ExtraBold">
         <location>
             <dimension name="Weight" xvalue="800"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
         </location>
     </instance>
 
     <instance filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,800,1}" layer="{900,800,1}"
+        name="Handjet Regular {900,200,1}" layer="{900,200,1}"
         familyname="Handjet" stylename="Black">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
         </location>
     </instance>

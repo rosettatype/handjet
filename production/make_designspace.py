@@ -4,7 +4,7 @@ A helper script to create a designspace for Handjet
 ds_path = "production/Handjet.designspace"
 
 # The default instance
-default = (400, 8.00, 1.0)
+default = (400, 2.00, 1.0)
 
 # Values for the three axis (value, is master, instance name):
 # - Each entry is a design brace layer in the glyphs file
@@ -90,7 +90,7 @@ code = """<?xml version='1.0' encoding='UTF-8'?>
     <axis tag="wght" name="Weight"
         minimum="100" maximum="900" default="400" />
     <axis tag="ESHP" name="Element Shape"
-        minimum="0.00" maximum="16.00" default="8.00" />
+        minimum="0.00" maximum="16.00" default="2.00" />
     <axis tag="EGRD" name="Element Grid"
         minimum="1.0" maximum="3.0" default="1.0" />
 </axes>
