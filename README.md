@@ -2,7 +2,8 @@
 
 Handjet is an element-based variable font (aka pixel font, modular font, …) where every glyph is composed using multiple copies of the same element. Each element can take one of 23 shapes and transition smoothly between them while creating various effects. The font currently supports these scripts: Arabic, Armenian, Cyrillic, Greek, Hebrew, and Latin.
 
-![Handjet’s shapes](docs/animations/Handjet-shapes-animation.gif)
+![Handjet’s ESHP axis animation](docs/animations/Handjet-ESHP-animation.gif)
+![Handjet’s EGRD axis animation](docs/animations/Handjet-EGRD-animation.mp4)
 
 ## The story
 
@@ -42,7 +43,9 @@ The `pixel` glyph is compiled from all non-exporting `pixel.xxx` glyphs and is t
 - Make sure you make the `production/build.sh` file executable: `$ chmod +x production/build.sh`
 - To recompile, run `$ ./production/build.sh` and new fonts will be generated in the `fonts/` directory (it's a complex file and takes a while to recompile)
 
-## Guide to Element Shape axis (ESHP)
+## Guide to the Element Shape axis (ESHP)
+
+For preview of the available element shapes, see the animations above.
 
 | Value | Description | Instance |
 |---:|:---|:---|
@@ -87,3 +90,7 @@ The `pixel` glyph is compiled from all non-exporting `pixel.xxx` glyphs and is t
 Rows marked with `*` are available as instances in the STAT table.  
 Rows marked with `x` are repeated shapes to allow for a better transition.  
 Rows marked with `-` are for example only.
+
+## Scripting
+
+If you would like to animate Handjet using Python and DrawBot, you can see the sources of the animations from this page in `tools/drawbot-scripts/`.
