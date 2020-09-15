@@ -28,23 +28,27 @@ Handjet is a variable font with the following axes:
 
 - **Weight (wght)** (100-900) controls the size of the element,
 - **Element Shape (ESHP)** (0.0-16.0) controls the shape of the element,
-- **Element Grid (EGRD)** (1.0-3.0) controls how many elements are used: a single element (single), a group of 2x2 elements (double), or a group of 3x3 elements (triple).
+- **Element Grid (EGRD)** (1.0-3.0) controls how many elements are used per one grid unit.
 
-The interpolation between different element shapes along the ESHP axis creates a rotation or disappearing effect for some of them. This was done (instead of having independent rotation and scale axes for example) to simplify the design space to keep things manageable for users as well as computers.
+### Weight (wght)
 
-## Source files
+The weight is represented by the size of the element used.
 
-In principle all glyphs remain structually the same across all masters except for one special glyph: `pixel` which represents the element shape and is different for each master.
+| Value | Description | Instance |
+|---:|:---|:---|
+| 100 | Thin | * |
+| 200 | ExtraLight | * |
+| 300 | Light | * |
+| 400 | Regular | * |
+| 500 | Medium | * |
+| 600 | SemiBold | * |
+| 700 | Bold | * |
+| 800 | ExtraBold | * |
+| 900 | Black | * |
 
-The `pixel` glyph is compiled from all non-exporting `pixel.xxx` glyphs and is the only component that changes between the masters of this Variable Font. You can recompile the `pixel` glyph by using the `production/glyphs-scripts/compile pixel glyph.py` macro in the Glyphs app.
+### Element Shape axis (ESHP)
 
-## Building a the Variable Font from the sources
-
-- In your python3 environment, make sure to install the required pip packages: `$ pip install -r requirements.txt`
-- Make sure you make the `production/build.sh` file executable: `$ chmod +x production/build.sh`
-- To recompile, run `$ ./production/build.sh` and new fonts will be generated in the `fonts/` directory (it's a complex file and takes a while to recompile)
-
-## Guide to the Element Shape axis (ESHP)
+The interpolation between different element shapes along this axis creates a rotation or disappearing effect for some of them. This was done (instead of having independent rotation and scale axes for example) to simplify the design space to keep things manageable for users as well as computers.
 
 For preview of the available element shapes, see the animations above.
 
@@ -52,7 +56,7 @@ For preview of the available element shapes, see the animations above.
 |---:|:---|:---|
 | 0.00 | Blank | * |
 | 1.00 | Triangle | * |
-| 2.00 | Square | * |
+| 2.00 | Square (default) | * |
 | 2.11 | Square at 20 degrees | - |
 | 2.25 | Lozenge | * |
 | 2.36 | Square at 65 degrees | - |
@@ -89,8 +93,30 @@ For preview of the available element shapes, see the animations above.
 | 16.00 | Heart | * |
 
 Rows marked with `*` are available as instances in the STAT table.  
-Rows marked with `x` are repeated shapes to allow for a better transition.  
+Rows marked with `x` are repeated shapes that allow for a better transition.  
 Rows marked with `-` are for example only.
+
+### Element Grid axis (EGRD)
+
+This axis controls how many elements are used per one grid unit.
+
+| Value | Description | Instance |
+|---:|:---|:---|
+| 1.00 | Single element (single) | * |
+| 2.00 | Group of 2x2 elements (double) | * |
+| 3.00 | Group of 3x3 elements (triple) | * |
+
+## Source files
+
+In principle all glyphs remain structually the same across all masters except for one special glyph: `pixel` which represents the element shape and is different for each master.
+
+The `pixel` glyph is compiled from all non-exporting `pixel.xxx` glyphs and is the only component that changes between the masters of this Variable Font. You can recompile the `pixel` glyph by using the `production/glyphs-scripts/compile pixel glyph.py` macro in the Glyphs app.
+
+## Building a the Variable Font from the sources
+
+- In your python3 environment, make sure to install the required pip packages: `$ pip install -r requirements.txt`
+- Make sure you make the `production/build.sh` file executable: `$ chmod +x production/build.sh`
+- To recompile, run `$ ./production/build.sh` and new fonts will be generated in the `fonts/` directory (it's a complex file and takes a while to recompile)
 
 ## Scripting
 
