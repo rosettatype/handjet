@@ -48,9 +48,7 @@ The weight is represented by the size of the element used.
 
 ### Element Shape axis (ESHP)
 
-The interpolation between different element shapes along this axis creates a rotation or disappearing effect for some of them. This was done (instead of having independent rotation and scale axes for example) to simplify the design space to keep things manageable for users as well as computers.
-
-For preview of the available element shapes, see the animations above.
+The interpolation between different element shapes along this axis creates a rotation or disappearing effect for some of them. This was done (instead of having independent rotation and scale axes for example) to simplify the design space to keep things manageable for users as well as computers. For preview of the available element shapes and their transitions, see the animations above.
 
 | Value | Description | Instance |
 |---:|:---|:---|
