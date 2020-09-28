@@ -1,12 +1,5 @@
 {
 .appVersion = "1340";
-DisplayStrings = (
-"2//45",
-"/zerosuperior/fraction/zeroinferior/space ¹/fraction/twoinferior",
-"/arNun.medi",
-"/arFehdotless/_part.arTwodotshorizontalbelow/arFehtwodotsbelow",
-"/arFehdotless.fina/arFehdotless.init/arFehdotless.init/arFehdotless.medi/arFehdotless.init/arFehtwodotsbelow.init"
-);
 classes = (
 {
 automatic = 1;
@@ -2145,6 +2138,8 @@ code = "@numerators = [zerosuperior onesuperior twosuperior threesuperior foursu
 
 @denominators = [zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];
 
+@vulgar_fractions = [onehalf onethird twothirds onequarter threequarters onefifth twofifths threefifths fourfifths onesixth fivesixths oneseventh twosevenths threesevenths foursevenths fivesevenths sixsevenths oneeighth threeeighths fiveeighths seveneighths oneninth twoninths fourninths fiveninths sevenninths eightninths];
+
 @figures = [zero one two three four five six seven eight nine];
 
 lookup percent {
@@ -2340,17 +2335,16 @@ lookup Denominator3 {
 } Denominator3;
 
 # 3 fraction bars
-sub @numerators @numerators @numerators fraction’ lookup insert_fractions @denominators @denominators;
-sub @numerators @numerators @numerators fraction’ lookup insert_fractions @denominators;
-sub @numerators @numerators fraction’ lookup insert_fractions @denominators @denominators @denominators;
-sub @numerators fraction’ lookup insert_fractions @denominators @denominators @denominators;
+sub @numerators @numerators @numerators fraction' lookup insert_fractions @denominators @denominators;
+sub @numerators @numerators @numerators fraction' lookup insert_fractions @denominators;
+sub @numerators @numerators fraction' lookup insert_fractions @denominators @denominators @denominators;
+sub @numerators fraction' lookup insert_fractions @denominators @denominators @denominators;
 
 # 2 fraction bars
-sub @numerators @numerators fraction’ lookup insert_fraction @denominators @denominators;
-sub @numerators @numerators fraction’ lookup insert_fraction @denominators;
-sub @numerators fraction’ lookup insert_fraction @denominators @denominators;
+sub @numerators @numerators fraction' lookup insert_fraction @denominators @denominators;
+sub @numerators @numerators fraction' lookup insert_fraction @denominators;
+sub @numerators fraction' lookup insert_fraction @denominators @denominators;
 
-sub @figures space' @numerators by thinspace;
 
 # Vulgar fractions
 sub onesuperior fraction twoinferior by onehalf;
@@ -2379,7 +2373,11 @@ sub twosuperior fraction nineinferior by twoninths;
 sub foursuperior fraction nineinferior by fourninths;
 sub fivesuperior fraction nineinferior by fiveninths;
 sub sevensuperior fraction nineinferior by sevenninths;
-sub eightsuperior fraction nineinferior by eightninths;";
+sub eightsuperior fraction nineinferior by eightninths;
+
+
+sub @figures space' @numerators by thinspace;
+sub @figures space' @vulgar_fractions by thinspace;";
 name = frac;
 },
 {
@@ -2772,17 +2770,22 @@ sub arYehBarriHamzaabove by arYehBarriHamzaabove.fina;
 name = fina;
 },
 {
-code = "pos @numerators @numerators @numerators' -10080 fraction fraction fraction @denominators;
-pos @numerators @numerators' -8400  fraction fraction fraction @denominators;
-pos @numerators' -6720  fraction fraction fraction @denominators;
-pos @numerators @numerators' -6720  fraction fraction @denominators;
-pos @numerators' -5040  fraction fraction @denominators;
+code = "# @numerators' <0 0 0 0> is required to look for the same-size context as the following rule
+pos @numerators @numerators' <0 0 0 0> @numerators' <0 0 -10080 0> fraction fraction fraction @denominators;
+pos @numerators' <1680 0 1680 0> @numerators' <0 0 -8400 0> fraction fraction fraction @denominators;
+pos @numerators' <3360 0 -3360 0> fraction fraction fraction @denominators;
 
-pos @numerators fraction fraction fraction' -10800 @denominators @denominators @denominators;
-pos @numerators fraction fraction fraction' -8400 @denominators @denominators;
-pos @numerators fraction fraction fraction' -6720 @denominators;
-pos @numerators fraction fraction' -6720 @denominators @denominators;
-pos @numerators fraction fraction' -5040 @denominators;";
+pos @numerators fraction fraction fraction @denominators' <-10080 0 -10080 0> @denominators' <0 0 0 0> @denominators;
+pos @numerators fraction fraction fraction @denominators' <-8400 0 -8400 0> @denominators' <0 0 1680 0>;
+pos @numerators fraction fraction fraction @denominators' <-6720 0 -3360 0>;
+
+pos @numerators @numerators' <0 0 -6720 0> fraction fraction @denominators; #
+pos @numerators' <1680 0 -3360 0> fraction fraction @denominators; #
+
+pos @numerators fraction fraction @denominators' <-6720 0 -6720 0> @denominators; #
+pos @numerators fraction fraction @denominators' <-5040 0 -3360 0>; #
+
+pos @numerators' -3360 fraction' -3360 @denominators; # in normal kerning too";
 name = kern;
 }
 );
@@ -3066,7 +3069,7 @@ transform = "{1, 0, 0, 1, 960, 3840}";
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1442, 3840}";
+transform = "{1, 0, 0, 1, 1440, 3840}";
 },
 {
 alignment = -1;
@@ -5675,7 +5678,7 @@ layers = (
 anchors = (
 {
 name = bar;
-position = "{1192, 3096}";
+position = "{1200, 3120}";
 },
 {
 name = bottom;
@@ -15604,7 +15607,7 @@ position = "{0, 3840}";
 },
 {
 name = top;
-position = "{0, 6100}";
+position = "{0, 6000}";
 }
 );
 components = (
@@ -18048,7 +18051,7 @@ layers = (
 anchors = (
 {
 name = caret_1;
-position = "{2280, 0}";
+position = "{2160, 0}";
 }
 );
 components = (
@@ -29548,37 +29551,37 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, -1, 2400}";
+transform = "{1, 0, 0, 1, 0, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 2400}";
+transform = "{1, 0, 0, 1, 480, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 2400}";
+transform = "{1, 0, 0, 1, 960, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 2400}";
+transform = "{1, 0, 0, 1, 1440, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 2400}";
+transform = "{1, 0, 0, 1, 1920, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2399, 2400}";
+transform = "{1, 0, 0, 1, 2400, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 2400}";
+transform = "{1, 0, 0, 1, 2880, 2400}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -70871,7 +70874,7 @@ name = arReh;
 },
 {
 name = arTahabove;
-transform = "{1, 0, 0, 1, 120, -480}";
+transform = "{1, 0, 0, 1, 0, -480}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -70890,7 +70893,7 @@ name = arReh.fina;
 },
 {
 name = arTahabove;
-transform = "{1, 0, 0, 1, 120, -480}";
+transform = "{1, 0, 0, 1, 0, -480}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -71808,7 +71811,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{1441, 0}";
+position = "{1440, 0}";
 },
 {
 name = top;
@@ -73665,7 +73668,11 @@ position = "{1680, 480}";
 },
 {
 name = caret_1;
-position = "{4560, 2160}";
+position = "{5520, 0}";
+},
+{
+name = caret_2;
+position = "{3600, 0}";
 },
 {
 name = top_1;
@@ -76426,6 +76433,20 @@ rightMetricsKey = arYehHamza.medi;
 glyphname = arAllah;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{7200, 0}";
+},
+{
+name = caret_2;
+position = "{5520, 0}";
+},
+{
+name = caret_3;
+position = "{3600, 0}";
+}
+);
 components = (
 {
 name = arAlif;
@@ -76452,7 +76473,7 @@ name = arLam.init_arLam.medi_arHeh.fina;
 {
 alignment = -1;
 name = arShadda_arAlifabove;
-transform = "{1, 0, 0, 1, 2900, 1440}";
+transform = "{1, 0, 0, 1, 2880, 1440}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84463,7 +84484,7 @@ name = hbAlef;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 1440, -952}";
+transform = "{1, 0, 0, 1, 1440, -960}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84488,7 +84509,7 @@ name = hbBet;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 1440, 248}";
+transform = "{1, 0, 0, 1, 1440, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84538,7 +84559,7 @@ name = hbGimel;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 720, 488}";
+transform = "{1, 0, 0, 1, 720, 480}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84563,7 +84584,7 @@ name = hbDalet;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 960, 248}";
+transform = "{1, 0, 0, 1, 960, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84588,7 +84609,7 @@ name = hbHe;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 1920, 248}";
+transform = "{1, 0, 0, 1, 1920, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84638,7 +84659,7 @@ name = hbVav;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 720, 248}";
+transform = "{1, 0, 0, 1, 720, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84663,7 +84684,7 @@ name = hbZayin;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 240, 248}";
+transform = "{1, 0, 0, 1, 240, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84688,7 +84709,7 @@ name = hbTet;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 1920, 248}";
+transform = "{1, 0, 0, 1, 1920, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84738,7 +84759,7 @@ name = hbYod;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 720, 968}";
+transform = "{1, 0, 0, 1, 720, 960}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84763,7 +84784,7 @@ name = hbKaf;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 1440, 248}";
+transform = "{1, 0, 0, 1, 1440, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84813,7 +84834,7 @@ name = hbKafFinal;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 960, 248}";
+transform = "{1, 0, 0, 1, 960, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84838,7 +84859,7 @@ name = hbLamed;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 960, 248}";
+transform = "{1, 0, 0, 1, 960, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84863,7 +84884,7 @@ name = hbMem;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 2160, 248}";
+transform = "{1, 0, 0, 1, 2160, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84888,7 +84909,7 @@ name = hbNun;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 960, 248}";
+transform = "{1, 0, 0, 1, 960, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84913,7 +84934,7 @@ name = hbSamekh;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 1920, 248}";
+transform = "{1, 0, 0, 1, 1920, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84938,7 +84959,7 @@ name = hbPe.calt;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 2160, 248}";
+transform = "{1, 0, 0, 1, 2160, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -84988,7 +85009,7 @@ name = hbPeFinal.calt;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 2160, 248}";
+transform = "{1, 0, 0, 1, 2160, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -85013,7 +85034,7 @@ name = hbTsadi;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 720, -472}";
+transform = "{1, 0, 0, 1, 720, -480}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -85038,7 +85059,7 @@ name = hbQof;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 1680, 248}";
+transform = "{1, 0, 0, 1, 1680, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -85063,7 +85084,7 @@ name = hbResh;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 960, 248}";
+transform = "{1, 0, 0, 1, 960, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -85088,7 +85109,7 @@ name = hbShin;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 2400, -472}";
+transform = "{1, 0, 0, 1, 2400, -480}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -85113,7 +85134,7 @@ name = hbShin;
 },
 {
 name = hbShindot;
-transform = "{1, 0, 0, 1, 3360, -40}";
+transform = "{1, 0, 0, 1, 3360, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -85138,7 +85159,7 @@ name = hbShin;
 },
 {
 name = hbSindot;
-transform = "{1, 0, 0, 1, 720, -40}";
+transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -85163,11 +85184,11 @@ name = hbShin;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 2400, -472}";
+transform = "{1, 0, 0, 1, 2400, -480}";
 },
 {
 name = hbShindot;
-transform = "{1, 0, 0, 1, 3360, -40}";
+transform = "{1, 0, 0, 1, 3360, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -85192,11 +85213,11 @@ name = hbShin;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 2400, -472}";
+transform = "{1, 0, 0, 1, 2400, -480}";
 },
 {
 name = hbSindot;
-transform = "{1, 0, 0, 1, 720, -40}";
+transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -85221,7 +85242,7 @@ name = hbTav;
 },
 {
 name = hbDagesh;
-transform = "{1, 0, 0, 1, 2400, 248}";
+transform = "{1, 0, 0, 1, 2400, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -85697,7 +85718,7 @@ layers = (
 anchors = (
 {
 name = _center;
-position = "{0, 1912}";
+position = "{0, 1920}";
 }
 );
 components = (
@@ -85755,7 +85776,7 @@ layers = (
 anchors = (
 {
 name = _topright;
-position = "{0, 4360}";
+position = "{0, 4320}";
 }
 );
 components = (
@@ -85779,7 +85800,7 @@ layers = (
 anchors = (
 {
 name = _topleft;
-position = "{0, 4360}";
+position = "{0, 4320}";
 }
 );
 components = (
