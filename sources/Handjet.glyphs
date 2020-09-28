@@ -1,5 +1,12 @@
 {
-.appVersion = "1346";
+.appVersion = "1340";
+DisplayStrings = (
+"2//45",
+"/zerosuperior/fraction/zeroinferior/space ¹/fraction/twoinferior",
+"/arNun.medi",
+"/arFehdotless/_part.arTwodotshorizontalbelow/arFehtwodotsbelow",
+"/arFehdotless.fina/arFehdotless.init/arFehdotless.init/arFehdotless.medi/arFehdotless.init/arFehtwodotsbelow.init"
+);
 classes = (
 {
 automatic = 1;
@@ -1225,10 +1232,12 @@ arVeh.init,
 arVeh.medi,
 arFehtwodotsbelow,
 arFehtwodotsbelow.fina,
-arFehtwodotsbelow.medi,
 arFehtwodotsbelow.init,
+arFehtwodotsbelow.medi,
 arQafdotless,
 arQafdotless.fina,
+arQafdotless.init,
+arQafdotless.medi,
 arKeheh,
 arKeheh.fina,
 arKeheh.init,
@@ -1239,6 +1248,8 @@ arGaf.init,
 arGaf.medi,
 arNunGhunna,
 arNunGhunna.fina,
+arNunGhunna.medi,
+arNunGhunna.init,
 arHehDoachashmi,
 arHehDoachashmi.fina,
 arHehDoachashmi.init,
@@ -1249,6 +1260,8 @@ arHehGoal.init,
 arHehGoal.medi,
 arHehGoalHamzaabove,
 arHehGoalHamzaabove.fina,
+arHehGoalHamzaabove.init,
+arHehGoalHamzaabove.medi,
 arHehGoal2habove,
 arHehGoal2habove.fina,
 arHehHamza,
@@ -1758,7 +1771,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2020-09-04 10:49:57 +0000";
+date = "2020-09-28 13:39:07 +0000";
 designer = "David Brezina";
 designerURL = "https://rosettatype.com";
 disablesNiceNames = 1;
@@ -1794,6 +1807,16 @@ languagesystem latn NLD;
 languagesystem latn VIT;
 ";
 name = Languagesystems;
+},
+{
+code = "lookup insert_fraction {
+	sub fraction by fraction fraction;
+} insert_fraction;
+
+lookup insert_fractions {
+	sub fraction by fraction fraction fraction;
+} insert_fractions;";
+name = prefix;
 }
 );
 features = (
@@ -2082,18 +2105,18 @@ code = "    lookup SUPS {
 name = sups;
 },
 {
-code = "    lookup SINF {
-        sub zero by zerosuperior;
-        sub one by onesuperior;
-        sub two by twosuperior;
-        sub three by threesuperior;
-        sub four by foursuperior;
-        sub five by fivesuperior;
-        sub six by sixsuperior;
-        sub seven by sevensuperior;
-        sub eight by eightsuperior;
-        sub nine by ninesuperior;
-    } SINF;";
+code = "lookup SINF {
+    sub zero by zeroinferior;
+    sub one by oneinferior;
+    sub two by twoinferior;
+    sub three by threeinferior;
+    sub four by fourinferior;
+    sub five by fiveinferior;
+    sub six by sixinferior;
+    sub seven by seveninferior;
+    sub eight by eightinferior;
+    sub nine by nineinferior;
+} SINF;";
 name = sinf;
 },
 {
@@ -2118,218 +2141,245 @@ code = "lookup SINF;";
 name = dnom;
 },
 {
-code = "    @numerators = [zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior];
+code = "@numerators = [zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior];
 
-    @denominators = [zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];
+@denominators = [zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];
 
-    @figures = [zero one two three four five six seven eight nine];
-    
-    @slashes = [slash fraction divisionslash];
+@figures = [zero one two three four five six seven eight nine];
 
-    lookup percent {
-    sub zero @slashes zero by percent;
-    sub zero @slashes zero zero by perthousand;
-    } percent;
+lookup percent {
+	sub zero [slash fraction divisionslash] zero by percent;
+	sub zero [slash fraction divisionslash] zero zero by perthousand;
+} percent;
 
-# This fraction bar for arbitrary fractions does not really work with nut fractions
-# so below is a more simple single-digit fraction approach    
-#     lookup FractionBar {
-#          ignore sub slash
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash';
-#          ignore sub slash'
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash;
-#          ignore sub slash
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash';
-#          ignore sub slash'
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash;
-#          ignore sub slash
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash';
-#          ignore sub slash'
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash;
-#          ignore sub slash
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash';
-#          ignore sub slash'
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash;
-#          ignore sub slash
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash';
-#          ignore sub slash'
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash;
-#          ignore sub slash
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash';
-#          ignore sub slash'
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash;
-#          ignore sub slash
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash';
-#          ignore sub slash'
-#              @figures
-#              @figures
-#              @figures
-#              @figures
-#              slash;
-#          ignore sub slash
-#              @figures
-#              @figures
-#              @figures
-#              slash';
-#          ignore sub slash'
-#              @figures
-#              @figures
-#              @figures
-#              slash;
-#          ignore sub slash
-#              @figures
-#              @figures
-#              slash';
-#          ignore sub slash'
-#              @figures
-#              @figures
-#              slash;
-#          ignore sub slash
-#              @figures
-#              slash';
-#          ignore sub slash'
-#              @figures
-#              slash;
-#          sub @figures slash' @figures by fraction;
-#     } FractionBar;
+lookup FractionBar {
+     ignore sub slash
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash';
+     ignore sub slash'
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash;
+     ignore sub slash
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash';
+     ignore sub slash'
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash;
+     ignore sub slash
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash';
+     ignore sub slash'
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash;
+     ignore sub slash
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash';
+     ignore sub slash'
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash;
+     ignore sub slash
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash';
+     ignore sub slash'
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash;
+     ignore sub slash
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash';
+     ignore sub slash'
+         @figures
+         @figures
+         @figures
+         @figures
+         @figures
+         slash;
+     ignore sub slash
+         @figures
+         @figures
+         @figures
+         @figures
+         slash';
+     ignore sub slash'
+         @figures
+         @figures
+         @figures
+         @figures
+         slash;
+     ignore sub slash
+         @figures
+         @figures
+         @figures
+         slash';
+     ignore sub slash'
+         @figures
+         @figures
+         @figures
+         slash;
+     ignore sub slash
+         @figures
+         @figures
+         slash';
+     ignore sub slash'
+         @figures
+         @figures
+         slash;
+     ignore sub slash
+         @figures
+         slash';
+     ignore sub slash'
+         @figures
+         slash;
+     sub @figures slash' @figures by fraction;
+} FractionBar;
 
-    lookup Numerators {
-         sub @figures' @slashes by @numerators;
-    } Numerators;
+lookup Numerator1 {
+     sub @figures'
+     fraction by @numerators;
+} Numerator1;
 
-    lookup Denominators {
-         sub [@slashes @denominators] @figures' by @denominators;
-    } Denominators;
-    
-    # The \"dumb\" single-digit nut fraction transformation
-    lookup Slashes {
-    	sub @numerators @slashes' @denominators by fraction;
-    } Slashes;
+lookup Numerator2 {
+     sub @figures'
+     @numerators
+     fraction by @numerators;
+} Numerator2;
 
-    sub @figures space' @numerators by thinspace;
+lookup Numerator3 {
+     sub @figures'
+     @numerators
+     @numerators
+     fraction by @numerators;
+} Numerator3;
 
-    # Vulgar fractions
-    sub onesuperior fraction twoinferior by onehalf;
-    sub onesuperior fraction threeinferior by onethird;
-    sub twosuperior fraction threeinferior by twothirds;
-    sub onesuperior fraction fourinferior by onequarter;
-    sub threesuperior fraction fourinferior by threequarters;
-    sub onesuperior fraction fiveinferior by onefifth;
-    sub twosuperior fraction fiveinferior by twofifths;
-    sub threesuperior fraction fiveinferior by threefifths;
-    sub foursuperior fraction fiveinferior by fourfifths;
-    sub onesuperior fraction sixinferior by onesixth;
-    sub fivesuperior fraction sixinferior by fivesixths;
-    sub onesuperior fraction seveninferior by oneseventh;
-    sub twosuperior fraction seveninferior by twosevenths;
-    sub threesuperior fraction seveninferior by threesevenths;
-    sub foursuperior fraction seveninferior by foursevenths;
-    sub fivesuperior fraction seveninferior by fivesevenths;
-    sub sixsuperior fraction seveninferior by sixsevenths;
-    sub onesuperior fraction eightinferior by oneeighth;
-    sub threesuperior fraction eightinferior by threeeighths;
-    sub fivesuperior fraction eightinferior by fiveeighths;
-    sub sevensuperior fraction eightinferior by seveneighths;
-    sub onesuperior fraction nineinferior by oneninth;
-    sub twosuperior fraction nineinferior by twoninths;
-    sub foursuperior fraction nineinferior by fourninths;
-    sub fivesuperior fraction nineinferior by fiveninths;
-    sub sevensuperior fraction nineinferior by sevenninths;
-    sub eightsuperior fraction nineinferior by eightninths;";
+lookup Denominator1 {
+     sub fraction
+     @figures' by @denominators;
+} Denominator1;
+
+lookup Denominator2 {
+     sub fraction @denominators
+     @figures' by @denominators;
+} Denominator2;
+
+lookup Denominator3 {
+     sub fraction @denominators @denominators
+     @figures' by @denominators;
+} Denominator3;
+
+# 3 fraction bars
+sub @numerators @numerators @numerators fraction’ lookup insert_fractions @denominators @denominators;
+sub @numerators @numerators @numerators fraction’ lookup insert_fractions @denominators;
+sub @numerators @numerators fraction’ lookup insert_fractions @denominators @denominators @denominators;
+sub @numerators fraction’ lookup insert_fractions @denominators @denominators @denominators;
+
+# 2 fraction bars
+sub @numerators @numerators fraction’ lookup insert_fraction @denominators @denominators;
+sub @numerators @numerators fraction’ lookup insert_fraction @denominators;
+sub @numerators fraction’ lookup insert_fraction @denominators @denominators;
+
+sub @figures space' @numerators by thinspace;
+
+# Vulgar fractions
+sub onesuperior fraction twoinferior by onehalf;
+sub onesuperior fraction threeinferior by onethird;
+sub twosuperior fraction threeinferior by twothirds;
+sub onesuperior fraction fourinferior by onequarter;
+sub threesuperior fraction fourinferior by threequarters;
+sub onesuperior fraction fiveinferior by onefifth;
+sub twosuperior fraction fiveinferior by twofifths;
+sub threesuperior fraction fiveinferior by threefifths;
+sub foursuperior fraction fiveinferior by fourfifths;
+sub onesuperior fraction sixinferior by onesixth;
+sub fivesuperior fraction sixinferior by fivesixths;
+sub onesuperior fraction seveninferior by oneseventh;
+sub twosuperior fraction seveninferior by twosevenths;
+sub threesuperior fraction seveninferior by threesevenths;
+sub foursuperior fraction seveninferior by foursevenths;
+sub fivesuperior fraction seveninferior by fivesevenths;
+sub sixsuperior fraction seveninferior by sixsevenths;
+sub onesuperior fraction eightinferior by oneeighth;
+sub threesuperior fraction eightinferior by threeeighths;
+sub fivesuperior fraction eightinferior by fiveeighths;
+sub sevensuperior fraction eightinferior by seveneighths;
+sub onesuperior fraction nineinferior by oneninth;
+sub twosuperior fraction nineinferior by twoninths;
+sub foursuperior fraction nineinferior by fourninths;
+sub fivesuperior fraction nineinferior by fiveninths;
+sub sevensuperior fraction nineinferior by sevenninths;
+sub eightsuperior fraction nineinferior by eightninths;";
 name = frac;
 },
 {
@@ -2603,11 +2653,15 @@ sub arPeh by arPeh.init;
 sub arTcheh by arTcheh.init;
 sub arFehdotless by arFehdotless.init;
 sub arVeh by arVeh.init;
+sub arFehtwodotsbelow by arFehtwodotsbelow.init;
 sub arKeheh by arKeheh.init;
 sub arGaf by arGaf.init;
 sub arHehDoachashmi by arHehDoachashmi.init;
 sub arHehGoal by arHehGoal.init;
 sub arYehFarsi by arYehFarsi.init;
+sub arNunGhunna by arNunGhunna.init;
+sub arHehGoalHamzaabove by arHehGoalHamzaabove.init;
+sub arQafdotless by arQafdotless.init;
 ";
 name = init;
 },
@@ -2642,10 +2696,14 @@ sub arPeh by arPeh.medi;
 sub arTcheh by arTcheh.medi;
 sub arFehdotless by arFehdotless.medi;
 sub arVeh by arVeh.medi;
+sub arFehtwodotsbelow by arFehtwodotsbelow.medi;
+sub arQafdotless by arQafdotless.medi;
 sub arKeheh by arKeheh.medi;
 sub arGaf by arGaf.medi;
+sub arNunGhunna by arNunGhunna.medi;
 sub arHehDoachashmi by arHehDoachashmi.medi;
 sub arHehGoal by arHehGoal.medi;
+sub arHehGoalHamzaabove by arHehGoalHamzaabove.medi;
 sub arYehFarsi by arYehFarsi.medi;
 ";
 name = medi;
@@ -2697,6 +2755,7 @@ sub arRreh by arRreh.fina;
 sub arJeh by arJeh.fina;
 sub arFehdotless by arFehdotless.fina;
 sub arVeh by arVeh.fina;
+sub arFehtwodotsbelow by arFehtwodotsbelow.fina;
 sub arQafdotless by arQafdotless.fina;
 sub arKeheh by arKeheh.fina;
 sub arGaf by arGaf.fina;
@@ -2711,6 +2770,20 @@ sub arYehBarri by arYehBarri.fina;
 sub arYehBarriHamzaabove by arYehBarriHamzaabove.fina;
 ";
 name = fina;
+},
+{
+code = "pos @numerators @numerators @numerators' -10080 fraction fraction fraction @denominators;
+pos @numerators @numerators' -8400  fraction fraction fraction @denominators;
+pos @numerators' -6720  fraction fraction fraction @denominators;
+pos @numerators @numerators' -6720  fraction fraction @denominators;
+pos @numerators' -5040  fraction fraction @denominators;
+
+pos @numerators fraction fraction fraction' -10800 @denominators @denominators @denominators;
+pos @numerators fraction fraction fraction' -8400 @denominators @denominators;
+pos @numerators fraction fraction fraction' -6720 @denominators;
+pos @numerators fraction fraction' -6720 @denominators @denominators;
+pos @numerators fraction fraction' -5040 @denominators;";
+name = kern;
 }
 );
 fontMaster = (
@@ -29475,31 +29548,41 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, -1680, 2400}";
+transform = "{1, 0, 0, 1, -1, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, -1200, 2400}";
+transform = "{1, 0, 0, 1, 479, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, -720, 2400}";
+transform = "{1, 0, 0, 1, 959, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, -240, 2400}";
+transform = "{1, 0, 0, 1, 1439, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 240, 2400}";
+transform = "{1, 0, 0, 1, 1919, 2400}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2399, 2400}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2879, 2400}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 0;
+width = 3360;
 }
 );
 leftKerningGroup = fraction;
@@ -31903,7 +31986,7 @@ transform = "{1, 0, 0, 1, 1920, 3840}";
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 4080}";
+transform = "{1, 0, 0, 1, 960, 4320}";
 },
 {
 alignment = -1;
@@ -32349,16 +32432,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
-name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
-},
-{
-alignment = -1;
 name = onesuperior;
 },
 {
-alignment = -1;
+name = fraction;
+},
+{
 name = twoinferior;
 }
 );
@@ -32374,16 +32453,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = onesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = threeinferior;
 }
 );
@@ -32391,6 +32466,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = onesuperior;
+rightMetricsKey = onesuperior;
 unicode = 2153;
 },
 {
@@ -32399,16 +32476,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = twosuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = threeinferior;
 }
 );
@@ -32416,6 +32489,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = twosuperior;
+rightMetricsKey = twosuperior;
 unicode = 2154;
 },
 {
@@ -32424,16 +32499,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
-name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
-},
-{
-alignment = -1;
 name = onesuperior;
 },
 {
-alignment = -1;
+name = fraction;
+},
+{
 name = fourinferior;
 }
 );
@@ -32441,6 +32512,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = onesuperior;
+rightMetricsKey = onesuperior;
 unicode = 00BC;
 },
 {
@@ -32449,16 +32522,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
-name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
-},
-{
-alignment = -1;
 name = threesuperior;
 },
 {
-alignment = -1;
+name = fraction;
+},
+{
 name = fourinferior;
 }
 );
@@ -32466,6 +32535,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = threesuperior;
+rightMetricsKey = threesuperior;
 unicode = 00BE;
 },
 {
@@ -32474,16 +32545,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = onesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = fiveinferior;
 }
 );
@@ -32491,6 +32558,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = onesuperior;
+rightMetricsKey = onesuperior;
 unicode = 2155;
 },
 {
@@ -32499,16 +32568,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = twosuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = fiveinferior;
 }
 );
@@ -32516,6 +32581,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = twosuperior;
+rightMetricsKey = twosuperior;
 unicode = 2156;
 },
 {
@@ -32524,16 +32591,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = threesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = fiveinferior;
 }
 );
@@ -32541,6 +32604,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = threesuperior;
+rightMetricsKey = threesuperior;
 unicode = 2157;
 },
 {
@@ -32549,16 +32614,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = foursuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = fiveinferior;
 }
 );
@@ -32566,6 +32627,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = foursuperior;
+rightMetricsKey = foursuperior;
 unicode = 2158;
 },
 {
@@ -32574,16 +32637,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = onesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = sixinferior;
 }
 );
@@ -32591,6 +32650,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = onesuperior;
+rightMetricsKey = onesuperior;
 unicode = 2159;
 },
 {
@@ -32599,16 +32660,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = fivesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = sixinferior;
 }
 );
@@ -32616,6 +32673,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = fivesuperior;
+rightMetricsKey = fivesuperior;
 unicode = 215A;
 },
 {
@@ -32624,16 +32683,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = onesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = seveninferior;
 }
 );
@@ -32641,6 +32696,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = onesuperior;
+rightMetricsKey = onesuperior;
 unicode = 2150;
 },
 {
@@ -32649,16 +32706,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = twosuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = seveninferior;
 }
 );
@@ -32666,6 +32719,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = twosuperior;
+rightMetricsKey = twosuperior;
 unicode = F0100;
 },
 {
@@ -32674,16 +32729,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = threesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = seveninferior;
 }
 );
@@ -32691,6 +32742,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = threesuperior;
+rightMetricsKey = threesuperior;
 unicode = F0101;
 },
 {
@@ -32699,16 +32752,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = foursuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = seveninferior;
 }
 );
@@ -32716,6 +32765,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = foursuperior;
+rightMetricsKey = foursuperior;
 unicode = F0102;
 },
 {
@@ -32724,16 +32775,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = fivesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = seveninferior;
 }
 );
@@ -32741,6 +32788,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = fivesuperior;
+rightMetricsKey = fivesuperior;
 unicode = F0103;
 },
 {
@@ -32749,16 +32798,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = sixsuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = seveninferior;
 }
 );
@@ -32766,6 +32811,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = sixsuperior;
+rightMetricsKey = sixsuperior;
 unicode = F0104;
 },
 {
@@ -32774,16 +32821,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = onesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = eightinferior;
 }
 );
@@ -32791,6 +32834,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = onesuperior;
+rightMetricsKey = onesuperior;
 unicode = 215B;
 },
 {
@@ -32799,16 +32844,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = threesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = eightinferior;
 }
 );
@@ -32816,6 +32857,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = threesuperior;
+rightMetricsKey = threesuperior;
 unicode = 215C;
 },
 {
@@ -32824,16 +32867,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = fivesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = eightinferior;
 }
 );
@@ -32841,6 +32880,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = fivesuperior;
+rightMetricsKey = fivesuperior;
 unicode = 215D;
 },
 {
@@ -32849,16 +32890,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = sevensuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = eightinferior;
 }
 );
@@ -32866,6 +32903,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = sevensuperior;
+rightMetricsKey = sevensuperior;
 unicode = 215E;
 },
 {
@@ -32874,16 +32913,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = onesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = nineinferior;
 }
 );
@@ -32891,6 +32926,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = onesuperior;
+rightMetricsKey = onesuperior;
 unicode = 2151;
 },
 {
@@ -32899,16 +32936,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = twosuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = nineinferior;
 }
 );
@@ -32916,6 +32949,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = twosuperior;
+rightMetricsKey = twosuperior;
 unicode = F0105;
 },
 {
@@ -32924,16 +32959,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = foursuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = nineinferior;
 }
 );
@@ -32941,6 +32972,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = foursuperior;
+rightMetricsKey = foursuperior;
 unicode = F0106;
 },
 {
@@ -32949,16 +32982,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = fivesuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = nineinferior;
 }
 );
@@ -32966,6 +32995,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = fivesuperior;
+rightMetricsKey = fivesuperior;
 unicode = F0107;
 },
 {
@@ -32974,16 +33005,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = sevensuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = nineinferior;
 }
 );
@@ -32991,6 +33018,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = sevensuperior;
+rightMetricsKey = sevensuperior;
 unicode = F0108;
 },
 {
@@ -32999,16 +33028,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = eightsuperior;
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
-alignment = -1;
 name = nineinferior;
 }
 );
@@ -33016,6 +33041,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3360;
 }
 );
+leftMetricsKey = eightsuperior;
+rightMetricsKey = eightsuperior;
 unicode = F0109;
 },
 {
@@ -71484,9 +71511,20 @@ width = 3360;
 unicode = FB6D;
 },
 {
+color = 6;
 glyphname = arFehtwodotsbelow;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{3840, -960}";
+},
+{
+name = top;
+position = "{4320, 3360}";
+}
+);
 components = (
 {
 name = arFehdotless;
@@ -71503,9 +71541,20 @@ width = 5760;
 unicode = 0760;
 },
 {
+color = 6;
 glyphname = arFehtwodotsbelow.fina;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{4320, -960}";
+},
+{
+name = top;
+position = "{4320, 2880}";
+}
+);
 components = (
 {
 name = arFehdotless.fina;
@@ -71521,16 +71570,27 @@ width = 5760;
 );
 },
 {
-glyphname = arFehtwodotsbelow.medi;
+color = 6;
+glyphname = arFehtwodotsbelow.init;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{1440, -960}";
+},
+{
+name = top;
+position = "{1920, 3360}";
+}
+);
 components = (
 {
-name = arFehdotless.medi;
+name = arFehdotless.init;
 },
 {
 name = _part.arTwodotshorizontalbelow;
-transform = "{1, 0, 0, 1, 1920, 0}";
+transform = "{1, 0, 0, 1, 1440, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -71539,16 +71599,27 @@ width = 3360;
 );
 },
 {
-glyphname = arFehtwodotsbelow.init;
+color = 6;
+glyphname = arFehtwodotsbelow.medi;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{1920, -960}";
+},
+{
+name = top;
+position = "{1920, 2880}";
+}
+);
 components = (
 {
-name = arFehdotless.init;
+name = arFehdotless.medi;
 },
 {
 name = _part.arTwodotshorizontalbelow;
-transform = "{1, 0, 0, 1, 1440, 0}";
+transform = "{1, 0, 0, 1, 1920, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -71726,6 +71797,56 @@ transform = "{1, 0, 0, 1, 4320, 0}";
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 4800;
+}
+);
+},
+{
+color = 6;
+glyphname = arQafdotless.init;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{1441, 0}";
+},
+{
+name = top;
+position = "{1920, 3360}";
+}
+);
+components = (
+{
+name = arFehdotless.init;
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 3360;
+}
+);
+},
+{
+color = 6;
+glyphname = arQafdotless.medi;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{1920, 0}";
+},
+{
+name = top;
+position = "{1920, 2880}";
+}
+);
+components = (
+{
+name = arFehdotless.medi;
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 3360;
 }
 );
 },
@@ -72266,6 +72387,60 @@ width = 4320;
 unicode = FB9F;
 },
 {
+color = 6;
+glyphname = arNunGhunna.medi;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{720, 0}";
+},
+{
+name = top;
+position = "{1680, 2400}";
+}
+);
+components = (
+{
+name = arBehdotless.medi;
+},
+{
+name = _part.link;
+transform = "{1, 0, 0, 1, 2400, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 2400;
+}
+);
+},
+{
+color = 6;
+glyphname = arNunGhunna.init;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{720, 0}";
+},
+{
+name = top;
+position = "{1680, 2400}";
+}
+);
+components = (
+{
+name = arBehdotless.init;
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 2400;
+}
+);
+},
+{
 color = 7;
 glyphname = arHehDoachashmi;
 layers = (
@@ -72711,6 +72886,42 @@ transform = "{1, 0, 0, 1, 2400, 960}";
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 3600;
+}
+);
+},
+{
+glyphname = arHehGoalHamzaabove.init;
+layers = (
+{
+components = (
+{
+name = arHehGoal.init;
+},
+{
+name = arHamzaabove;
+transform = "{1, 0, 0, 1, 2640, 960}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 4320;
+}
+);
+},
+{
+glyphname = arHehGoalHamzaabove.medi;
+layers = (
+{
+components = (
+{
+name = arHehGoal.medi;
+},
+{
+name = arHamzaabove;
+transform = "{1, 0, 0, 1, 1920, 0}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 4800;
 }
 );
 },
@@ -176395,10 +176606,18 @@ width = 0;
 );
 }
 );
+instances = (
+{
+instanceInterpolations = {
+"1979AEBF-ACF3-4293-8280-4EC52756D623" = 1;
+};
+name = Regular;
+}
+);
 kerning = {
 "1979AEBF-ACF3-4293-8280-4EC52756D623" = {
 "@MMK_L_fraction" = {
-"@MMK_R_inferior" = -2160;
+"@MMK_R_inferior" = -3360;
 };
 "@MMK_L_hbVav" = {
 "@MMK_R_hbVav" = -480;
@@ -176416,7 +176635,7 @@ kerning = {
 "@MMK_R_patterns" = -2880;
 };
 "@MMK_L_superior" = {
-"@MMK_R_fraction" = -1200;
+"@MMK_R_fraction" = -3360;
 };
 idieresis = {
 idieresis = 480;
@@ -176427,5 +176646,5 @@ manufacturer = "Rosetta Type Foundry";
 manufacturerURL = "https://rosettatype.com";
 unitsPerEm = 8160;
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }
