@@ -5,8 +5,9 @@ Handjet is an element-based variable font (aka pixel font, modular font, …) wh
 ![Handjet’s ESHP axis animation](docs/animations/Handjet-ESHP-animation_word.gif?raw=true)
 ![Handjet’s ESHP axis animation](docs/animations/Handjet-ESHP-animation_element.gif?raw=true)
 ![Handjet’s ESHP axis animation](docs/animations/Handjet-ESHP-animation_letter.gif?raw=true)
-![Handjet’s EGRD axis animation](docs/animations/Handjet-wght-animation.gif?raw=true)
+![Handjet’s wght axis animation](docs/animations/Handjet-wght-animation.gif?raw=true)
 ![Handjet’s EGRD axis animation](docs/animations/Handjet-EGRD-animation.gif?raw=true)
+
 
 ## The story
 
@@ -23,6 +24,8 @@ In 2019, Google sponsored the extension and open-sourcing of Handjet. All variat
 P.S. If you want to do this exercise with your students, have a look at this [Glyphs tutorial](https://glyphsapp.com/tutorials/pixelfont).
 
 P.P.S. To be perfectly clear, I went way overboard of what Handjets’ grids permit. Hence, only some of the fonts are actually good-looking when used with these printers.
+
+![Handjet’s flythrough animation](docs/animations/Handjet-flythrough.gif?raw=true)
 
 ## Variable font
 

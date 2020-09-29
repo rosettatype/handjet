@@ -35,10 +35,10 @@ step = 5
 for egrd in range(100, 300 + step, step):
     caption = "Element Grid (EGRD): %.2f" % (egrd / 100)
     variations["EGRD"] = egrd / 100
-    draw(txt="a", variations=variations, caption=caption)
+    draw(txt="n", variations=variations, caption=caption)
 for egrd in range(300, 100 - step, -step):
     caption = "Element Grid (EGRD): %.2f" % (egrd / 100)
     variations["EGRD"] = egrd / 100
-    draw(txt="x", variations=variations, caption=caption)
+    draw(txt="n", variations=variations, caption=caption)
 db.saveImage("../../docs/animations/Handjet-EGRD-animation.gif")
 db.endDrawing()

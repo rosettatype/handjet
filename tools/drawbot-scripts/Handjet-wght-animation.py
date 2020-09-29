@@ -35,7 +35,7 @@ variations = defaults.copy()
 for wght in range(100, 900 + step, step):
     caption = "Weight (wght): %.2f" % (wght)
     variations["wght"] = wght
-    draw(txt="a", variations=variations, caption=caption)
+    draw(txt="e", variations=variations, caption=caption)
 for wght in range(900, 100 - step, -step):
     caption = "Weight (wght): %.2f" % (wght)
     variations["wght"] = wght
