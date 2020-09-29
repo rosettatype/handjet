@@ -1,12 +1,12 @@
 """
-Handjet ESHP axis interpolation
+Handjet axes interpolation
 """
 
 import drawBot as db
 
 # Global settings
 
-w, h = 400, 400
+w, h = 800, 400
 TEXTCOL = (0, 0, 0)
 BACKCOL = (255 / 256, 242 / 256, 0)
 NODECOL = (1, 1, 1)
@@ -17,35 +17,15 @@ defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.01}
 def draw(txt="a", variations={}, caption=""):
     db.newPage(w, h)
     db.fill(*BACKCOL)
-    db.stroke(None)
     db.rect(0, 0, w, h)
-    txt = db.FormattedString(txt, font="Handjet-Regular", fontSize=4600, fontVariations=variations)
+    txt = db.FormattedString(txt, font="Handjet-Regular", fontSize=185, fontVariations=variations)
+    db.fill(*TEXTCOL)
+    db.stroke(None)
     path = db.BezierPath()
-    # path.text(txt, (w / 2, 100))
-    path.text(txt, (w / 2, 1.58 * h), align="center")
-    path_optim = path.copy()
-    # remove overlaps when drawing the fill
-    # but use the original contour when drawing the nodes
-    path_optim.removeOverlap()
-    path_optim.optimizePath()
-    with db.savedState():
-        # draw the fill
-        db.fill(*TEXTCOL)
-        db.drawPath(path_optim)
-        # draw nodes
-        if path.contours:
-            # drawing just the first contour is enough
-            for s in path.contours[0]:
-                for x, y in s:
-                    if (x, y) in path.onCurvePoints:
-                        db.fill(*NODECOL)
-                        db.stroke(*TEXTCOL)
-                        db.strokeWidth(1)
-                        db.oval(x-4, y-4, 8, 8)
-    # draw caption
+    path.text(txt, (w / 2, 150), align="center")
+    db.drawPath(path)
     txt = db.FormattedString(caption, font="InputMono-Regular", fontSize=11, fill=TEXTCOL)
-    if caption:
-        db.text(txt, (w / 2, 40), align="center")
+    db.text(txt, (w / 2, 40), align="center")
 
 # Animate ESHP axis
 
@@ -98,6 +78,6 @@ for i, (_, pos) in enumerate(eshp_steps):
             current_name = next_name
         variations["ESHP"] = eshp / 100
         caption = "Element Shape (ESHP): %.2f\n“%s”" % (eshp / 100, current_name)
-        draw(txt="﮳", variations=variations, caption=caption)
-db.saveImage("../../docs/animations/Handjet-ESHP-animation.gif")
+        draw(txt="Possibilities", variations=variations, caption=caption)
+db.saveImage("../../docs/animations/Handjet-ESHP-word-animation.gif")
 db.endDrawing()
