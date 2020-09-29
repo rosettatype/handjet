@@ -72881,15 +72881,15 @@ layers = (
 {
 components = (
 {
-name = arHeh.fina;
+name = arHehGoal.fina;
 },
 {
 name = arHamzaabove;
-transform = "{1, 0, 0, 1, 2400, 960}";
+transform = "{1, 0, 0, 1, 2640, -1440}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 3600;
+width = 4320;
 }
 );
 },
