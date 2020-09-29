@@ -2770,12 +2770,12 @@ sub arYehBarriHamzaabove by arYehBarriHamzaabove.fina;
 name = fina;
 },
 {
-code = "# @numerators' <1 0 0 0> is required to look for the same-size context as the following rule
-pos @numerators @numerators' <1 0 0 0> @numerators' <0 0 -10080 0> fraction fraction fraction @denominators;
+code = "# @numerators' @numerators' is required to look for the same-size context as the following rule
+pos @numerators @numerators' @numerators' <0 0 -10080 0> fraction fraction fraction @denominators;
 pos @numerators' <1680 0 1680 0> @numerators' <0 0 -8400 0> fraction fraction fraction @denominators;
 pos @numerators' <3360 0 -3360 0> fraction fraction fraction @denominators;
 
-pos @numerators fraction fraction fraction @denominators' <-10080 0 -10080 0> @denominators' <1 0 0 0> @denominators;
+pos @numerators fraction fraction fraction @denominators' <-10080 0 -10080 0> @denominators' @denominators;
 pos @numerators fraction fraction fraction @denominators' <-8400 0 -8400 0> @denominators' <0 0 1680 0>;
 pos @numerators fraction fraction fraction @denominators' <-6720 0 -3360 0>;
 
@@ -2785,7 +2785,8 @@ pos @numerators' <1680 0 -3360 0> fraction fraction @denominators; #
 pos @numerators fraction fraction @denominators' <-6720 0 -6720 0> @denominators; #
 pos @numerators fraction fraction @denominators' <-5040 0 -3360 0>; #
 
-pos @numerators' -3360 fraction' -3360 @denominators; # in normal kerning too";
+# in normal kerning too, but it gets ignored somehow
+pos @numerators' -3360 fraction' -3360 @denominators;";
 name = kern;
 }
 );
