@@ -1,12 +1,12 @@
 """
-Handjet axes interpolation
+Handjet wght axis interpolation
 """
 
 import drawBot as db
 
 # Global settings
 
-w, h = 800, 400
+w, h = 400, 400
 TEXTCOL = (0, 0, 0)
 BACKCOL = (255 / 256, 242 / 256, 0)
 NODECOL = (1, 1, 1)
@@ -18,66 +18,27 @@ def draw(txt="a", variations={}, caption=""):
     db.newPage(w, h)
     db.fill(*BACKCOL)
     db.rect(0, 0, w, h)
-    txt = db.FormattedString(txt, font="Handjet-Regular", fontSize=185, fontVariations=variations)
+    txt = db.FormattedString(txt, font="Handjet-Regular", fontSize=500, fontVariations=variations)
     db.fill(*TEXTCOL)
     db.stroke(None)
     path = db.BezierPath()
-    path.text(txt, (w / 2, 150), align="center")
+    path.text(txt, (w / 2, 100), align="center")
     db.drawPath(path)
     txt = db.FormattedString(caption, font="InputMono-Regular", fontSize=11, fill=TEXTCOL)
     db.text(txt, (w / 2, 40), align="center")
 
-# Animate ESHP axis
-
-eshp_steps = [
-    ("Blank", 0),
-    ("Triangle", 1.00),
-    ("Square", 2.00),
-    ("Lozenge", 2.25),
-    ("Square again", 2.50),
-    ("Block", 3.19),
-    ("Rectangle", 3.36),
-    ("Bar (Vertical)", 4.00),
-    ("Bar (Diagonal Up)", 4.25),
-    ("Bar (Horizontal)", 4.50),
-    ("Bar (Diagonal Down)", 4.75),
-    ("Bar (Vertical again)", 5.00),
-    ("Square again", 6.50),
-    ("Rounded Square", 6.90),
-    ("Squircle", 7.63),
-    ("Circle", 8.00),
-    ("Egg", 8.69),
-    ("Oval", 8.86),
-    ("Thin Oval", 9.50),
-    ("Circle again", 11.00),
-    ("Clover", 12.00),
-    ("Flower", 13.00),
-    ("Star", 14.00),
-    ("Star (Diagonal)", 14.25),
-    ("Star again", 14.50),
-    ("Big Star", 14.75),
-    ("Spindle", 15.00),
-    ("Pin", 15.37),
-    ("Heart", 16.00),
-    ]
+# Animate wght axis
 
 db.newDrawing()
+step = 20
 variations = defaults.copy()
-step = 5
-max_pos = max([p for _, p in eshp_steps])
-current_name = eshp_steps[0][0]
-for i, (_, pos) in enumerate(eshp_steps):
-    if (i + 1) < len(eshp_steps):
-        next_name, next_pos = eshp_steps[i + 1]
-    else:
-        next_pos = max_pos
-    pos, next_pos = int(100 * pos), int(100 * next_pos)
-    delay = (next_pos - pos) / 3
-    for eshp in range(pos, next_pos, step):
-        if eshp > (pos + delay):
-            current_name = next_name
-        variations["ESHP"] = eshp / 100
-        caption = "Element Shape (ESHP): %.2f\n“%s”" % (eshp / 100, current_name)
-        draw(txt="Possibilities", variations=variations, caption=caption)
-db.saveImage("../../docs/animations/Handjet-ESHP-word-animation.gif")
+for wght in range(100, 900 + step, step):
+    caption = "Weight (wght): %.2f" % (wght)
+    variations["wght"] = wght
+    draw(txt="a", variations=variations, caption=caption)
+for wght in range(900, 100 - step, -step):
+    caption = "Weight (wght): %.2f" % (wght)
+    variations["wght"] = wght
+    draw(txt="e", variations=variations, caption=caption)
+db.saveImage("../../docs/animations/Handjet-wght-animation.gif")
 db.endDrawing()

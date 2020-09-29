@@ -27,21 +27,9 @@ def draw(txt="a", variations={}, caption=""):
     txt = db.FormattedString(caption, font="InputMono-Regular", fontSize=11, fill=TEXTCOL)
     db.text(txt, (w / 2, 40), align="center")
 
-# Animate wght and EGRD axes
+# Animate EGRD axis
 
 db.newDrawing()
-# wght axis
-step = 20
-variations = defaults.copy()
-for wght in range(100, 900 + step, step):
-    caption = "Weight (wght): %.2f" % (wght)
-    variations["wght"] = wght
-    draw(txt="a", variations=variations, caption=caption)
-for wght in range(900, 400 - step, -step):
-    caption = "Weight (wght): %.2f" % (wght)
-    variations["wght"] = wght
-    draw(txt="a", variations=variations, caption=caption)
-# EGRD axis
 variations = defaults.copy()
 step = 5
 for egrd in range(100, 300 + step, step):
@@ -51,13 +39,6 @@ for egrd in range(100, 300 + step, step):
 for egrd in range(300, 100 - step, -step):
     caption = "Element Grid (EGRD): %.2f" % (egrd / 100)
     variations["EGRD"] = egrd / 100
-    draw(txt="a", variations=variations, caption=caption)
-# back to start
-step = 20
-variations = defaults.copy()
-for wght in range(400, 100 - step, -step):
-    caption = "Weight (wght): %.2f" % (wght)
-    variations["wght"] = wght
-    draw(txt="a", variations=variations, caption=caption)
-db.saveImage("../../docs/animations/Handjet-EGRD-wght-animation.gif")
+    draw(txt="x", variations=variations, caption=caption)
+db.saveImage("../../docs/animations/Handjet-EGRD-animation.gif")
 db.endDrawing()
