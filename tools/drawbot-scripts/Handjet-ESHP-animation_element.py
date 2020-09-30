@@ -7,21 +7,22 @@ import drawBot as db
 # Global settings
 
 w, h = 400, 400
+scale = 1
 TEXTCOL = (0, 0, 0)
-BACKCOL = (255 / 256, 242 / 256, 0)
+BACKCOL = (230 / 255, 250 / 255, 40 / 255)
 NODECOL = (1, 1, 1)
 defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.01}
 
 # Draw a single frame
 
 def draw(txt="a", variations={}, caption=""):
-    db.newPage(w, h)
+    db.newPage(w * scale, h * scale)
+    db.scale(scale)
     db.fill(*BACKCOL)
     db.stroke(None)
     db.rect(0, 0, w, h)
     fs = db.FormattedString(txt, font="Handjet-Regular", fontSize=4600, fontVariations=variations)
     path = db.BezierPath()
-    # path.text(fs, (w / 2, 100))
     path.text(fs, (w / 2, 1.58 * h), align="center")
     path_optim = path.copy()
     # remove overlaps when drawing the fill

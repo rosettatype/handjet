@@ -7,15 +7,17 @@ import drawBot as db
 # Global settings
 
 w, h = 800, 400
+scale = 1
 TEXTCOL = (0, 0, 0)
-BACKCOL = (255 / 256, 242 / 256, 0)
+BACKCOL = (230 / 255, 250 / 255, 40 / 255)
 NODECOL = (1, 1, 1)
 defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.01}
 
 # Draw a single frame
 
 def draw(txt="a", variations={}, caption=""):
-    db.newPage(w, h)
+    db.newPage(w * scale, h * scale)
+    db.scale(scale)
     db.fill(*BACKCOL)
     db.rect(0, 0, w, h)
     fs = db.FormattedString(txt, font="Handjet-Regular", fontSize=185, fontVariations=variations)

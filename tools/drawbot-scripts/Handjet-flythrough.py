@@ -1,5 +1,5 @@
 """
-Handjet EGRD axis interpolation
+Handjet flythrough glyph set animation
 """
 
 import csv
@@ -9,26 +9,27 @@ import drawBot as db
 # Global settings
 
 w, h = 400, 400
+scale = 1
 TEXTCOL = (0, 0, 0)
-BACKCOL = (255 / 256, 242 / 256, 0)
+BACKCOL = (230 / 255, 250 / 255, 40 / 255)
 NODECOL = (1, 1, 1)
 defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.01}
 
 # Draw a single frame
 
 def draw(gn="a", variations={}, caption=""):
-    db.newPage(w, h)
+    db.newPage(w * scale, h * scale)
+    db.scale(scale)
     db.fill(*BACKCOL)
     db.rect(0, 0, w, h)
     fs = db.FormattedString()
     fs.font("Handjet-Regular")
-    fs.fontSize(250)
-    #fs.fontVariations(**variations)
+    fs.fontSize(200)
     fs.appendGlyph(gn)
     db.fill(*TEXTCOL)
     db.stroke(None)
     path = db.BezierPath()
-    path.text(fs, (w / 2, 130), align="center")
+    path.text(fs, (w / 2, 145), align="center")
     db.drawPath(path)
     fs = db.FormattedString(caption, font="InputMono-Regular", fontSize=10, fill=TEXTCOL)
     db.text(fs, (w / 2, 40), align="center")
@@ -39,26 +40,20 @@ db.newDrawing()
 db.font("Handjet-Regular")
 variations = defaults.copy()
 unicodes = []
-with open("glyphOrder-unicodes.csv", "r") as f:
+with open("glyphnames-unicodes-show.csv", "r") as f:
     reader = csv.reader(f, delimiter=",")
+    # line: glyph name, unicode, whether it should be shown
     for _, u, show in reader:
         if u:
-            unicodes.append((chr(int(u, 16)), eval(show)))
+            unicodes.append((u, eval(show)))
         else:
             unicodes.append((None, eval(show)))
-for (uchr, show), gn in list(zip(unicodes, db.listFontGlyphNames())):
+for (u, show), gn in list(zip(unicodes, db.listFontGlyphNames())):
     # show only non-empty glyphs with a width (avoiding accents and spaces)
     if show:
-        # wght = random.randrange(100, 900)
-        # ESHP = random.randrange(0, 1600) / 100
-        # EGRD = random.randrange(1, 3)
-        # variations["wght"] = wght
-        # variations["ESHP"] = ESHP
-        # variations["EGRD"] = EGRD
-        # caption = "Weight (wght): %d\nElement Shape (ESHP): %.2f\nElement Shape (EGRD): %.2f" % (wght, ESHP, EGRD)
-        if uchr:
+        if u:
             try:
-                caption = unicodedata.name(uchr)
+                caption = unicodedata.name(chr(int(u, 16))) + "\n" + u
             except ValueError:
                 caption = ""
         else:
