@@ -11,7 +11,7 @@ scale = 1
 TEXTCOL = (0, 0, 0)
 BACKCOL = (230 / 255, 250 / 255, 40 / 255)
 NODECOL = (1, 1, 1)
-defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.01}
+defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.0}
 
 # Draw a single frame
 
@@ -29,20 +29,19 @@ def draw(txt="a", variations={}, caption=""):
     # but use the original contour when drawing the nodes
     path_optim.removeOverlap()
     path_optim.optimizePath()
-    with db.savedState():
-        # draw the fill
-        db.fill(*TEXTCOL)
-        db.drawPath(path_optim)
-        # draw nodes
-        if path.contours:
-            # drawing just the first contour is enough
-            for s in path.contours[0]:
-                for x, y in s:
-                    if (x, y) in path.onCurvePoints:
-                        db.fill(*NODECOL)
-                        db.stroke(*TEXTCOL)
-                        db.strokeWidth(1)
-                        db.oval(x-4, y-4, 8, 8)
+    # draw the fill
+    db.fill(*TEXTCOL)
+    db.drawPath(path_optim)
+    # draw nodes
+    if path.contours:
+        # drawing just the first contour is enough
+        for s in path.contours[0]:
+            for x, y in s:
+                if (x, y) in path.onCurvePoints:
+                    db.fill(*NODECOL)
+                    db.stroke(*TEXTCOL)
+                    db.strokeWidth(1)
+                    db.oval(x-4, y-4, 8, 8)
     # draw caption
     fs = db.FormattedString(caption, font="InputMono-Regular", fontSize=10, fill=TEXTCOL)
     if caption:
