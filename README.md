@@ -1,6 +1,6 @@
 # Handjet
 
-Handjet is an element-based variable font (aka pixel font, modular font, …) where every glyph is composed using multiple copies of the same element. Each element can take one of 23 shapes and transition smoothly between them while creating various effects. The font currently supports these scripts: Arabic, Armenian, Cyrillic, Greek, Hebrew, and Latin.
+Handjet is an element-based variable font (aka pixel font, modular font, …) where every glyph is composed using multiple copies of the same element. Each element can take 1 of 23 shapes and transition smoothly between them while creating various effects. The font currently supports these scripts: Arabic, Armenian, Cyrillic, Greek, Hebrew, and Latin.
 
 ![Handjet’s ESHP axis animation](docs/animations/Handjet-ESHP-animation_word.gif?raw=true)
 ![Handjet’s ESHP axis animation](docs/animations/Handjet-ESHP-animation_element.gif?raw=true)
@@ -11,19 +11,19 @@ Handjet is an element-based variable font (aka pixel font, modular font, …) wh
 
 ## The story
 
-In autumn 2018 I was lucky to teach type design to a group of talented graphic design students at the [Faculty of Fine Arts in Brno](https://www.favu.vut.cz/en/studios/graphic-design2). Their first exercise was to build a simple element-based font that would be tailored to work well with [handjet printers](https://duckduckgo.com/?q=handjet+printer&ia=images). The handjet’s 32-pixel vertical matrix defined the constraints, the only contour to draw was the shape of the element, and the rest was “only” a matter of placing the elements on the grid to form letters. The clocks were ticking and the students were fierce. Most of them had their first font with basic English and Czech alphabets done by the end of the day!
+In autumn 2018, I had the opportunity to teach type design to a group of talented graphic design students at the [Faculty of Fine Arts in Brno](https://www.favu.vut.cz/en/studios/graphic-design2). Their first exercise was to build a simple element-based font that would be tailored to work well with [handjet printers](https://duckduckgo.com/?q=handjet+printer&ia=images). The handjet’s 32-pixel vertical matrix defined the constraints, the only contour to draw was the shape of the element, and the rest of the design job was “only” a matter of placing the elements on the grid to form letters. The clocks were ticking and the students were fierce. Most of them had their first font with basic English and Czech alphabets done by the end of the day!
 
 Upon realizing the task could be taken even further, I set out to design my own font. I did not leave the house that weekend and ended up with a complete pan-European Latin. A couple of days later I had Greek and Cyrillic too. It was hard to stop. And once I started interpolating the element shapes, it got out of control completely.
 
-In its current version, the Handjet type system contains 23 elemental shapes. Smooth transitions between them create various effects: a triangle appears out of thin air and expands into a square, the square rotates to create a lozenge and then scales into a thin rectangle, a rounded square smoothly turns into a circle, the circle into an oval, a clover becomes a rotating star, and a spindle, and a heart. The size of elements can be changed as well, producing different font weights. Plus, one can choose to use groups of 2x2 or 3x3 smaller elements instead of a single element. All of these work within a single variable font, allowing users to produce their custom variations and animations easily.
+In its current version, the Handjet type system contains 23 elemental shapes. Smooth transitions between them create various effects: a triangle appears out of thin air and expands into a square, the square rotates to create a lozenge and then scales into a thin rectangle, a rounded square smoothly turns into a circle and the circle into an oval, a clover becomes a rotating star, and a spindle, and a heart. The size of elements can be changed as well, producing different font weights. Plus, one can choose to use groups of 2x2 or 3x3 smaller elements instead of a single element. All of these components work together within a single variable font, allowing users to produce their custom variations and animations easily.
 
-In 2019, Google sponsored the extension and open-sourcing of Handjet. All variations and element shapes have been thoroughly revisited and extended. Working with consultants Borna Izadpanah, Khajag Apelian, and Meir Sadan, I have also added support for Arabic, Armenian, and Hebrew (respectively). Selected symbols representing wildlife and domestic animals were included together with various seasonal symbols and patterns. The fonts are provided for free without any artistic aspirations, assumptions of originality, or kerning. I hope you will have as much fun using them as I had designing them.
+In 2019, Google sponsored the extension and open-sourcing of Handjet. All variations and element shapes have been thoroughly revisited and extended. Working with consultants Borna Izadpanah, Khajag Apelian, and Meir Sadan, I have also added support for Arabic, Armenian, and Hebrew (respectively). Selected symbols representing wild and domestic animals were included together with various seasonal symbols and patterns. The fonts are provided for free without any artistic aspirations, assumptions of originality, or kerning. I hope you will have as much fun using them as I had designing them.
 
 — David Březina, September 2020
 
 P.S. If you want to do this exercise with your students, have a look at this [Glyphs tutorial](https://glyphsapp.com/tutorials/pixelfont).
 
-P.P.S. To be perfectly clear, I went way overboard of what Handjets’ grids permit. Hence, only some of the fonts are actually good-looking when used with these printers.
+P.P.S. To be perfectly clear, I went way beyond what a handjet's grids permit, so only some of the fonts are suited to use with these printers.
 
 ![Handjet’s flythrough animation](docs/animations/Handjet-flythrough.gif?raw=true)
 
@@ -53,7 +53,7 @@ The weight is represented by the size of the element used.
 
 ### Element Shape axis (ESHP)
 
-The interpolation between different element shapes along this axis creates a rotation or disappearing effect for some of them. This was done (instead of having independent rotation and scale axes for example) to simplify the design space to keep things manageable for users as well as computers. For preview of the available element shapes and their transitions, see the animations above.
+The interpolation between different element shapes along this axis creates a rotation or disappearing effect for some of them. This was done (instead of having independent rotation and scale axes for example) to simplify the design space, and to keep things manageable for users as well as computers. For a preview of the available element shapes and their transitions, see the animations above.
 
 | Value | Description | Instance |
 |---:|:---|:---|
@@ -111,13 +111,13 @@ This axis controls how many elements are used per one grid unit.
 
 ## Source files
 
-In principle all glyphs remain structually the same across all masters except for one special glyph: `pixel` which represents the element shape and is different for each master.
+In principle, all glyphs remain structurally the same across all masters except for one special glyph, `pixel`, which represents the element shape and is different for each master.
 
-The `pixel` glyph is compiled from all non-exporting `pixel.xxx` glyphs and is the only component that changes between the masters of this Variable Font. You can recompile the `pixel` glyph by using the `production/glyphs-scripts/compile pixel glyph.py` macro in the Glyphs app.
+The `pixel` glyph is compiled from all non-exporting `pixel.xxx` glyphs and is the only component that changes between the masters of this variable font. You can recompile the `pixel` glyph by using the `production/glyphs-scripts/compile pixel glyph.py` macro in the Glyphs app.
 
 ## Building a the Variable Font from the sources
 
-- In your python3 environment, make sure to install the required pip packages: `$ pip install -r requirements.txt`
+- In your Python 3 environment, make sure to install the required pip packages: `$ pip install -r requirements.txt`
 - Make sure you make the `production/build.sh` file executable: `$ chmod +x production/build.sh`
 - To recompile, run `$ ./production/build.sh` and new fonts will be generated in the `fonts/` directory (it's a complex file and takes a while to recompile)
 
