@@ -8,6 +8,9 @@ master_*/
 instance_*/
 variable_*/
 
+# Don't track our own generated preview fonts
+fonts/HandjetVariablePreview
+
 # tmp glyphs db
 db.pkl
 

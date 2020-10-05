@@ -1,0 +1,25 @@
+# mrhandy 0.9.10
+# ----------------------------------------------------
+# A proprietary tooling to generate Handjet previews
+# for the Rosetta foundry website. If you are updating
+# or compiling Handjet fonts from sources you need not
+# worry about this script/config file :)
+# ----------------------------------------------------
+- name: Preview
+  tasks:
+    - "$ cp fonts/Handjet[EGRD,ESHP,wght].ttf fonts/HandjetVF-Regular.ttf"
+
+- name: preview
+  source: fonts/HandjetVF-Regular.ttf
+  family: Handjet Variable Preview
+  tasks:
+    - .copy_fonts
+    - .post.subset:
+        # Remove all "empty" glyphs from the preview, except space (0020)
+        remove_unicode_hex: [0000, 000D, 00A0, 2002, 2003, 2009, 202F]
+    - .post.add_puas
+    - .post.make_webfonts:
+        webformats: [woff2, woff]
+        optimize: false
+        copy_fonts: False
+    - "$ rm fonts/HandjetVF-Regular.ttf"
