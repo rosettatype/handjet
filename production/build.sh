@@ -44,5 +44,11 @@ mv variable_ttf/Handjet-VF.ttf.2 fonts/Handjet\[EGRD\,ESHP\,wght\].ttf
 rm -r variable_ttf
 
 
+# Build webfonts (woff2 only since that overlaps with browser variable font 
+# support)
+# Keep all glyphs, features, name tables
+pyftsubset fonts/Handjet[EGRD,ESHP,wght].ttf --glyphs=* --layout-features=* --name-IDs=* --output-file=fonts/Handjet[EGRD,ESHP,wght].woff2 --flavor=woff2
+
+
 # Run fontbakery
 fontbakery check-googlefonts --ghmarkdown test/Handjet-report.md fonts/Handjet\[EGRD\,ESHP\,wght\].ttf
