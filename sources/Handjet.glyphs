@@ -1,5 +1,8 @@
 {
-.appVersion = "1340";
+.appVersion = "1342";
+DisplayStrings = (
+"/hbMemFinal/hbQamats/hbMemFinal/hbQamatsQatan/space"
+);
 classes = (
 {
 automatic = 1;
@@ -81726,7 +81729,7 @@ position = "{1200, 4320}";
 },
 {
 name = topleft;
-position = "{1680, 4320}";
+position = "{720, 4320}";
 }
 );
 components = (
@@ -84635,7 +84638,7 @@ name = hbVav;
 },
 {
 name = hbHolam;
-transform = "{1, 0, 0, 1, 1680, 0}";
+transform = "{1, 0, 0, 1, 720, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -85602,6 +85605,11 @@ position = "{0, 0}";
 }
 );
 components = (
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, -240, -1920}";
+},
 {
 alignment = -1;
 name = pixel;
