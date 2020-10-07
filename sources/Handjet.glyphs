@@ -1,5 +1,8 @@
 {
 .appVersion = "1342";
+DisplayStrings = (
+"/cedillacomb ¸i/dotbelowcomb/idotbelow"
+);
 classes = (
 {
 automatic = 1;
@@ -446,7 +449,6 @@ itilde,
 imacron,
 ibreve,
 idotless,
-idotaccent,
 idieresis,
 iogonek,
 ihookabove,
@@ -1828,21 +1830,32 @@ sub bullet from [pattern pattern.1 pattern.2 pattern.3 pattern.4 pattern.5 patte
 name = aalt;
 },
 {
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaabovecomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+code = "# decompose some precomposed accented characters
+sub idotbelow by i dotbelowcomb;
+
+@CombiningTopAccents = [circumflexcomb caroncomb macroncomb brevecomb dieresiscomb acutecomb gravecomb dotaccentcomb ringcomb tildecomb hungarumlautcomb dblgravecomb commaturnedabovecomb commaabovecomb hookabovecomb horncomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb breveinvertedcomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb tildecomb.narrow tonoscomb dieresistonoscomb];
+#@CombiningNonTopAccents = [brevebelowcomb cedillacomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
+
+lookup ccmp_Other_1 {
+	lookupflag MarkAttachmentType @CombiningTopAccents;
+	
+	@dottedGlyphs = [i j iogonek c.iUkr c.je ];
+	@dotlessGlyphs = [idotless jdotless idotlessogonek idotless jdotless];
+	sub @dottedGlyphs' @CombiningTopAccents by @dotlessGlyphs;
+	#sub @dottedGlyphs' @CombiningNonTopAccents @CombiningTopAccents by @dotlessGlyphs;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
 	@Markscomb = [circumflexcomb caroncomb brevecomb brevebelowcomb acutecomb gravecomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb breveinvertedcomb circumflexcomb_tildecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_acutecomb tonoscomb];
 	@MarkscombCase = [circumflexcomb.case caroncomb.case brevecomb.case brevebelowcomb.case acutecomb.case gravecomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case breveinvertedcomb.case circumflexcomb_tildecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_acutecomb.case tonoscomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_1;
+} ccmp_Other_2;
 
-lookup ccmp_Other_2 {
+lookup ccmp_Other_3 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
+} ccmp_Other_3;
 
 lookup ccmp_arab_1 {
 	lookupflag RightToLeft;
@@ -1941,20 +1954,6 @@ code = "    sub firsttonechinese by macroncomb;
     sub fourthtonechinese by gravecomb;
 
     script latn; # Latin
-        # i -> idotaccent substitution effectively switches off the fi and ffi ligatures
-        language TRK; # Turkish
-            lookup LOCL_TRK {
-                sub i by idotaccent;
-            } LOCL_TRK;
-        language AZE; # Azeri
-            lookup LOCL_TRK;
-        language CRT; # Crimean Tatar
-            lookup LOCL_TRK;
-        language KAZ; # Kazakh
-            lookup LOCL_TRK;
-        language TAT; # Tatar
-            lookup LOCL_TRK;
-
         # handling of S and T with commaaccent
         language ROM; # Romanian
             lookup LOCL_ROM {
@@ -7577,6 +7576,16 @@ unicode = 0068;
 glyphname = i;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{720, 0}";
+},
+{
+name = ogonek;
+position = "{720, 0}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -22018,24 +22027,6 @@ width = 1440;
 leftKerningGroup = l;
 rightKerningGroup = l;
 unicode = 0131;
-},
-{
-glyphname = idotaccent;
-layers = (
-{
-components = (
-{
-name = idotless;
-},
-{
-name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 720, 0}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 1440;
-}
-);
 },
 {
 glyphname = idieresis;
