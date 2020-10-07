@@ -12,6 +12,7 @@ variable_*/
 fonts/HandjetVariable
 fonts/HandjetVariablePreview
 fonts/HandjetVariableWeb
+upload_fonts.sh
 
 # tmp glyphs db
 db.pkl
