@@ -9,7 +9,9 @@ instance_*/
 variable_*/
 
 # Don't track our own generated preview fonts
+fonts/HandjetVariable
 fonts/HandjetVariablePreview
+fonts/HandjetVariableWeb
 
 # tmp glyphs db
 db.pkl
