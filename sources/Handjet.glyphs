@@ -1,8 +1,5 @@
 {
 .appVersion = "1342";
-DisplayStrings = (
-"/cedillacomb ¸i/dotbelowcomb/idotbelow"
-);
 classes = (
 {
 automatic = 1;
@@ -1537,7 +1534,6 @@ heartsuitblack,
 spadesuitblack,
 clubsuitblack,
 diamondsuitblack,
-heavyBlackHeart,
 lozenge.pica,
 cat,
 cat.tall,
@@ -1587,8 +1583,6 @@ fox,
 fox.right,
 star,
 star.1,
-star.2,
-star.3,
 snowflake,
 snowflake.1,
 snowflake.2,
@@ -1604,8 +1598,6 @@ snowman.1,
 present,
 present.1,
 present.2,
-present.3,
-present.4,
 pattern,
 pattern.1,
 pattern.2,
@@ -2566,14 +2558,14 @@ lookup PICTURES_OF_OTHER_THINGS {
 	sub colon t r e e by tree;
 	
 	# stars
-	sub colon s t a a a a r by star.3;
-	sub colon s t a a a r by star.2;
+	#sub colon s t a a a a r by star.3;
+	#sub colon s t a a a r by star.2;
 	sub colon s t a a r by star.1;
 	sub colon s t a r by star;
 	
 	# presents
-	sub colon p r e s e e e e e n t by present.4;
-	sub colon p r e s e e e e n t by present.3;
+	#sub colon p r e s e e e e e n t by present.4;
+	#sub colon p r e s e e e e n t by present.3;
 	sub colon p r e s e e e n t by present.2;
 	sub colon p r e s e e n t by present.1;
 	sub colon p r e s e n t by present;
@@ -87951,534 +87943,6 @@ unicode = 2666;
 },
 {
 color = 4;
-glyphname = heavyBlackHeart;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, -480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 4800}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 7200;
-}
-);
-unicode = 2764;
-},
-{
-color = 4;
 glyphname = lozenge.pica;
 layers = (
 {
@@ -93931,12 +93395,12 @@ transform = "{1, 0, 0, 1, 4800, 960}";
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1440}";
+transform = "{1, 0, 0, 1, 2400, 1440}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 5280, 1440}";
+transform = "{1, 0, 0, 1, 4800, 1440}";
 },
 {
 alignment = -1;
@@ -94755,11 +94219,6 @@ transform = "{1, 0, 0, 1, 4800, 960}";
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
 transform = "{1, 0, 0, 1, 2400, 1440}";
 },
 {
@@ -94786,11 +94245,6 @@ transform = "{1, 0, 0, 1, 4320, 1440}";
 alignment = -1;
 name = pixel;
 transform = "{1, 0, 0, 1, 4800, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 1440}";
 },
 {
 alignment = -1;
@@ -94895,36 +94349,6 @@ transform = "{1, 0, 0, 1, 0, 2640}";
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 2640}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 2640}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2640}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 2640}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 2640}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 2640}";
-},
-{
-alignment = -1;
-name = pixel;
 transform = "{1, 0, 0, 1, 7200, 2640}";
 },
 {
@@ -94971,26 +94395,6 @@ transform = "{1, 0, 0, 1, 5280, 2880}";
 alignment = -1;
 name = pixel;
 transform = "{1, 0, 0, 1, 0, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 3120}";
 },
 {
 alignment = -1;
@@ -95105,32 +94509,7 @@ transform = "{1, 0, 0, 1, 1920, 4800}";
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2400, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 4800}";
+transform = "{1, 0, 0, 1, 3600, 4800}";
 },
 {
 alignment = -1;
@@ -99214,498 +98593,6 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2400, -720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, -720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, -240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, -240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, -240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, -240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 5520}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 5520}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 5520}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 5520}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 6000}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 6000}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 8160;
-}
-);
-},
-{
-color = 4;
-glyphname = star.2;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = pixel;
 transform = "{1, 0, 0, 1, 2400, -240}";
 },
 {
@@ -100107,543 +98994,6 @@ transform = "{1, 0, 0, 1, 3840, 5520}";
 alignment = -1;
 name = pixel;
 transform = "{1, 0, 0, 1, 5280, 5520}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 8160;
-}
-);
-},
-{
-color = 4;
-glyphname = star.3;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, -720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, -720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, -720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, -240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, -240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, -240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, -240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 720}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 1200}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 1680}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 2160}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 2640}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 2640}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 2640}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 3120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 3600}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 4080}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 4560}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 5040}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 5520}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 5520}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 5520}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 5520}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 6000}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 6000}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 6000}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -102933,317 +101283,317 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 0}";
+transform = "{1, 0, 0, 1, 479, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 0}";
+transform = "{1, 0, 0, 1, 959, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 0}";
+transform = "{1, 0, 0, 1, 1439, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 0}";
+transform = "{1, 0, 0, 1, 1919, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 0}";
+transform = "{1, 0, 0, 1, 2879, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 0}";
+transform = "{1, 0, 0, 1, 3359, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3840, 0}";
+transform = "{1, 0, 0, 1, 3839, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 0}";
+transform = "{1, 0, 0, 1, 4319, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 480}";
+transform = "{1, 0, 0, 1, 479, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 480}";
+transform = "{1, 0, 0, 1, 959, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 480}";
+transform = "{1, 0, 0, 1, 1439, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 480}";
+transform = "{1, 0, 0, 1, 1919, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 480}";
+transform = "{1, 0, 0, 1, 2879, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 480}";
+transform = "{1, 0, 0, 1, 3359, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3840, 480}";
+transform = "{1, 0, 0, 1, 3839, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 480}";
+transform = "{1, 0, 0, 1, 4319, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 960}";
+transform = "{1, 0, 0, 1, 479, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 960}";
+transform = "{1, 0, 0, 1, 959, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 960}";
+transform = "{1, 0, 0, 1, 1439, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 960}";
+transform = "{1, 0, 0, 1, 1919, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 960}";
+transform = "{1, 0, 0, 1, 2879, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 960}";
+transform = "{1, 0, 0, 1, 3359, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3840, 960}";
+transform = "{1, 0, 0, 1, 3839, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 960}";
+transform = "{1, 0, 0, 1, 4319, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 1920}";
+transform = "{1, 0, 0, 1, 479, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 1920}";
+transform = "{1, 0, 0, 1, 959, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1920}";
+transform = "{1, 0, 0, 1, 1439, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1920}";
+transform = "{1, 0, 0, 1, 1919, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 1920}";
+transform = "{1, 0, 0, 1, 2879, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 1920}";
+transform = "{1, 0, 0, 1, 3359, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3840, 1920}";
+transform = "{1, 0, 0, 1, 3839, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 1920}";
+transform = "{1, 0, 0, 1, 4319, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 2400}";
+transform = "{1, 0, 0, 1, 479, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 2400}";
+transform = "{1, 0, 0, 1, 959, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2400}";
+transform = "{1, 0, 0, 1, 1439, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2400}";
+transform = "{1, 0, 0, 1, 1919, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2400}";
+transform = "{1, 0, 0, 1, 2879, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 2400}";
+transform = "{1, 0, 0, 1, 3359, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3840, 2400}";
+transform = "{1, 0, 0, 1, 3839, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 2400}";
+transform = "{1, 0, 0, 1, 4319, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 2880}";
+transform = "{1, 0, 0, 1, 479, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 2880}";
+transform = "{1, 0, 0, 1, 959, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2880}";
+transform = "{1, 0, 0, 1, 1439, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2880}";
+transform = "{1, 0, 0, 1, 1919, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2880}";
+transform = "{1, 0, 0, 1, 2879, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 2880}";
+transform = "{1, 0, 0, 1, 3359, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3840, 2880}";
+transform = "{1, 0, 0, 1, 3839, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 2880}";
+transform = "{1, 0, 0, 1, 4319, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3360}";
+transform = "{1, 0, 0, 1, 2399, 3360}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 3840}";
+transform = "{1, 0, 0, 1, 959, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 3840}";
+transform = "{1, 0, 0, 1, 1439, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3840}";
+transform = "{1, 0, 0, 1, 1919, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 3840}";
+transform = "{1, 0, 0, 1, 2879, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 3840}";
+transform = "{1, 0, 0, 1, 3359, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3840, 3840}";
+transform = "{1, 0, 0, 1, 3839, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 4320}";
+transform = "{1, 0, 0, 1, 479, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 4320}";
+transform = "{1, 0, 0, 1, 1919, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 4320}";
+transform = "{1, 0, 0, 1, 2879, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 4320}";
+transform = "{1, 0, 0, 1, 4319, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 4800}";
+transform = "{1, 0, 0, 1, 959, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 4800}";
+transform = "{1, 0, 0, 1, 1439, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 4800}";
+transform = "{1, 0, 0, 1, 3359, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3840, 4800}";
+transform = "{1, 0, 0, 1, 3839, 4800}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -103260,1955 +101610,381 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 0}";
+transform = "{1, 0, 0, 1, -1, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 0}";
+transform = "{1, 0, 0, 1, 479, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 0}";
+transform = "{1, 0, 0, 1, 959, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 0}";
+transform = "{1, 0, 0, 1, 1439, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2400, 0}";
+transform = "{1, 0, 0, 1, 1919, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 0}";
+transform = "{1, 0, 0, 1, 2879, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 0}";
+transform = "{1, 0, 0, 1, 3359, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 0}";
+transform = "{1, 0, 0, 1, 3839, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4800, 0}";
+transform = "{1, 0, 0, 1, 4319, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 5280, 0}";
+transform = "{1, 0, 0, 1, 4799, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 5760, 0}";
+transform = "{1, 0, 0, 1, -1, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 6240, 0}";
+transform = "{1, 0, 0, 1, 479, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 6720, 0}";
+transform = "{1, 0, 0, 1, 959, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 7200, 0}";
+transform = "{1, 0, 0, 1, 1439, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 480}";
+transform = "{1, 0, 0, 1, 1919, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 480}";
+transform = "{1, 0, 0, 1, 2879, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 480}";
+transform = "{1, 0, 0, 1, 3359, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 480}";
+transform = "{1, 0, 0, 1, 3839, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2400, 480}";
+transform = "{1, 0, 0, 1, 4319, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 480}";
+transform = "{1, 0, 0, 1, 4799, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 480}";
+transform = "{1, 0, 0, 1, -1, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 480}";
+transform = "{1, 0, 0, 1, 479, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4800, 480}";
+transform = "{1, 0, 0, 1, 959, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 5280, 480}";
+transform = "{1, 0, 0, 1, 1439, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 5760, 480}";
+transform = "{1, 0, 0, 1, 1919, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 6240, 480}";
+transform = "{1, 0, 0, 1, 2879, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 6720, 480}";
+transform = "{1, 0, 0, 1, 3359, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 7200, 480}";
+transform = "{1, 0, 0, 1, 3839, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 960}";
+transform = "{1, 0, 0, 1, 4319, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 960}";
+transform = "{1, 0, 0, 1, 4799, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 960}";
+transform = "{1, 0, 0, 1, -1, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 960}";
+transform = "{1, 0, 0, 1, 479, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2400, 960}";
+transform = "{1, 0, 0, 1, 959, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 960}";
+transform = "{1, 0, 0, 1, 1439, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 960}";
+transform = "{1, 0, 0, 1, 1919, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 960}";
+transform = "{1, 0, 0, 1, 2879, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4800, 960}";
+transform = "{1, 0, 0, 1, 3359, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 5280, 960}";
+transform = "{1, 0, 0, 1, 3839, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 5760, 960}";
+transform = "{1, 0, 0, 1, 4319, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 6240, 960}";
+transform = "{1, 0, 0, 1, 4799, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 6720, 960}";
+transform = "{1, 0, 0, 1, -1, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 7200, 960}";
+transform = "{1, 0, 0, 1, 479, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 1920}";
+transform = "{1, 0, 0, 1, 959, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 1920}";
+transform = "{1, 0, 0, 1, 1439, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1920}";
+transform = "{1, 0, 0, 1, 1919, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1920}";
+transform = "{1, 0, 0, 1, 2879, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2400, 1920}";
+transform = "{1, 0, 0, 1, 3359, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 1920}";
+transform = "{1, 0, 0, 1, 3839, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 1920}";
+transform = "{1, 0, 0, 1, 4319, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 1920}";
+transform = "{1, 0, 0, 1, 4799, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4800, 1920}";
+transform = "{1, 0, 0, 1, -1, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 5280, 1920}";
+transform = "{1, 0, 0, 1, 479, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 5760, 1920}";
+transform = "{1, 0, 0, 1, 959, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 6240, 1920}";
+transform = "{1, 0, 0, 1, 1439, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 6720, 1920}";
+transform = "{1, 0, 0, 1, 1919, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 7200, 1920}";
+transform = "{1, 0, 0, 1, 2879, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 2400}";
+transform = "{1, 0, 0, 1, 3359, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 2400}";
+transform = "{1, 0, 0, 1, 3839, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2400}";
+transform = "{1, 0, 0, 1, 4319, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2400}";
+transform = "{1, 0, 0, 1, 4799, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2400}";
+transform = "{1, 0, 0, 1, 2399, 3360}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2400}";
+transform = "{1, 0, 0, 1, 959, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3360, 2400}";
+transform = "{1, 0, 0, 1, 1439, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4320, 2400}";
+transform = "{1, 0, 0, 1, 1919, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4800, 2400}";
+transform = "{1, 0, 0, 1, 2879, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 5280, 2400}";
+transform = "{1, 0, 0, 1, 3359, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 5760, 2400}";
+transform = "{1, 0, 0, 1, 3839, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 6240, 2400}";
+transform = "{1, 0, 0, 1, 479, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 6720, 2400}";
+transform = "{1, 0, 0, 1, 1919, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 7200, 2400}";
+transform = "{1, 0, 0, 1, 2879, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 2880}";
+transform = "{1, 0, 0, 1, 4319, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 2880}";
+transform = "{1, 0, 0, 1, 959, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2880}";
+transform = "{1, 0, 0, 1, 1439, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2880}";
+transform = "{1, 0, 0, 1, 3359, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 4800}";
+transform = "{1, 0, 0, 1, 3839, 4800}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 8160;
-}
-);
-},
-{
-color = 4;
-glyphname = present.3;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 5280}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 5280}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 5280}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 5280}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 5760}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 5760}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 5760}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 5760}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 8160;
-}
-);
-},
-{
-color = 4;
-glyphname = present.4;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7680, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8160, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8640, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 9120, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7680, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8160, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8640, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 9120, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7680, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8160, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8640, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 9120, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7680, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8160, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8640, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 9120, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7680, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8160, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8640, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 9120, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7680, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8160, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8640, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 9120, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7680, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8160, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8640, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 9120, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7200, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 7680, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8160, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 8640, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 9120, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4800, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 4800}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2880, 5280}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 4320, 5280}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5280, 5280}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6720, 5280}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3360, 5760}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 3840, 5760}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 5760, 5760}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 6240, 5760}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 10080;
+width = 5280;
 }
 );
 },
