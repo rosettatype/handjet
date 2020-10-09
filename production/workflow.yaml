@@ -16,7 +16,7 @@
     - .post.make_webfonts:
       webformats: ["woff2", "html"]
 - name: preview
-  source: fonts/HandjetVF-Rg.ttf
+  source: [fonts/HandjetVariable]
   family: Handjet Variable Preview
   tasks:
     - .copy_fonts
