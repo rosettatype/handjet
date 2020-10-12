@@ -1333,10 +1333,10 @@ of hinted versus unhinted font files.
 
 	|  | fonts/Handjet[EGRD,ESHP,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 362.1kb |
-	| Hinted Size | 360.5kb |
+	| Dehinted Size | 309.9kb |
+	| Hinted Size | 308.4kb |
 	| Increase | -1560 bytes |
-	| Change   | -0.4 % |
+	| Change   | -0.5 % |
  [code: size-impact]
 
 </details>

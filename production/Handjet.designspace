@@ -9,7 +9,7 @@
     <axis tag="ESHP" name="Element Shape"
         minimum="0.00" maximum="16.00" default="2.00" />
     <axis tag="EGRD" name="Element Grid"
-        minimum="1.0" maximum="3.0" default="1.0" />
+        minimum="1.0" maximum="2.0" default="1.0" />
 </axes>
 
 <sources>
@@ -33,15 +33,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,0,3}" layer="{100,0,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="0.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,100,1}" layer="{100,100,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -56,15 +47,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="1.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,100,3}" layer="{100,100,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="1.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -87,15 +69,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,200,3}" layer="{100,200,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,211,1}" layer="{100,211,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -110,15 +83,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="2.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,211,3}" layer="{100,211,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.11"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -141,15 +105,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,225,3}" layer="{100,225,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.25"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,236,1}" layer="{100,236,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -164,15 +119,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="2.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,236,3}" layer="{100,236,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.36"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -195,15 +141,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,250,3}" layer="{100,250,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,400,1}" layer="{100,400,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -218,15 +155,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="4.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,400,3}" layer="{100,400,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -249,15 +177,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,411,3}" layer="{100,411,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.11"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,425,1}" layer="{100,425,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -272,15 +191,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="4.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,425,3}" layer="{100,425,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.25"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -303,15 +213,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,436,3}" layer="{100,436,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.36"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,450,1}" layer="{100,450,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -326,15 +227,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="4.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,450,3}" layer="{100,450,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -357,15 +249,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,461,3}" layer="{100,461,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.61"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,475,1}" layer="{100,475,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -380,15 +263,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="4.75"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,475,3}" layer="{100,475,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.75"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -411,15 +285,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,486,3}" layer="{100,486,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.86"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,500,1}" layer="{100,500,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -434,15 +299,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="5.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,500,3}" layer="{100,500,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="5.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -465,15 +321,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,650,3}" layer="{100,650,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="6.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,800,1}" layer="{100,800,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -488,15 +335,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="8.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,800,3}" layer="{100,800,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -519,15 +357,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,950,3}" layer="{100,950,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="9.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,1100,1}" layer="{100,1100,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -542,15 +371,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="11.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,1100,3}" layer="{100,1100,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="11.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -573,15 +393,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,1300,3}" layer="{100,1300,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="13.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,1400,1}" layer="{100,1400,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -596,15 +407,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="14.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,1400,3}" layer="{100,1400,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -627,15 +429,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,1411,3}" layer="{100,1411,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.11"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,1425,1}" layer="{100,1425,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -650,15 +443,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="14.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,1425,3}" layer="{100,1425,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.25"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -681,15 +465,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,1436,3}" layer="{100,1436,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.36"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,1450,1}" layer="{100,1450,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -704,15 +479,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="14.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,1450,3}" layer="{100,1450,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -735,15 +501,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,1500,3}" layer="{100,1500,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="15.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {100,1600,1}" layer="{100,1600,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
@@ -758,15 +515,6 @@
             <dimension name="Weight" xvalue="100"/>
             <dimension name="Element Shape" xvalue="16.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {100,1600,3}" layer="{100,1600,3}">
-        <location>
-            <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="16.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -789,15 +537,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,0,3}" layer="{400,0,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="0.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,100,1}" layer="{400,100,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -812,15 +551,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="1.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,100,3}" layer="{400,100,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="1.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -849,15 +579,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,200,3}" layer="{400,200,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,211,1}" layer="{400,211,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -872,15 +593,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="2.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,211,3}" layer="{400,211,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.11"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -903,15 +615,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,225,3}" layer="{400,225,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.25"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,236,1}" layer="{400,236,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -926,15 +629,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="2.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,236,3}" layer="{400,236,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.36"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -957,15 +651,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,250,3}" layer="{400,250,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,400,1}" layer="{400,400,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -980,15 +665,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="4.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,400,3}" layer="{400,400,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1011,15 +687,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,411,3}" layer="{400,411,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.11"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,425,1}" layer="{400,425,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -1034,15 +701,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="4.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,425,3}" layer="{400,425,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.25"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1065,15 +723,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,436,3}" layer="{400,436,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.36"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,450,1}" layer="{400,450,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -1088,15 +737,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="4.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,450,3}" layer="{400,450,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1119,15 +759,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,461,3}" layer="{400,461,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.61"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,475,1}" layer="{400,475,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -1142,15 +773,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="4.75"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,475,3}" layer="{400,475,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.75"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1173,15 +795,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,486,3}" layer="{400,486,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.86"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,500,1}" layer="{400,500,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -1196,15 +809,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="5.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,500,3}" layer="{400,500,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="5.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1227,15 +831,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,650,3}" layer="{400,650,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="6.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,800,1}" layer="{400,800,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -1250,15 +845,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="8.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,800,3}" layer="{400,800,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1281,15 +867,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,950,3}" layer="{400,950,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="9.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,1100,1}" layer="{400,1100,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -1304,15 +881,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="11.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,1100,3}" layer="{400,1100,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="11.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1335,15 +903,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,1300,3}" layer="{400,1300,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="13.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,1400,1}" layer="{400,1400,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -1358,15 +917,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="14.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,1400,3}" layer="{400,1400,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1389,15 +939,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,1411,3}" layer="{400,1411,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.11"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,1425,1}" layer="{400,1425,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -1412,15 +953,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="14.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,1425,3}" layer="{400,1425,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.25"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1443,15 +975,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,1436,3}" layer="{400,1436,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.36"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,1450,1}" layer="{400,1450,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -1466,15 +989,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="14.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,1450,3}" layer="{400,1450,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1497,15 +1011,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,1500,3}" layer="{400,1500,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="15.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {400,1600,1}" layer="{400,1600,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
@@ -1520,15 +1025,6 @@
             <dimension name="Weight" xvalue="400"/>
             <dimension name="Element Shape" xvalue="16.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {400,1600,3}" layer="{400,1600,3}">
-        <location>
-            <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="16.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1551,15 +1047,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,0,3}" layer="{900,0,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="0.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,100,1}" layer="{900,100,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -1574,15 +1061,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="1.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,100,3}" layer="{900,100,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="1.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1605,15 +1083,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,200,3}" layer="{900,200,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,211,1}" layer="{900,211,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -1628,15 +1097,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="2.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,211,3}" layer="{900,211,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.11"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1659,15 +1119,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,225,3}" layer="{900,225,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.25"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,236,1}" layer="{900,236,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -1682,15 +1133,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="2.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,236,3}" layer="{900,236,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.36"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1713,15 +1155,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,250,3}" layer="{900,250,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,400,1}" layer="{900,400,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -1736,15 +1169,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="4.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,400,3}" layer="{900,400,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1767,15 +1191,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,411,3}" layer="{900,411,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.11"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,425,1}" layer="{900,425,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -1790,15 +1205,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="4.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,425,3}" layer="{900,425,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.25"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1821,15 +1227,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,436,3}" layer="{900,436,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.36"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,450,1}" layer="{900,450,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -1844,15 +1241,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="4.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,450,3}" layer="{900,450,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1875,15 +1263,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,461,3}" layer="{900,461,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.61"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,475,1}" layer="{900,475,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -1898,15 +1277,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="4.75"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,475,3}" layer="{900,475,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.75"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1929,15 +1299,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,486,3}" layer="{900,486,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.86"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,500,1}" layer="{900,500,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -1952,15 +1313,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="5.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,500,3}" layer="{900,500,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="5.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -1983,15 +1335,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,650,3}" layer="{900,650,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="6.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,800,1}" layer="{900,800,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -2006,15 +1349,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="8.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,800,3}" layer="{900,800,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -2037,15 +1371,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,950,3}" layer="{900,950,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="9.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,1100,1}" layer="{900,1100,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -2060,15 +1385,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="11.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,1100,3}" layer="{900,1100,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="11.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -2091,15 +1407,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,1300,3}" layer="{900,1300,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="13.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,1400,1}" layer="{900,1400,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -2114,15 +1421,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="14.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,1400,3}" layer="{900,1400,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -2145,15 +1443,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,1411,3}" layer="{900,1411,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.11"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,1425,1}" layer="{900,1425,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -2168,15 +1457,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="14.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,1425,3}" layer="{900,1425,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.25"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -2199,15 +1479,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,1436,3}" layer="{900,1436,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.36"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,1450,1}" layer="{900,1450,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -2222,15 +1493,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="14.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,1450,3}" layer="{900,1450,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.5"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -2253,15 +1515,6 @@
     </source>
 
     <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,1500,3}" layer="{900,1500,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="15.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
         name="Handjet Regular {900,1600,1}" layer="{900,1600,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
@@ -2276,15 +1529,6 @@
             <dimension name="Weight" xvalue="900"/>
             <dimension name="Element Shape" xvalue="16.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
-        </location>
-    </source>
-
-    <source filename="../master_ufo/Handjet-Regular.ufo"
-        name="Handjet Regular {900,1600,3}" layer="{900,1600,3}">
-        <location>
-            <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="16.0"/>
-            <dimension name="Element Grid" xvalue="3.0"/>
         </location>
     </source>
 
@@ -2422,7 +1666,6 @@
         <string>pixel.wght-900</string>
         <string>pixel.EGRD-1</string>
         <string>pixel.EGRD-2</string>
-        <string>pixel.EGRD-3</string>
       </array>
     </dict>
   </lib>

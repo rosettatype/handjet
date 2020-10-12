@@ -1,4 +1,4 @@
-#MenuTitle: save unicodes for flythrough animation
+#MenuTitle: save glyph set for flythrough animation
 
 """
 Save glyph names, unicodes, and show status for Handjet flythrough animation

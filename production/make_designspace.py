@@ -75,7 +75,6 @@ ESHPs = [
 EGRDs = [
     (1, True, "Single"),
     (2, True, "Double"),
-    (3, True, "Triple"),
 ]
 
 
@@ -92,7 +91,7 @@ code = """<?xml version='1.0' encoding='UTF-8'?>
     <axis tag="ESHP" name="Element Shape"
         minimum="0.00" maximum="16.00" default="2.00" />
     <axis tag="EGRD" name="Element Grid"
-        minimum="1.0" maximum="3.0" default="1.0" />
+        minimum="1.0" maximum="2.0" default="1.0" />
 </axes>
 
 <sources>
@@ -141,7 +140,6 @@ code = """<?xml version='1.0' encoding='UTF-8'?>
         <string>pixel.wght-900</string>
         <string>pixel.EGRD-1</string>
         <string>pixel.EGRD-2</string>
-        <string>pixel.EGRD-3</string>
       </array>
     </dict>
   </lib>
