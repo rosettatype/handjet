@@ -31,7 +31,7 @@ def draw(gn="a", variations={}, caption=""):
     path = db.BezierPath()
     path.text(fs, (w / 2, 145), align="center")
     db.drawPath(path)
-    fs = db.FormattedString(caption, font="InputMono-Regular", fontSize=10, fill=TEXTCOL)
+    fs = db.FormattedString(caption, font="AdapterMonoPE-Regular", fontSize=10, fill=TEXTCOL)
     db.text(fs, (w / 2, 40), align="center")
 
 # Animate fly-through the whole glyph set

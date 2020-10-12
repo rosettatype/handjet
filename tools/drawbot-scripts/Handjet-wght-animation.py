@@ -26,7 +26,7 @@ def draw(txt="a", variations={}, caption=""):
     path = db.BezierPath()
     path.text(txt, (w / 2, 95), align="center")
     db.drawPath(path)
-    txt = db.FormattedString(caption, font="InputMono-Regular", fontSize=11, fill=TEXTCOL)
+    txt = db.FormattedString(caption, font="AdapterMonoPE-Regular", fontSize=11, fill=TEXTCOL)
     db.text(txt, (w / 2, 40), align="center")
 
 # Animate wght axis

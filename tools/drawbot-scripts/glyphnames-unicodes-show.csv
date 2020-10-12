@@ -431,7 +431,6 @@ itilde,0x0129,True
 imacron,0x012B,True
 ibreve,0x012D,True
 idotless,0x0131,True
-idotaccent,,True
 idieresis,0x00EF,True
 iogonek,0x012F,True
 ihookabove,0x1EC9,True
@@ -1520,7 +1519,6 @@ heartsuitblack,0x2665,True
 spadesuitblack,0x2660,True
 clubsuitblack,0x2663,True
 diamondsuitblack,0x2666,True
-heavyBlackHeart,0x2764,True
 lozenge.pica,,True
 cat,0x1F408,True
 cat.tall,,True
@@ -1570,8 +1568,6 @@ fox,,True
 fox.right,,True
 star,,True
 star.1,,True
-star.2,,True
-star.3,,True
 snowflake,0x2744,True
 snowflake.1,,True
 snowflake.2,,True
@@ -1587,8 +1583,6 @@ snowman.1,,True
 present,,True
 present.1,,True
 present.2,,True
-present.3,,True
-present.4,,True
 pattern,,True
 pattern.1,,True
 pattern.2,,True
@@ -1636,4 +1630,3 @@ pixel.wght-400,,False
 pixel.wght-900,,False
 pixel.EGRD-1,,False
 pixel.EGRD-2,,False
-pixel.EGRD-3,,False

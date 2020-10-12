@@ -43,7 +43,7 @@ def draw(txt="a", variations={}, caption=""):
                     db.strokeWidth(1)
                     db.oval(x-4, y-4, 8, 8)
     # draw caption
-    fs = db.FormattedString(caption, font="InputMono-Regular", fontSize=10, fill=TEXTCOL)
+    fs = db.FormattedString(caption, font="AdapterMonoPE-Regular", fontSize=10, fill=TEXTCOL)
     if caption:
         db.text(fs, (w / 2, 40), align="center")
 

@@ -33,7 +33,7 @@ Handjet is a variable font with the following axes:
 
 - **Weight (wght)** (100-900) controls the size of the element,
 - **Element Shape (ESHP)** (0.0-16.0) controls the shape of the element,
-- **Element Grid (EGRD)** (1.0-3.0) controls how many elements are used per one grid unit.
+- **Element Grid (EGRD)** (1.0-2.0) controls how many elements are used per one grid unit.
 
 ### Weight (wght)
 
@@ -107,7 +107,6 @@ This axis controls how many elements are used per one grid unit.
 |---:|:---|:---|
 | 1.00 | Single element (single) | * |
 | 2.00 | Group of 2x2 elements (double) | * |
-| 3.00 | Group of 3x3 elements (triple) | * |
 
 ## Source files
 

@@ -11,7 +11,7 @@ scale = 1
 TEXTCOL = (0, 0, 0)
 BACKCOL = (230 / 255, 250 / 255, 40 / 255)
 NODECOL = (1, 1, 1)
-defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.01}
+defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.0}
 
 # Draw a single frame
 
@@ -26,7 +26,7 @@ def draw(txt="a", variations={}, caption=""):
     path = db.BezierPath()
     path.text(txt, (w / 2, 95), align="center")
     db.drawPath(path)
-    txt = db.FormattedString(caption, font="InputMono-Regular", fontSize=11, fill=TEXTCOL)
+    txt = db.FormattedString(caption, font="AdapterMonoPE-Regular", fontSize=11, fill=TEXTCOL)
     db.text(txt, (w / 2, 40), align="center")
 
 # Animate EGRD axis
@@ -34,11 +34,11 @@ def draw(txt="a", variations={}, caption=""):
 db.newDrawing()
 variations = defaults.copy()
 step = 5
-for egrd in range(100, 300 + step, step):
+for egrd in range(100, 200 + step, step):
     caption = "Element Grid (EGRD): %.2f" % (egrd / 100)
     variations["EGRD"] = egrd / 100
     draw(txt="n", variations=variations, caption=caption)
-for egrd in range(300, 100 - step, -step):
+for egrd in range(200, 100 - step, -step):
     caption = "Element Grid (EGRD): %.2f" % (egrd / 100)
     variations["EGRD"] = egrd / 100
     draw(txt="n", variations=variations, caption=caption)
