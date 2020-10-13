@@ -1595,6 +1595,8 @@ tree.3,
 tree.4,
 snowman,
 snowman.1,
+pica,
+dick,
 present,
 present.1,
 present.2,
@@ -1828,28 +1830,28 @@ sub idotbelow by i dotbelowcomb;
 @CombiningTopAccents = [circumflexcomb caroncomb macroncomb brevecomb dieresiscomb acutecomb gravecomb dotaccentcomb ringcomb tildecomb hungarumlautcomb dblgravecomb commaturnedabovecomb commaabovecomb hookabovecomb horncomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb breveinvertedcomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb tildecomb.narrow tonoscomb dieresistonoscomb];
 #@CombiningNonTopAccents = [brevebelowcomb cedillacomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
 
-lookup ccmp_Other_1 {
+lookup ccmp_other_1 {
 	lookupflag MarkAttachmentType @CombiningTopAccents;
 	
 	@dottedGlyphs = [i j iogonek c.iUkr c.je ];
 	@dotlessGlyphs = [idotless jdotless idotlessogonek idotless jdotless];
 	sub @dottedGlyphs' @CombiningTopAccents by @dotlessGlyphs;
 	#sub @dottedGlyphs' @CombiningNonTopAccents @CombiningTopAccents by @dotlessGlyphs;
-} ccmp_Other_1;
+} ccmp_other_1;
 
-lookup ccmp_Other_2 {
+lookup ccmp_other_2 {
 	@Markscomb = [circumflexcomb caroncomb brevecomb brevebelowcomb acutecomb gravecomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb breveinvertedcomb circumflexcomb_tildecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_acutecomb tonoscomb];
 	@MarkscombCase = [circumflexcomb.case caroncomb.case brevecomb.case brevebelowcomb.case acutecomb.case gravecomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case breveinvertedcomb.case circumflexcomb_tildecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_acutecomb.case tonoscomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
+} ccmp_other_2;
 
-lookup ccmp_Other_3 {
+lookup ccmp_other_3 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_3;
+} ccmp_other_3;
 
-lookup ccmp_arab_1 {
+lookup ccmp_arab {
 	lookupflag RightToLeft;
 	sub arHamzaabove arDamma by arHamzaabove_arDamma;
 	sub arHamzaabove arDammatan by arHamzaabove_arDammatan;
@@ -1865,9 +1867,9 @@ lookup ccmp_arab_1 {
 	sub arShadda arFathatan by arShadda_arFathatan;
 	sub arShadda arKasra by arShadda_arKasra;
 	sub arShadda arKasratan by arShadda_arKasratan;
-} ccmp_arab_1;
+} ccmp_arab;
 
-lookup ccmp_latn_1 {
+lookup ccmp_latn {
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
 	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;
@@ -1881,63 +1883,60 @@ lookup ccmp_latn_1 {
 	#sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-} ccmp_latn_1;
+} ccmp_latn;
 
-script arab;
-lookup ccmp_arab_1;
+lookup ccmp_hebr_1 {
+	lookupflag RightToLeft;
 
-script latn;
-lookup ccmp_latn_1;
+    sub hbAlef_hbPatah by hbAlef hbPatah;
+    sub hbAlef_hbQamats by hbAlef hbQamats;
+    sub hbAlef_hbDagesh by hbAlef hbDagesh;
+    sub hbBet_hbDagesh by hbBet hbDagesh;
+    sub hbBet_hbRafe by hbBet hbRafe;
+    sub hbGimel_hbDagesh by hbGimel hbDagesh;
+    sub hbDalet_hbDagesh by hbDalet hbDagesh;
+    sub hbHe_hbDagesh by hbHe hbDagesh;
+    sub hbVav_hbHolam by hbVav hbHolam;
+    sub hbVav_hbDagesh by hbVav hbDagesh;
+    sub hbZayin_hbDagesh by hbZayin hbDagesh;
+    sub hbTet_hbDagesh by hbTet hbDagesh;
+    sub hbYod_hbHiriq by hbYod hbHiriq;
+    sub hbYod_hbDagesh by hbYod hbDagesh;
+    sub hbKaf_hbDagesh by hbKaf hbDagesh;
+    sub hbKaf_hbRafe by hbKaf hbRafe;
+    sub hbKafFinal_hbDagesh by hbKafFinal hbDagesh;
+    sub hbLamed_hbDagesh by hbLamed hbDagesh;
+    sub hbMem_hbDagesh by hbMem hbDagesh;
+    sub hbNun_hbDagesh by hbNun hbDagesh;
+    sub hbSamekh_hbDagesh by hbSamekh hbDagesh;
+    sub hbPe_hbDagesh by hbPe hbDagesh;
+    sub hbPe_hbRafe by hbPe hbRafe;
+    sub hbPeFinal_hbDagesh by hbPeFinal hbDagesh;
+    sub hbTsadi_hbDagesh by hbTsadi hbDagesh;
+    sub hbQof_hbDagesh by hbQof hbDagesh;
+    sub hbResh_hbDagesh by hbResh hbDagesh;
+    sub hbShin_hbDagesh by hbShin hbDagesh;
+    sub hbShin_hbShindot by hbShin hbShindot;
+    sub hbShin_hbSindot by hbShin hbSindot;
+    sub hbShin_hbDagesh_hbShindot by hbShin hbDagesh hbShindot;
+    sub hbShin_hbDagesh_hbSindot by hbShin hbDagesh hbSindot;
+    sub hbTav_hbDagesh by hbTav hbDagesh;
+	
+	# hbHataf does not exist independently
+	#sub hbHataf_hbSegol by hbHataf hbSegol;
+	#sub hbHataf_hbPatah by hbHataf hbPatah;
+	#sub hbHataf_hbQamats by hbHataf hbQamatssub;
 
-	lookup CCMP_HEBR_DECOMPOSE {
-		lookupflag RightToLeft;
-
-		sub hbShin_hbDagesh_hbShindot by hbShin hbDagesh hbShindot;
-		sub hbShin_hbDagesh_hbSindot by hbShin hbDagesh hbSindot;
-		sub hbShin_hbShindot by hbShin hbShindot;
-		sub hbShin_hbSindot by hbShin hbSindot;
-
-		sub hbAlef_hbDagesh by hbAlef hbDagesh;
-		sub hbBet_hbDagesh by hbBet hbDagesh;
-		sub hbGimel_hbDagesh by hbGimel hbDagesh;
-		sub hbDalet_hbDagesh by hbDalet hbDagesh;
-		sub hbHe_hbDagesh by hbHe hbDagesh;
-		sub hbVav_hbDagesh by hbVav hbDagesh;
-		sub hbZayin_hbDagesh by hbZayin hbDagesh;
-		sub hbTet_hbDagesh by hbTet hbDagesh;
-		sub hbYod_hbDagesh by hbYod hbDagesh;
-		sub hbKaf_hbDagesh by hbKaf hbDagesh;
-		sub hbKafFinal_hbDagesh by hbKafFinal hbDagesh;
-		sub hbLamed_hbDagesh by hbLamed hbDagesh;
-		sub hbMem_hbDagesh by hbMem hbDagesh;
-		sub hbNun_hbDagesh by hbNun hbDagesh;
-		sub hbSamekh_hbDagesh by hbSamekh hbDagesh;
-		sub hbPe_hbDagesh by hbPe hbDagesh;
-		sub hbPeFinal_hbDagesh by hbPeFinal hbDagesh;
-		sub hbTsadi_hbDagesh by hbTsadi hbDagesh;
-		sub hbQof_hbDagesh by hbQof hbDagesh;
-		sub hbResh_hbDagesh by hbResh hbDagesh;
-		sub hbShin_hbDagesh by hbShin hbDagesh;
-		sub hbTav_hbDagesh by hbTav hbDagesh;
-
-		sub hbAlef_hbPatah by hbAlef hbPatah;
-		sub hbAlef_hbQamats by hbAlef hbQamats;
-		sub hbBet_hbRafe by hbBet hbRafe;
-		sub hbVav_hbHolam by hbVav hbHolam;
-		sub hbKaf_hbRafe by hbKaf hbRafe;
-		sub hbPe_hbRafe by hbPe hbRafe;
-		sub hbYod_hbHiriq by hbYod hbHiriq;
-	} CCMP_HEBR_DECOMPOSE;
-
-	script hebr;
-		language JII;
-			lookup CCMP_YIDDISH {
-				lookupflag RightToLeft;
-
-				# Yiddish-only ligature/combination
-				sub hbYod hbYod hbPatah by hbYod_hbYod_hbPatah;
-				sub hbYod_hbYod hbPatah by hbYod_hbYod_hbPatah;
-			} CCMP_YIDDISH;
+    sub hbVav_hbVav by hbVav hbVav;
+    sub hbVav_hbYod by hbVav hbYod;
+    sub hbYod_hbYod by hbYod hbYod;
+} ccmp_hebr_1;
+lookup ccmp_hebr_2 {
+	lookupflag RightToLeft;
+	
+	# and force compose this
+    sub hbYod hbYod hbPatah by hbYod_hbYod_hbPatah;
+} ccmp_hebr_2;
 ";
 name = ccmp;
 },
@@ -2016,7 +2015,16 @@ code = "    sub firsttonechinese by macroncomb;
                 sub c.sha by c.sha.BGR;
                 sub c.shcha by c.shcha.BGR;
                 sub c.yu by c.yu.BGR;
-            } LOCL_BGR;";
+            } LOCL_BGR;
+	script hebr;
+		language JII;
+			lookup CCMP_YIDDISH {
+				lookupflag RightToLeft;
+
+				# Yiddish-only ligature/combination
+				sub hbYod hbYod hbPatah by hbYod_hbYod_hbPatah;
+				#sub hbYod_hbYod hbPatah by hbYod_hbYod_hbPatah;
+			} CCMP_YIDDISH;";
 name = locl;
 },
 {
@@ -2373,77 +2381,79 @@ sub @figures space' @vulgar_fractions by thinspace;";
 name = frac;
 },
 {
-code = "lookupflag IgnoreMarks RightToLeft;
-
-sub arLam.init arAlif.fina by arLam.init_arAlif.fina;
-sub arLam.medi arAlif.fina by arLam.medi_arAlif.fina;
-sub arLam.init arAlifMadda.fina by arLam.init_arAlifMadda.fina;
-sub arLam.medi arAlifMadda.fina by arLam.medi_arAlifMadda.fina;
-sub arLam.init arAlifHamza.fina by arLam.init_arAlifHamza.fina;
-sub arLam.medi arAlifHamza.fina by arLam.medi_arAlifHamza.fina;
-sub arLam.init arAlifHamzabelow.fina by arLam.init_arAlifHamzabelow.fina;
-sub arLam.medi arAlifHamzabelow.fina by arLam.medi_arAlifHamzabelow.fina;
-sub arLam.init arAlifWasla.fina by arLam.init_arAlifWasla.fina;
-sub arLam.medi arAlifWasla.fina by arLam.medi_arAlifWasla.fina;
-sub arBeh.init arYehBarri.fina by arBeh.init_arYehBarri.fina;
-sub arBeh.medi arYehBarri.fina by arBeh.medi_arYehBarri.fina;
-sub arPeh.init arYehBarri.fina by arPeh.init_arYehBarri.fina;
-sub arPeh.medi arYehBarri.fina by arPeh.medi_arYehBarri.fina;
-sub arTeh.init arYehBarri.fina by arTeh.init_arYehBarri.fina;
-sub arTeh.medi arYehBarri.fina by arTeh.medi_arYehBarri.fina;
-sub arTheh.init arYehBarri.fina by arTheh.init_arYehBarri.fina;
-sub arTheh.medi arYehBarri.fina by arTheh.medi_arYehBarri.fina;
-sub arTteh.init arYehBarri.fina by arTteh.init_arYehBarri.fina;
-sub arTteh.medi arYehBarri.fina by arTteh.medi_arYehBarri.fina;
-sub arJim.init arYehBarri.fina by arJim.init_arYehBarri.fina;
-sub arJim.medi arYehBarri.fina by arJim.medi_arYehBarri.fina;
-sub arTcheh.init arYehBarri.fina by arTcheh.init_arYehBarri.fina;
-sub arTcheh.medi arYehBarri.fina by arTcheh.medi_arYehBarri.fina;
-sub arHah.init arYehBarri.fina by arHah.init_arYehBarri.fina;
-sub arHah.medi arYehBarri.fina by arHah.medi_arYehBarri.fina;
-sub arKhah.init arYehBarri.fina by arKhah.init_arYehBarri.fina;
-sub arKhah.medi arYehBarri.fina by arKhah.medi_arYehBarri.fina;
-sub arSin.init arYehBarri.fina by arSin.init_arYehBarri.fina;
-sub arSin.medi arYehBarri.fina by arSin.medi_arYehBarri.fina;
-sub arShin.init arYehBarri.fina by arShin.init_arYehBarri.fina;
-sub arShin.medi arYehBarri.fina by arShin.medi_arYehBarri.fina;
-sub arSad.init arYehBarri.fina by arSad.init_arYehBarri.fina;
-sub arSad.medi arYehBarri.fina by arSad.medi_arYehBarri.fina;
-sub arDad.init arYehBarri.fina by arDad.init_arYehBarri.fina;
-sub arDad.medi arYehBarri.fina by arDad.medi_arYehBarri.fina;
-sub arTah.init arYehBarri.fina by arTah.init_arYehBarri.fina;
-sub arTah.medi arYehBarri.fina by arTah.medi_arYehBarri.fina;
-sub arZah.init arYehBarri.fina by arZah.init_arYehBarri.fina;
-sub arZah.medi arYehBarri.fina by arZah.medi_arYehBarri.fina;
-sub arAyn.init arYehBarri.fina by arAyn.init_arYehBarri.fina;
-sub arAyn.medi arYehBarri.fina by arAyn.medi_arYehBarri.fina;
-sub arGhayn.init arYehBarri.fina by arGhayn.init_arYehBarri.fina;
-sub arGhayn.medi arYehBarri.fina by arGhayn.medi_arYehBarri.fina;
-sub arFeh.init arYehBarri.fina by arFeh.init_arYehBarri.fina;
-sub arFeh.medi arYehBarri.fina by arFeh.medi_arYehBarri.fina;
-sub arQaf.init arYehBarri.fina by arQaf.init_arYehBarri.fina;
-sub arQaf.medi arYehBarri.fina by arQaf.medi_arYehBarri.fina;
-sub arKaf.init arYehBarri.fina by arKaf.init_arYehBarri.fina;
-sub arKaf.medi arYehBarri.fina by arKaf.medi_arYehBarri.fina;
-sub arKeheh.init arYehBarri.fina by arKeheh.init_arYehBarri.fina;
-sub arKeheh.medi arYehBarri.fina by arKeheh.medi_arYehBarri.fina;
-sub arGaf.init arYehBarri.fina by arGaf.init_arYehBarri.fina;
-sub arGaf.medi arYehBarri.fina by arGaf.medi_arYehBarri.fina;
-sub arLam.init arYehBarri.fina by arLam.init_arYehBarri.fina;
-sub arLam.medi arYehBarri.fina by arLam.medi_arYehBarri.fina;
-sub arMim.init arYehBarri.fina by arMim.init_arYehBarri.fina;
-sub arMim.medi arYehBarri.fina by arMim.medi_arYehBarri.fina;
-sub arNun.init arYehBarri.fina by arNun.init_arYehBarri.fina;
-sub arNun.medi arYehBarri.fina by arNun.medi_arYehBarri.fina;
-sub arHehGoal.init arYehBarri.fina by arHehGoal.init_arYehBarri.fina;
-sub arHehDoachashmi.init arYehBarri.fina by arHehDoachashmi.init_arYehBarri.fina;
-sub arHehDoachashmi.medi arYehBarri.fina by arHehDoachashmi.medi_arYehBarri.fina;
-sub arYeh.init arYehBarri.fina by arYeh.init_arYehBarri.fina;
-sub arYeh.medi arYehBarri.fina by arYeh.medi_arYehBarri.fina;
-sub arYehFarsi.init arYehBarri.fina by arYehFarsi.init_arYehBarri.fina;
-sub arYehFarsi.medi arYehBarri.fina by arYehFarsi.medi_arYehBarri.fina;
-sub arYehHamza.init arYehBarri.fina by arYehHamza.init_arYehBarri.fina;
-sub arYehHamza.medi arYehBarri.fina by arYehHamza.medi_arYehBarri.fina;";
+code = "lookup RLIG_ARAB {
+	lookupflag IgnoreMarks RightToLeft;
+	
+	sub arLam.init arAlif.fina by arLam.init_arAlif.fina;
+	sub arLam.medi arAlif.fina by arLam.medi_arAlif.fina;
+	sub arLam.init arAlifMadda.fina by arLam.init_arAlifMadda.fina;
+	sub arLam.medi arAlifMadda.fina by arLam.medi_arAlifMadda.fina;
+	sub arLam.init arAlifHamza.fina by arLam.init_arAlifHamza.fina;
+	sub arLam.medi arAlifHamza.fina by arLam.medi_arAlifHamza.fina;
+	sub arLam.init arAlifHamzabelow.fina by arLam.init_arAlifHamzabelow.fina;
+	sub arLam.medi arAlifHamzabelow.fina by arLam.medi_arAlifHamzabelow.fina;
+	sub arLam.init arAlifWasla.fina by arLam.init_arAlifWasla.fina;
+	sub arLam.medi arAlifWasla.fina by arLam.medi_arAlifWasla.fina;
+	sub arBeh.init arYehBarri.fina by arBeh.init_arYehBarri.fina;
+	sub arBeh.medi arYehBarri.fina by arBeh.medi_arYehBarri.fina;
+	sub arPeh.init arYehBarri.fina by arPeh.init_arYehBarri.fina;
+	sub arPeh.medi arYehBarri.fina by arPeh.medi_arYehBarri.fina;
+	sub arTeh.init arYehBarri.fina by arTeh.init_arYehBarri.fina;
+	sub arTeh.medi arYehBarri.fina by arTeh.medi_arYehBarri.fina;
+	sub arTheh.init arYehBarri.fina by arTheh.init_arYehBarri.fina;
+	sub arTheh.medi arYehBarri.fina by arTheh.medi_arYehBarri.fina;
+	sub arTteh.init arYehBarri.fina by arTteh.init_arYehBarri.fina;
+	sub arTteh.medi arYehBarri.fina by arTteh.medi_arYehBarri.fina;
+	sub arJim.init arYehBarri.fina by arJim.init_arYehBarri.fina;
+	sub arJim.medi arYehBarri.fina by arJim.medi_arYehBarri.fina;
+	sub arTcheh.init arYehBarri.fina by arTcheh.init_arYehBarri.fina;
+	sub arTcheh.medi arYehBarri.fina by arTcheh.medi_arYehBarri.fina;
+	sub arHah.init arYehBarri.fina by arHah.init_arYehBarri.fina;
+	sub arHah.medi arYehBarri.fina by arHah.medi_arYehBarri.fina;
+	sub arKhah.init arYehBarri.fina by arKhah.init_arYehBarri.fina;
+	sub arKhah.medi arYehBarri.fina by arKhah.medi_arYehBarri.fina;
+	sub arSin.init arYehBarri.fina by arSin.init_arYehBarri.fina;
+	sub arSin.medi arYehBarri.fina by arSin.medi_arYehBarri.fina;
+	sub arShin.init arYehBarri.fina by arShin.init_arYehBarri.fina;
+	sub arShin.medi arYehBarri.fina by arShin.medi_arYehBarri.fina;
+	sub arSad.init arYehBarri.fina by arSad.init_arYehBarri.fina;
+	sub arSad.medi arYehBarri.fina by arSad.medi_arYehBarri.fina;
+	sub arDad.init arYehBarri.fina by arDad.init_arYehBarri.fina;
+	sub arDad.medi arYehBarri.fina by arDad.medi_arYehBarri.fina;
+	sub arTah.init arYehBarri.fina by arTah.init_arYehBarri.fina;
+	sub arTah.medi arYehBarri.fina by arTah.medi_arYehBarri.fina;
+	sub arZah.init arYehBarri.fina by arZah.init_arYehBarri.fina;
+	sub arZah.medi arYehBarri.fina by arZah.medi_arYehBarri.fina;
+	sub arAyn.init arYehBarri.fina by arAyn.init_arYehBarri.fina;
+	sub arAyn.medi arYehBarri.fina by arAyn.medi_arYehBarri.fina;
+	sub arGhayn.init arYehBarri.fina by arGhayn.init_arYehBarri.fina;
+	sub arGhayn.medi arYehBarri.fina by arGhayn.medi_arYehBarri.fina;
+	sub arFeh.init arYehBarri.fina by arFeh.init_arYehBarri.fina;
+	sub arFeh.medi arYehBarri.fina by arFeh.medi_arYehBarri.fina;
+	sub arQaf.init arYehBarri.fina by arQaf.init_arYehBarri.fina;
+	sub arQaf.medi arYehBarri.fina by arQaf.medi_arYehBarri.fina;
+	sub arKaf.init arYehBarri.fina by arKaf.init_arYehBarri.fina;
+	sub arKaf.medi arYehBarri.fina by arKaf.medi_arYehBarri.fina;
+	sub arKeheh.init arYehBarri.fina by arKeheh.init_arYehBarri.fina;
+	sub arKeheh.medi arYehBarri.fina by arKeheh.medi_arYehBarri.fina;
+	sub arGaf.init arYehBarri.fina by arGaf.init_arYehBarri.fina;
+	sub arGaf.medi arYehBarri.fina by arGaf.medi_arYehBarri.fina;
+	sub arLam.init arYehBarri.fina by arLam.init_arYehBarri.fina;
+	sub arLam.medi arYehBarri.fina by arLam.medi_arYehBarri.fina;
+	sub arMim.init arYehBarri.fina by arMim.init_arYehBarri.fina;
+	sub arMim.medi arYehBarri.fina by arMim.medi_arYehBarri.fina;
+	sub arNun.init arYehBarri.fina by arNun.init_arYehBarri.fina;
+	sub arNun.medi arYehBarri.fina by arNun.medi_arYehBarri.fina;
+	sub arHehGoal.init arYehBarri.fina by arHehGoal.init_arYehBarri.fina;
+	sub arHehDoachashmi.init arYehBarri.fina by arHehDoachashmi.init_arYehBarri.fina;
+	sub arHehDoachashmi.medi arYehBarri.fina by arHehDoachashmi.medi_arYehBarri.fina;
+	sub arYeh.init arYehBarri.fina by arYeh.init_arYehBarri.fina;
+	sub arYeh.medi arYehBarri.fina by arYeh.medi_arYehBarri.fina;
+	sub arYehFarsi.init arYehBarri.fina by arYehFarsi.init_arYehBarri.fina;
+	sub arYehFarsi.medi arYehBarri.fina by arYehFarsi.medi_arYehBarri.fina;
+	sub arYehHamza.init arYehBarri.fina by arYehHamza.init_arYehBarri.fina;
+	sub arYehHamza.medi arYehBarri.fina by arYehHamza.medi_arYehBarri.fina;
+	} RLIG_ARAB;";
 name = rlig;
 },
 {
@@ -2544,6 +2554,12 @@ lookup KASHIDOGS_RIGHT {
 } KASHIDOGS_RIGHT;
 
 lookup PICTURES_OF_OTHER_THINGS {
+	# card suits
+	sub colon h e a r t by heartsuitblack;
+	sub colon s p a d e by spadesuitblack;
+	sub colon c l u b by clubsuitblack;
+	sub colon d i a m o n d by diamondsuitblack;
+
 	# snowflakes
 	sub colon s n o w f l a k e e e e e by snowflake.4;
 	sub colon s n o w f l a k e e e e by snowflake.3;
@@ -2559,14 +2575,10 @@ lookup PICTURES_OF_OTHER_THINGS {
 	sub colon t r e e by tree;
 	
 	# stars
-	#sub colon s t a a a a r by star.3;
-	#sub colon s t a a a r by star.2;
 	sub colon s t a a r by star.1;
 	sub colon s t a r by star;
 	
 	# presents
-	#sub colon p r e s e e e e e n t by present.4;
-	#sub colon p r e s e e e e n t by present.3;
 	sub colon p r e s e e e n t by present.2;
 	sub colon p r e s e e n t by present.1;
 	sub colon p r e s e n t by present;
@@ -2575,9 +2587,14 @@ lookup PICTURES_OF_OTHER_THINGS {
 	sub colon s n o w m a a n by snowman.1;
 	sub colon s n o w m a n by snowman;
 	
-	# cunt symbols
-	sub lozenge [bar slash] by lozenge.pica;
-	sub less [bar slash] greater by lozenge.pica;
+	# symbols for dirty people
+	sub lozenge [bar slash] by pica;
+	sub less [bar slash] greater by pica;
+	sub colon p i c a by pica;
+	sub colon p i ccaron a by pica;
+	sub colon p iacute ccaron a by pica;
+	sub colon c u n t by pica;
+	sub colon d i c k by dick;
 } PICTURES_OF_OTHER_THINGS;
 
 lookup DLIG_ARMN {
@@ -85813,8 +85830,48 @@ layers = (
 {
 anchors = (
 {
+name = bottom_1;
+position = "{3600, 0}";
+},
+{
+name = bottom_2;
+position = "{1680, 0}";
+},
+{
+name = bottomleft_1;
+position = "{2160, 0}";
+},
+{
+name = bottomleft_2;
+position = "{240, 0}";
+},
+{
 name = caret_1;
-position = "{2400, 0}";
+position = "{2399, 0}";
+},
+{
+name = center_1;
+position = "{2640, 2160}";
+},
+{
+name = center_2;
+position = "{720, 2160}";
+},
+{
+name = top_1;
+position = "{3120, 4320}";
+},
+{
+name = top_2;
+position = "{1200, 4320}";
+},
+{
+name = topleft_1;
+position = "{3840, 4320}";
+},
+{
+name = topleft_2;
+position = "{1920, 4320}";
 }
 );
 components = (
@@ -85841,8 +85898,48 @@ layers = (
 {
 anchors = (
 {
+name = bottom_1;
+position = "{3600, 0}";
+},
+{
+name = bottom_2;
+position = "{1680, 0}";
+},
+{
+name = bottomleft_1;
+position = "{2160, 0}";
+},
+{
+name = bottomleft_2;
+position = "{240, 0}";
+},
+{
 name = caret_1;
-position = "{2400, 0}";
+position = "{2399, 0}";
+},
+{
+name = center_1;
+position = "{2640, 2160}";
+},
+{
+name = center_2;
+position = "{720, 2880}";
+},
+{
+name = top_1;
+position = "{3120, 4320}";
+},
+{
+name = top_2;
+position = "{1200, 4320}";
+},
+{
+name = topleft_1;
+position = "{3840, 4320}";
+},
+{
+name = topleft_2;
+position = "{720, 4320}";
 }
 );
 components = (
@@ -85867,8 +85964,48 @@ layers = (
 {
 anchors = (
 {
+name = bottom_1;
+position = "{3600, 0}";
+},
+{
+name = bottom_2;
+position = "{1680, 0}";
+},
+{
+name = bottomleft_1;
+position = "{2160, 0}";
+},
+{
+name = bottomleft_2;
+position = "{240, 0}";
+},
+{
 name = caret_1;
-position = "{2400, 0}";
+position = "{2399, 0}";
+},
+{
+name = center_1;
+position = "{2640, 2880}";
+},
+{
+name = center_2;
+position = "{720, 2880}";
+},
+{
+name = top_1;
+position = "{3120, 4320}";
+},
+{
+name = top_2;
+position = "{1200, 4320}";
+},
+{
+name = topleft_1;
+position = "{2640, 4320}";
+},
+{
+name = topleft_2;
+position = "{720, 4320}";
 }
 );
 components = (
@@ -85893,8 +86030,40 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = bottomleft_1;
 position = "{2160, 0}";
+},
+{
+name = bottomleft_2;
+position = "{240, 0}";
+},
+{
+name = caret_1;
+position = "{2399, 0}";
+},
+{
+name = center_1;
+position = "{2640, 2880}";
+},
+{
+name = center_2;
+position = "{720, 2880}";
+},
+{
+name = top_1;
+position = "{3120, 4320}";
+},
+{
+name = top_2;
+position = "{1200, 4320}";
+},
+{
+name = topleft_1;
+position = "{2640, 4320}";
+},
+{
+name = topleft_2;
+position = "{720, 4320}";
 }
 );
 components = (
@@ -87941,133 +88110,6 @@ width = 5280;
 }
 );
 unicode = 2666;
-},
-{
-color = 4;
-glyphname = lozenge.pica;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 0}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1200, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1680, 480}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 960}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 720, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2160, 1440}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 1920}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2640, 2400}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 480, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2880}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 720, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 2160, 3360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 960, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3840}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1200, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1680, 4320}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 1440, 4800}";
-}
-);
-layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 3360;
-}
-);
 },
 {
 color = 4;
@@ -101125,6 +101167,355 @@ transform = "{1, 0, 0, 1, 2880, 5760}";
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 5280;
+}
+);
+},
+{
+color = 4;
+glyphname = pica;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1919, -480}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1679, 0}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2159, 0}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1439, 480}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2399, 480}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1199, 960}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2639, 960}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 959, 1440}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1919, 1440}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2879, 1440}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 719, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1919, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3119, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 479, 2400}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1919, 2400}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3359, 2400}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 719, 2880}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3119, 2880}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 959, 3360}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2879, 3360}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1199, 3840}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2639, 3840}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1439, 4320}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1919, 2880}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1679, 4800}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2367, 4320}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2159, 4800}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1919, 5280}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1919, 3360}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 4320;
+}
+);
+},
+{
+color = 4;
+glyphname = dick;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 960, 0}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1440, 0}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3360, 0}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3840, 0}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 480, 480}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1920, 480}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2400, 480}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2880, 480}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 4315, 480}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 480, 960}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1920, 960}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2880, 960}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 4315, 960}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 480, 1440}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1920, 1440}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2880, 1440}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 4315, 1440}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 960, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1440, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3360, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3840, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1440, 2400}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3360, 2400}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1440, 2880}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3360, 2880}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1440, 3360}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3360, 3360}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1440, 3840}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2400, 3840}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3360, 3840}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1440, 4320}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2400, 4320}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3360, 4320}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1920, 4800}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2400, 4800}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2880, 4800}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 5275;
 }
 );
 },
