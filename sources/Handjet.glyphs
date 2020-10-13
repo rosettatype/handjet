@@ -1,10 +1,7 @@
 {
 .appVersion = "1342";
 DisplayStrings = (
-"----->/space <--/arrowleft/arrowright --->----><----/arrowbar",
-"/pixel",
-"/arrowleft",
-"/hbPeFinal.calt"
+"----->/space <--/arrowleft/arrowright --->----><----/arrowbar"
 );
 classes = (
 {
@@ -40540,7 +40537,7 @@ width = 4560;
 unicode = 04F8;
 },
 {
-color = 5;
+color = 4;
 glyphname = c.Yusbig;
 layers = (
 {
@@ -101244,147 +101241,147 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, -480}";
+transform = "{1, 0, 0, 1, 1920, -480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1679, 0}";
+transform = "{1, 0, 0, 1, 1680, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2159, 0}";
+transform = "{1, 0, 0, 1, 2160, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 480}";
+transform = "{1, 0, 0, 1, 1440, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2399, 480}";
+transform = "{1, 0, 0, 1, 2400, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1199, 960}";
+transform = "{1, 0, 0, 1, 1200, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2639, 960}";
+transform = "{1, 0, 0, 1, 2640, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 1440}";
+transform = "{1, 0, 0, 1, 960, 1440}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 1440}";
+transform = "{1, 0, 0, 1, 1920, 1440}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 1440}";
+transform = "{1, 0, 0, 1, 2880, 1440}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 719, 1920}";
+transform = "{1, 0, 0, 1, 720, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 1920}";
+transform = "{1, 0, 0, 1, 1920, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3119, 1920}";
+transform = "{1, 0, 0, 1, 3120, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 2400}";
+transform = "{1, 0, 0, 1, 480, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 2400}";
+transform = "{1, 0, 0, 1, 1920, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 2400}";
+transform = "{1, 0, 0, 1, 3360, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 719, 2880}";
+transform = "{1, 0, 0, 1, 720, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3119, 2880}";
+transform = "{1, 0, 0, 1, 3120, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 3360}";
+transform = "{1, 0, 0, 1, 960, 3360}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 3360}";
+transform = "{1, 0, 0, 1, 2880, 3360}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1199, 3840}";
+transform = "{1, 0, 0, 1, 1200, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2639, 3840}";
+transform = "{1, 0, 0, 1, 2640, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 4320}";
+transform = "{1, 0, 0, 1, 1440, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 2880}";
+transform = "{1, 0, 0, 1, 1920, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1679, 4800}";
+transform = "{1, 0, 0, 1, 1680, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2367, 4320}";
+transform = "{1, 0, 0, 1, 2400, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2159, 4800}";
+transform = "{1, 0, 0, 1, 2160, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 5280}";
+transform = "{1, 0, 0, 1, 1920, 5280}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 3360}";
+transform = "{1, 0, 0, 1, 1920, 3360}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -101441,7 +101438,7 @@ transform = "{1, 0, 0, 1, 2880, 480}";
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4315, 480}";
+transform = "{1, 0, 0, 1, 4320, 480}";
 },
 {
 alignment = -1;
@@ -101461,7 +101458,7 @@ transform = "{1, 0, 0, 1, 2880, 960}";
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4315, 960}";
+transform = "{1, 0, 0, 1, 4320, 960}";
 },
 {
 alignment = -1;
@@ -101481,7 +101478,7 @@ transform = "{1, 0, 0, 1, 2880, 1440}";
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4315, 1440}";
+transform = "{1, 0, 0, 1, 4320, 1440}";
 },
 {
 alignment = -1;
@@ -101580,7 +101577,7 @@ transform = "{1, 0, 0, 1, 2880, 4800}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 5275;
+width = 5280;
 }
 );
 },
@@ -101740,317 +101737,317 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 0}";
+transform = "{1, 0, 0, 1, 480, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 0}";
+transform = "{1, 0, 0, 1, 960, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 0}";
+transform = "{1, 0, 0, 1, 1440, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 0}";
+transform = "{1, 0, 0, 1, 1920, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 0}";
+transform = "{1, 0, 0, 1, 2880, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 0}";
+transform = "{1, 0, 0, 1, 3360, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 0}";
+transform = "{1, 0, 0, 1, 3840, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 0}";
+transform = "{1, 0, 0, 1, 4320, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 480}";
+transform = "{1, 0, 0, 1, 480, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 480}";
+transform = "{1, 0, 0, 1, 960, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 480}";
+transform = "{1, 0, 0, 1, 1440, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 480}";
+transform = "{1, 0, 0, 1, 1920, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 480}";
+transform = "{1, 0, 0, 1, 2880, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 480}";
+transform = "{1, 0, 0, 1, 3360, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 480}";
+transform = "{1, 0, 0, 1, 3840, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 480}";
+transform = "{1, 0, 0, 1, 4320, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 960}";
+transform = "{1, 0, 0, 1, 480, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 960}";
+transform = "{1, 0, 0, 1, 960, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 960}";
+transform = "{1, 0, 0, 1, 1440, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 960}";
+transform = "{1, 0, 0, 1, 1920, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 960}";
+transform = "{1, 0, 0, 1, 2880, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 960}";
+transform = "{1, 0, 0, 1, 3360, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 960}";
+transform = "{1, 0, 0, 1, 3840, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 960}";
+transform = "{1, 0, 0, 1, 4320, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 1920}";
+transform = "{1, 0, 0, 1, 480, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 1920}";
+transform = "{1, 0, 0, 1, 960, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 1920}";
+transform = "{1, 0, 0, 1, 1440, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 1920}";
+transform = "{1, 0, 0, 1, 1920, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 1920}";
+transform = "{1, 0, 0, 1, 2880, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 1920}";
+transform = "{1, 0, 0, 1, 3360, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 1920}";
+transform = "{1, 0, 0, 1, 3840, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 1920}";
+transform = "{1, 0, 0, 1, 4320, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 2400}";
+transform = "{1, 0, 0, 1, 480, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 2400}";
+transform = "{1, 0, 0, 1, 960, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 2400}";
+transform = "{1, 0, 0, 1, 1440, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 2400}";
+transform = "{1, 0, 0, 1, 1920, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 2400}";
+transform = "{1, 0, 0, 1, 2880, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 2400}";
+transform = "{1, 0, 0, 1, 3360, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 2400}";
+transform = "{1, 0, 0, 1, 3840, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 2400}";
+transform = "{1, 0, 0, 1, 4320, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 2880}";
+transform = "{1, 0, 0, 1, 480, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 2880}";
+transform = "{1, 0, 0, 1, 960, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 2880}";
+transform = "{1, 0, 0, 1, 1440, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 2880}";
+transform = "{1, 0, 0, 1, 1920, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 2880}";
+transform = "{1, 0, 0, 1, 2880, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 2880}";
+transform = "{1, 0, 0, 1, 3360, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 2880}";
+transform = "{1, 0, 0, 1, 3840, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 2880}";
+transform = "{1, 0, 0, 1, 4320, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2399, 3360}";
+transform = "{1, 0, 0, 1, 2400, 3360}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 3840}";
+transform = "{1, 0, 0, 1, 960, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 3840}";
+transform = "{1, 0, 0, 1, 1440, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 3840}";
+transform = "{1, 0, 0, 1, 1920, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 3840}";
+transform = "{1, 0, 0, 1, 2880, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 3840}";
+transform = "{1, 0, 0, 1, 3360, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 3840}";
+transform = "{1, 0, 0, 1, 3840, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 4320}";
+transform = "{1, 0, 0, 1, 480, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 4320}";
+transform = "{1, 0, 0, 1, 1920, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 4320}";
+transform = "{1, 0, 0, 1, 2880, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 4320}";
+transform = "{1, 0, 0, 1, 4320, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 4800}";
+transform = "{1, 0, 0, 1, 960, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 4800}";
+transform = "{1, 0, 0, 1, 1440, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 4800}";
+transform = "{1, 0, 0, 1, 3360, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 4800}";
+transform = "{1, 0, 0, 1, 3840, 4800}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -102067,377 +102064,376 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, -1, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 0}";
+transform = "{1, 0, 0, 1, 480, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 0}";
+transform = "{1, 0, 0, 1, 960, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 0}";
+transform = "{1, 0, 0, 1, 1440, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 0}";
+transform = "{1, 0, 0, 1, 1920, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 0}";
+transform = "{1, 0, 0, 1, 2880, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 0}";
+transform = "{1, 0, 0, 1, 3360, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 0}";
+transform = "{1, 0, 0, 1, 3840, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 0}";
+transform = "{1, 0, 0, 1, 4320, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4799, 0}";
+transform = "{1, 0, 0, 1, 4800, 0}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, -1, 480}";
+transform = "{1, 0, 0, 1, 0, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 480}";
+transform = "{1, 0, 0, 1, 480, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 480}";
+transform = "{1, 0, 0, 1, 960, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 480}";
+transform = "{1, 0, 0, 1, 1440, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 480}";
+transform = "{1, 0, 0, 1, 1920, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 480}";
+transform = "{1, 0, 0, 1, 2880, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 480}";
+transform = "{1, 0, 0, 1, 3360, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 480}";
+transform = "{1, 0, 0, 1, 3840, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 480}";
+transform = "{1, 0, 0, 1, 4320, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4799, 480}";
+transform = "{1, 0, 0, 1, 4800, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, -1, 960}";
+transform = "{1, 0, 0, 1, 0, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 960}";
+transform = "{1, 0, 0, 1, 480, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 960}";
+transform = "{1, 0, 0, 1, 960, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 960}";
+transform = "{1, 0, 0, 1, 1440, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 960}";
+transform = "{1, 0, 0, 1, 1920, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 960}";
+transform = "{1, 0, 0, 1, 2880, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 960}";
+transform = "{1, 0, 0, 1, 3360, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 960}";
+transform = "{1, 0, 0, 1, 3840, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 960}";
+transform = "{1, 0, 0, 1, 4320, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4799, 960}";
+transform = "{1, 0, 0, 1, 4800, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, -1, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 1920}";
+transform = "{1, 0, 0, 1, 480, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 1920}";
+transform = "{1, 0, 0, 1, 960, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 1920}";
+transform = "{1, 0, 0, 1, 1440, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 1920}";
+transform = "{1, 0, 0, 1, 1920, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 1920}";
+transform = "{1, 0, 0, 1, 2880, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 1920}";
+transform = "{1, 0, 0, 1, 3360, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 1920}";
+transform = "{1, 0, 0, 1, 3840, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 1920}";
+transform = "{1, 0, 0, 1, 4320, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4799, 1920}";
+transform = "{1, 0, 0, 1, 4800, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, -1, 2400}";
+transform = "{1, 0, 0, 1, 0, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 2400}";
+transform = "{1, 0, 0, 1, 480, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 2400}";
+transform = "{1, 0, 0, 1, 960, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 2400}";
+transform = "{1, 0, 0, 1, 1440, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 2400}";
+transform = "{1, 0, 0, 1, 1920, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 2400}";
+transform = "{1, 0, 0, 1, 2880, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 2400}";
+transform = "{1, 0, 0, 1, 3360, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 2400}";
+transform = "{1, 0, 0, 1, 3840, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 2400}";
+transform = "{1, 0, 0, 1, 4320, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4799, 2400}";
+transform = "{1, 0, 0, 1, 4800, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, -1, 2880}";
+transform = "{1, 0, 0, 1, 0, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 2880}";
+transform = "{1, 0, 0, 1, 480, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 2880}";
+transform = "{1, 0, 0, 1, 960, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 2880}";
+transform = "{1, 0, 0, 1, 1440, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 2880}";
+transform = "{1, 0, 0, 1, 1920, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 2880}";
+transform = "{1, 0, 0, 1, 2880, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 2880}";
+transform = "{1, 0, 0, 1, 3360, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 2880}";
+transform = "{1, 0, 0, 1, 3840, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 2880}";
+transform = "{1, 0, 0, 1, 4320, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4799, 2880}";
+transform = "{1, 0, 0, 1, 4800, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2399, 3360}";
+transform = "{1, 0, 0, 1, 2400, 3360}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 3840}";
+transform = "{1, 0, 0, 1, 960, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 3840}";
+transform = "{1, 0, 0, 1, 1440, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 3840}";
+transform = "{1, 0, 0, 1, 1920, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 3840}";
+transform = "{1, 0, 0, 1, 2880, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 3840}";
+transform = "{1, 0, 0, 1, 3360, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 3840}";
+transform = "{1, 0, 0, 1, 3840, 3840}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 479, 4320}";
+transform = "{1, 0, 0, 1, 480, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1919, 4320}";
+transform = "{1, 0, 0, 1, 1920, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2879, 4320}";
+transform = "{1, 0, 0, 1, 2880, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 4319, 4320}";
+transform = "{1, 0, 0, 1, 4320, 4320}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 959, 4800}";
+transform = "{1, 0, 0, 1, 960, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1439, 4800}";
+transform = "{1, 0, 0, 1, 1440, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3359, 4800}";
+transform = "{1, 0, 0, 1, 3360, 4800}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 3839, 4800}";
+transform = "{1, 0, 0, 1, 3840, 4800}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -150676,30 +150672,30 @@ paths = (
 {
 closed = 1;
 nodes = (
-"308 0 OFFCURVE",
-"172 0 OFFCURVE",
-"0 0 CURVE SMOOTH",
-"0 0 OFFCURVE",
-"0 0 OFFCURVE",
-"0 0 CURVE SMOOTH",
-"0 172 OFFCURVE",
-"0 308 OFFCURVE",
-"0 480 CURVE SMOOTH",
-"0 480 OFFCURVE",
-"0 480 OFFCURVE",
-"0 480 CURVE SMOOTH",
-"172 480 OFFCURVE",
-"308 480 OFFCURVE",
-"480 480 CURVE SMOOTH",
-"480 480 OFFCURVE",
-"480 480 OFFCURVE",
-"480 480 CURVE SMOOTH",
-"480 308 OFFCURVE",
-"480 172 OFFCURVE",
-"480 0 CURVE SMOOTH",
-"480 0 OFFCURVE",
-"480 0 OFFCURVE",
-"480 0 CURVE SMOOTH"
+"356 0 OFFCURVE",
+"220 0 OFFCURVE",
+"48 0 CURVE SMOOTH",
+"48 0 OFFCURVE",
+"48 0 OFFCURVE",
+"48 0 CURVE SMOOTH",
+"48 172 OFFCURVE",
+"48 308 OFFCURVE",
+"48 480 CURVE SMOOTH",
+"48 480 OFFCURVE",
+"48 480 OFFCURVE",
+"48 480 CURVE SMOOTH",
+"220 480 OFFCURVE",
+"356 480 OFFCURVE",
+"528 480 CURVE SMOOTH",
+"528 480 OFFCURVE",
+"528 480 OFFCURVE",
+"528 480 CURVE SMOOTH",
+"528 308 OFFCURVE",
+"528 172 OFFCURVE",
+"528 0 CURVE SMOOTH",
+"528 0 OFFCURVE",
+"528 0 OFFCURVE",
+"528 0 CURVE SMOOTH"
 );
 }
 );
@@ -150708,11 +150704,11 @@ components = (
 {
 alignment = -1;
 name = "pixel.ESHP-200";
-transform = "{0.2, 0, 0, 0.2, 0, 0}";
+transform = "{0.2, 0, 0, 0.2, 48, 0}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 0;
+width = 96;
 }
 );
 },
@@ -150843,31 +150839,6 @@ transform = "{1, 0, 0, 1, 240, 240}";
 alignment = -1;
 name = pixel;
 transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 240}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 240, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -150885,47 +150856,22 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{0.5, 0, 0, 0.5, 120, 360}";
+transform = "{0.5, 0, 0, 0.5, 240, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{0.5, 0, 0, 0.5, 360, 360}";
+transform = "{0.5, 0, 0, 0.5, 480, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{0.5, 0, 0, 0.5, 360, 360}";
+transform = "{0.5, 0, 0, 0.5, 240, 240}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{0.5, 0, 0, 0.5, 120, 360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{0.5, 0, 0, 0.5, 360, 360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{0.5, 0, 0, 0.5, 360, 360}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{0.5, 0, 0, 0.5, 120, 120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{0.5, 0, 0, 0.5, 360, 120}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{0.5, 0, 0, 0.5, 360, 120}";
+transform = "{0.5, 0, 0, 0.5, 480, 240}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
