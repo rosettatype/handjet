@@ -259,6 +259,34 @@ shortcut.
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences?</summary>
+
+* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
+<pre>--- Rationale ---
+
+Fonts with ligatures should have kerning on the corresponding non-ligated
+sequences for text where ligatures aren&#x27;t used (eg
+https://github.com/impallari/Raleway/issues/14).
+
+
+</pre>
+
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+	- idieresis + idieresis
+	- a.men + a.ech
+	- a.ech + a.eh
+	- a.eh + a.ini
+	- a.ini + a.ken
+	- a.ken + a.now
+	- a.now + a.xeh
+	- hbVav + hbVav
+	- hbVav + hbYod
+	- hbYod + hbYod
+
+   [code: lacks-kern-info]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Glyph names are all valid?</summary>
 
 * [com.google.fonts/check/valid_glyphnames](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames)
@@ -308,14 +336,6 @@ on Variable Fonts.
 </pre>
 
 * ⚠ **WARN** In order to optimize performance on some legacy renderers, the value of unitsPerEm at the head table should idealy be a power of between 16 to 16384. And values of 1000 and 2000 are also common and may be just fine as well. But we got 8160 instead. [code: suboptimal]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Does GPOS table have kerning information?</summary>
-
-* [com.google.fonts/check/gpos_kerning_info](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info)
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 
 </details>
 <details>
@@ -1022,22 +1042,6 @@ Bit 3 = Force ppem to integer values for all internal scaler math;
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Is there kerning info for non-ligated sequences?</summary>
-
-* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
-<pre>--- Rationale ---
-
-Fonts with ligatures should have kerning on the corresponding non-ligated
-sequences for text where ligatures aren&#x27;t used (eg
-https://github.com/impallari/Raleway/issues/14).
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: has_kerning_info
-
-</details>
-<details>
 <summary>💤 <b>SKIP:</b> Directory name in GFonts repo structure must match NameID 1 of the regular.</summary>
 
 * [com.google.fonts/check/repo/dirname_matches_nameid_1](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/dirname_matches_nameid_1)
@@ -1333,9 +1337,9 @@ of hinted versus unhinted font files.
 
 	|  | fonts/Handjet[EGRD,ESHP,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 309.9kb |
-	| Hinted Size | 308.4kb |
-	| Increase | -1560 bytes |
+	| Dehinted Size | 310.4kb |
+	| Hinted Size | 308.9kb |
+	| Increase | -1564 bytes |
 	| Change   | -0.5 % |
  [code: size-impact]
 
@@ -2601,6 +2605,14 @@ be in that class, in particular spacing glyphs.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Does GPOS table have kerning information?</summary>
+
+* [com.google.fonts/check/gpos_kerning_info](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info)
+
+* 🍞 **PASS** GPOS table has got kerning information.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Is there a "kern" table declared in the font?</summary>
 
 * [com.google.fonts/check/kern_table](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/kern.html#com.google.fonts/check/kern_table)
@@ -2763,5 +2775,5 @@ tps://docs.microsoft.com/en-us/typography/opentype/spec/stat#axis-records
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 5 | 81 | 7 | 87 | 0 |
-| 0% | 1% | 3% | 45% | 4% | 48% | 0% |
+| 0 | 1 | 5 | 80 | 7 | 88 | 0 |
+| 0% | 1% | 3% | 44% | 4% | 49% | 0% |

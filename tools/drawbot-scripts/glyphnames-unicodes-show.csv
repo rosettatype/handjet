@@ -666,6 +666,7 @@ arrowleft,0x2190,True
 arrowup,0x2191,True
 arrowright,0x2192,True
 arrowdown,0x2193,True
+arrowbar,,True
 idotlessogonek,,True
 periodcentered.CAT,,True
 periodcentered.CAT.case,,True
@@ -1519,7 +1520,6 @@ heartsuitblack,0x2665,True
 spadesuitblack,0x2660,True
 clubsuitblack,0x2663,True
 diamondsuitblack,0x2666,True
-lozenge.pica,,True
 cat,0x1F408,True
 cat.tall,,True
 cat.taller,,True
@@ -1580,6 +1580,8 @@ tree.3,,True
 tree.4,,True
 snowman,0x2603,True
 snowman.1,,True
+pica,,True
+dick,,True
 present,,True
 present.1,,True
 present.2,,True

@@ -2801,7 +2801,13 @@ pos @numerators fraction fraction @denominators' <-6720 0 -6720 0> @denominators
 pos @numerators fraction fraction @denominators' <-5040 0 -3360 0>; #
 
 # in normal kerning too, but it gets ignored somehow
-pos @numerators' -3360 fraction' -3360 @denominators;";
+pos @numerators' -3360 fraction' -3360 @denominators;
+
+# arrows
+pos arrowleft arrowbar -480;
+pos arrowright arrowbar -480;
+pos arrowbar [arrowbar arrowleft arrowright] -480;
+pos arrowleft arrowright -960;";
 name = kern;
 }
 );
@@ -150908,15 +150914,11 @@ kerning = {
 "@MMK_L_superior" = {
 "@MMK_R_fraction" = -3360;
 };
+c.yi = {
+c.yi = 480;
+};
 idieresis = {
 idieresis = 480;
-};
-"@MMK_L_arrowbar" = {
-"@MMK_R_arrowbar" = -480;
-};
-arrowleft = {
-"@MMK_R_arrowbar" = -480;
-arrowright = -960;
 };
 };
 };
