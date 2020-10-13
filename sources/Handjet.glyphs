@@ -681,6 +681,7 @@ arrowleft,
 arrowup,
 arrowright,
 arrowdown,
+arrowbar,
 idotlessogonek,
 periodcentered.CAT,
 periodcentered.CAT.case,
@@ -2481,10 +2482,14 @@ lookup LIGA_HEBR {
 name = liga;
 },
 {
-code = "lookup ARROWS {
+code = "lookup ARROWS_1 {
 	sub [hyphen endash emdash] greater by arrowright;
 	sub less [hyphen endash emdash] by arrowleft;
-} ARROWS;
+} ARROWS_1;
+lookup ARROWS_2 {
+	sub [arrowleft arrowright arrowbar] [endash emdash hyphen]' by arrowbar;
+	sub [endash emdash hyphen]' [arrowleft arrowright arrowbar] by arrowbar;
+} ARROWS_2;
 
 lookup ANIMALS {
 	# a clowder of black cats
@@ -33146,7 +33151,6 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 6240;
 }
 );
-rightKerningGroup = hyphen;
 unicode = 2190;
 },
 {
@@ -33343,7 +33347,6 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 6240;
 }
 );
-leftKerningGroup = hyphen;
 unicode = 2192;
 },
 {
@@ -33443,6 +33446,58 @@ width = 4320;
 }
 );
 unicode = 2193;
+},
+{
+color = 4;
+glyphname = arrowbar;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 0, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 480, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 960, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1440, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 1920, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2400, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 2880, 1920}";
+},
+{
+alignment = -1;
+name = pixel;
+transform = "{1, 0, 0, 1, 3360, 1920}";
+}
+);
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 3840;
+}
+);
 },
 {
 color = 4;
@@ -150892,7 +150947,7 @@ kerning = {
 "@MMK_R_hbVav" = -480;
 };
 "@MMK_L_hyphen" = {
-"@MMK_R_hyphen" = -960;
+arrowbar = -480;
 };
 "@MMK_L_lcaron" = {
 "@MMK_R_l" = 240;
@@ -150905,6 +150960,18 @@ kerning = {
 };
 "@MMK_L_superior" = {
 "@MMK_R_fraction" = -3360;
+};
+arrowbar = {
+"@MMK_R_hyphen" = -480;
+arrowleft = -480;
+arrowright = -480;
+};
+arrowleft = {
+arrowbar = -480;
+arrowright = -960;
+};
+arrowright = {
+arrowbar = -480;
 };
 idieresis = {
 idieresis = 480;
