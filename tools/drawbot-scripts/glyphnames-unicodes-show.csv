@@ -1598,6 +1598,7 @@ pattern.9,,True
 patternbg,,True
 patternbg.1,,True
 patternbg.2,,True
+pattern.space,,False
 pixel,,False
 pixel.ESHP-0,,False
 pixel.ESHP-100,,False

@@ -1,8 +1,5 @@
 {
 .appVersion = "1342";
-DisplayStrings = (
-"----->/space <--/arrowleft/arrowright --->----><----/arrowbar"
-);
 classes = (
 {
 automatic = 1;
@@ -1617,6 +1614,7 @@ pattern.9,
 patternbg,
 patternbg.1,
 patternbg.2,
+pattern.space,
 pixel,
 "pixel.ESHP-0",
 "pixel.ESHP-100",
@@ -1762,6 +1760,10 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = "Use Extension Kerning";
+value = 1;
 }
 );
 date = "2020-09-28 13:39:07 +0000";
@@ -1808,7 +1810,46 @@ code = "lookup insert_fraction {
 
 lookup insert_fractions {
 	sub fraction by fraction fraction fraction;
-} insert_fractions;";
+} insert_fractions;
+
+lookup insert_patternbg {
+	sub pattern by patternbg pattern;
+	sub pattern.1 by patternbg pattern.1;
+	sub pattern.2 by patternbg pattern.2;
+	sub pattern.3 by patternbg pattern.3;
+	sub pattern.4 by patternbg pattern.4;
+	sub pattern.5 by patternbg pattern.5;
+	sub pattern.6 by patternbg pattern.6;
+	sub pattern.7 by patternbg pattern.7;
+	sub pattern.8 by patternbg pattern.8;
+	sub pattern.9 by patternbg pattern.9;
+} insert_patternbg;
+
+lookup insert_patternbg_1 {
+	sub pattern by patternbg.1 pattern;
+	sub pattern.1 by patternbg.1 pattern.1;
+	sub pattern.2 by patternbg.1 pattern.2;
+	sub pattern.3 by patternbg.1 pattern.3;
+	sub pattern.4 by patternbg.1 pattern.4;
+	sub pattern.5 by patternbg.1 pattern.5;
+	sub pattern.6 by patternbg.1 pattern.6;
+	sub pattern.7 by patternbg.1 pattern.7;
+	sub pattern.8 by patternbg.1 pattern.8;
+	sub pattern.9 by patternbg.1 pattern.9;
+} insert_patternbg_1;
+
+lookup insert_patternbg_2 {
+	sub pattern by patternbg.2 pattern;
+	sub pattern.1 by patternbg.2 pattern.1;
+	sub pattern.2 by patternbg.2 pattern.2;
+	sub pattern.3 by patternbg.2 pattern.3;
+	sub pattern.4 by patternbg.2 pattern.4;
+	sub pattern.5 by patternbg.2 pattern.5;
+	sub pattern.6 by patternbg.2 pattern.6;
+	sub pattern.7 by patternbg.2 pattern.7;
+	sub pattern.8 by patternbg.2 pattern.8;
+	sub pattern.9 by patternbg.2 pattern.9;
+} insert_patternbg_2;";
 name = prefix;
 }
 );
@@ -2636,6 +2677,40 @@ name = ss07;
 notes = "Serbian/Macedonian forms";
 },
 {
+code = "lookup LOCL_BGR;";
+name = ss08;
+notes = "Bulgarian forms";
+},
+{
+code = "@patterns_from = [zero one two three four five six seven eight nine space];
+@patterns_to = [pattern pattern.1 pattern.2 pattern.3 pattern.4 pattern.5 pattern.6 pattern.7 pattern.8 pattern.9 
+pattern.space];
+@patternbgs = [patternbg patternbg.1 patternbg.2];
+
+# inner patterns
+lookup patterns_1 {
+	sub @patterns_from by @patterns_to;
+} patterns_1;
+
+# frames
+sub [parenleft bracketleft braceleft] by @patternbgs;
+lookup patterns_2 {
+	sub [parenleft patternbg] @patterns_to @patterns_to' lookup insert_patternbg;
+	sub [bracketleft patternbg.1] @patterns_to @patterns_to' lookup insert_patternbg_1;
+	sub [braceleft patternbg.2] @patterns_to @patterns_to' lookup insert_patternbg_2;
+	#sub [parenleft patternbg] @patterns_to' lookup insert_patternbg;
+	#sub [bracketleft patternbg.1] @patterns_to' lookup insert_patternbg_1;
+	#sub [braceleft patternbg.2] @patterns_to' lookup insert_patternbg_2;
+} patterns_2;
+
+sub [parenright bracketright braceright] by zerowidthnonjoiner;
+
+# kern them
+pos @patternbgs @patterns_to -2880;";
+name = ss09;
+notes = Patterns;
+},
+{
 automatic = 1;
 code = "sub arYehHamza by arYehHamza.init;
 sub arBeh by arBeh.init;
@@ -2807,7 +2882,16 @@ pos @numerators' -3360 fraction' -3360 @denominators;
 pos arrowleft arrowbar -480;
 pos arrowright arrowbar -480;
 pos arrowbar [arrowbar arrowleft arrowright] -480;
-pos arrowleft arrowright -960;";
+pos arrowleft arrowright -960;
+
+# normal kerning
+pos [dcaron lcaron tcaron] [b h l] 480;
+pos [dcaron lcaron tcaron] [quotesingle quotedbl quoteleft quoteright quotedblleft quotedblright primemod dblprimemod] 480;
+pos [dcaron lcaron tcaron] [space nbspace enspace emspace thinspace thinnbspace] 480;
+pos [dcaron lcaron tcaron] [question exclam parenright bracketright braceright angledbracketright brokenbar bar] 480;
+pos c.yi c.yi 480;
+pos idieresis idieresis 480;
+pos hbVav hbVav -480;";
 name = kern;
 }
 );
@@ -16662,6 +16746,7 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 1440;
 }
 );
+leftKerningGroup = quotes_top;
 unicode = 02B9;
 },
 {
@@ -16678,6 +16763,7 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 2400;
 }
 );
+leftKerningGroup = quotes_top;
 unicode = 02BA;
 },
 {
@@ -102554,67 +102640,67 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 0, 480}";
+transform = "{1, 0, 0, 1, -240, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 480}";
+transform = "{1, 0, 0, 1, 2640, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 960}";
+transform = "{1, 0, 0, 1, 240, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2400, 960}";
+transform = "{1, 0, 0, 1, 2160, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 1440}";
+transform = "{1, 0, 0, 1, 720, 1440}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 1440}";
+transform = "{1, 0, 0, 1, 1680, 1440}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 1920}";
+transform = "{1, 0, 0, 1, 1200, 1920}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 2400}";
+transform = "{1, 0, 0, 1, 720, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 2400}";
+transform = "{1, 0, 0, 1, 1680, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 2880}";
+transform = "{1, 0, 0, 1, 240, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2400, 2880}";
+transform = "{1, 0, 0, 1, 2160, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 0, 3360}";
+transform = "{1, 0, 0, 1, -240, 3360}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 2880, 3360}";
+transform = "{1, 0, 0, 1, 2640, 3360}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -102633,52 +102719,52 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 0, 480}";
+transform = "{1, 0, 0, 1, 240, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 480}";
+transform = "{1, 0, 0, 1, 2160, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 960}";
+transform = "{1, 0, 0, 1, 720, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 960}";
+transform = "{1, 0, 0, 1, 1680, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 1440}";
+transform = "{1, 0, 0, 1, 1200, 1440}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 2400}";
+transform = "{1, 0, 0, 1, 1200, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 2880}";
+transform = "{1, 0, 0, 1, 720, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2880}";
+transform = "{1, 0, 0, 1, 1680, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 0, 3360}";
+transform = "{1, 0, 0, 1, 240, 3360}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3360}";
+transform = "{1, 0, 0, 1, 2160, 3360}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -102697,62 +102783,62 @@ components = (
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 0, 480}";
+transform = "{1, 0, 0, 1, 240, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 480}";
+transform = "{1, 0, 0, 1, 1200, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 480}";
+transform = "{1, 0, 0, 1, 2160, 480}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 960}";
+transform = "{1, 0, 0, 1, 720, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 960}";
+transform = "{1, 0, 0, 1, 1680, 960}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 1440}";
+transform = "{1, 0, 0, 1, 1200, 1440}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 2400}";
+transform = "{1, 0, 0, 1, 1200, 2400}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 480, 2880}";
+transform = "{1, 0, 0, 1, 720, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1440, 2880}";
+transform = "{1, 0, 0, 1, 1680, 2880}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 0, 3360}";
+transform = "{1, 0, 0, 1, 240, 3360}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 960, 3360}";
+transform = "{1, 0, 0, 1, 1200, 3360}";
 },
 {
 alignment = -1;
 name = pixel;
-transform = "{1, 0, 0, 1, 1920, 3360}";
+transform = "{1, 0, 0, 1, 2160, 3360}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
@@ -103370,6 +103456,15 @@ width = 2880;
 );
 leftKerningGroup = patternbgs;
 rightKerningGroup = patternbgs;
+},
+{
+glyphname = pattern.space;
+layers = (
+{
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+width = 2880;
+}
+);
 },
 {
 color = 9;
@@ -150903,7 +150998,7 @@ kerning = {
 "@MMK_R_hbVav" = -480;
 };
 "@MMK_L_lcaron" = {
-"@MMK_R_l" = 240;
+"@MMK_R_l" = 480;
 "@MMK_R_quotes_top" = 480;
 "@MMK_R_space" = 480;
 "@MMK_R_tall_punctuation" = 480;
