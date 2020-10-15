@@ -214,6 +214,31 @@ https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
 <details>
 <summary><b>[167] Handjet[EGRD,ESHP,wght].ttf</b></summary>
 <details>
+<summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
+
+* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+<pre>--- Rationale ---
+
+We need to check names are not already used, and today the best place to check
+that is http://namecheck.fontdata.com
+
+
+</pre>
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
+
+</details>
+<details>
 <summary>🔥 <b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
 
 * [com.google.fonts/check/unitsperem_strict](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/unitsperem_strict)
@@ -282,6 +307,8 @@ https://github.com/impallari/Raleway/issues/14).
 	- hbVav + hbVav
 	- hbVav + hbYod
 	- hbYod + hbYod
+	- hbYod + hbPatah
+	- hbYod_hbYod + hbPatah
 
    [code: lacks-kern-info]
 
@@ -1337,9 +1364,9 @@ of hinted versus unhinted font files.
 
 	|  | fonts/Handjet[EGRD,ESHP,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 311.2kb |
-	| Hinted Size | 309.7kb |
-	| Increase | -1564 bytes |
+	| Dehinted Size | 311.3kb |
+	| Hinted Size | 309.8kb |
+	| Increase | -1536 bytes |
 	| Change   | -0.5 % |
  [code: size-impact]
 
@@ -1357,7 +1384,7 @@ installed in the system.
 
 </pre>
 
-* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.001'] [code: version-not-detected]
+* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.002'] [code: version-not-detected]
 
 </details>
 <details>
@@ -1426,7 +1453,7 @@ enforcing it.
 
 </pre>
 
-* ℹ **INFO** Version string is: "Version 2.001"
+* ℹ **INFO** Version string is: "Version 2.002"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 
@@ -1778,21 +1805,6 @@ characters.
 </pre>
 
 * 🍞 **PASS** All copyright notice name entries on the 'name' table are shorter than 500 characters.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
-<pre>--- Rationale ---
-
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com
-
-
-</pre>
-
-* 🍞 **PASS** Font familyname seems to be unique.
 
 </details>
 <details>
@@ -2775,5 +2787,5 @@ tps://docs.microsoft.com/en-us/typography/opentype/spec/stat#axis-records
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 5 | 80 | 7 | 88 | 0 |
-| 0% | 1% | 3% | 44% | 4% | 49% | 0% |
+| 1 | 1 | 5 | 80 | 7 | 87 | 0 |
+| 1% | 1% | 3% | 44% | 4% | 48% | 0% |

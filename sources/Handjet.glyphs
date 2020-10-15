@@ -1,5 +1,11 @@
 {
 .appVersion = "1342";
+DisplayStrings = (
+"/dcaron k/lcaron l",
+"/hbYod/hbYod",
+"/arNasalnun",
+"/arHamzaabove/space/space/arHamzaabove_arSukun"
+);
 classes = (
 {
 automatic = 1;
@@ -1766,7 +1772,7 @@ name = "Use Extension Kerning";
 value = 1;
 }
 );
-date = "2020-09-28 13:39:07 +0000";
+date = "2020-10-15 11:46:26 +0000";
 designer = "David Brezina";
 designerURL = "https://rosettatype.com";
 disablesNiceNames = 1;
@@ -1775,16 +1781,10 @@ featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
 
-languagesystem arab dflt;
-
-languagesystem armn dflt;
-
 languagesystem cyrl dflt;
 languagesystem cyrl SRB;
 languagesystem cyrl MKD;
 languagesystem cyrl BGR;
-
-languagesystem grek dflt;
 
 languagesystem hebr dflt;
 languagesystem hebr JII;
@@ -1975,13 +1975,8 @@ lookup ccmp_hebr_1 {
     sub hbVav_hbVav by hbVav hbVav;
     sub hbVav_hbYod by hbVav hbYod;
     sub hbYod_hbYod by hbYod hbYod;
+    sub hbYod_hbYod_hbPatah by hbYod hbYod hbPatah;
 } ccmp_hebr_1;
-lookup ccmp_hebr_2 {
-	lookupflag RightToLeft;
-	
-	# and force compose this
-    sub hbYod hbYod hbPatah by hbYod_hbYod_hbPatah;
-} ccmp_hebr_2;
 ";
 name = ccmp;
 },
@@ -2060,16 +2055,7 @@ code = "    sub firsttonechinese by macroncomb;
                 sub c.sha by c.sha.BGR;
                 sub c.shcha by c.shcha.BGR;
                 sub c.yu by c.yu.BGR;
-            } LOCL_BGR;
-	script hebr;
-		language JII;
-			lookup CCMP_YIDDISH {
-				lookupflag RightToLeft;
-
-				# Yiddish-only ligature/combination
-				sub hbYod hbYod hbPatah by hbYod_hbYod_hbPatah;
-				#sub hbYod_hbYod hbPatah by hbYod_hbYod_hbPatah;
-			} CCMP_YIDDISH;";
+            } LOCL_BGR;";
 name = locl;
 },
 {
@@ -2420,7 +2406,6 @@ sub fivesuperior fraction nineinferior by fiveninths;
 sub sevensuperior fraction nineinferior by sevenninths;
 sub eightsuperior fraction nineinferior by eightninths;
 
-
 sub @figures space' @numerators by thinspace;
 sub @figures space' @vulgar_fractions by thinspace;";
 name = frac;
@@ -2506,7 +2491,6 @@ code = "lookup LIGA_LATN {
 	sub idieresis idieresis by idieresis_idieresis;
 } LIGA_LATN;
 
-script armn;
 	lookup LIGA_ARMN {	
 		sub a.men a.eh by a.men_a.eh;
 		sub a.men a.ken by a.men_a.ken;
@@ -2517,12 +2501,21 @@ script armn;
 	} LIGA_ARMN;
 
 lookup LIGA_HEBR {
-	lookupflag IgnoreMarks RightToLeft;
+	lookupflag RightToLeft IgnoreMarks;
 	
 	sub hbVav hbVav by hbVav_hbVav;
 	sub hbVav hbYod by hbVav_hbYod;
 	sub hbYod hbYod by hbYod_hbYod;
-} LIGA_HEBR;";
+} LIGA_HEBR;
+
+script hebr;
+	language JII;
+		lookup CCMP_YIDDISH {
+			lookupflag RightToLeft;
+			# Yiddish-only ligature/combination
+			sub hbYod hbYod hbPatah by hbYod_hbYod_hbPatah;
+			sub hbYod_hbYod hbPatah by hbYod_hbYod_hbPatah;
+		} CCMP_YIDDISH;";
 name = liga;
 },
 {
@@ -2742,14 +2735,14 @@ sub arTcheh by arTcheh.init;
 sub arFehdotless by arFehdotless.init;
 sub arVeh by arVeh.init;
 sub arFehtwodotsbelow by arFehtwodotsbelow.init;
+sub arQafdotless by arQafdotless.init;
 sub arKeheh by arKeheh.init;
 sub arGaf by arGaf.init;
+sub arNunGhunna by arNunGhunna.init;
 sub arHehDoachashmi by arHehDoachashmi.init;
 sub arHehGoal by arHehGoal.init;
-sub arYehFarsi by arYehFarsi.init;
-sub arNunGhunna by arNunGhunna.init;
 sub arHehGoalHamzaabove by arHehGoalHamzaabove.init;
-sub arQafdotless by arQafdotless.init;
+sub arYehFarsi by arYehFarsi.init;
 ";
 name = init;
 },
@@ -2860,7 +2853,9 @@ sub arYehBarriHamzaabove by arYehBarriHamzaabove.fina;
 name = fina;
 },
 {
-code = "# @numerators' @numerators' is required to look for the same-size context as the following rule
+code = "# kerning fractions
+
+# @numerators' @numerators' is required to look for the same-size context as the following rule
 pos @numerators @numerators' @numerators' <0 0 -10080 0> fraction fraction fraction @denominators;
 pos @numerators' <1680 0 1680 0> @numerators' <0 0 -8400 0> fraction fraction fraction @denominators;
 pos @numerators' <3360 0 -3360 0> fraction fraction fraction @denominators;
@@ -2875,23 +2870,29 @@ pos @numerators' <1680 0 -3360 0> fraction fraction @denominators; #
 pos @numerators fraction fraction @denominators' <-6720 0 -6720 0> @denominators; #
 pos @numerators fraction fraction @denominators' <-5040 0 -3360 0>; #
 
-# in normal kerning too, but it gets ignored somehow
+# the following is in Glyphs kerning panel too
+# repeated here as it gets rewritten when compiled by fontmake
 pos @numerators' -3360 fraction' -3360 @denominators;
 
-# arrows
 pos arrowleft arrowbar -480;
 pos arrowright arrowbar -480;
 pos arrowbar [arrowbar arrowleft arrowright] -480;
 pos arrowleft arrowright -960;
 
-# normal kerning
-pos [dcaron lcaron tcaron] [b h l] 480;
-pos [dcaron lcaron tcaron] [quotesingle quotedbl quoteleft quoteright quotedblleft quotedblright primemod dblprimemod] 480;
-pos [dcaron lcaron tcaron] [space nbspace enspace emspace thinspace thinnbspace] 480;
-pos [dcaron lcaron tcaron] [question exclam parenright bracketright braceright angledbracketright brokenbar bar] 480;
-pos c.yi c.yi 480;
+pos [dcaron lcaron] [b h k l] 480;
+pos [dcaron lcaron] [quotesingle quotedbl quoteleft quoteright quotedblleft quotedblright primemod dblprimemod] 480;
+pos [dcaron lcaron] [space nbspace enspace emspace thinspace thinnbspace] 480;
+pos [dcaron lcaron] [question exclam parenright bracketright braceright angledbracketright brokenbar bar] 480;
 pos idieresis idieresis 480;
-pos hbVav hbVav -480;";
+pos c.yi c.yi 480;
+
+
+@hbVav = [hbVav hbYod hbVav_hbHolam hbVav_hbDagesh hbYod_hbHiriq hbYod_hbDagesh hbVav_hbVav hbVav_hbYod hbYod_hbYod hbYod_hbYod_hbPatah];
+lookup kern_hebr {
+	lookupflag RightToLeft IgnoreMarks;
+	
+	pos @hbVav @hbVav -480;
+} kern_hebr;";
 name = kern;
 }
 );
@@ -22551,6 +22552,7 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 1440;
 }
 );
+leftKerningGroup = l;
 rightKerningGroup = lcaron;
 unicode = 013E;
 },
@@ -77725,18 +77727,23 @@ unicode = FBC0;
 glyphname = arHamzaabove_arDamma;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arHamzaabove;
-transform = "{1, 0, 0, 1, 1440, 0}";
 },
 {
 name = arDamma;
-transform = "{1, 0, 0, 1, 1440, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 3120;
+width = 0;
 }
 );
 },
@@ -77744,18 +77751,23 @@ width = 3120;
 glyphname = arHamzaabove_arDammatan;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arHamzaabove;
-transform = "{1, 0, 0, 1, 1680, 0}";
 },
 {
 name = arDammatan;
-transform = "{1, 0, 0, 1, 1680, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 3600;
+width = 0;
 }
 );
 },
@@ -77763,18 +77775,23 @@ width = 3600;
 glyphname = arHamzaabove_arFatha;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arHamzaabove;
-transform = "{1, 0, 0, 1, 1440, 0}";
 },
 {
 name = arFatha;
-transform = "{1, 0, 0, 1, 1440, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 2880;
+width = 0;
 }
 );
 },
@@ -77782,19 +77799,24 @@ width = 2880;
 glyphname = arHamzaabove_arFathatan;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arHamzaabove;
-transform = "{1, 0, 0, 1, 1440, 0}";
 },
 {
 alignment = -1;
 name = arFathatan;
-transform = "{1, 0, 0, 1, 1440, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 2880;
+width = 0;
 }
 );
 },
@@ -77802,19 +77824,24 @@ width = 2880;
 glyphname = arHamzabelow_arKasra;
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{0, 0}";
+}
+);
 components = (
 {
 name = arHamzabelow;
-transform = "{1, 0, 0, 1, 1440, 0}";
 },
 {
 alignment = -1;
 name = arKasra;
-transform = "{1, 0, 0, 1, 1440, -1920}";
+transform = "{1, 0, 0, 1, 0, -1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 2880;
+width = 0;
 }
 );
 },
@@ -77822,19 +77849,24 @@ width = 2880;
 glyphname = arHamzabelow_arKasratan;
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{0, 0}";
+}
+);
 components = (
 {
 name = arHamzabelow;
-transform = "{1, 0, 0, 1, 1440, 0}";
 },
 {
 alignment = -1;
 name = arKasratan;
-transform = "{1, 0, 0, 1, 1440, -1920}";
+transform = "{1, 0, 0, 1, 0, -1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 2880;
+width = 0;
 }
 );
 },
@@ -77842,18 +77874,23 @@ width = 2880;
 glyphname = arHamzaabove_arSukun;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arHamzaabove;
-transform = "{1, 0, 0, 1, 1440, 0}";
 },
 {
 name = arSukun;
-transform = "{1, 0, 0, 1, 1440, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 2880;
+width = 0;
 }
 );
 },
@@ -77861,79 +77898,96 @@ width = 2880;
 glyphname = arShadda_arDamma;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arShadda;
-transform = "{1, 0, 0, 1, 1680, 0}";
 },
 {
 name = arDamma;
-transform = "{1, 0, 0, 1, 1680, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 3360;
+width = 0;
 }
 );
-unicode = FC61;
 },
 {
 glyphname = arShadda_arDammatan;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arShadda;
-transform = "{1, 0, 0, 1, 1680, 0}";
 },
 {
 name = arDammatan;
-transform = "{1, 0, 0, 1, 1680, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 3600;
+width = 0;
 }
 );
-unicode = FC5E;
 },
 {
 glyphname = arShadda_arFatha;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arShadda;
-transform = "{1, 0, 0, 1, 1680, 0}";
 },
 {
 name = arFatha;
-transform = "{1, 0, 0, 1, 1680, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 3360;
+width = 0;
 }
 );
-unicode = FC60;
 },
 {
 glyphname = arShadda_arFathatan;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arShadda;
-transform = "{1, 0, 0, 1, 1680, 0}";
 },
 {
 alignment = -1;
 name = arFathatan;
-transform = "{1, 0, 0, 1, 1680, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 3360;
+width = 0;
 }
 );
 },
@@ -77941,62 +77995,74 @@ width = 3360;
 glyphname = arShadda_arKasra;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arFatha;
-transform = "{1, 0, 0, 1, 1680, 0}";
 },
 {
 name = arShadda;
-transform = "{1, 0, 0, 1, 1680, 960}";
+transform = "{1, 0, 0, 1, 0, 960}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 3360;
+width = 0;
 }
 );
-unicode = FC62;
 },
 {
 glyphname = arShadda_arKasratan;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arFathatan;
-transform = "{1, 0, 0, 1, 1680, 0}";
 },
 {
 alignment = -1;
 name = arShadda;
-transform = "{1, 0, 0, 1, 1680, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 3360;
+width = 0;
 }
 );
-unicode = FC5F;
 },
 {
 glyphname = arShadda_arAlifabove;
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{0, 2880}";
+}
+);
 components = (
 {
 name = arShadda;
-transform = "{1, 0, 0, 1, 1680, 0}";
 },
 {
 name = arAlifabove;
-transform = "{1, 0, 0, 1, 1680, 1920}";
+transform = "{1, 0, 0, 1, 0, 1920}";
 }
 );
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
-width = 3360;
+width = 0;
 }
 );
-unicode = FC63;
 },
 {
 color = 4;
@@ -84797,6 +84863,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 2400;
 }
 );
+leftKerningGroup = hbVav;
+rightKerningGroup = hbVav;
 unicode = FB4B;
 },
 {
@@ -84822,6 +84890,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 2400;
 }
 );
+leftKerningGroup = hbVav;
+rightKerningGroup = hbVav;
 unicode = FB35;
 },
 {
@@ -84897,6 +84967,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 2400;
 }
 );
+leftKerningGroup = hbVav;
+rightKerningGroup = hbVav;
 unicode = FB1D;
 },
 {
@@ -84922,6 +84994,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 2400;
 }
 );
+leftKerningGroup = hbVav;
+rightKerningGroup = hbVav;
 unicode = FB39;
 },
 {
@@ -86109,6 +86183,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 4320;
 }
 );
+leftKerningGroup = hbVav;
+rightKerningGroup = hbVav;
 unicode = 05F1;
 },
 {
@@ -86175,6 +86251,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 4320;
 }
 );
+leftKerningGroup = hbVav;
+rightKerningGroup = hbVav;
 unicode = 05F2;
 },
 {
@@ -86263,6 +86341,8 @@ layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 width = 4320;
 }
 );
+leftKerningGroup = hbVav;
+rightKerningGroup = hbVav;
 unicode = FB1F;
 },
 {
@@ -151021,5 +151101,5 @@ manufacturer = "Rosetta Type Foundry";
 manufacturerURL = "https://rosettatype.com";
 unitsPerEm = 8160;
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }
