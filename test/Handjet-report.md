@@ -214,31 +214,6 @@ https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
 <details>
 <summary><b>[167] Handjet[EGRD,ESHP,wght].ttf</b></summary>
 <details>
-<summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
-<pre>--- Rationale ---
-
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com
-
-
-</pre>
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
 
 * [com.google.fonts/check/unitsperem_strict](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/unitsperem_strict)
@@ -1808,6 +1783,21 @@ characters.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
+
+* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+<pre>--- Rationale ---
+
+We need to check names are not already used, and today the best place to check
+that is http://namecheck.fontdata.com
+
+
+</pre>
+
+* 🍞 **PASS** Font familyname seems to be unique.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Check a static ttf can be generated from a variable font.</summary>
 
 * [com.google.fonts/check/varfont/generate_static](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/generate_static)
@@ -2787,5 +2777,5 @@ tps://docs.microsoft.com/en-us/typography/opentype/spec/stat#axis-records
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 1 | 5 | 80 | 7 | 87 | 0 |
-| 1% | 1% | 3% | 44% | 4% | 48% | 0% |
+| 0 | 1 | 5 | 80 | 7 | 88 | 0 |
+| 0% | 1% | 3% | 44% | 4% | 49% | 0% |
