@@ -27,7 +27,7 @@ P.P.S. If you want to do this exercise with your students, have a look at this [
 
 P.P.P.S. To be perfectly clear, I went way beyond what a handjet's grids permit, so only some of the fonts are suited to use with these printers.
 
-![Handjet’s flythrough animation](docs/animations/Handjet-flythrough.gif?raw=true)
+![Handjet preview](docs/previews/Handjet-preview.svg?raw=true)
 
 ## Variable font
 
