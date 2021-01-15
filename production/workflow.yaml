@@ -10,19 +10,19 @@
     - $ mkdir fonts/HandjetVariable
     - $ cp fonts/Handjet[EGRD,ESHP,wght].ttf fonts/HandjetVariable/HandjetVF-All.ttf
     - .post.update_names:
-      style_name: All
+        style_name: All
 - name: desktop
   source: [fonts/HandjetVariable]
   family: [Handjet Variable]
   tasks:
     - .post.update_names:
-      style_name: All
+        style_name: All
 - name: web
   source: [fonts/HandjetVariable]
   family: [Handjet Variable Web]
   tasks:
     - .post.make_webfonts:
-      webformats: ["woff2", "html"]
+        webformats: ["woff2", "html"]
 - name: preview
   source: [fonts/HandjetVariable]
   family: Handjet Variable Preview
