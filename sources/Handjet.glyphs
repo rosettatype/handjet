@@ -1,5 +1,5 @@
 {
-.appVersion = "1342";
+.appVersion = "1340";
 classes = (
 {
 automatic = 1;
@@ -2504,12 +2504,12 @@ lookup LIGA_HEBR {
 
 script hebr;
 	language JII;
-		lookup CCMP_YIDDISH {
+		lookup LIGA_YIDDISH {
 			lookupflag RightToLeft;
 			# Yiddish-only ligature/combination
 			sub hbYod hbYod hbPatah by hbYod_hbYod_hbPatah;
 			sub hbYod_hbYod hbPatah by hbYod_hbYod_hbPatah;
-		} CCMP_YIDDISH;";
+		} LIGA_YIDDISH;";
 name = liga;
 },
 {
