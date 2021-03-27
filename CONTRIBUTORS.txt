@@ -9,7 +9,9 @@
 # Names should be added to this file as:
 # Name <email address>
 
-Johannes Neumeier <johannes@rosettatype.com>
-Borna Izadpanah <borna.izad@gmail.com>
-Khajag Apelian <khajag@debakir.com>
-Meir Sadan <meir@sadan.com>
+David Březina (design, production)
+Johannes Neumeier <johannes@rosettatype.com> (post-production)
+Borna Izadpanah <borna.izad@gmail.com> (Arabic-script consultancy)
+Khajag Apelian <khajag@debakir.com> (Armenian-script consultancy)
+Meir Sadan <meir@sadan.com> (Hebrew-script consultancy)
+Rosalie Wagner <mail@rosaliewagner.com> (quality assurance)
