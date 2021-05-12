@@ -1,5 +1,8 @@
 {
-.appVersion = "1340";
+.appVersion = "1342";
+DisplayStrings = (
+"/a.ech_a.yiwn"
+);
 classes = (
 {
 automatic = 1;
@@ -1775,6 +1778,9 @@ featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
 
+languagesystem armn dflt;
+languagesystem armn HYE0;
+
 languagesystem cyrl dflt;
 languagesystem cyrl SRB;
 languagesystem cyrl MKD;
@@ -2021,6 +2027,11 @@ code = "    sub firsttonechinese by macroncomb;
             sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
             sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
             sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
+
+	script armn;
+		language HYE0;
+			# decompose ligature that is not used in Eastern Armenian
+			sub a.ech_a.yiwn by a.ech a.yiwn;
 
     script cyrl;
         language SRB; # Serbian
