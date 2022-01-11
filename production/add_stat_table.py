@@ -9,19 +9,19 @@ font = TTFont(path)
 wght_axis = dict(
     tag="wght",
     name="Weight",
-    values=[dict(value=v, name=n) for v, _, n in wghts if n is not None]
+    values=[dict(nominalValue=v, name=n) for v, _, n in wghts if n is not None]
 )
 
 shape_axis = dict(
     tag="ESHP",
     name="Element Shape",
-    values=[dict(value=v, name=n) for v, _, n in ESHPs if n is not None]
+    values=[dict(nominalValue=v, name=n) for v, _, n in ESHPs if n is not None]
 )
 
 grid_axis = dict(
     tag="EGRD",
     name="Element Grid",
-    values=[dict(value=v, name=n) for v, _, n in EGRDs if n is not None]
+    values=[dict(nominalValue=v, name=n) for v, _, n in EGRDs if n is not None]
 )
 
 buildStatTable(font, [wght_axis, shape_axis, grid_axis], elidedFallbackName=2)
