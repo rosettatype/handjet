@@ -14,15 +14,15 @@ default = (400, 2.00, 1.0)
 
 # The weights
 wghts = [
-    (100, True, "Thin"),
-    (200, False, "ExtraLight"),
-    (300, False, "Light"),
-    (400, True, "Regular"),
-    (500, False, "Medium"),
-    (600, False, "SemiBold"),
-    (700, False, "Bold"),
-    (800, False, "ExtraBold"),
-    (900, True, "Black"),
+    (100, True, "Thin", 0, 150),
+    (200, False, "ExtraLight", 151, 250),
+    (300, False, "Light", 251, 350),
+    (400, True, "Regular", 351, 450),
+    (500, False, "Medium", 451, 550),
+    (600, False, "SemiBold", 551, 650),
+    (700, False, "Bold", 651, 750),
+    (800, False, "ExtraBold", 751, 850),
+    (900, True, "Black", 851, 1000),
 ]
 
 # The shapes from the ESHP-xxxx glyph brace layer (In comments original
@@ -30,51 +30,51 @@ wghts = [
 # NOTE: In the design sources these brace layer value are multiplied by 100 to
 # work around the limitation of not having decimal dots in the layer name.
 ESHPs = [
-    (0.00, True, "Blank"),
-    (1.00, True, "Triangle"),
-    (2.00, True, "Square"),
-    (2.11, True, None),
-    (2.25, True, "Lozenge"),
-    (2.36, True, None),
-    (2.50, True, None),
-    (3.19, False, "Block"),
-    (3.36, False, "Rectangle"),
-    (4.00, True, "Bar (Vertical)"),
-    (4.11, True, None),
-    (4.25, True, "Bar (Diagonal Up)"),
-    (4.36, True, None),
-    (4.50, True, "Bar (Horizontal)"),
-    (4.61, True, None),
-    (4.75, True, "Bar (Diagonal Down)"),
-    (4.86, True, None),
-    (5.00, True, None),
-    (6.50, True, None),
-    (6.90, False, "Rounded square"),
-    (7.63, False, "Squircle"),
-    (8.00, True, "Circle"),
-    (8.69, False, "Egg"),
-    (8.86, False, "Oval"),
-    (9.50, True, "Thin Oval"),
-    (11.00, True, None),
-    (12.00, False, "Clover"),
-    (13.00, True, "Flower"),
-    (14.00, True, "Star"),
-    (14.11, True, None),
-    (14.25, True, "Star (Diagonal)"),
-    (14.36, True, None),
-    (14.50, True, None),
-    (14.75, False, "Big Star"),
-    (15.00, True, "Spindle"),
-    (15.37, False, "Pin"),
-    (16.00, True, "Heart")
+    (0.00, True, "Blank", 0.000, 0.500),
+    (1.00, True, "Triangle", 0.501, 1.500),
+    (2.00, True, "Square", 1.501, 2.100),
+    (2.11, True, None, None, None),
+    (2.25, True, "Lozenge", 2.101, 2.500),
+    (2.36, True, None, None, None),
+    (2.50, True, None, None, None),
+    (3.19, False, "Block", 2.501, 3.250),
+    (3.36, False, "Rectangle", 3.251, 3.750),
+    (4.00, True, "Bar (Vertical)", 3.751, 4.150),
+    (4.11, True, None, None, None),
+    (4.25, True, "Bar (Diagonal Up)", 4.151, 4.350),
+    (4.36, True, None, None, None),
+    (4.50, True, "Bar (Horizontal)", 4.351, 4.650),
+    (4.61, True, None, None, None),
+    (4.75, True, "Bar (Diagonal Down)", 4.651, 5.000),
+    (4.86, True, None, None, None),
+    (5.00, True, None, None, None),
+    (6.50, True, None, None, None),
+    (6.90, False, "Rounded square", 5.001, 7.500),
+    (7.63, False, "Squircle", 7.501, 7.750),
+    (8.00, True, "Circle", 7.751, 8.500),
+    (8.69, False, "Egg", 8.501, 8.750),
+    (8.86, False, "Oval", 8.751, 9.000),
+    (9.50, True, "Thinner Oval", 9.001, 11.000), # "Oval Thin" breaks Indesign (?!)
+    (11.00, True, None, None, None),
+    (12.00, False, "Clover", 11.001, 12.500),
+    (13.00, True, "Flower", 12.501, 13.500),
+    (14.00, True, "Star", 13.501, 14.150),
+    (14.11, True, None, None, None),
+    (14.25, True, "Diagonal Star", 14.151, 14.500), # "Star (Diagonal)" breaks Indesign (?!)
+    (14.36, True, None, None, None),
+    (14.50, True, None, None, None),
+    (14.75, False, "Big Star", 14.501, 14.850),
+    (15.00, True, "Spindle", 14.851, 15.250),
+    (15.37, False, "Pin", 15.251, 15.500),
+    (16.00, True, "Heart", 15.501, 16.000)
 ]
 
 # The grid configurations from the EGRD-xxxx glyph brace layer
 # Note EGRD values here in integer to match non-decimal brace layer names
 # from source glyphs file
 EGRDs = [
-    (1, True, "Single"),
-    (2, True, "Double"),
+    (1, True, "Single", 0.000, 1.500),
+    (2, True, "Double", 1.501, 2.000),
 ]
 
 

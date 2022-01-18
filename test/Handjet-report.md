@@ -385,45 +385,45 @@ substitution rules. Any glyphs not accessible by either of these means are
 redundant and serve only to increase the font&#x27;s file size.</pre>
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - pixel
+ - guillemotleft.arab
+ - periodcentered.hebr
+ - _part.arTwodotshorizontalabove
  - guilsinglleft.arab
- - _part.arDotabove
- - arSevenFarsi.URD
+ - _part.arBeh.YehBarri.fina
  - u1F415.body.right
- - tonoscomb
+ - _part.arDotabove
+ - _part.arJim.YehBarri.fina
+ - _part.arThreedotsdownbelow
  - _part.markGaf
- - hbPe.calt
- - _part.link
- - period.arab
+ - u1F415.black.body.right
  - _part.miniKeheh
+ - u1F415.black.right
+ - guillemotright.arab
  - dblgrave
+ - tildecomb.narrow
+ - hbPe.calt
+ - hbPeFinal.calt
  - _part.arBeh.YehBarri.medi
  - c.hookcomb
- - _part.arBeh.YehBarri.fina
- - u1F415.right
- - periodcentered.hebr
- - arDotcenter
- - parenright.arab
- - arFourFarsi.URD
- - guillemotright.arab
- - tildecomb.narrow
- - guillemotleft.arab
- - parenleft.arab
- - u1F415.black.right
- - u1F415.black.body.right
- - _part.arJim.YehBarri.fina
- - _part.arThreedotsupabove
  - guilsinglright.arab
- - hbPeFinal.calt
+ - _part.link
+ - parenright.arab
+ - tonoscomb
+ - arFourFarsi.URD
+ - _part.arThreedotsupabove
+ - period.arab
  - _part.arDotbelow
  - _part.arThreedotscenter
- - _part.arTwodotshorizontalbelow
- - _part.arKaf
- - uni030C.calt
+ - pixel
+ - u1F415.right
+ - arDotcenter
  - u1F415.black
- - _part.arThreedotsdownbelow
- - _part.arTwodotshorizontalabove 
+ - arSevenFarsi.URD
+ - _part.arTwodotshorizontalbelow
+ - uni030C.calt
  - _part.arJim.YehBarri.medi
+ - _part.arKaf 
+ - parenleft.arab
  [code: unreachable-glyphs]
 
 </details>
