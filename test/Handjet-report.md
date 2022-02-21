@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.4
+Fontbakery version: 0.8.2
 
 <details>
 <summary><b>[16] Family checks</b></summary>
@@ -158,13 +158,18 @@ https://www.typography.com/techniques/fonts-for-financials/#tabular-figs</pre>
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Check README.md has a sample image.</summary>
+<summary>💤 <b>SKIP:</b> Is the command `ftxvalidator` (Apple Font Tool Suite) available?</summary>
 
-* [com.google.fonts/check/repo/sample_image](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/sample_image)
+* [com.google.fonts/check/ftxvalidator_is_available](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator_is_available)
 <pre>--- Rationale ---
-In order to showcase what a font family looks like, the project&#x27;s README.md file
-should ideally include a sample image and highlight it in the upper portion of
-the document, no more than 10 lines away from the top of the file.</pre>
+There&#x27;s no reasonable (and legal) way to run the command `ftxvalidator` of the
+Apple Font Tool Suite on a non-macOS machine. I.e. on GNU+Linux or Windows etc.
+If Font Bakery is not running on an OSX machine, the machine running Font Bakery
+could access `ftxvalidator` on OSX, e.g. via ssh or a remote procedure call
+(rpc).
+There&#x27;s an ssh example implementation at:
+https://github.com/googlefonts/fontbakery/blob/main/prebuilt/workarounds
+/ftxvalidator/ssh-implementation/ftxvalidator</pre>
 
 * 💤 **SKIP** No applicable arguments
 
@@ -200,18 +205,7 @@ field, using bits 0 and 5.</pre>
 <br>
 </details>
 <details>
-<summary><b>[204] Handjet[EGRD,ESHP,wght].ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Check OFL body text is correct.</summary>
-
-* [com.google.fonts/check/license/OFL_body_text](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text)
-<pre>--- Rationale ---
-Check OFL body text is correct. Often users will accidently delete parts of the
-body text.</pre>
-
-* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
-
-</details>
+<summary><b>[202] Handjet[EGRD,ESHP,wght].ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
 
@@ -231,31 +225,6 @@ increases.</pre>
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check glyphs do not have components which are themselves components.</summary>
-
-* [com.google.fonts/check/glyf_nested_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyf_nested_components)
-<pre>--- Rationale ---
-There have been bugs rendering variable fonts with nested components.
-Additionally, some static fonts with nested components have been reported to
-have rendering and printing issues.
-For more info, see:
-* https://github.com/googlefonts/fontbakery/issues/2961
-* https://github.com/arrowtype/recursive/issues/412</pre>
-
-* 🔥 **FAIL** The following glyphs have components which themselves are component glyphs:
-	* Q
-	* i
-	* i
-	* j
-	* j
-	* quotedbl
-	* quotedbl
-	* uni2010
-	* uni00AD
-	* uni2011 and 1652 more. [code: found-nested-components]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Ensure variable fonts include an avar table.</summary>
 
 * [com.google.fonts/check/mandatory_avar_table](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table)
@@ -271,6 +240,30 @@ However, we still recommend designers visually proof each instance is at the
 desired weight, width etc.</pre>
 
 * 🔥 **FAIL** This variable font does not have an avar table. [code: missing-avar]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
+
+* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
+<pre>--- Rationale ---
+There have been cases in which fonts had faulty double quote marks, with each of
+them containing two single quote marks as components with the same x, y
+coordinates which makes them visually look like single quote marks.
+This check ensures that glyphs do not contain duplicate components which have
+the same x,y coordinates.</pre>
+
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'OE', 'component': 'pixel', 'x': 2400, 'y': 480}
+	* {'glyph': 'OE', 'component': 'pixel', 'x': 2400, 'y': 960}
+	* {'glyph': 'OE', 'component': 'pixel', 'x': 2400, 'y': 1440}
+	* {'glyph': 'OE', 'component': 'pixel', 'x': 2400, 'y': 1920}
+	* {'glyph': 'OE', 'component': 'pixel', 'x': 2400, 'y': 2400}
+	* {'glyph': 'OE', 'component': 'pixel', 'x': 2400, 'y': 2880}
+	* {'glyph': 'OE', 'component': 'pixel', 'x': 2400, 'y': 3360}
+	* {'glyph': 'OE', 'component': 'pixel', 'x': 2400, 'y': 3840}
+	* {'glyph': 'OE', 'component': 'pixel', 'x': 2400, 'y': 4320}
+	* {'glyph': 'oe', 'component': 'pixel', 'x': 2400, 'y': 480} and 7 more. [code: found-duplicates]
 
 </details>
 <details>
@@ -376,58 +369,6 @@ arLam.init_arAlifHamzabelow.fina, arLam.medi_arAlifHamzabelow.fina, arLam.init_a
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs</summary>
-
-* [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
-<pre>--- Rationale ---
-Glyphs are either accessible directly through Unicode codepoints or through
-substitution rules. Any glyphs not accessible by either of these means are
-redundant and serve only to increase the font&#x27;s file size.</pre>
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
- - guillemotleft.arab
- - periodcentered.hebr
- - _part.arTwodotshorizontalabove
- - guilsinglleft.arab
- - _part.arBeh.YehBarri.fina
- - u1F415.body.right
- - _part.arDotabove
- - _part.arJim.YehBarri.fina
- - _part.arThreedotsdownbelow
- - _part.markGaf
- - u1F415.black.body.right
- - _part.miniKeheh
- - u1F415.black.right
- - guillemotright.arab
- - dblgrave
- - tildecomb.narrow
- - hbPe.calt
- - hbPeFinal.calt
- - _part.arBeh.YehBarri.medi
- - c.hookcomb
- - guilsinglright.arab
- - _part.link
- - parenright.arab
- - tonoscomb
- - arFourFarsi.URD
- - _part.arThreedotsupabove
- - period.arab
- - _part.arDotbelow
- - _part.arThreedotscenter
- - pixel
- - u1F415.right
- - arDotcenter
- - u1F415.black
- - arSevenFarsi.URD
- - _part.arTwodotshorizontalbelow
- - uni030C.calt
- - _part.arJim.YehBarri.medi
- - _part.arKaf 
- - parenleft.arab
- [code: unreachable-glyphs]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Checking unitsPerEm value is reasonable.</summary>
 
 * [com.google.fonts/check/unitsperem](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/head.html#com.google.fonts/check/unitsperem)
@@ -472,19 +413,6 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 The snippet of HTML in the DESCRIPTION.en_us.html file is added to the font
 family webpage on the Google Fonts website. For that reason, all hyperlinks in
 it must be properly working.</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: description_html
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> URLs on DESCRIPTION file must not display http(s) prefix.</summary>
-
-* [com.google.fonts/check/description/urls](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/urls)
-<pre>--- Rationale ---
-The snippet of HTML in the DESCRIPTION.en_us.html file is added to the font
-family webpage on the Google Fonts website.
-Google Fonts has a content formatting policy for that snippet that expects the
-text content of links not to include the http:// or https:// prefixes.</pre>
 
 * 💤 **SKIP** Unfulfilled Conditions: description_html
 
@@ -1012,6 +940,25 @@ style of the font as inferred by its filename.</pre>
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
+<pre>--- Rationale ---
+Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
+constructured in a handful of ways. This means a glyph&#x27;s contour count will only
+differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
+contours, depending on whether its double story or single story.
+However, a quotedbl should have 2 contours, unless the font belongs to a display
+family.
+This check currently does not cover variable fonts because there&#x27;s plenty of
+alternative ways of constructing glyphs with multiple outlines for each feature
+in a VarFont. The expected contour count data for this check is currently
+optimized for the typical construction of glyphs in static fonts.</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: not is_variable_font
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
 
 * [com.google.fonts/check/metadata/nameid/copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/copyright)
@@ -1109,7 +1056,7 @@ variable fonts in their web browsers.</pre>
 <details>
 <summary>💤 <b>SKIP:</b> Check upstream.yaml file contains all required fields</summary>
 
-* [com.google.fonts/check/repo/upstream_yaml_has_required_fields](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/upstream_yaml_has_required_fields)
+* [com.google/fonts/check/repo/upstream_yaml_has_required_fields](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google/fonts/check/repo/upstream_yaml_has_required_fields)
 <pre>--- Rationale ---
 If a family has been pushed using the gftools packager, we must check that all
 the required fields in the upstream.yaml file have been populated.</pre>
@@ -1287,15 +1234,11 @@ derived from the family name, all lowercased and removing spaces.</pre>
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Check samples can be rendered.</summary>
+<summary>💤 <b>SKIP:</b> Checking with ftxvalidator.</summary>
 
-* [com.google.fonts/check/metadata/can_render_samples](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/can_render_samples)
-<pre>--- Rationale ---
-In order to prevent tofu from being seen on fonts.google.com, this check
-verifies that all samples provided on METADATA.pb can be properly rendered by
-the font.</pre>
+* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
 
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
+* 💤 **SKIP** Unfulfilled Conditions: ftxvalidator_cmd
 
 </details>
 <details>
@@ -1322,25 +1265,6 @@ Per Bureau of Indian Standards every font supporting one of the official Indian
 languages needs to include Unicode Character “₹” (U+20B9) Indian Rupee Sign.</pre>
 
 * 💤 **SKIP** Unfulfilled Conditions: is_indic_font
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
-<pre>--- Rationale ---
-Visually QAing thousands of glyphs by hand is tiring. Most glyphs can only be
-constructured in a handful of ways. This means a glyph&#x27;s contour count will only
-differ slightly amongst different fonts, e.g a &#x27;g&#x27; could either be 2 or 3
-contours, depending on whether its double story or single story.
-However, a quotedbl should have 2 contours, unless the font belongs to a display
-family.
-This check currently does not cover variable fonts because there&#x27;s plenty of
-alternative ways of constructing glyphs with multiple outlines for each feature
-in a VarFont. The expected contour count data for this check is currently
-optimized for the typical construction of glyphs in static fonts.</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: not is_variable_font
 
 </details>
 <details>
@@ -1579,8 +1503,8 @@ of hinted versus unhinted font files.</pre>
 
  |               | fonts/Handjet[EGRD,ESHP,wght].ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 270.7kb |
- | Hinted Size   | 270.7kb   |
+ | Dehinted Size | 415.7kb |
+ | Hinted Size   | 415.7kb   |
  | Increase      | 24 bytes      |
  | Change        | 0.0 %  |
  [code: size-impact]
@@ -1789,6 +1713,17 @@ An OFL.txt file&#x27;s first line should be the font copyright e.g:
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check OFL body text is correct.</summary>
+
+* [com.google.fonts/check/license/OFL_body_text](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text)
+<pre>--- Rationale ---
+Check OFL body text is correct. Often users will accidently delete parts of the
+body text.</pre>
+
+* 🍞 **PASS** OFL license body text is correct
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
 
 * [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
@@ -1964,6 +1899,21 @@ We need to check names are not already used, and today the best place to check
 that is http://namecheck.fontdata.com</pre>
 
 * 🍞 **PASS** Font familyname seems to be unique.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check glyphs do not have components which are themselves components.</summary>
+
+* [com.google.fonts/check/glyf_nested_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyf_nested_components)
+<pre>--- Rationale ---
+There have been bugs rendering variable fonts with nested components.
+Additionally, some static fonts with nested components have been reported to
+have rendering and printing issues.
+For more info, see:
+* https://github.com/googlefonts/fontbakery/issues/2961
+* https://github.com/arrowtype/recursive/issues/412</pre>
+
+* 🍞 **PASS** Glyphs do not contain nested components.
 
 </details>
 <details>
@@ -2739,20 +2689,6 @@ good-to-have (but optional) feature.</pre>
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
-
-* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
-<pre>--- Rationale ---
-There have been cases in which fonts had faulty double quote marks, with each of
-them containing two single quote marks as components with the same x, y
-coordinates which makes them visually look like single quote marks.
-This check ensures that glyphs do not contain duplicate components which have
-the same x,y coordinates.</pre>
-
-* 🍞 **PASS** Glyphs do not contain duplicate components which have the same x,y coordinates.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
 
 * [com.google.fonts/check/varfont/regular_wght_coord](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/fvar.html#com.google.fonts/check/varfont/regular_wght_coord)
@@ -2879,5 +2815,5 @@ than 100 reported misalignments.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 7 | 101 | 8 | 100 | 0 |
-| 0% | 2% | 3% | 46% | 4% | 45% | 0% |
+| 0 | 3 | 6 | 100 | 8 | 101 | 0 |
+| 0% | 1% | 3% | 46% | 4% | 46% | 0% |

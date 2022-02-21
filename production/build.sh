@@ -26,7 +26,7 @@ python production/make_designspace.py production/Handjet.designspace
 
 # Compile Variable fonts
 echo "Compiling TTF variable font from designspace"
-fontmake -m production/Handjet.designspace -o variable --production-names
+fontmake -m production/Handjet.designspace -o variable --production-names --flatten-components
 
 
 # Add STAT table
