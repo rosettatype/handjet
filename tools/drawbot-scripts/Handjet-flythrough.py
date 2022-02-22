@@ -14,6 +14,7 @@ TEXTCOL = (0, 0, 0)
 BACKCOL = (230 / 255, 250 / 255, 40 / 255)
 NODECOL = (1, 1, 1)
 defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.01}
+handjetfont = "Handjet-Regular"
 
 # Draw a single frame
 
@@ -23,7 +24,7 @@ def draw(gn="a", variations={}, caption=""):
     db.fill(*BACKCOL)
     db.rect(0, 0, w, h)
     fs = db.FormattedString()
-    fs.font("Handjet-Regular")
+    fs.font(handjetfont)
     fs.fontSize(200)
     fs.appendGlyph(gn)
     db.fill(*TEXTCOL)
@@ -37,7 +38,7 @@ def draw(gn="a", variations={}, caption=""):
 # Animate fly-through the whole glyph set
 
 db.newDrawing()
-db.font("Handjet-Regular")
+db.font(handjetfont)
 variations = defaults.copy()
 unicodes = []
 with open("glyphnames-unicodes-show.csv", "r") as f:

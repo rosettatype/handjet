@@ -12,6 +12,7 @@ TEXTCOL = (0, 0, 0)
 BACKCOL = (230 / 255, 250 / 255, 40 / 255)
 NODECOL = (1, 1, 1)
 defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.0}
+handjetfont = "Handjet-Regular"
 
 # Draw a single frame
 
@@ -20,7 +21,7 @@ def draw(txt="a", variations={}, caption=""):
     db.scale(scale)
     db.fill(*BACKCOL)
     db.rect(0, 0, w, h)
-    txt = db.FormattedString(txt, font="Handjet-Regular", fontSize=500, fontVariations=variations)
+    txt = db.FormattedString(txt, font=handjetfont, fontSize=500, fontVariations=variations)
     db.fill(*TEXTCOL)
     db.stroke(None)
     path = db.BezierPath()

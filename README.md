@@ -83,13 +83,13 @@ The interpolation between different element shapes along this axis creates a rot
 | 8.00 | Circle | * |
 | 8.69 | Egg | * |
 | 8.86 | Oval | * |
-| 9.50 | Thin Oval | * |
+| 9.50 | Thinner Oval | * |
 | 11.00 | Circle (transitional master) | x |
 | 12.00 | Clover | * |
 | 13.00 | Flower | * |
 | 14.00 | Star | * |
 | 14.11 | Star at 20 degrees | - |
-| 14.25 | Star (Diagonal) | * |
+| 14.25 | Diagonal Star | * |
 | 14.36 | Star at 65 degrees | - |
 | 14.50 | Star at 90 degrees | - |
 | 14.75 | Big Star | * |
