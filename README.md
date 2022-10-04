@@ -2,11 +2,11 @@
 
 Handjet is an element-based variable font (aka pixel font, modular font, …) where every glyph is composed using multiple copies of the same element. Each element can take 1 of 23 shapes and transition smoothly between them while creating various effects. The font currently supports these scripts: Arabic, Armenian, Cyrillic, Greek, Hebrew, and Latin.
 
-![Handjet’s ESHP axis animation](docs/animations/Handjet-ESHP-animation_word.gif?raw=true)
-![Handjet’s ESHP axis animation](docs/animations/Handjet-ESHP-animation_element.gif?raw=true)
-![Handjet’s ESHP axis animation](docs/animations/Handjet-ESHP-animation_letter.gif?raw=true)
+![Handjet’s ELSH axis animation](docs/animations/Handjet-ESHP-animation_word.gif?raw=true)
+![Handjet’s ELSH axis animation](docs/animations/Handjet-ESHP-animation_element.gif?raw=true)
+![Handjet’s ELSH axis animation](docs/animations/Handjet-ESHP-animation_letter.gif?raw=true)
 ![Handjet’s wght axis animation](docs/animations/Handjet-wght-animation.gif?raw=true)
-![Handjet’s EGRD axis animation](docs/animations/Handjet-EGRD-animation.gif?raw=true)
+![Handjet’s ELGR axis animation](docs/animations/Handjet-EGRD-animation.gif?raw=true)
 
 
 ## The story
@@ -34,8 +34,8 @@ P.P.P.S. To be perfectly clear, I went way beyond what a handjet's grids permit,
 Handjet is a variable font with the following axes:
 
 - **Weight (wght)** (100-900) controls the size of the element,
-- **Element Shape (ESHP)** (0.0-16.0) controls the shape of the element,
-- **Element Grid (EGRD)** (1.0-2.0) controls how many elements are used per one grid unit.
+- **Element Shape (ELSH)** (0.0-16.0) controls the shape of the element,
+- **Element Grid (ELGR)** (1.0-2.0) controls how many elements are used per one grid unit.
 
 ### Weight (wght)
 
@@ -53,7 +53,7 @@ The weight is represented by the size of the element used.
 | 800 | ExtraBold | * |
 | 900 | Black | * |
 
-### Element Shape axis (ESHP)
+### Element Shape axis (ELSH)
 
 The interpolation between different element shapes along this axis creates a rotation or disappearing effect for some of them. This was done (instead of having independent rotation and scale axes for example) to simplify the design space, and to keep things manageable for users as well as computers. For a preview of the available element shapes and their transitions, see the animations above.
 
@@ -101,7 +101,7 @@ Rows marked with `*` are available as instances in the STAT table.
 Rows marked with `x` are repeated shapes that allow for a better transition.  
 Rows marked with `-` are for example only.
 
-### Element Grid axis (EGRD)
+### Element Grid axis (ELGR)
 
 This axis controls how many elements are used per one grid unit.
 

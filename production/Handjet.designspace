@@ -6,10 +6,10 @@
 <axes>
     <axis tag="wght" name="Weight"
         minimum="100" maximum="900" default="400" />
-    <axis tag="ESHP" name="Element Shape"
-        minimum="0.00" maximum="16.00" default="2.00" />
-    <axis tag="EGRD" name="Element Grid"
+    <axis tag="ELGR" name="Element Grid"
         minimum="1.0" maximum="2.0" default="1.0" />
+    <axis tag="ELSH" name="Element Shape"
+        minimum="0.00" maximum="16.00" default="2.00" />
 </axes>
 
 <sources>
@@ -18,8 +18,8 @@
         name="Handjet Regular {100,0,1}" layer="{100,0,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="0.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="0.0"/>
         </location>
     </source>
 
@@ -27,8 +27,8 @@
         name="Handjet Regular {100,0,2}" layer="{100,0,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="0.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="0.0"/>
         </location>
     </source>
 
@@ -36,8 +36,8 @@
         name="Handjet Regular {100,100,1}" layer="{100,100,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="1.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="1.0"/>
         </location>
     </source>
 
@@ -45,8 +45,8 @@
         name="Handjet Regular {100,100,2}" layer="{100,100,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="1.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="1.0"/>
         </location>
     </source>
 
@@ -54,8 +54,8 @@
         name="Handjet Regular {100,200,1}" layer="{100,200,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </source>
 
@@ -63,8 +63,8 @@
         name="Handjet Regular {100,200,2}" layer="{100,200,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </source>
 
@@ -72,8 +72,8 @@
         name="Handjet Regular {100,211,1}" layer="{100,211,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.11"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.11"/>
         </location>
     </source>
 
@@ -81,8 +81,8 @@
         name="Handjet Regular {100,211,2}" layer="{100,211,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.11"/>
         </location>
     </source>
 
@@ -90,8 +90,8 @@
         name="Handjet Regular {100,225,1}" layer="{100,225,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.25"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.25"/>
         </location>
     </source>
 
@@ -99,8 +99,8 @@
         name="Handjet Regular {100,225,2}" layer="{100,225,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.25"/>
         </location>
     </source>
 
@@ -108,8 +108,8 @@
         name="Handjet Regular {100,236,1}" layer="{100,236,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.36"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.36"/>
         </location>
     </source>
 
@@ -117,8 +117,8 @@
         name="Handjet Regular {100,236,2}" layer="{100,236,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.36"/>
         </location>
     </source>
 
@@ -126,8 +126,8 @@
         name="Handjet Regular {100,250,1}" layer="{100,250,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.5"/>
         </location>
     </source>
 
@@ -135,8 +135,8 @@
         name="Handjet Regular {100,250,2}" layer="{100,250,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.5"/>
         </location>
     </source>
 
@@ -144,8 +144,8 @@
         name="Handjet Regular {100,400,1}" layer="{100,400,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.0"/>
         </location>
     </source>
 
@@ -153,8 +153,8 @@
         name="Handjet Regular {100,400,2}" layer="{100,400,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.0"/>
         </location>
     </source>
 
@@ -162,8 +162,8 @@
         name="Handjet Regular {100,411,1}" layer="{100,411,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.11"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.11"/>
         </location>
     </source>
 
@@ -171,8 +171,8 @@
         name="Handjet Regular {100,411,2}" layer="{100,411,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.11"/>
         </location>
     </source>
 
@@ -180,8 +180,8 @@
         name="Handjet Regular {100,425,1}" layer="{100,425,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.25"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.25"/>
         </location>
     </source>
 
@@ -189,8 +189,8 @@
         name="Handjet Regular {100,425,2}" layer="{100,425,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.25"/>
         </location>
     </source>
 
@@ -198,8 +198,8 @@
         name="Handjet Regular {100,436,1}" layer="{100,436,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.36"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.36"/>
         </location>
     </source>
 
@@ -207,8 +207,8 @@
         name="Handjet Regular {100,436,2}" layer="{100,436,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.36"/>
         </location>
     </source>
 
@@ -216,8 +216,8 @@
         name="Handjet Regular {100,450,1}" layer="{100,450,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.5"/>
         </location>
     </source>
 
@@ -225,8 +225,8 @@
         name="Handjet Regular {100,450,2}" layer="{100,450,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.5"/>
         </location>
     </source>
 
@@ -234,8 +234,8 @@
         name="Handjet Regular {100,461,1}" layer="{100,461,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.61"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.61"/>
         </location>
     </source>
 
@@ -243,8 +243,8 @@
         name="Handjet Regular {100,461,2}" layer="{100,461,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.61"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.61"/>
         </location>
     </source>
 
@@ -252,8 +252,8 @@
         name="Handjet Regular {100,475,1}" layer="{100,475,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.75"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.75"/>
         </location>
     </source>
 
@@ -261,8 +261,8 @@
         name="Handjet Regular {100,475,2}" layer="{100,475,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.75"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.75"/>
         </location>
     </source>
 
@@ -270,8 +270,8 @@
         name="Handjet Regular {100,486,1}" layer="{100,486,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.86"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.86"/>
         </location>
     </source>
 
@@ -279,8 +279,8 @@
         name="Handjet Regular {100,486,2}" layer="{100,486,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="4.86"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.86"/>
         </location>
     </source>
 
@@ -288,8 +288,8 @@
         name="Handjet Regular {100,500,1}" layer="{100,500,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="5.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="5.0"/>
         </location>
     </source>
 
@@ -297,8 +297,8 @@
         name="Handjet Regular {100,500,2}" layer="{100,500,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="5.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="5.0"/>
         </location>
     </source>
 
@@ -306,8 +306,8 @@
         name="Handjet Regular {100,650,1}" layer="{100,650,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="6.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="6.5"/>
         </location>
     </source>
 
@@ -315,8 +315,8 @@
         name="Handjet Regular {100,650,2}" layer="{100,650,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="6.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="6.5"/>
         </location>
     </source>
 
@@ -324,8 +324,8 @@
         name="Handjet Regular {100,800,1}" layer="{100,800,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="8.0"/>
         </location>
     </source>
 
@@ -333,8 +333,8 @@
         name="Handjet Regular {100,800,2}" layer="{100,800,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="8.0"/>
         </location>
     </source>
 
@@ -342,8 +342,8 @@
         name="Handjet Regular {100,950,1}" layer="{100,950,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="9.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="9.5"/>
         </location>
     </source>
 
@@ -351,8 +351,8 @@
         name="Handjet Regular {100,950,2}" layer="{100,950,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="9.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="9.5"/>
         </location>
     </source>
 
@@ -360,8 +360,8 @@
         name="Handjet Regular {100,1100,1}" layer="{100,1100,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="11.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="11.0"/>
         </location>
     </source>
 
@@ -369,8 +369,8 @@
         name="Handjet Regular {100,1100,2}" layer="{100,1100,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="11.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="11.0"/>
         </location>
     </source>
 
@@ -378,8 +378,8 @@
         name="Handjet Regular {100,1300,1}" layer="{100,1300,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="13.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="13.0"/>
         </location>
     </source>
 
@@ -387,8 +387,8 @@
         name="Handjet Regular {100,1300,2}" layer="{100,1300,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="13.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="13.0"/>
         </location>
     </source>
 
@@ -396,8 +396,8 @@
         name="Handjet Regular {100,1400,1}" layer="{100,1400,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.0"/>
         </location>
     </source>
 
@@ -405,8 +405,8 @@
         name="Handjet Regular {100,1400,2}" layer="{100,1400,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.0"/>
         </location>
     </source>
 
@@ -414,8 +414,8 @@
         name="Handjet Regular {100,1411,1}" layer="{100,1411,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.11"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.11"/>
         </location>
     </source>
 
@@ -423,8 +423,8 @@
         name="Handjet Regular {100,1411,2}" layer="{100,1411,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.11"/>
         </location>
     </source>
 
@@ -432,8 +432,8 @@
         name="Handjet Regular {100,1425,1}" layer="{100,1425,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.25"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.25"/>
         </location>
     </source>
 
@@ -441,8 +441,8 @@
         name="Handjet Regular {100,1425,2}" layer="{100,1425,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.25"/>
         </location>
     </source>
 
@@ -450,8 +450,8 @@
         name="Handjet Regular {100,1436,1}" layer="{100,1436,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.36"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.36"/>
         </location>
     </source>
 
@@ -459,8 +459,8 @@
         name="Handjet Regular {100,1436,2}" layer="{100,1436,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.36"/>
         </location>
     </source>
 
@@ -468,8 +468,8 @@
         name="Handjet Regular {100,1450,1}" layer="{100,1450,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.5"/>
         </location>
     </source>
 
@@ -477,8 +477,8 @@
         name="Handjet Regular {100,1450,2}" layer="{100,1450,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="14.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.5"/>
         </location>
     </source>
 
@@ -486,8 +486,8 @@
         name="Handjet Regular {100,1500,1}" layer="{100,1500,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="15.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="15.0"/>
         </location>
     </source>
 
@@ -495,8 +495,8 @@
         name="Handjet Regular {100,1500,2}" layer="{100,1500,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="15.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="15.0"/>
         </location>
     </source>
 
@@ -504,8 +504,8 @@
         name="Handjet Regular {100,1600,1}" layer="{100,1600,1}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="16.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="16.0"/>
         </location>
     </source>
 
@@ -513,8 +513,8 @@
         name="Handjet Regular {100,1600,2}" layer="{100,1600,2}">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="16.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="16.0"/>
         </location>
     </source>
 
@@ -522,8 +522,8 @@
         name="Handjet Regular {400,0,1}" layer="{400,0,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="0.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="0.0"/>
         </location>
     </source>
 
@@ -531,8 +531,8 @@
         name="Handjet Regular {400,0,2}" layer="{400,0,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="0.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="0.0"/>
         </location>
     </source>
 
@@ -540,8 +540,8 @@
         name="Handjet Regular {400,100,1}" layer="{400,100,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="1.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="1.0"/>
         </location>
     </source>
 
@@ -549,8 +549,8 @@
         name="Handjet Regular {400,100,2}" layer="{400,100,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="1.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="1.0"/>
         </location>
     </source>
 
@@ -564,8 +564,8 @@
         <info copy="1" />
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </source>
 
@@ -573,8 +573,8 @@
         name="Handjet Regular {400,200,2}" layer="{400,200,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </source>
 
@@ -582,8 +582,8 @@
         name="Handjet Regular {400,211,1}" layer="{400,211,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.11"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.11"/>
         </location>
     </source>
 
@@ -591,8 +591,8 @@
         name="Handjet Regular {400,211,2}" layer="{400,211,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.11"/>
         </location>
     </source>
 
@@ -600,8 +600,8 @@
         name="Handjet Regular {400,225,1}" layer="{400,225,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.25"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.25"/>
         </location>
     </source>
 
@@ -609,8 +609,8 @@
         name="Handjet Regular {400,225,2}" layer="{400,225,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.25"/>
         </location>
     </source>
 
@@ -618,8 +618,8 @@
         name="Handjet Regular {400,236,1}" layer="{400,236,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.36"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.36"/>
         </location>
     </source>
 
@@ -627,8 +627,8 @@
         name="Handjet Regular {400,236,2}" layer="{400,236,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.36"/>
         </location>
     </source>
 
@@ -636,8 +636,8 @@
         name="Handjet Regular {400,250,1}" layer="{400,250,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.5"/>
         </location>
     </source>
 
@@ -645,8 +645,8 @@
         name="Handjet Regular {400,250,2}" layer="{400,250,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.5"/>
         </location>
     </source>
 
@@ -654,8 +654,8 @@
         name="Handjet Regular {400,400,1}" layer="{400,400,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.0"/>
         </location>
     </source>
 
@@ -663,8 +663,8 @@
         name="Handjet Regular {400,400,2}" layer="{400,400,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.0"/>
         </location>
     </source>
 
@@ -672,8 +672,8 @@
         name="Handjet Regular {400,411,1}" layer="{400,411,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.11"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.11"/>
         </location>
     </source>
 
@@ -681,8 +681,8 @@
         name="Handjet Regular {400,411,2}" layer="{400,411,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.11"/>
         </location>
     </source>
 
@@ -690,8 +690,8 @@
         name="Handjet Regular {400,425,1}" layer="{400,425,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.25"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.25"/>
         </location>
     </source>
 
@@ -699,8 +699,8 @@
         name="Handjet Regular {400,425,2}" layer="{400,425,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.25"/>
         </location>
     </source>
 
@@ -708,8 +708,8 @@
         name="Handjet Regular {400,436,1}" layer="{400,436,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.36"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.36"/>
         </location>
     </source>
 
@@ -717,8 +717,8 @@
         name="Handjet Regular {400,436,2}" layer="{400,436,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.36"/>
         </location>
     </source>
 
@@ -726,8 +726,8 @@
         name="Handjet Regular {400,450,1}" layer="{400,450,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.5"/>
         </location>
     </source>
 
@@ -735,8 +735,8 @@
         name="Handjet Regular {400,450,2}" layer="{400,450,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.5"/>
         </location>
     </source>
 
@@ -744,8 +744,8 @@
         name="Handjet Regular {400,461,1}" layer="{400,461,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.61"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.61"/>
         </location>
     </source>
 
@@ -753,8 +753,8 @@
         name="Handjet Regular {400,461,2}" layer="{400,461,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.61"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.61"/>
         </location>
     </source>
 
@@ -762,8 +762,8 @@
         name="Handjet Regular {400,475,1}" layer="{400,475,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.75"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.75"/>
         </location>
     </source>
 
@@ -771,8 +771,8 @@
         name="Handjet Regular {400,475,2}" layer="{400,475,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.75"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.75"/>
         </location>
     </source>
 
@@ -780,8 +780,8 @@
         name="Handjet Regular {400,486,1}" layer="{400,486,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.86"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.86"/>
         </location>
     </source>
 
@@ -789,8 +789,8 @@
         name="Handjet Regular {400,486,2}" layer="{400,486,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="4.86"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.86"/>
         </location>
     </source>
 
@@ -798,8 +798,8 @@
         name="Handjet Regular {400,500,1}" layer="{400,500,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="5.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="5.0"/>
         </location>
     </source>
 
@@ -807,8 +807,8 @@
         name="Handjet Regular {400,500,2}" layer="{400,500,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="5.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="5.0"/>
         </location>
     </source>
 
@@ -816,8 +816,8 @@
         name="Handjet Regular {400,650,1}" layer="{400,650,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="6.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="6.5"/>
         </location>
     </source>
 
@@ -825,8 +825,8 @@
         name="Handjet Regular {400,650,2}" layer="{400,650,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="6.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="6.5"/>
         </location>
     </source>
 
@@ -834,8 +834,8 @@
         name="Handjet Regular {400,800,1}" layer="{400,800,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="8.0"/>
         </location>
     </source>
 
@@ -843,8 +843,8 @@
         name="Handjet Regular {400,800,2}" layer="{400,800,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="8.0"/>
         </location>
     </source>
 
@@ -852,8 +852,8 @@
         name="Handjet Regular {400,950,1}" layer="{400,950,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="9.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="9.5"/>
         </location>
     </source>
 
@@ -861,8 +861,8 @@
         name="Handjet Regular {400,950,2}" layer="{400,950,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="9.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="9.5"/>
         </location>
     </source>
 
@@ -870,8 +870,8 @@
         name="Handjet Regular {400,1100,1}" layer="{400,1100,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="11.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="11.0"/>
         </location>
     </source>
 
@@ -879,8 +879,8 @@
         name="Handjet Regular {400,1100,2}" layer="{400,1100,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="11.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="11.0"/>
         </location>
     </source>
 
@@ -888,8 +888,8 @@
         name="Handjet Regular {400,1300,1}" layer="{400,1300,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="13.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="13.0"/>
         </location>
     </source>
 
@@ -897,8 +897,8 @@
         name="Handjet Regular {400,1300,2}" layer="{400,1300,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="13.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="13.0"/>
         </location>
     </source>
 
@@ -906,8 +906,8 @@
         name="Handjet Regular {400,1400,1}" layer="{400,1400,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.0"/>
         </location>
     </source>
 
@@ -915,8 +915,8 @@
         name="Handjet Regular {400,1400,2}" layer="{400,1400,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.0"/>
         </location>
     </source>
 
@@ -924,8 +924,8 @@
         name="Handjet Regular {400,1411,1}" layer="{400,1411,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.11"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.11"/>
         </location>
     </source>
 
@@ -933,8 +933,8 @@
         name="Handjet Regular {400,1411,2}" layer="{400,1411,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.11"/>
         </location>
     </source>
 
@@ -942,8 +942,8 @@
         name="Handjet Regular {400,1425,1}" layer="{400,1425,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.25"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.25"/>
         </location>
     </source>
 
@@ -951,8 +951,8 @@
         name="Handjet Regular {400,1425,2}" layer="{400,1425,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.25"/>
         </location>
     </source>
 
@@ -960,8 +960,8 @@
         name="Handjet Regular {400,1436,1}" layer="{400,1436,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.36"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.36"/>
         </location>
     </source>
 
@@ -969,8 +969,8 @@
         name="Handjet Regular {400,1436,2}" layer="{400,1436,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.36"/>
         </location>
     </source>
 
@@ -978,8 +978,8 @@
         name="Handjet Regular {400,1450,1}" layer="{400,1450,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.5"/>
         </location>
     </source>
 
@@ -987,8 +987,8 @@
         name="Handjet Regular {400,1450,2}" layer="{400,1450,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="14.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.5"/>
         </location>
     </source>
 
@@ -996,8 +996,8 @@
         name="Handjet Regular {400,1500,1}" layer="{400,1500,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="15.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="15.0"/>
         </location>
     </source>
 
@@ -1005,8 +1005,8 @@
         name="Handjet Regular {400,1500,2}" layer="{400,1500,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="15.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="15.0"/>
         </location>
     </source>
 
@@ -1014,8 +1014,8 @@
         name="Handjet Regular {400,1600,1}" layer="{400,1600,1}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="16.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="16.0"/>
         </location>
     </source>
 
@@ -1023,8 +1023,8 @@
         name="Handjet Regular {400,1600,2}" layer="{400,1600,2}">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="16.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="16.0"/>
         </location>
     </source>
 
@@ -1032,8 +1032,8 @@
         name="Handjet Regular {900,0,1}" layer="{900,0,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="0.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="0.0"/>
         </location>
     </source>
 
@@ -1041,8 +1041,8 @@
         name="Handjet Regular {900,0,2}" layer="{900,0,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="0.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="0.0"/>
         </location>
     </source>
 
@@ -1050,8 +1050,8 @@
         name="Handjet Regular {900,100,1}" layer="{900,100,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="1.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="1.0"/>
         </location>
     </source>
 
@@ -1059,8 +1059,8 @@
         name="Handjet Regular {900,100,2}" layer="{900,100,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="1.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="1.0"/>
         </location>
     </source>
 
@@ -1068,8 +1068,8 @@
         name="Handjet Regular {900,200,1}" layer="{900,200,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </source>
 
@@ -1077,8 +1077,8 @@
         name="Handjet Regular {900,200,2}" layer="{900,200,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </source>
 
@@ -1086,8 +1086,8 @@
         name="Handjet Regular {900,211,1}" layer="{900,211,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.11"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.11"/>
         </location>
     </source>
 
@@ -1095,8 +1095,8 @@
         name="Handjet Regular {900,211,2}" layer="{900,211,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.11"/>
         </location>
     </source>
 
@@ -1104,8 +1104,8 @@
         name="Handjet Regular {900,225,1}" layer="{900,225,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.25"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.25"/>
         </location>
     </source>
 
@@ -1113,8 +1113,8 @@
         name="Handjet Regular {900,225,2}" layer="{900,225,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.25"/>
         </location>
     </source>
 
@@ -1122,8 +1122,8 @@
         name="Handjet Regular {900,236,1}" layer="{900,236,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.36"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.36"/>
         </location>
     </source>
 
@@ -1131,8 +1131,8 @@
         name="Handjet Regular {900,236,2}" layer="{900,236,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.36"/>
         </location>
     </source>
 
@@ -1140,8 +1140,8 @@
         name="Handjet Regular {900,250,1}" layer="{900,250,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.5"/>
         </location>
     </source>
 
@@ -1149,8 +1149,8 @@
         name="Handjet Regular {900,250,2}" layer="{900,250,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="2.5"/>
         </location>
     </source>
 
@@ -1158,8 +1158,8 @@
         name="Handjet Regular {900,400,1}" layer="{900,400,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.0"/>
         </location>
     </source>
 
@@ -1167,8 +1167,8 @@
         name="Handjet Regular {900,400,2}" layer="{900,400,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.0"/>
         </location>
     </source>
 
@@ -1176,8 +1176,8 @@
         name="Handjet Regular {900,411,1}" layer="{900,411,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.11"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.11"/>
         </location>
     </source>
 
@@ -1185,8 +1185,8 @@
         name="Handjet Regular {900,411,2}" layer="{900,411,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.11"/>
         </location>
     </source>
 
@@ -1194,8 +1194,8 @@
         name="Handjet Regular {900,425,1}" layer="{900,425,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.25"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.25"/>
         </location>
     </source>
 
@@ -1203,8 +1203,8 @@
         name="Handjet Regular {900,425,2}" layer="{900,425,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.25"/>
         </location>
     </source>
 
@@ -1212,8 +1212,8 @@
         name="Handjet Regular {900,436,1}" layer="{900,436,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.36"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.36"/>
         </location>
     </source>
 
@@ -1221,8 +1221,8 @@
         name="Handjet Regular {900,436,2}" layer="{900,436,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.36"/>
         </location>
     </source>
 
@@ -1230,8 +1230,8 @@
         name="Handjet Regular {900,450,1}" layer="{900,450,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.5"/>
         </location>
     </source>
 
@@ -1239,8 +1239,8 @@
         name="Handjet Regular {900,450,2}" layer="{900,450,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.5"/>
         </location>
     </source>
 
@@ -1248,8 +1248,8 @@
         name="Handjet Regular {900,461,1}" layer="{900,461,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.61"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.61"/>
         </location>
     </source>
 
@@ -1257,8 +1257,8 @@
         name="Handjet Regular {900,461,2}" layer="{900,461,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.61"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.61"/>
         </location>
     </source>
 
@@ -1266,8 +1266,8 @@
         name="Handjet Regular {900,475,1}" layer="{900,475,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.75"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.75"/>
         </location>
     </source>
 
@@ -1275,8 +1275,8 @@
         name="Handjet Regular {900,475,2}" layer="{900,475,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.75"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.75"/>
         </location>
     </source>
 
@@ -1284,8 +1284,8 @@
         name="Handjet Regular {900,486,1}" layer="{900,486,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.86"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="4.86"/>
         </location>
     </source>
 
@@ -1293,8 +1293,8 @@
         name="Handjet Regular {900,486,2}" layer="{900,486,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="4.86"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="4.86"/>
         </location>
     </source>
 
@@ -1302,8 +1302,8 @@
         name="Handjet Regular {900,500,1}" layer="{900,500,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="5.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="5.0"/>
         </location>
     </source>
 
@@ -1311,8 +1311,8 @@
         name="Handjet Regular {900,500,2}" layer="{900,500,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="5.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="5.0"/>
         </location>
     </source>
 
@@ -1320,8 +1320,8 @@
         name="Handjet Regular {900,650,1}" layer="{900,650,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="6.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="6.5"/>
         </location>
     </source>
 
@@ -1329,8 +1329,8 @@
         name="Handjet Regular {900,650,2}" layer="{900,650,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="6.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="6.5"/>
         </location>
     </source>
 
@@ -1338,8 +1338,8 @@
         name="Handjet Regular {900,800,1}" layer="{900,800,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="8.0"/>
         </location>
     </source>
 
@@ -1347,8 +1347,8 @@
         name="Handjet Regular {900,800,2}" layer="{900,800,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="8.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="8.0"/>
         </location>
     </source>
 
@@ -1356,8 +1356,8 @@
         name="Handjet Regular {900,950,1}" layer="{900,950,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="9.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="9.5"/>
         </location>
     </source>
 
@@ -1365,8 +1365,8 @@
         name="Handjet Regular {900,950,2}" layer="{900,950,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="9.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="9.5"/>
         </location>
     </source>
 
@@ -1374,8 +1374,8 @@
         name="Handjet Regular {900,1100,1}" layer="{900,1100,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="11.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="11.0"/>
         </location>
     </source>
 
@@ -1383,8 +1383,8 @@
         name="Handjet Regular {900,1100,2}" layer="{900,1100,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="11.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="11.0"/>
         </location>
     </source>
 
@@ -1392,8 +1392,8 @@
         name="Handjet Regular {900,1300,1}" layer="{900,1300,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="13.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="13.0"/>
         </location>
     </source>
 
@@ -1401,8 +1401,8 @@
         name="Handjet Regular {900,1300,2}" layer="{900,1300,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="13.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="13.0"/>
         </location>
     </source>
 
@@ -1410,8 +1410,8 @@
         name="Handjet Regular {900,1400,1}" layer="{900,1400,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.0"/>
         </location>
     </source>
 
@@ -1419,8 +1419,8 @@
         name="Handjet Regular {900,1400,2}" layer="{900,1400,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.0"/>
         </location>
     </source>
 
@@ -1428,8 +1428,8 @@
         name="Handjet Regular {900,1411,1}" layer="{900,1411,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.11"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.11"/>
         </location>
     </source>
 
@@ -1437,8 +1437,8 @@
         name="Handjet Regular {900,1411,2}" layer="{900,1411,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.11"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.11"/>
         </location>
     </source>
 
@@ -1446,8 +1446,8 @@
         name="Handjet Regular {900,1425,1}" layer="{900,1425,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.25"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.25"/>
         </location>
     </source>
 
@@ -1455,8 +1455,8 @@
         name="Handjet Regular {900,1425,2}" layer="{900,1425,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.25"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.25"/>
         </location>
     </source>
 
@@ -1464,8 +1464,8 @@
         name="Handjet Regular {900,1436,1}" layer="{900,1436,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.36"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.36"/>
         </location>
     </source>
 
@@ -1473,8 +1473,8 @@
         name="Handjet Regular {900,1436,2}" layer="{900,1436,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.36"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.36"/>
         </location>
     </source>
 
@@ -1482,8 +1482,8 @@
         name="Handjet Regular {900,1450,1}" layer="{900,1450,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.5"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="14.5"/>
         </location>
     </source>
 
@@ -1491,8 +1491,8 @@
         name="Handjet Regular {900,1450,2}" layer="{900,1450,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="14.5"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="14.5"/>
         </location>
     </source>
 
@@ -1500,8 +1500,8 @@
         name="Handjet Regular {900,1500,1}" layer="{900,1500,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="15.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="15.0"/>
         </location>
     </source>
 
@@ -1509,8 +1509,8 @@
         name="Handjet Regular {900,1500,2}" layer="{900,1500,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="15.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="15.0"/>
         </location>
     </source>
 
@@ -1518,8 +1518,8 @@
         name="Handjet Regular {900,1600,1}" layer="{900,1600,1}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="16.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="16.0"/>
         </location>
     </source>
 
@@ -1527,8 +1527,8 @@
         name="Handjet Regular {900,1600,2}" layer="{900,1600,2}">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="16.0"/>
             <dimension name="Element Grid" xvalue="2.0"/>
+            <dimension name="Element Shape" xvalue="16.0"/>
         </location>
     </source>
 
@@ -1541,8 +1541,8 @@
         familyname="Handjet" stylename="Thin">
         <location>
             <dimension name="Weight" xvalue="100"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </instance>
 
@@ -1551,8 +1551,8 @@
         familyname="Handjet" stylename="ExtraLight">
         <location>
             <dimension name="Weight" xvalue="200"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </instance>
 
@@ -1561,8 +1561,8 @@
         familyname="Handjet" stylename="Light">
         <location>
             <dimension name="Weight" xvalue="300"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </instance>
 
@@ -1571,8 +1571,8 @@
         familyname="Handjet" stylename="Regular">
         <location>
             <dimension name="Weight" xvalue="400"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </instance>
 
@@ -1581,8 +1581,8 @@
         familyname="Handjet" stylename="Medium">
         <location>
             <dimension name="Weight" xvalue="500"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </instance>
 
@@ -1591,8 +1591,8 @@
         familyname="Handjet" stylename="SemiBold">
         <location>
             <dimension name="Weight" xvalue="600"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </instance>
 
@@ -1601,8 +1601,8 @@
         familyname="Handjet" stylename="Bold">
         <location>
             <dimension name="Weight" xvalue="700"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </instance>
 
@@ -1611,8 +1611,8 @@
         familyname="Handjet" stylename="ExtraBold">
         <location>
             <dimension name="Weight" xvalue="800"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </instance>
 
@@ -1621,8 +1621,8 @@
         familyname="Handjet" stylename="Black">
         <location>
             <dimension name="Weight" xvalue="900"/>
-            <dimension name="Element Shape" xvalue="2.0"/>
             <dimension name="Element Grid" xvalue="1.0"/>
+            <dimension name="Element Shape" xvalue="2.0"/>
         </location>
     </instance>
 
@@ -1633,39 +1633,39 @@
       <key>public.skipExportGlyphs</key>
       <array>
         <string>.notef</string>
-        <string>pixel.ESHP-0</string>
-        <string>pixel.ESHP-100</string>
-        <string>pixel.ESHP-200</string>
-        <string>pixel.ESHP-211</string>
-        <string>pixel.ESHP-225</string>
-        <string>pixel.ESHP-236</string>
-        <string>pixel.ESHP-250</string>
-        <string>pixel.ESHP-400</string>
-        <string>pixel.ESHP-411</string>
-        <string>pixel.ESHP-425</string>
-        <string>pixel.ESHP-436</string>
-        <string>pixel.ESHP-450</string>
-        <string>pixel.ESHP-461</string>
-        <string>pixel.ESHP-475</string>
-        <string>pixel.ESHP-486</string>
-        <string>pixel.ESHP-500</string>
-        <string>pixel.ESHP-650</string>
-        <string>pixel.ESHP-800</string>
-        <string>pixel.ESHP-950</string>
-        <string>pixel.ESHP-1100</string>
-        <string>pixel.ESHP-1300</string>
-        <string>pixel.ESHP-1400</string>
-        <string>pixel.ESHP-1411</string>
-        <string>pixel.ESHP-1425</string>
-        <string>pixel.ESHP-1436</string>
-        <string>pixel.ESHP-1450</string>
-        <string>pixel.ESHP-1500</string>
-        <string>pixel.ESHP-1600</string>
+        <string>pixel.ELSH-0</string>
+        <string>pixel.ELSH-100</string>
+        <string>pixel.ELSH-200</string>
+        <string>pixel.ELSH-211</string>
+        <string>pixel.ELSH-225</string>
+        <string>pixel.ELSH-236</string>
+        <string>pixel.ELSH-250</string>
+        <string>pixel.ELSH-400</string>
+        <string>pixel.ELSH-411</string>
+        <string>pixel.ELSH-425</string>
+        <string>pixel.ELSH-436</string>
+        <string>pixel.ELSH-450</string>
+        <string>pixel.ELSH-461</string>
+        <string>pixel.ELSH-475</string>
+        <string>pixel.ELSH-486</string>
+        <string>pixel.ELSH-500</string>
+        <string>pixel.ELSH-650</string>
+        <string>pixel.ELSH-800</string>
+        <string>pixel.ELSH-950</string>
+        <string>pixel.ELSH-1100</string>
+        <string>pixel.ELSH-1300</string>
+        <string>pixel.ELSH-1400</string>
+        <string>pixel.ELSH-1411</string>
+        <string>pixel.ELSH-1425</string>
+        <string>pixel.ELSH-1436</string>
+        <string>pixel.ELSH-1450</string>
+        <string>pixel.ELSH-1500</string>
+        <string>pixel.ELSH-1600</string>
         <string>pixel.wght-100</string>
         <string>pixel.wght-400</string>
         <string>pixel.wght-900</string>
-        <string>pixel.EGRD-1</string>
-        <string>pixel.EGRD-2</string>
+        <string>pixel.ELGR-1</string>
+        <string>pixel.ELGR-2</string>
       </array>
     </dict>
   </lib>

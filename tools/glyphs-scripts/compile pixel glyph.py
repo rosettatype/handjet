@@ -1,7 +1,7 @@
 #MenuTitle: compile pixel glyph
 
 """
-Combine pixel.ESHP-XXXX, pixel.wght-XXX, and pixel.EGRD-XXX glyphs to form
+Combine pixel.ELSH-XXXX, pixel.wght-XXX, and pixel.ELGR-XXX glyphs to form
 a pixel glyph with layers defined by these glyphs.
 """
 
@@ -12,13 +12,13 @@ font = Glyphs.currentDocument.font
 # always use the first master
 master_id = font.masters[0].id
 
-# get axes values used in pixel.ESHP-XXXX glyphs and transformations
-# specified in pixel.wght-XXX and pixel.EGRD-XXX glyphs
+# get axes values used in pixel.ELSH-XXXX glyphs and transformations
+# specified in pixel.wght-XXX and pixel.ELGR-XXX glyphs
 axes = OrderedDict()
 wght_transforms = OrderedDict()
-EGRD_transforms = OrderedDict()
+ELGR_transforms = OrderedDict()
 for gl in font.glyphs:
-    for an in ["ESHP", "wght", "EGRD"]:
+    for an in ["ELSH", "wght", "ELGR"]:
         if gl.name.startswith("pixel." + an):
             _, pos = gl.name.split("-")
             pos = int(pos.replace("_", "."))
@@ -31,12 +31,12 @@ for gl in font.glyphs:
                 # change in scale only
                 c = font.glyphs[gl.name].layers[master_id].components[0]
                 wght_transforms[pos] = c.transform
-            elif an == "EGRD":
-                # get the transformations from the EGRD-XXX glyphs
+            elif an == "ELGR":
+                # get the transformations from the ELGR-XXX glyphs
                 # change in scale and position
-                EGRD_transforms[pos] = []
+                ELGR_transforms[pos] = []
                 for c in font.glyphs[gl.name].layers[master_id].components:
-                    EGRD_transforms[pos].append(c.transform)
+                    ELGR_transforms[pos].append(c.transform)
 
 print("Cleaning up the pixel glyph")
 if "pixel" not in font.glyphs:
@@ -57,30 +57,30 @@ pixel_glyph = font.glyphs["pixel"]
 
 
 # create new layers in the /pixel glyph
-print("Copying contours from pixel.ESHP-XXX glyphs "
+print("Copying contours from pixel.ELSH-XXX glyphs "
       "to layers in the pixel glyph and applying transformations from "
-      "pixel.wght-XXX and pixel.EGRD-XXX glyphs.")
-for ESHP in axes["ESHP"]:
-    ESHP_name = "pixel.ESHP-%s" % ESHP
+      "pixel.wght-XXX and pixel.ELGR-XXX glyphs.")
+for ELSH in axes["ELSH"]:
+    ELSH_name = "pixel.ELSH-%s" % ELSH
     for wght in axes["wght"]:
         wght_tr = wght_transforms[wght]
-        for EGRD in axes["EGRD"]:
+        for ELGR in axes["ELGR"]:
             # find an existing master layer with the same coordinates
             # otherwise, create a brace layer
             for m in font.masters:
-                if list(m.axes) == [wght, ESHP, EGRD]:
+                if list(m.axes) == [wght, ELSH, ELGR]:
                     layer = pixel_glyph.layers[m.id]
                     break
             else:
                 # the name has to be in this order
                 layer = GSLayer()
-                layer.name = "{%s,%s,%s}" % (wght, ESHP, EGRD)
+                layer.name = "{%s,%s,%s}" % (wght, ELSH, ELGR)
                 pixel_glyph.layers.append(layer)
             # add transformed paths to this layer
-            for EGRD_tr in EGRD_transforms[EGRD]:
-                # get the path from the ESHP-XXXX glyph, first master layer
-                path = font.glyphs[ESHP_name].layers[master_id].paths[0].copy()
-                # apply wght and EGRD transforms in this order
+            for ELGR_tr in ELGR_transforms[ELGR]:
+                # get the path from the ELSH-XXXX glyph, first master layer
+                path = font.glyphs[ELSH_name].layers[master_id].paths[0].copy()
+                # apply wght and ELGR transforms in this order
                 path.applyTransform(wght_tr)
-                path.applyTransform(EGRD_tr)
+                path.applyTransform(ELGR_tr)
                 layer.paths.append(path)

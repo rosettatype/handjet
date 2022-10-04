@@ -1,7 +1,7 @@
 import sys
 from fontTools.otlLib.builder import buildStatTable
 from fontTools.ttLib import TTFont
-from make_designspace import (wghts, ESHPs, EGRDs)
+from make_designspace import (wghts, ELSHs, ELGRs)
 
 path = sys.argv[1]
 font = TTFont(path)
@@ -13,15 +13,15 @@ wght_axis = dict(
 )
 
 shape_axis = dict(
-    tag="ESHP",
+    tag="ELSH",
     name="Element Shape",
-    values=[dict(nominalValue=v, name=n, rangeMinValue=min, rangeMaxValue=max) for v, _, n, min, max in ESHPs if n is not None]
+    values=[dict(nominalValue=v, name=n, rangeMinValue=min, rangeMaxValue=max) for v, _, n, min, max in ELSHs if n is not None]
 )
 
 grid_axis = dict(
-    tag="EGRD",
+    tag="ELGR",
     name="Element Grid",
-    values=[dict(nominalValue=v, name=n, rangeMinValue=min, rangeMaxValue=max) for v, _, n, min, max in EGRDs if n is not None]
+    values=[dict(nominalValue=v, name=n, rangeMinValue=min, rangeMaxValue=max) for v, _, n, min, max in ELGRs if n is not None]
 )
 
 print(wght_axis)

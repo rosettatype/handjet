@@ -8,7 +8,7 @@
 - name: desktop
   tasks:
     - $ mkdir fonts/HandjetVariable
-    - $ cp fonts/Handjet[EGRD,ESHP,wght].ttf fonts/HandjetVariable/HandjetVF-All.ttf
+    - $ cp fonts/Handjet[ELGR,ELSH,wght].ttf fonts/HandjetVariable/HandjetVF-All.ttf
     - .post.update_names:
         style_name: All
 - name: desktop

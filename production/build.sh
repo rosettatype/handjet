@@ -40,15 +40,15 @@ gftools fix-dsig --autofix variable_ttf/Handjet-VF.ttf.2
 
 # Move fonts to final destination & cleanup
 mkdir fonts
-mv variable_ttf/Handjet-VF.ttf.2 fonts/Handjet\[EGRD\,ESHP\,wght\].ttf
+mv variable_ttf/Handjet-VF.ttf.2 fonts/Handjet\[ELGR\,ELSH\,wght\].ttf
 rm -r variable_ttf
 
 
 # Build webfonts (woff2 only since that overlaps with browser variable font 
 # support)
 # Keep all glyphs, features, name tables
-pyftsubset fonts/Handjet[EGRD,ESHP,wght].ttf --glyphs=* --layout-features=* --name-IDs=* --output-file=fonts/Handjet[EGRD,ESHP,wght].woff2 --flavor=woff2
+pyftsubset fonts/Handjet[ELGR,ELSH,wght].ttf --glyphs=* --layout-features=* --name-IDs=* --output-file=fonts/Handjet[ELGR,ELSH,wght].woff2 --flavor=woff2
 
 
 # Run fontbakery
-fontbakery check-googlefonts --ghmarkdown test/Handjet-report.md fonts/Handjet\[EGRD\,ESHP\,wght\].ttf
+fontbakery check-googlefonts --ghmarkdown test/Handjet-report.md fonts/Handjet\[ELGR\,ELSH\,wght\].ttf

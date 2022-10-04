@@ -25,11 +25,11 @@ wghts = [
     (900, True, "Black", 851, 1000),
 ]
 
-# The shapes from the ESHP-xxxx glyph brace layer (In comments original
+# The shapes from the ELSH-xxxx glyph brace layer (In comments original
 # "design" names)
 # NOTE: In the design sources these brace layer value are multiplied by 100 to
 # work around the limitation of not having decimal dots in the layer name.
-ESHPs = [
+ELSHs = [
     (0.00, True, "Blank", 0.000, 0.500),
     (1.00, True, "Triangle", 0.501, 1.500),
     (2.00, True, "Square", 1.501, 2.100),
@@ -69,10 +69,10 @@ ESHPs = [
     (16.00, True, "Heart", 15.501, 16.000)
 ]
 
-# The grid configurations from the EGRD-xxxx glyph brace layer
-# Note EGRD values here in integer to match non-decimal brace layer names
+# The grid configurations from the ELGR-xxxx glyph brace layer
+# Note ELGR values here in integer to match non-decimal brace layer names
 # from source glyphs file
-EGRDs = [
+ELGRs = [
     (1, True, "Single", 0.000, 1.500),
     (2, True, "Double", 1.501, 2.000),
 ]
@@ -88,9 +88,9 @@ code = """<?xml version='1.0' encoding='UTF-8'?>
 <axes>
     <axis tag="wght" name="Weight"
         minimum="100" maximum="900" default="400" />
-    <axis tag="ESHP" name="Element Shape"
+    <axis tag="ELSH" name="Element Shape"
         minimum="0.00" maximum="16.00" default="2.00" />
-    <axis tag="EGRD" name="Element Grid"
+    <axis tag="ELGR" name="Element Grid"
         minimum="1.0" maximum="2.0" default="1.0" />
 </axes>
 
@@ -107,39 +107,39 @@ code = """<?xml version='1.0' encoding='UTF-8'?>
       <key>public.skipExportGlyphs</key>
       <array>
         <string>.notef</string>
-        <string>pixel.ESHP-0</string>
-        <string>pixel.ESHP-100</string>
-        <string>pixel.ESHP-200</string>
-        <string>pixel.ESHP-211</string>
-        <string>pixel.ESHP-225</string>
-        <string>pixel.ESHP-236</string>
-        <string>pixel.ESHP-250</string>
-        <string>pixel.ESHP-400</string>
-        <string>pixel.ESHP-411</string>
-        <string>pixel.ESHP-425</string>
-        <string>pixel.ESHP-436</string>
-        <string>pixel.ESHP-450</string>
-        <string>pixel.ESHP-461</string>
-        <string>pixel.ESHP-475</string>
-        <string>pixel.ESHP-486</string>
-        <string>pixel.ESHP-500</string>
-        <string>pixel.ESHP-650</string>
-        <string>pixel.ESHP-800</string>
-        <string>pixel.ESHP-950</string>
-        <string>pixel.ESHP-1100</string>
-        <string>pixel.ESHP-1300</string>
-        <string>pixel.ESHP-1400</string>
-        <string>pixel.ESHP-1411</string>
-        <string>pixel.ESHP-1425</string>
-        <string>pixel.ESHP-1436</string>
-        <string>pixel.ESHP-1450</string>
-        <string>pixel.ESHP-1500</string>
-        <string>pixel.ESHP-1600</string>
+        <string>pixel.ELSH-0</string>
+        <string>pixel.ELSH-100</string>
+        <string>pixel.ELSH-200</string>
+        <string>pixel.ELSH-211</string>
+        <string>pixel.ELSH-225</string>
+        <string>pixel.ELSH-236</string>
+        <string>pixel.ELSH-250</string>
+        <string>pixel.ELSH-400</string>
+        <string>pixel.ELSH-411</string>
+        <string>pixel.ELSH-425</string>
+        <string>pixel.ELSH-436</string>
+        <string>pixel.ELSH-450</string>
+        <string>pixel.ELSH-461</string>
+        <string>pixel.ELSH-475</string>
+        <string>pixel.ELSH-486</string>
+        <string>pixel.ELSH-500</string>
+        <string>pixel.ELSH-650</string>
+        <string>pixel.ELSH-800</string>
+        <string>pixel.ELSH-950</string>
+        <string>pixel.ELSH-1100</string>
+        <string>pixel.ELSH-1300</string>
+        <string>pixel.ELSH-1400</string>
+        <string>pixel.ELSH-1411</string>
+        <string>pixel.ELSH-1425</string>
+        <string>pixel.ELSH-1436</string>
+        <string>pixel.ELSH-1450</string>
+        <string>pixel.ELSH-1500</string>
+        <string>pixel.ELSH-1600</string>
         <string>pixel.wght-100</string>
         <string>pixel.wght-400</string>
         <string>pixel.wght-900</string>
-        <string>pixel.EGRD-1</string>
-        <string>pixel.EGRD-2</string>
+        <string>pixel.ELGR-1</string>
+        <string>pixel.ELGR-2</string>
       </array>
     </dict>
   </lib>
@@ -196,16 +196,16 @@ def write_designspace():
     for w, is_weight_master, weight_name in wghts:
         is_weight_default = w == default[0]
 
-        for s, is_shape_master, shape_name in ESHPs:
+        for s, is_shape_master, shape_name in ELSHs:
             is_shape_default = s == default[1]
 
-            for g, is_grid_master, grid_name in EGRDs:
+            for g, is_grid_master, grid_name in ELGRs:
                 is_grid_default = g == default[2]
 
                 if is_weight_master and is_shape_master and is_grid_master:
                     # Write the <source> for this combination
                     print("Adding <source> for location "
-                          "(wght %d, ESHP %d, EGRD %d)"
+                          "(wght %d, ELSH %d, ELGR %d)"
                           % (w, s, int(g)))
 
                     if is_weight_default and is_shape_default and \
@@ -213,9 +213,9 @@ def write_designspace():
                         sources += source_base % (w, s, int(g))
                     else:
                         # NOTE For the brace layer (and glyphs sources) the
-                        # layer cannot include decimals, so EGRD is 1-3, but
+                        # layer cannot include decimals, so ELGR is 1-3, but
                         # for the actual axis value we want to use a single
-                        # decimal to comply with the initial EGRD axis
+                        # decimal to comply with the initial ELGR axis
                         # defintion which features decimals (to hint for apps
                         # what precision to use in the UI for this axis)
                         brace = "{%d,%d,%d}" % (w, s * 100, int(g))
@@ -230,7 +230,7 @@ def write_designspace():
                     instances += instance % (brace, brace, stylename,
                                              w, s, "{0:0.1f}".format(g))
                     print("Adding named fvar <instance> '%s' for location "
-                          "(wght %d, ESHP %d, EGRD %d)"
+                          "(wght %d, ELSH %d, ELGR %d)"
                           % (stylename, w, s, g))
 
     # Write all designspace parts
