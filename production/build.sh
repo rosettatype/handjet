@@ -33,9 +33,8 @@ fontmake -m production/Handjet.designspace -o variable --production-names
 python production/add_stat_table.py variable_ttf/Handjet-VF.ttf
 
 
-# Fix GASP table and DSGI
+# Fix GASP table
 gftools fix-nonhinting variable_ttf/Handjet-VF.ttf variable_ttf/Handjet-VF.ttf.2
-gftools fix-dsig --autofix variable_ttf/Handjet-VF.ttf.2
 
 
 # Move fonts to final destination & cleanup

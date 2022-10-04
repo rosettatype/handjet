@@ -103,19 +103,7 @@ Fontbakery version: 0.8.10
 >This four-way distinction should also be reflected in the OS/2.fsSelection field, using bits 0 and 5.
 >
 * 💤 **SKIP** Unfulfilled Conditions: RIBBI_ttFonts
-</div></details><br></div></details><details><summary><b>[212] Handjet[ELGR,ELSH,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
->
->Google Fonts expects that fonts in its collection support at least the minimal set of characters defined in the `GF-latin-core` glyph-set.
->
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x01CD (LATIN CAPITAL LETTER A WITH CARON)
- 
-
-	- And 0x01CE (LATIN SMALL LETTER A WITH CARON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/unitsperem_strict">com.google.fonts/check/unitsperem_strict</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[212] Handjet[ELGR,ELSH,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts.  (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/unitsperem_strict">com.google.fonts/check/unitsperem_strict</a>)</summary><div>
 
 >
 >Even though the OpenType spec allows unitsPerEm to be any value between 16 and 16384, the Google Fonts project aims at a narrower set of reasonable values.
@@ -144,7 +132,7 @@ Fontbakery version: 0.8.10
 	* quotedbl
 	* uni2010
 	* uni00AD
-	* uni2011 and 1652 more.
+	* uni2011 and 1656 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-nested-components]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
@@ -225,15 +213,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-nested-
 >If the progression rates of axes is linear, this check can be ignored. Fontmake will also skip adding an avar table if the progression rates are linear. However, we still recommend designers visually proof each instance is at the expected weight, width etc.
 >
 * ⚠ **WARN** This variable font does not have an avar table. [code: missing-avar]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
-
->
->Stylistic sets should provide description text. Programs such as InDesign, TextEdit and Inkscape use that info to display to the users so that they know what a given stylistic set offers.
->
-* ⚠ **WARN** The stylistic set ss06 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss07 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss08 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss09 lacks a description string on the 'name' table. [code: missing-description]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 >
@@ -308,19 +287,6 @@ arLam.init_arAlifHamzabelow.fina, arLam.medi_arAlifHamzabelow.fina, arLam.init_a
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font have a DSIG table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig">com.google.fonts/check/dsig</a>)</summary><div>
-
->
->Microsoft Office 2013 and below products expect fonts to have a digital signature declared in a DSIG table in order to implement OpenType features. The EOL date for Microsoft Office 2013 products is 4/11/2023. This issue does not impact Microsoft Office 2016 and above products.
->
->As we approach the EOL date, it is now considered better to completely remove the table.
->
->But if you still want your font to support OpenType features on Office 2013, then you may find it handy to add a fake signature on a placeholder DSIG table by running one of the helper scripts provided at https://github.com/googlefonts/gftools
->
->Reference: https://github.com/googlefonts/fontbakery/issues/1845
->
-* ⚠ **WARN** This font has a digital signature (DSIG table) which is only required - even if only a placeholder - on old programs like MS Office 2013 in order to work properly.
-The current recommendation is to completely remove the DSIG table. [code: found-DSIG]
 </div></details><details><summary>💤 <b>SKIP:</b> Does DESCRIPTION file contain broken links? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links">com.google.fonts/check/description/broken_links</a>)</summary><div>
 
 >
@@ -958,8 +924,8 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
  |               | fonts/Handjet[ELGR,ELSH,wght].ttf          |
  |:------------- | ---------------:|
- | Dehinted Size | 276.9kb |
- | Hinted Size   | 277.0kb   |
+ | Dehinted Size | 277.2kb |
+ | Hinted Size   | 277.3kb   |
  | Increase      | 24 bytes      |
  | Change        | 0.0 %  |
  [code: size-impact]
@@ -1087,6 +1053,12 @@ The version string must ideally include a git commit hash and either a "dev" or 
 >Each new FontBakery release includes a cached copy of that list of vendor IDs. If you registered recently, you're safe to ignore warnings emitted by this check, since your ID will soon be included in one of our upcoming releases.
 >
 * 🍞 **PASS** OS/2 VendorID 'RST ' looks good!
+</div></details><details><summary>🍞 <b>PASS:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+>
+>Google Fonts expects that fonts in its collection support at least the minimal set of characters defined in the `GF-latin-core` glyph-set.
+>
+* 🍞 **PASS** OK
 </div></details><details><summary>🍞 <b>PASS:</b> Substitute copyright, registered and trademark symbols in name table entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/unwanted_chars">com.google.fonts/check/name/unwanted_chars</a>)</summary><div>
 
 
@@ -1399,6 +1371,12 @@ The version string must ideally include a git commit hash and either a "dev" or 
 >Ensure small caps glyphs are available if a font declares smcp or c2sc OT features.
 >
 * 🍞 **PASS** OK
+</div></details><details><summary>🍞 <b>PASS:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
+
+>
+>Stylistic sets should provide description text. Programs such as InDesign, TextEdit and Inkscape use that info to display to the users so that they know what a given stylistic set offers.
+>
+* 🍞 **PASS** OK
 </div></details><details><summary>🍞 <b>PASS:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 >
@@ -1688,6 +1666,18 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 
 * 🍞 **PASS** MaxAdvanceWidth is consistent with values in the Hmtx and Hhea tables.
+</div></details><details><summary>🍞 <b>PASS:</b> Does the font have a DSIG table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig">com.google.fonts/check/dsig</a>)</summary><div>
+
+>
+>Microsoft Office 2013 and below products expect fonts to have a digital signature declared in a DSIG table in order to implement OpenType features. The EOL date for Microsoft Office 2013 products is 4/11/2023. This issue does not impact Microsoft Office 2016 and above products.
+>
+>As we approach the EOL date, it is now considered better to completely remove the table.
+>
+>But if you still want your font to support OpenType features on Office 2013, then you may find it handy to add a fake signature on a placeholder DSIG table by running one of the helper scripts provided at https://github.com/googlefonts/gftools
+>
+>Reference: https://github.com/googlefonts/fontbakery/issues/1845
+>
+* 🍞 **PASS** ok
 </div></details><details><summary>🍞 <b>PASS:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 >
@@ -1865,5 +1855,5 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 6 | 7 | 100 | 8 | 106 | 0 |
-| 0% | 3% | 3% | 44% | 4% | 47% | 0% |
+| 0 | 5 | 5 | 100 | 8 | 109 | 0 |
+| 0% | 2% | 2% | 44% | 4% | 48% | 0% |

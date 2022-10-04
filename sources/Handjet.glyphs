@@ -231,6 +231,8 @@ dblprimemod,
 Agrave,
 Aacute,
 Acircumflex,
+Acaron,
+Acaron,
 Atilde,
 Amacron,
 Abreve,
@@ -2637,16 +2639,34 @@ tag = cpsp;
 code = "sub [hyphen endash emdash] by arrowbar;
 sub arrowbar greater by arrowright;
 sub less arrowbar by arrowleft;";
+labels = (
+{
+language = dflt;
+value = Arrows;
+}
+);
 notes = Arrows;
 tag = ss06;
 },
 {
 code = "lookup LOCL_SRB;";
+labels = (
+{
+language = dflt;
+value = Serbian;
+}
+);
 notes = "Serbian/Macedonian forms";
 tag = ss07;
 },
 {
 code = "lookup LOCL_BGR;";
+labels = (
+{
+language = dflt;
+value = Bulgarian;
+}
+);
 notes = "Bulgarian forms";
 tag = ss08;
 },
@@ -2676,6 +2696,12 @@ sub [parenright bracketright braceright] by zerowidthnonjoiner;
 
 # kern them
 pos @patternbgs @patterns_to -2880;";
+labels = (
+{
+language = dflt;
+value = Patterns;
+}
+);
 notes = Patterns;
 tag = ss09;
 },
@@ -16793,6 +16819,25 @@ width = 3360;
 }
 );
 unicode = 194;
+},
+{
+glyphname = Acaron;
+layers = (
+{
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (1680,1440);
+ref = caroncomb.case;
+}
+);
+width = 3360;
+}
+);
+unicode = 461;
 },
 {
 glyphname = Atilde;
@@ -127867,6 +127912,25 @@ scale = (0.5,0.5);
 width = 0;
 }
 );
+},
+{
+glyphname = acaron;
+layers = (
+{
+layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
+shapes = (
+{
+ref = a;
+},
+{
+pos = (1440,0);
+ref = caroncomb;
+}
+);
+width = 3120;
+}
+);
+unicode = 462;
 }
 );
 instances = (
