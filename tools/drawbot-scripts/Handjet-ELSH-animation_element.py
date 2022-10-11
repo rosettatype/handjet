@@ -1,5 +1,5 @@
 """
-Handjet ESHP interpolation (element shape)
+Handjet ELSH interpolation (element shape)
 """
 
 import drawBot as db
@@ -11,7 +11,7 @@ scale = 1
 TEXTCOL = (0, 0, 0)
 BACKCOL = (230 / 255, 250 / 255, 40 / 255)
 NODECOL = (1, 1, 1)
-defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.0}
+defaults = {"wght": 400, "ELSH": 8, "ELGR": 1.0}
 handjetfont = "Handjet-Regular"
 
 # Draw a single frame
@@ -48,9 +48,9 @@ def draw(txt="a", variations={}, caption=""):
     if caption:
         db.text(fs, (w / 2, 40), align="center")
 
-# Animate ESHP axis
+# Animate ELSH axis
 
-eshp_steps = [
+elsh_steps = [
     ("Blank", 0),
     ("Triangle", 1.00),
     ("Square", 2.00),
@@ -85,20 +85,20 @@ eshp_steps = [
 db.newDrawing()
 variations = defaults.copy()
 step = 5
-max_pos = max([p for _, p in eshp_steps])
-current_name = eshp_steps[0][0]
-for i, (_, pos) in enumerate(eshp_steps):
-    if (i + 1) < len(eshp_steps):
-        next_name, next_pos = eshp_steps[i + 1]
+max_pos = max([p for _, p in elsh_steps])
+current_name = elsh_steps[0][0]
+for i, (_, pos) in enumerate(elsh_steps):
+    if (i + 1) < len(elsh_steps):
+        next_name, next_pos = elsh_steps[i + 1]
     else:
         next_pos = max_pos
     pos, next_pos = int(100 * pos), int(100 * next_pos)
     delay = (next_pos - pos) / 3
-    for eshp in range(pos, next_pos, step):
-        if eshp > (pos + delay):
+    for elsh in range(pos, next_pos, step):
+        if elsh > (pos + delay):
             current_name = next_name
-        variations["ESHP"] = eshp / 100
-        caption = "Element Shape (ESHP): %.2f\n“%s”" % (eshp / 100, current_name)
+        variations["ELSH"] = elsh / 100
+        caption = "Element Shape (ELSH): %.2f\n“%s”" % (elsh / 100, current_name)
         draw(txt="﮳", variations=variations, caption=caption)
-db.saveImage("../../docs/animations/Handjet-ESHP-animation_element.gif")
+db.saveImage("../../docs/animations/Handjet-ELSH-animation_element.gif")
 db.endDrawing()

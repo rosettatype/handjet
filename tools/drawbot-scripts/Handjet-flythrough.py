@@ -13,7 +13,7 @@ scale = 1
 TEXTCOL = (0, 0, 0)
 BACKCOL = (230 / 255, 250 / 255, 40 / 255)
 NODECOL = (1, 1, 1)
-defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.01}
+defaults = {"wght": 400, "ELSH": 8, "ELGR": 1.01}
 handjetfont = "Handjet-Regular"
 
 # Draw a single frame

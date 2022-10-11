@@ -1,5 +1,5 @@
 """
-Handjet EGRD axis animation
+Handjet ELGR axis animation
 """
 
 import drawBot as db
@@ -11,7 +11,7 @@ scale = 1
 TEXTCOL = (0, 0, 0)
 BACKCOL = (230 / 255, 250 / 255, 40 / 255)
 NODECOL = (1, 1, 1)
-defaults = {"wght": 400, "ESHP": 8, "EGRD": 1.0}
+defaults = {"wght": 400, "ELSH": 8, "ELGR": 1.0}
 handjetfont = "Handjet-Regular"
 
 # Draw a single frame
@@ -30,18 +30,18 @@ def draw(txt="a", variations={}, caption=""):
     txt = db.FormattedString(caption, font="AdapterMonoPE-Regular", fontSize=11, fill=TEXTCOL)
     db.text(txt, (w / 2, 40), align="center")
 
-# Animate EGRD axis
+# Animate ELGR axis
 
 db.newDrawing()
 variations = defaults.copy()
 step = 5
-for egrd in range(100, 200 + step, step):
-    caption = "Element Grid (EGRD): %.2f" % (egrd / 100)
-    variations["EGRD"] = egrd / 100
+for elgr in range(100, 200 + step, step):
+    caption = "Element Grid (ELGR): %.2f" % (elgr / 100)
+    variations["ELGR"] = elgr / 100
     draw(txt="n", variations=variations, caption=caption)
-for egrd in range(200, 100 - step, -step):
-    caption = "Element Grid (EGRD): %.2f" % (egrd / 100)
-    variations["EGRD"] = egrd / 100
+for elgr in range(200, 100 - step, -step):
+    caption = "Element Grid (ELGR): %.2f" % (elgr / 100)
+    variations["ELGR"] = elgr / 100
     draw(txt="n", variations=variations, caption=caption)
-db.saveImage("../../docs/animations/Handjet-EGRD-animation.gif")
+db.saveImage("../../docs/animations/Handjet-ELGR-animation.gif")
 db.endDrawing()

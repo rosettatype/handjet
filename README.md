@@ -2,11 +2,11 @@
 
 Handjet is an element-based variable font (aka pixel font, modular font, …) where every glyph is composed using multiple copies of the same element. Each element can take 1 of 23 shapes and transition smoothly between them while creating various effects. The font currently supports these scripts: Arabic, Armenian, Cyrillic, Greek, Hebrew, and Latin.
 
-![Handjet’s ELSH axis animation](docs/animations/Handjet-ESHP-animation_word.gif?raw=true)
-![Handjet’s ELSH axis animation](docs/animations/Handjet-ESHP-animation_element.gif?raw=true)
-![Handjet’s ELSH axis animation](docs/animations/Handjet-ESHP-animation_letter.gif?raw=true)
+![Handjet’s ELSH axis animation](docs/animations/Handjet-ELSH-animation_word.gif?raw=true)
+![Handjet’s ELSH axis animation](docs/animations/Handjet-ELSH-animation_element.gif?raw=true)
+![Handjet’s ELSH axis animation](docs/animations/Handjet-ELSH-animation_letter.gif?raw=true)
 ![Handjet’s wght axis animation](docs/animations/Handjet-wght-animation.gif?raw=true)
-![Handjet’s ELGR axis animation](docs/animations/Handjet-EGRD-animation.gif?raw=true)
+![Handjet’s ELGR axis animation](docs/animations/Handjet-ELGR-animation.gif?raw=true)
 
 
 ## The story
