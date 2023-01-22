@@ -1,5 +1,5 @@
 {
-.appVersion = "3139";
+.appVersion = "3151";
 .formatVersion = 3;
 axes = (
 {
@@ -1770,7 +1770,6 @@ languagesystem latn KAZ;
 languagesystem latn TAT;
 languagesystem latn ROM;
 languagesystem latn MOL;
-languagesystem latn CAT;
 languagesystem latn NLD;
 languagesystem latn VIT;
 ";
@@ -1954,86 +1953,89 @@ lookup ccmp_hebr_1 {
 tag = ccmp;
 },
 {
-code = "    sub firsttonechinese by macroncomb;
-    sub secondtonechinese by acutecomb;
-    sub fourthtonechinese by gravecomb;
+code = "# Chinese tones
+sub firsttonechinese by macroncomb;
+sub secondtonechinese by acutecomb;
+sub fourthtonechinese by gravecomb;
+# Catalan dot
+sub ldot by l periodcentered.CAT;
+sub Ldot by L periodcentered.CAT.case;
+sub l periodcentered' l by periodcentered.CAT;
+sub L periodcentered' L by periodcentered.CAT.case;
 
-    script latn; # Latin
-        # handling of S and T with commaaccent
-        language ROM; # Romanian
-            lookup LOCL_ROM {
-                sub Scedilla by Scommaaccent;
-                sub scedilla by scommaaccent;
-                sub Tcedilla by Tcommaaccent;
-                sub tcedilla by tcommaaccent;
-            } LOCL_ROM;
-        language MOL; # Moldavian
-            lookup LOCL_ROM;
+script latn; # Latin
+    # handling of S and T with commaaccent
+    language ROM; # Romanian
+        lookup LOCL_ROM {
+            sub Scedilla by Scommaaccent;
+            sub scedilla by scommaaccent;
+            sub Tcedilla by Tcommaaccent;
+            sub tcedilla by tcommaaccent;
+        } LOCL_ROM;
+    language MOL; # Moldavian
+        lookup LOCL_ROM;
 
-        # Catalan dot
-        language CAT; # Catalan
-            sub l periodcentered' l by periodcentered.CAT;
-            sub L periodcentered' L by periodcentered.CAT.case;
 
-        # Dutch ij and ij with acute
-        # some overlap with ccmp as ccmp gets removed from Latin-only version
-        language NLD; # Dutch
-            lookup LOCL_DUTCHIJ_DECOMPOSE {
-                sub ij by i j;
-                sub IJ by I J;  
-            } LOCL_DUTCHIJ_DECOMPOSE;
-            lookup LOCL_DUTCHJACUTE {
-                sub i' j acutecomb by iacute;
-                sub I' J acutecomb by Iacute;
-                sub iacute j' acutecomb' by jacute;
-                sub Iacute J' acutecomb' by Jacute;
-                sub iacute j' by jacute;
-                sub Iacute J' by Jacute;
-            } LOCL_DUTCHJACUTE;
-            lookup LOCL_DUTCHIJACUTE_COMPOSE {
-                sub ij acutecomb by iacute_j.NLD;
-                sub IJ acutecomb by Iacute_J.NLD;
-                sub i j acutecomb by iacute_j.NLD;
-                sub I J acutecomb by Iacute_J.NLD;
-            } LOCL_DUTCHIJACUTE_COMPOSE;
-        language VIT;
-            sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
-            sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
-            sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
+    # Dutch ij and ij with acute
+    # some overlap with ccmp as ccmp gets removed from Latin-only version
+    language NLD; # Dutch
+        lookup LOCL_DUTCHIJ_DECOMPOSE {
+            sub ij by i j;
+            sub IJ by I J;  
+        } LOCL_DUTCHIJ_DECOMPOSE;
+        lookup LOCL_DUTCHJACUTE {
+            sub i' j acutecomb by iacute;
+            sub I' J acutecomb by Iacute;
+            sub iacute j' acutecomb' by jacute;
+            sub Iacute J' acutecomb' by Jacute;
+            sub iacute j' by jacute;
+            sub Iacute J' by Jacute;
+        } LOCL_DUTCHJACUTE;
+        lookup LOCL_DUTCHIJACUTE_COMPOSE {
+            sub ij acutecomb by iacute_j.NLD;
+            sub IJ acutecomb by Iacute_J.NLD;
+            sub i j acutecomb by iacute_j.NLD;
+            sub I J acutecomb by Iacute_J.NLD;
+        } LOCL_DUTCHIJACUTE_COMPOSE;
+    language VIT;
+        sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
+        sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
+        sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 
-	script armn;
-		language HYE0;
-			# decompose ligature that is not used in Eastern Armenian
-			sub a.ech_a.yiwn by a.ech a.yiwn;
+script armn;
+	language HYE0;
+		# decompose ligature that is not used in Eastern Armenian
+		sub a.ech_a.yiwn by a.ech a.yiwn;
 
-    script cyrl;
-        language SRB; # Serbian
-            lookup LOCL_SRB {
-                sub c.be by c.be.SRB;
-            } LOCL_SRB;
-        language MKD; # Moldavian
-            lookup LOCL_SRB;
-        language BGR; # Bulgarian
-            lookup LOCL_BGR {
-                sub c.De by c.De.BGR;
-                sub c.El by c.El.BGR;
-                sub c.ve by c.ve.BGR;
-                sub c.ghe by c.ghe.BGR;
-                sub c.de by c.de.BGR;
-                sub c.zhe by c.zhe.BGR;
-                sub c.ze by c.ze.BGR;
-                sub c.i by c.i.BGR;
-                sub c.ishort by c.ishort.BGR;
-                sub c.igrave by c.igrave.BGR;
-                sub c.ka by c.ka.BGR;
-                sub c.el by c.el.BGR;
-                sub c.pe by c.pe.BGR;
-                sub c.te by c.te.BGR;
-                sub c.tse by c.tse.BGR;
-                sub c.sha by c.sha.BGR;
-                sub c.shcha by c.shcha.BGR;
-                sub c.yu by c.yu.BGR;
-            } LOCL_BGR;";
+script cyrl;
+    language SRB; # Serbian
+        lookup LOCL_SRB {
+            sub c.be by c.be.SRB;
+        } LOCL_SRB;
+    language MKD; # Moldavian
+        lookup LOCL_SRB;
+    language BGR; # Bulgarian
+        lookup LOCL_BGR {
+            sub c.De by c.De.BGR;
+            sub c.El by c.El.BGR;
+            sub c.ve by c.ve.BGR;
+            sub c.ghe by c.ghe.BGR;
+            sub c.de by c.de.BGR;
+            sub c.zhe by c.zhe.BGR;
+            sub c.ze by c.ze.BGR;
+            sub c.i by c.i.BGR;
+            sub c.ishort by c.ishort.BGR;
+            sub c.igrave by c.igrave.BGR;
+            sub c.ka by c.ka.BGR;
+            sub c.el by c.el.BGR;
+            sub c.pe by c.pe.BGR;
+            sub c.te by c.te.BGR;
+            sub c.tse by c.tse.BGR;
+            sub c.sha by c.sha.BGR;
+            sub c.shcha by c.shcha.BGR;
+            sub c.yu by c.yu.BGR;
+        } LOCL_BGR;
+";
 tag = locl;
 },
 {
