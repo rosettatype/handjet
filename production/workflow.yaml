@@ -21,8 +21,7 @@
   source: [fonts/HandjetVariable]
   family: [Handjet Variable Web]
   tasks:
-    - .post.make_webfonts:
-        webformats: ["woff2", "html"]
+    - .post.make_webfonts
 - name: preview
   source: [fonts/HandjetVariable]
   family: Handjet Variable Preview
@@ -33,7 +32,6 @@
         remove_unicode_hex: [0000, 000D, 00A0, 2002, 2003, 2009, 202F]
     - .post.add_puas
     - .post.make_webfonts:
-        webformats: [woff2, woff]
         optimize: false
         copy_fonts: False
     - "$ rm fonts/HandjetVF-Rg.ttf"
