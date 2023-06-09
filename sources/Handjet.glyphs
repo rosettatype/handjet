@@ -1,6 +1,9 @@
 {
-.appVersion = "3151";
+.appVersion = "3199";
 .formatVersion = 3;
+DisplayStrings = (
+"ﺔتﺖﺗﺘثﺚﺛﺜجﺞخﺦﺧﺨذﺬزﺰشﺶﺷﺸضﺾﺿﻀظﻆﻇﻈغﻎﻏﻐفﻓقﻖﻗنﻦﻧﻨيﻲژﮋڤﭬ"
+);
 axes = (
 {
 name = Weight;
@@ -3803,106 +3806,132 @@ pos = (1680,5280);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4800);
 ref = pixel;
 }
@@ -7099,98 +7128,122 @@ pos = (3120,3840);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,5280);
 ref = pixel;
 }
@@ -9826,126 +9879,157 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (2880,-960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,-480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (720,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (720,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (720,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4800);
 ref = pixel;
 }
@@ -11995,11 +12079,9 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
-pos = (2160,240);
 ref = pixel;
 },
 {
-pos = (2640,240);
 ref = pixel;
 },
 {
@@ -17475,14 +17557,17 @@ alignment = -1;
 ref = D;
 },
 {
+alignment = -1;
 pos = (0,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 }
@@ -20019,90 +20104,112 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 }
@@ -21278,18 +21385,22 @@ alignment = -1;
 ref = d;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,4320);
 ref = pixel;
 }
@@ -21308,114 +21419,142 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3600);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4080);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,5280);
 ref = pixel;
 }
@@ -24292,110 +24431,137 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,-1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,-960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,-480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,5280);
 ref = pixel;
 }
@@ -25185,86 +25351,107 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4800);
 ref = pixel;
 }
@@ -25385,94 +25572,117 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2640);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4800);
 ref = pixel;
 }
@@ -25490,98 +25700,122 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4800);
 ref = pixel;
 }
@@ -25702,102 +25936,127 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4800);
 ref = pixel;
 }
@@ -25815,98 +26074,122 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4800);
 ref = pixel;
 }
@@ -26579,122 +26862,152 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,5280);
 ref = pixel;
 }
@@ -31312,90 +31625,112 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,5280);
 ref = pixel;
 }
@@ -42792,158 +43127,197 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (2400,-1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,-960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,-480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,5280);
 ref = pixel;
 }
@@ -43650,6 +44024,7 @@ pos = (2160,3840);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
@@ -43664,10 +44039,12 @@ pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
@@ -43677,10 +44054,12 @@ pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
@@ -43690,10 +44069,12 @@ pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
@@ -43703,10 +44084,12 @@ pos = (1920,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
@@ -43721,30 +44104,37 @@ pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,3360);
 ref = pixel;
 }
@@ -44363,18 +44753,22 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1440,-1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,-1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,-960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,-480);
 ref = pixel;
 },
@@ -44474,6 +44868,7 @@ pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (0,4320);
 ref = pixel;
 },
@@ -44483,14 +44878,17 @@ pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4320);
 ref = pixel;
 },
@@ -53802,118 +54200,147 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1920,-1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,-960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,-480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,3360);
 ref = pixel;
 }
@@ -65790,9 +66217,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arHeh.fina;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = _part.arTwodotshorizontalabove;
 }
@@ -65809,9 +66238,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arBehdotless;
 },
 {
+alignment = -1;
 pos = (2880,-480);
 ref = _part.arTwodotshorizontalabove;
 }
@@ -65828,9 +66259,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arBehdotless.fina;
 },
 {
+alignment = -1;
 pos = (2880,-480);
 ref = _part.arTwodotshorizontalabove;
 }
@@ -65847,9 +66280,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arBehdotless.init;
 },
 {
+alignment = -1;
 pos = (1680,-480);
 ref = _part.arTwodotshorizontalabove;
 }
@@ -65866,9 +66301,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arBehdotless.medi;
 },
 {
+alignment = -1;
 pos = (1680,-480);
 ref = _part.arTwodotshorizontalabove;
 }
@@ -65885,9 +66322,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arBehdotless;
 },
 {
+alignment = -1;
 pos = (2880,-480);
 ref = _part.arThreedotsupabove;
 }
@@ -65904,9 +66343,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arBehdotless.fina;
 },
 {
+alignment = -1;
 pos = (2880,-480);
 ref = _part.arThreedotsupabove;
 }
@@ -65923,9 +66364,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arBehdotless.init;
 },
 {
+alignment = -1;
 pos = (1680,-480);
 ref = _part.arThreedotsupabove;
 }
@@ -65942,9 +66385,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arBehdotless.medi;
 },
 {
+alignment = -1;
 pos = (1680,-480);
 ref = _part.arThreedotsupabove;
 }
@@ -65961,9 +66406,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arHah;
 },
 {
+alignment = -1;
 pos = (1920,-1920);
 ref = arDotcenter;
 }
@@ -65980,9 +66427,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arHah.fina;
 },
 {
+alignment = -1;
 pos = (1920,-1920);
 ref = arDotcenter;
 }
@@ -66495,9 +66944,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arHah;
 },
 {
+alignment = -1;
 pos = (1920,-480);
 ref = _part.arDotabove;
 }
@@ -66514,9 +66965,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arHah.fina;
 },
 {
+alignment = -1;
 pos = (1920,-480);
 ref = _part.arDotabove;
 }
@@ -66533,9 +66986,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arHah.init;
 },
 {
+alignment = -1;
 pos = (2160,-480);
 ref = _part.arDotabove;
 }
@@ -66552,9 +67007,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arHah.medi;
 },
 {
+alignment = -1;
 pos = (2160,-480);
 ref = _part.arDotabove;
 }
@@ -66684,9 +67141,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arDal;
 },
 {
+alignment = -1;
 pos = (2160,480);
 ref = _part.arDotabove;
 }
@@ -66703,9 +67162,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arDal.fina;
 },
 {
+alignment = -1;
 pos = (2160,480);
 ref = _part.arDotabove;
 }
@@ -66843,9 +67304,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arReh;
 },
 {
+alignment = -1;
 pos = (1440,-480);
 ref = _part.arDotabove;
 }
@@ -66862,9 +67325,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arReh.fina;
 },
 {
+alignment = -1;
 pos = (1440,-480);
 ref = _part.arDotabove;
 }
@@ -67246,9 +67711,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arSin;
 },
 {
+alignment = -1;
 pos = (5040,-480);
 ref = _part.arThreedotsupabove;
 }
@@ -67265,9 +67732,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arSin.fina;
 },
 {
+alignment = -1;
 pos = (5040,-480);
 ref = _part.arThreedotsupabove;
 }
@@ -67284,9 +67753,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arSin.init;
 },
 {
+alignment = -1;
 pos = (3120,-480);
 ref = _part.arThreedotsupabove;
 }
@@ -67303,9 +67774,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arSin.medi;
 },
 {
+alignment = -1;
 pos = (3120,-480);
 ref = _part.arThreedotsupabove;
 }
@@ -67707,9 +68180,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arSad;
 },
 {
+alignment = -1;
 pos = (5760,-480);
 ref = _part.arDotabove;
 }
@@ -67726,9 +68201,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arSad.fina;
 },
 {
+alignment = -1;
 pos = (5760,-480);
 ref = _part.arDotabove;
 }
@@ -67745,9 +68222,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arSad.init;
 },
 {
+alignment = -1;
 pos = (3840,-480);
 ref = _part.arDotabove;
 }
@@ -67764,9 +68243,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arSad.medi;
 },
 {
+alignment = -1;
 pos = (3840,-480);
 ref = _part.arDotabove;
 }
@@ -68035,9 +68516,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arTah;
 },
 {
+alignment = -1;
 pos = (3840,-480);
 ref = _part.arDotabove;
 }
@@ -68054,9 +68537,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arTah.fina;
 },
 {
+alignment = -1;
 pos = (3840,-480);
 ref = _part.arDotabove;
 }
@@ -68073,9 +68558,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arTah.init;
 },
 {
+alignment = -1;
 pos = (3840,-480);
 ref = _part.arDotabove;
 }
@@ -68092,9 +68579,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arTah.medi;
 },
 {
+alignment = -1;
 pos = (3840,-480);
 ref = _part.arDotabove;
 }
@@ -68551,9 +69040,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arAyn;
 },
 {
+alignment = -1;
 pos = (1680,480);
 ref = _part.arDotabove;
 }
@@ -68570,9 +69061,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arAyn.fina;
 },
 {
+alignment = -1;
 pos = (1920,-480);
 ref = _part.arDotabove;
 }
@@ -68589,9 +69082,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arAyn.init;
 },
 {
+alignment = -1;
 pos = (1680,-480);
 ref = _part.arDotabove;
 }
@@ -68608,9 +69103,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arAyn.medi;
 },
 {
+alignment = -1;
 pos = (1680,-480);
 ref = _part.arDotabove;
 }
@@ -68627,9 +69124,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arFehdotless;
 },
 {
+alignment = -1;
 pos = (4320,480);
 ref = _part.arDotabove;
 }
@@ -68665,9 +69164,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arFehdotless.init;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = _part.arDotabove;
 }
@@ -68703,9 +69204,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arQafdotless;
 },
 {
+alignment = -1;
 pos = (3360,-480);
 ref = _part.arTwodotshorizontalabove;
 }
@@ -68722,9 +69225,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arQafdotless.fina;
 },
 {
+alignment = -1;
 pos = (3360,-480);
 ref = _part.arTwodotshorizontalabove;
 }
@@ -68741,9 +69246,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arFehdotless.init;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = _part.arTwodotshorizontalabove;
 }
@@ -69577,9 +70084,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arNunGhunna;
 },
 {
+alignment = -1;
 pos = (1920,-480);
 ref = _part.arDotabove;
 }
@@ -69596,9 +70105,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arNunGhunna.fina;
 },
 {
+alignment = -1;
 pos = (1920,-480);
 ref = _part.arDotabove;
 }
@@ -69615,9 +70126,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arBehdotless.init;
 },
 {
+alignment = -1;
 pos = (1680,-480);
 ref = _part.arDotabove;
 }
@@ -69634,9 +70147,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arBehdotless.medi;
 },
 {
+alignment = -1;
 pos = (1680,-480);
 ref = _part.arDotabove;
 }
@@ -69653,6 +70168,7 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arHehDoachashmi;
 }
 );
@@ -70463,9 +70979,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arAlifMaksura;
 },
 {
+alignment = -1;
 pos = (2400,-1440);
 ref = _part.arTwodotshorizontalbelow;
 }
@@ -70482,9 +71000,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arAlifMaksura.fina;
 },
 {
+alignment = -1;
 pos = (2400,-1440);
 ref = _part.arTwodotshorizontalbelow;
 }
@@ -71104,9 +71624,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arReh;
 },
 {
+alignment = -1;
 pos = (1440,-480);
 ref = _part.arThreedotsupabove;
 }
@@ -71123,9 +71645,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arReh.fina;
 },
 {
+alignment = -1;
 pos = (1440,-480);
 ref = _part.arThreedotsupabove;
 }
@@ -71639,9 +72163,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arFehdotless;
 },
 {
+alignment = -1;
 pos = (4320,480);
 ref = _part.arThreedotsupabove;
 }
@@ -71677,9 +72203,11 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arFehdotless.init;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = _part.arThreedotsupabove;
 }
@@ -72664,98 +73192,122 @@ pos = (3120,3840);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,-480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,-480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,-480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,3360);
 ref = pixel;
 }
@@ -72772,10 +73324,12 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (4800,0);
 ref = _part.link;
 },
 {
+alignment = -1;
 ref = arHehDoachashmi;
 }
 );
@@ -73893,158 +74447,197 @@ pos = (2640,3840);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (2880,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,4800);
 ref = pixel;
 }
@@ -75441,11 +76034,6 @@ ref = arAyn.medi;
 {
 alignment = -1;
 ref = arYehBarri.fina;
-},
-{
-alignment = -1;
-pos = (4800,-1440);
-ref = pixel;
 }
 );
 width = 5760;
@@ -75536,11 +76124,6 @@ ref = arGhayn.medi;
 {
 alignment = -1;
 ref = arYehBarri.fina;
-},
-{
-alignment = -1;
-pos = (4800,-1440);
-ref = pixel;
 }
 );
 width = 5760;
@@ -75586,11 +76169,6 @@ ref = arFeh.init;
 {
 alignment = -1;
 ref = arYehBarri.fina;
-},
-{
-alignment = -1;
-pos = (4800,-1440);
-ref = pixel;
 }
 );
 width = 5760;
@@ -75636,11 +76214,6 @@ ref = arFeh.medi;
 {
 alignment = -1;
 ref = arYehBarri.fina;
-},
-{
-alignment = -1;
-pos = (4800,-1440);
-ref = pixel;
 }
 );
 width = 5760;
@@ -75686,11 +76259,6 @@ ref = arQaf.init;
 {
 alignment = -1;
 ref = arYehBarri.fina;
-},
-{
-alignment = -1;
-pos = (4800,-1440);
-ref = pixel;
 }
 );
 width = 5760;
@@ -75736,11 +76304,6 @@ ref = arQaf.medi;
 {
 alignment = -1;
 ref = arYehBarri.fina;
-},
-{
-alignment = -1;
-pos = (4800,-1440);
-ref = pixel;
 }
 );
 width = 5760;
@@ -76146,16 +76709,6 @@ ref = arMim.init;
 {
 alignment = -1;
 ref = arYehBarri.fina;
-},
-{
-alignment = -1;
-pos = (4800,-1440);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (5280,-1440);
-ref = pixel;
 }
 );
 width = 6240;
@@ -76201,16 +76754,6 @@ ref = arMim.medi;
 {
 alignment = -1;
 ref = arYehBarri.fina;
-},
-{
-alignment = -1;
-pos = (4800,-1440);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (5280,-1440);
-ref = pixel;
 }
 );
 width = 6240;
@@ -76723,10 +77266,12 @@ pos = (3600,0);
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (7200,0);
 ref = arAlif;
 },
 {
+alignment = -1;
 ref = arAllah.liga;
 }
 );
@@ -76742,11 +77287,12 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 ref = arLam.init_arLam.medi_arHeh.fina;
 },
 {
 alignment = -1;
-pos = (2880,1440);
+pos = (4555,1440);
 ref = arShadda_arAlifabove;
 }
 );
@@ -88454,214 +89000,267 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1200,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (720,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,5760);
 ref = pixel;
 }
@@ -88679,230 +89278,287 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1200,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (720,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,6240);
 ref = pixel;
 }
@@ -88919,238 +89575,297 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1200,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (720,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,7200);
 ref = pixel;
 }
@@ -89167,294 +89882,367 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1200,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (0,4080);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,5760);
 ref = pixel;
 }
@@ -89471,310 +90259,387 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1200,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (0,4080);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,6240);
 ref = pixel;
 }
@@ -89791,318 +90656,397 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1200,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (0,4080);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,7200);
 ref = pixel;
 }
@@ -90119,214 +91063,267 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5760);
 ref = pixel;
 }
@@ -90343,230 +91340,287 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,6240);
 ref = pixel;
 }
@@ -90583,238 +91637,297 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,7200);
 ref = pixel;
 }
@@ -90831,294 +91944,367 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6480,4080);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,5760);
 ref = pixel;
 }
@@ -91135,310 +92321,387 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6480,4080);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,6240);
 ref = pixel;
 }
@@ -91455,318 +92718,397 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6480,4080);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,7200);
 ref = pixel;
 }
@@ -94988,242 +96330,302 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,5040);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,5520);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (-240,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,6480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,6960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (-240,7440);
 ref = pixel;
 }
@@ -95241,266 +96643,332 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,5040);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,5520);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (-240,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,6480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,6960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,6960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (-240,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,7440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,7680);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,7920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,8160);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,8160);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (-240,8400);
 ref = pixel;
 }
@@ -95517,290 +96985,362 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,5040);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,5520);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (-240,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,6480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,6960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,6960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (-240,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,7440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,7680);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,7920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,7920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (-240,8160);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,8160);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,8400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,8640);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,8880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,9120);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,9120);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (-240,9360);
 ref = pixel;
 }
@@ -95817,242 +97357,302 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,5040);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,5520);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,6480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,6960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,7440);
 ref = pixel;
 }
@@ -96069,266 +97669,332 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,5040);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,5520);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,6480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,6960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,6960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,7440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,7680);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,7920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,8160);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,8160);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,8400);
 ref = pixel;
 }
@@ -96345,290 +98011,362 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,4560);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,4800);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,5040);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,5280);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,5520);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,5760);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,6000);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,6240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,6480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,6720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,6960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,6960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,7200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,7440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,7680);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,7920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,7920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,8160);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,8160);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,8400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,8640);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,8880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,9120);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,9120);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,9360);
 ref = pixel;
 }
@@ -97569,122 +99307,152 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (480,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,3120);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3600);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,4320);
 ref = pixel;
 }
@@ -97702,126 +99470,157 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (960,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3600);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,3840);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,4080);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,4320);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,4800);
 ref = pixel;
 }
@@ -97838,194 +99637,242 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6960,240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6720,720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6480,1200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,1680);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (720,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,3840);
 ref = pixel;
 }
@@ -98042,194 +99889,242 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (720,240);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,720);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1200);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1680);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6720,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6480,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6960,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,2880);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,3360);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,3840);
 ref = pixel;
 }
@@ -98246,166 +100141,207 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (1920,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (960,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2880,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3840,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4320,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4800,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5280,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5760,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6720,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (7200,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (720,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2400,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1440,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1920,2880);
 ref = pixel;
 }
@@ -98422,166 +100358,207 @@ layers = (
 layerId = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 shapes = (
 {
+alignment = -1;
 pos = (2160,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,0);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3360,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,480);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,960);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (240,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (720,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1200,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (1680,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2160,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (2640,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3120,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (3600,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4080,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (4560,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6480,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6960,1440);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5040,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6240,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6720,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (7200,1920);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (6000,2400);
 ref = pixel;
 },
 {
+alignment = -1;
 pos = (5520,2880);
 ref = pixel;
 }
@@ -127948,20 +129925,12 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-axesValues = (
-0,
-0,
-0
-);
 customParameters = (
 {
 name = "Variable Font Origin";
 value = "1979AEBF-ACF3-4293-8280-4EC52756D623";
 }
 );
-instanceInterpolations = {
-"1979AEBF-ACF3-4293-8280-4EC52756D623" = 1;
-};
 name = Regular;
 type = variable;
 }
