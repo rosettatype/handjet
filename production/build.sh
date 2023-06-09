@@ -1,5 +1,6 @@
 set -x
 
+# Run this script from the root directory
 
 # Clean up previous build runs
 echo "Cleaning up folders"
