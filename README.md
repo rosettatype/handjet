@@ -19,6 +19,8 @@ In its current version, the Handjet type system contains 23 elemental shapes. Sm
 
 In 2019, Google sponsored the extension and open-sourcing of Handjet. All variations and element shapes have been thoroughly revisited and extended. Working with consultants Borna Izadpanah, Khajag Apelian, and Meir Sadan, I have also added support for Arabic, Armenian, and Hebrew (respectively). Selected symbols representing wild and domestic animals were included together with various seasonal symbols and patterns. I hope you will have as much fun using them as I had designing them.
 
+In 2023, Ha-neul Park and Lee-su Yoo have included support for the Korean script.
+
 — David Březina, September 2020
 
 P.S. Warning: variable fonts are relatively new and Handjet sometimes challenges the limits. You might get unpredictable, yet beautiful and somewhat amusing, rendering errors in Adobe software. We have found that the InDesign 18 has issues with Handjet. Please, use an older version of InDesign until we find the cause. It works well in browsers as far as we know.
