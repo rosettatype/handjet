@@ -10,8 +10,8 @@
 # Name <email address>
 
 David Březina (design, production)
-Ha-neul Park (Korean-script design)
-Lee-su Yoo (Korean-script design)
+Park Ha-neul 박하늘 (Korean-script design)
+Lee-su Yoo 유이수 (Korean-script design)
 Johannes Neumeier <johannes@rosettatype.com> (post-production)
 Borna Izadpanah <borna.izad@gmail.com> (Arabic-script consultancy)
 Khajag Apelian <khajag@debakir.com> (Armenian-script consultancy)
