@@ -19,7 +19,7 @@ In its current version, the Handjet type system contains 23 elemental shapes. Sm
 
 In 2019, Google sponsored the extension and open-sourcing of Handjet. All variations and element shapes have been thoroughly revisited and extended. Working with consultants Borna Izadpanah, Khajag Apelian, and Meir Sadan, I have also added support for Arabic, Armenian, and Hebrew (respectively). Selected symbols representing wild and domestic animals were included together with various seasonal symbols and patterns. I hope you will have as much fun using them as I had designing them.
 
-In 2023, Ha-neul Park and Lee-su Yoo have included support for the Korean script.
+In 2023, Park Ha-neul (박하늘) and Lee-su Yoo (유이수) have included support for the Korean script.
 
 — David Březina, September 2020
 
