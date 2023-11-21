@@ -193,13 +193,13 @@ def write_designspace():
     sources = ""
     instances = ""
 
-    for w, is_weight_master, weight_name in wghts:
+    for w, is_weight_master, weight_name, _, _ in wghts:
         is_weight_default = w == default[0]
 
-        for s, is_shape_master, shape_name in ELSHs:
+        for s, is_shape_master, shape_name, _, _ in ELSHs:
             is_shape_default = s == default[1]
 
-            for g, is_grid_master, grid_name in ELGRs:
+            for g, is_grid_master, grid_name, _, _ in ELGRs:
                 is_grid_default = g == default[2]
 
                 if is_weight_master and is_shape_master and is_grid_master:

@@ -21,3 +21,4 @@ db.pkl
 production/instances-tmp.xml
 
 __pycache__
+sources/GlyphData.xml
