@@ -5,37 +5,36 @@
 # or compiling Handjet fonts from sources you need not
 # worry about this script/config file :)
 # ----------------------------------------------------
-- name: desktop
+- name: copy
   tasks:
     - $ mkdir fonts/HandjetVariable
+    - $ mkdir fonts/HandjetKoreanVariable
     - $ cp fonts/Handjet[ELGR,ELSH,wght].ttf fonts/HandjetVariable/HandjetVF-All.ttf
+    - $ cp fonts/Handjet[ELGR,ELSH,wght].ttf fonts/HandjetKoreanVariable/HandjetKoreanVF-All.ttf
     - .post.update_names:
         style_name: All
 - name: desktop
   source: [fonts/HandjetVariable]
   family: [Handjet Variable]
   tasks:
+    - .post.subset:
+        # remove Korean
+        subset_unicodes_file: [production/meta/subset.Basic.txt]
+    - .post.update_names:
+        style_name: All
+    - .post.add_dsig
+- name: desktop
+  source: [fonts/HandjetKoreanVariable]
+  family: [Handjet Korean Variable]
+  tasks:
     - .post.update_names:
         style_name: All
 - name: web
-  source: [fonts/HandjetVariable]
-  family: [Handjet Variable Web]
+  source: [fonts/HandjetVariable, fonts/HandjetKoreanVariable]
+  family: [Handjet Variable Web, Handjet Korean Variable Web]
   tasks:
     - .post.make_webfonts
-- name: preview
-  source: [fonts/HandjetVariable]
-  family: Handjet Variable Preview
-  tasks:
-    - .copy_fonts
-    - .post.subset:
-        # Remove all "empty" glyphs from the preview, except space (0020)
-        remove_unicode_hex: [0000, 000D, 00A0, 2002, 2003, 2009, 202F]
-    - .post.add_puas
-    - .post.make_webfonts:
-        optimize: false
-        copy_fonts: False
-    - "$ rm fonts/HandjetVF-Rg.ttf"
 - name: qa
-  source: [fonts/HandjetVariable]
+  source: [fonts/HandjetVariable, fonts/HandjetKoreanVariable]
   tasks:
     - .test.check_fonts

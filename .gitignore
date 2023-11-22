@@ -9,9 +9,8 @@ instance_*/
 variable_*/
 
 # Don't track our own generated preview fonts
-fonts/HandjetVariable
-fonts/HandjetVariablePreview
-fonts/HandjetVariableWeb
+fonts/Handjet*
+fonts/HandjetKorean*
 upload_fonts.sh
 
 # tmp glyphs db
