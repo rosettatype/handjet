@@ -8,33 +8,21 @@
 - name: copy
   tasks:
     - $ mkdir fonts/HandjetVariable
-    - $ mkdir fonts/HandjetKoreanVariable
     - $ cp fonts/Handjet[ELGR,ELSH,wght].ttf fonts/HandjetVariable/HandjetVF-All.ttf
-    - $ cp fonts/Handjet[ELGR,ELSH,wght].ttf fonts/HandjetKoreanVariable/HandjetKoreanVF-All.ttf
     - .post.update_names:
         style_name: All
 - name: desktop
   source: [fonts/HandjetVariable]
   family: [Handjet Variable]
   tasks:
-    - .post.subset:
-        # remove Korean
-        subset_unicodes_file: [production/meta/subset.Basic.txt]
-    - .post.update_names:
-        style_name: All
-    - .post.add_dsig
-- name: desktop
-  source: [fonts/HandjetKoreanVariable]
-  family: [Handjet Korean Variable]
-  tasks:
     - .post.update_names:
         style_name: All
 - name: web
-  source: [fonts/HandjetVariable, fonts/HandjetKoreanVariable]
-  family: [Handjet Variable Web, Handjet Korean Variable Web]
+  source: [fonts/HandjetVariable]
+  family: [Handjet Variable Web]
   tasks:
     - .post.make_webfonts
 - name: qa
-  source: [fonts/HandjetVariable, fonts/HandjetKoreanVariable]
+  source: [fonts/HandjetVariable]
   tasks:
     - .test.check_fonts
