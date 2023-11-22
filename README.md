@@ -21,7 +21,7 @@ In 2019, Google sponsored the extension and open-sourcing of Handjet. All variat
 
 In 2023, Park Ha-neul (박하늘) and Lee-su Yoo (유이수) have included support for the Korean script.
 
-— David Březina, September 2020
+— David Březina, November 2023
 
 P.S. Warning: variable fonts are relatively new and Handjet sometimes challenges the limits. You might get unpredictable, yet beautiful and somewhat amusing, rendering errors in Adobe software. We have found that the InDesign 18 has issues with Handjet. Please, use an older version of InDesign until we find the cause. It works well in browsers as far as we know.
 
