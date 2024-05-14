@@ -10,7 +10,6 @@ variable_*/
 
 # Don't track our own generated preview fonts
 fonts/Handjet*
-fonts/HandjetKorean*
 upload_fonts.sh
 
 # tmp glyphs db
