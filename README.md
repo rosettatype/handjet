@@ -8,6 +8,9 @@ Handjet is an element-based variable font (aka pixel font, modular font, …) wh
 ![Handjet’s wght axis animation](docs/animations/Handjet-wght-animation.gif?raw=true)
 ![Handjet’s ELGR axis animation](docs/animations/Handjet-ELGR-animation.gif?raw=true)
 
+## Warning about rendering
+
+The font may show unwanted visual artifacts in small sizes in Safari/Webkit due to the specifics of the default rendering setup. Change the default anti-aliasing setting in your CSS to eliminate them: `-webkit-font-smoothing: antialiased` (for example).
 
 ## The story
 
