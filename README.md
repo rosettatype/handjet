@@ -8,10 +8,6 @@ Handjet is an element-based variable font (aka pixel font, modular font, …) wh
 ![Handjet’s wght axis animation](docs/animations/Handjet-wght-animation.gif?raw=true)
 ![Handjet’s ELGR axis animation](docs/animations/Handjet-ELGR-animation.gif?raw=true)
 
-## Warning about rendering
-
-The font may show unwanted visual artifacts in small sizes in Safari/Webkit due to the specifics of the default rendering setup. Change the default anti-aliasing setting in your CSS to eliminate them: `-webkit-font-smoothing: antialiased` (for example).
-
 ## The story
 
 In autumn 2018, I had the opportunity to teach type design to a group of talented graphic design students at the [Faculty of Fine Arts in Brno](https://www.favu.vut.cz/en/studios/graphic-design2). Their first exercise was to build a simple element-based font that would be tailored to work well with [handjet printers](https://duckduckgo.com/?q=handjet+printer&ia=images). The handjet’s 32-pixel vertical matrix defined the constraints, the only contour to draw was the shape of the element, and the rest of the design job was “only” a matter of placing the elements on the grid to form letters. The clocks were ticking and the students were fierce. Most of them had their font with basic English and Czech alphabets done by the end of the day!
@@ -26,11 +22,11 @@ In 2023, Park Ha-neul (박하늘) and Lee-su Yoo (유이수) have included suppo
 
 — David Březina, November 2023
 
-P.S. Warning: variable fonts are relatively new and Handjet sometimes challenges the limits. You might get unpredictable, yet beautiful and somewhat amusing, rendering errors in Adobe software. We have found that the InDesign 18 has issues with Handjet. Please, use an older version of InDesign until we find the cause. It works well in browsers as far as we know.
+P.S. If you want to do this exercise with your students, have a look at this [Glyphs tutorial](https://glyphsapp.com/tutorials/pixelfont).
 
-P.P.S. If you want to do this exercise with your students, have a look at this [Glyphs tutorial](https://glyphsapp.com/tutorials/pixelfont).
+P.P.S. To be perfectly clear, I went way beyond what a handjet's grids permit, so only some of the fonts are suited to use with these printers.
 
-P.P.P.S. To be perfectly clear, I went way beyond what a handjet's grids permit, so only some of the fonts are suited to use with these printers.
+*WARNING: We have found that InDesign 2023 (18+) and Illustrator 2023 (27+) have issues displaying Handjet. You can solve this issue by either upgrading to the latest 2024 versions (19.2 and 28.3 respectively) or by downgrading to older versions. The font may show unwanted visual artifacts in small sizes in Safari/Webkit due to the specifics of the default rendering setup. Change the default anti-aliasing setting in your CSS to eliminate them: `-webkit-font-smoothing: antialiased` (for example).*
 
 ![Handjet preview](docs/previews/Handjet-preview.svg?raw=true)
 
